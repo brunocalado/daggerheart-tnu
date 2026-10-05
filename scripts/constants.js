@@ -135,6 +135,18 @@ export const SHIP_ROLL_TYPES = Object.freeze({
 export const SHIP_COST_LABELS = Object.freeze({ hope: "Hope", stress: "Stress", hitPoints: "HP", armor: "Armor Slot" });
 
 /**
+ * When a ship action's costs are charged. The keys are the `costWhen` choices of
+ * the ship action schema; `success` is the default, since nearly every printed
+ * cost reads "on a success, spend…".
+ * @type {Readonly<Record<string, string>>}
+ */
+export const SHIP_COST_WHEN = Object.freeze({
+  success: "On a success",
+  successWithHope: "On a success with Hope",
+  optional: "If the crew chooses"
+});
+
+/**
  * When a once-per ship action recovers. The keys, plus "" for an action usable
  * at will, are the `oncePer` choices of the ship action schema.
  * @type {Readonly<Record<string, string>>}

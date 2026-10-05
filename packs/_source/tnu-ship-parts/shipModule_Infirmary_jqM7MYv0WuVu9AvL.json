@@ -36,6 +36,7 @@
           "hitPoints": 0,
           "armor": 0
         },
+        "costWhen": "optional",
         "damage": "",
         "oncePer": "",
         "description": "If you use a healing ability inside the infirmary it is automatically a success. You can spend a Hope to heal the target for an additional two hit points."

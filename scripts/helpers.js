@@ -16,6 +16,7 @@ import {
   SPHERE_LABELS,
   SHIP_ROLL_TYPES,
   SHIP_COST_LABELS,
+  SHIP_COST_WHEN,
   SHIP_ONCE_PER_LABELS
 } from "./constants.js";
 
@@ -77,6 +78,7 @@ export function prepareShipActions(item, deactivated = false) {
     disabled: deactivated || action.used,
     sphereTags: Array.from(action.spheres, key => ({ key, label: SPHERE_LABELS[key] })),
     costLabel: shipCostLabel(action.costs),
+    costWhenLabel: action.costWhen === "success" ? "" : SHIP_COST_WHEN[action.costWhen],
     damageLabel: action.damage ? `${action.damage} kinetic` : "",
     oncePerLabel: SHIP_ONCE_PER_LABELS[action.oncePer] ?? ""
   }));

@@ -38,7 +38,8 @@ const REST_LABELS = { rest: "Short Rest", longRest: "Long Rest" };
  * Costs are charged when the roll succeeds, because nearly every printed cost
  * reads "on a success, spend…"; an action without a roll pays at once. When
  * success can't be judged (no target and no fixed difficulty) the costs are
- * charged and the GM adjusts.
+ * charged and the GM adjusts. An action's `costWhen` narrows that to a success
+ * with Hope, or leaves the cost to the crew's choice.
  *
  * @param {Actor} ship
  * @param {Item} item - an embedded ship module or ship card
@@ -100,6 +101,9 @@ export async function useShipAction(ship, item, index, event) {
     const targets = action.difficulty === null
       ? Array.from(game.user.targets, token => game.system.api.fields.ActionFields.TargetField.formatTarget(token))
       : [];
+    // The module's printed ATK adds to the rolls that deal its damage.
+    const stats = item.type === SHIP_MODULE_TYPE ? item.system.stats : null;
+    const attackBonus = action.damage && stats?.bonus ? [{ label: "ATK", value: stats.bonus }] : [];
     result = await crew.diceRoll({
       event,
       title: `${item.name}: ${action.name}`,
@@ -111,7 +115,7 @@ export async function useShipAction(ship, item, index, event) {
         difficulty: action.difficulty ?? undefined,
         // A feature tagged for another Sphere is used with disadvantage.
         advantage: action.spheres.has(sphere) ? 0 : -1,
-        baseModifiers: experiences.map(({ name, value }) => ({ label: name, value }))
+        baseModifiers: [...attackBonus, ...experiences.map(({ name, value }) => ({ label: name, value }))]
       },
       ...(targets.length ? { hasTarget: true, targets } : {})
     });
@@ -130,8 +134,16 @@ export async function useShipAction(ship, item, index, event) {
     }
   }
 
-  const succeeded = result?.roll.success !== false;
-  if (succeeded) {
+  // `D20Roll.buildEvaluate` records the outcome on the config, not the roll:
+  // false on a miss or a failure, undefined when there was nothing to judge by.
+  const succeeded = !result || result.successConsumed !== false;
+  // `duality` rather than the label, which is localized: 1 with Hope, -1 with
+  // Fear, 0 on a critical, which counts as a success with Hope.
+  const withHope = !result || result.roll.result?.duality !== -1;
+  let pays = succeeded;
+  if (action.costWhen === "successWithHope") pays = succeeded && withHope;
+  else if (action.costWhen === "optional" && succeeded) pays = await askToPay(ship, item, action);
+  if (pays) {
     for (const [key, value] of Object.entries(action.costs)) add(deltas, key, key === "hope" ? -value : value);
   }
   await payShip(ship, deltas);
@@ -143,7 +155,7 @@ export async function useShipAction(ship, item, index, event) {
   }
 
   if (!rolls) {
-    const paid = shipCostLabel(action.costs);
+    const paid = pays ? shipCostLabel(action.costs) : "";
     await postCard({ actor: crew }, `${item.name}: ${action.name}`, [
       action.description,
       ...(paid ? [`${ship.name} pays ${paid}.`] : [])
@@ -182,6 +194,20 @@ async function chooseCrew(ship, item, action, eligible, rolls) {
     crew: crew.find(actor => actor.uuid === data.crew) ?? crew[0],
     experiences: experiences.filter((_, index) => data[`experience${index}`])
   };
+}
+
+/**
+ * Ask whether the ship pays an action's optional cost.
+ * @returns {Promise<boolean>}
+ */
+async function askToPay(ship, item, action) {
+  const costs = shipCostLabel(action.costs);
+  if (!costs) return false;
+  return !!await DialogV2.confirm({
+    window: { title: `${item.name}: ${action.name}`, icon: "fa-solid fa-coins" },
+    classes: DIALOG_CLASSES,
+    content: `<p>Pay ${foundry.utils.escapeHTML(costs)} from ${foundry.utils.escapeHTML(ship.name)}?</p>`
+  });
 }
 
 /** @param {object} deltas @param {string} key @param {number} value */

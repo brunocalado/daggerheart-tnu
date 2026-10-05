@@ -18,7 +18,7 @@
  * @module ship/ship-actions-field
  */
 
-import { SPHERE_TRAITS, SHIP_ROLL_TYPES, SHIP_COST_LABELS, SHIP_ONCE_PER_LABELS } from "../constants.js";
+import { SPHERE_TRAITS, SHIP_ROLL_TYPES, SHIP_COST_LABELS, SHIP_COST_WHEN, SHIP_ONCE_PER_LABELS } from "../constants.js";
 
 const { ArrayField, SchemaField, SetField, StringField, NumberField, BooleanField } = foundry.data.fields;
 
@@ -37,6 +37,8 @@ export function shipActionsField() {
     // A fixed difficulty; null rolls against the target (or a difficulty the GM sets).
     difficulty: new NumberField({ nullable: true, initial: null, integer: true }),
     costs: new SchemaField(Object.fromEntries(Object.keys(SHIP_COST_LABELS).map(key => [key, cost()]))),
+    // Entries stored before this field existed load as "success", the old behaviour.
+    costWhen: new StringField({ required: true, choices: Object.keys(SHIP_COST_WHEN), initial: "success" }),
     damage: new StringField({ required: true, blank: true }),
     oncePer: new StringField({ required: true, blank: true, choices: ["", ...Object.keys(SHIP_ONCE_PER_LABELS)] }),
     // A once-per action already used since the rest that recovers it.

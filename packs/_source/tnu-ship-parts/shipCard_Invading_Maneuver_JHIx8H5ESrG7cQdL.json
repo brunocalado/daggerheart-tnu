@@ -30,6 +30,7 @@
           "hitPoints": 0,
           "armor": 0
         },
+        "costWhen": "successWithHope",
         "damage": "",
         "oncePer": "",
         "description": "Make a Power Roll to maneuver your ship through enemy territory without being seen. On a success with hope you can spend a Stress to land safely on hostile terrain."
