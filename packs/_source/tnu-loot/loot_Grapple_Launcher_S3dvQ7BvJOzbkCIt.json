@@ -4,7 +4,7 @@
   "_id": "S3dvQ7BvJOzbkCIt",
   "img": "icons/tools/hand/pliers-snub.webp",
   "system": {
-    "description": "<p>Ascend or swing across gaps up to Far range.</p>",
+    "description": "<p>A wrist-launcher that fires a high-tensile liquid-cable. It allows you to ascend vertical surfaces or swing across gaps up to Far range. The cable retracts automatically.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

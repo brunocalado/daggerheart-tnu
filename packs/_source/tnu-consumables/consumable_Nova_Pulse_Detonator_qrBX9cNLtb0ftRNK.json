@@ -4,7 +4,7 @@
   "_id": "qrBX9cNLtb0ftRNK",
   "img": "icons/weapons/thrown/grenade-energy.webp",
   "system": {
-    "description": "<p>All targets within Very Close range become <strong>Dazed</strong> until after their next spotlight.</p>",
+    "description": "<p>A tactical device that detonates with a blinding burst, overloading retinas and optical sensors. All targets within Very Close range become <strong>Dazed</strong> until after their next spotlight.</p>",
     "quantity": 1,
     "actions": {
       "aJoyNHaOP3HkMaQR": {

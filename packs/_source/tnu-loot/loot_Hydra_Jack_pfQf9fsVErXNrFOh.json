@@ -4,7 +4,7 @@
   "_id": "pfQf9fsVErXNrFOh",
   "img": "icons/tools/hand/pliers-snub.webp",
   "system": {
-    "description": "<p>You have advantage on rolls to pry open electronic locks and doors by force.</p>",
+    "description": "<p>A compact, hydraulic spreader. It can be inserted into the gap of a sealed door or shutter to apply immense pressure. This allows you to bypass electronic locks through brute force, granting you advantage on rolls to pry them open.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

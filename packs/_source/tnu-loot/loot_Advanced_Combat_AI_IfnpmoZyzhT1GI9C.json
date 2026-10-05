@@ -4,7 +4,7 @@
   "_id": "IfnpmoZyzhT1GI9C",
   "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
   "system": {
-    "description": "<p>Once per short rest, gain advantage on an attack roll.</p>",
+    "description": "<p>This neural-linked processor monitors your vitals and battlefield variables in real-time. Once per short rest, the AI can calculate a perfect trajectory, granting you advantage on an attack roll.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

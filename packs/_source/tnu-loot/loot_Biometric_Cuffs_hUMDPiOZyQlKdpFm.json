@@ -4,7 +4,7 @@
   "_id": "hUMDPiOZyQlKdpFm",
   "img": "icons/equipment/hand/gauntelet-tooled-blue.webp",
   "system": {
-    "description": "<p>Restraints unlocked only by the sealer's fingerprint.</p>",
+    "description": "<p>These reinforced restraints are secured by a fingerprint scanner. They can only be unlocked by the print of the person who sealed them.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

@@ -4,7 +4,7 @@
   "_id": "HgRJC1bJZ35IwmM3",
   "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
   "system": {
-    "description": "<p>Choose one additional downtime move.</p>",
+    "description": "<p>Temporarily rewires the brain's circadian rhythm, reducing the need for sleep to mere microsleeps. You can use this injection to choose one additional downtime move.</p>",
     "quantity": 1,
     "actions": {
       "Ap1ibRe8NYHqlFpV": {

@@ -4,7 +4,7 @@
   "_id": "PepqxMr6A3ROB3LG",
   "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
   "system": {
-    "description": "<p>Clear <strong>1d4 Stress</strong>. You can't use another combat-stim until you complete a rest.</p>",
+    "description": "<p>A combat sedative designed to suppress panic responses without dulling reflexes. Clear <strong>1d4</strong> Stress. You cannot use another combat-stim until you complete a rest.</p>",
     "quantity": 1,
     "actions": {
       "sw9IYsSCGRBueaBN": {

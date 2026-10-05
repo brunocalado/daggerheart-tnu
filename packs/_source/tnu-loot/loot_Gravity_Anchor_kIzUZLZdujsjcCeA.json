@@ -4,7 +4,7 @@
   "_id": "kIzUZLZdujsjcCeA",
   "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
   "system": {
-    "description": "<p>An immovable rod that holds up to 2 tons until deactivated.</p>",
+    "description": "<p>A metal rod with a button. When activated, it locks itself in space relative to the planet's gravity. It becomes immovable (cannot be pushed or pulled) until deactivated, holding up to 2 tons.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

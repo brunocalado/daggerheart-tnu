@@ -4,7 +4,7 @@
   "_id": "BB71nYflqoee3Bat",
   "img": "icons/weapons/ammunition/ammo-magazine-clip-energy.webp",
   "system": {
-    "description": "<p>Attach to an energy weapon: <strong>+1</strong> to damage for your next three damage rolls with it.</p>",
+    "description": "<p>A disposable high-voltage capacitor that bypasses a weapon's safety regulators. You can attach it to an energy weapon to add <strong>+1</strong> to your damage rolls for your next three damage rolls with that weapon.</p>",
     "quantity": 1,
     "actions": {
       "bphB2LpX11McuZx0": {

@@ -4,7 +4,7 @@
   "_id": "81s1CMeTOqg1pIGV",
   "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
   "system": {
-    "description": "<p>Reveals species, health status, toxins and diseases.</p>",
+    "description": "<p>A handheld device that scans organic matter. It instantly reveals the target’s species, current health status, and detects the presence of toxins or diseases.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

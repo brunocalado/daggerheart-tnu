@@ -4,7 +4,7 @@
   "_id": "sn5sQhMIeg9GURNs",
   "img": "icons/commodities/treasure/mask-bone-white.webp",
   "system": {
-    "description": "<p>Filters toxins and provides up to 1 hour of oxygen; recharges in breathable air.</p>",
+    "description": "<p>A compact face mask that filters out atmospheric toxins and provides up to 1 hour of recycled oxygen for underwater or vacuum environments. It recharges automatically in breathable air.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

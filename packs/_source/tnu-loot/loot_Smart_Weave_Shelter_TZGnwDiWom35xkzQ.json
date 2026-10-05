@@ -4,7 +4,7 @@
   "_id": "TZGnwDiWom35xkzQ",
   "img": "icons/sundries/survival/bedroll-grey.webp",
   "system": {
-    "description": "<p>A camouflaged tent; up to 4 people can rest safely.</p>",
+    "description": "<p>A collapsible tent made of smart-fabric. It camouflages with the surrounding terrain and insulates against the elements, providing a safe place for up to 4 people to rest.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

@@ -4,7 +4,7 @@
   "_id": "ZxbivMFFes5VAXwq",
   "img": "icons/commodities/tech/cog-bronze.webp",
   "system": {
-    "description": "<p>A ballistic jump to a location within Far range, no check needed.</p>",
+    "description": "<p>A disposable solid-fuel unit that clamps to your boots. You can activate it to launch yourself in a ballistic arc to a location within Far range without needing to make a check. The unit burns out immediately upon landing.</p>",
     "quantity": 1,
     "actions": {
       "h67ChyuGjOoiAdpG": {

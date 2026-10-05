@@ -4,7 +4,7 @@
   "_id": "pfUjhAxgThZvCKaY",
   "img": "icons/consumables/potions/bottle-round-corked-green.webp",
   "system": {
-    "description": "<p>Coat a kinetic-damage weapon: add <strong>2d6</strong> to your next damage roll with it.</p>",
+    "description": "<p>You can coat a weapon (or its ammunition) that deals kinetic damage with this lethal agent. Upon contact, it violently shocks the target's nervous system, adding <strong>2d6</strong> to your next damage roll with that weapon.</p>",
     "quantity": 1,
     "actions": {
       "O8pvXEQymlvCYzmR": {

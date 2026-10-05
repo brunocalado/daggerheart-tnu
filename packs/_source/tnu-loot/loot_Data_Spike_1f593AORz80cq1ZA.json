@@ -4,7 +4,7 @@
   "_id": "1f593AORz80cq1ZA",
   "img": "icons/tools/hand/pliers-snub.webp",
   "system": {
-    "description": "<p>You have advantage on the Finesse Roll to open a locked door's interface.</p>",
+    "description": "<p>An electronic bypass device that overrides standard security panels. When you plug this spike into a locked door's interface, you gain advantage on the Finesse Roll to open it.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

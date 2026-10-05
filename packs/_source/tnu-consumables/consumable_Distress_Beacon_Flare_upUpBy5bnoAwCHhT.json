@@ -4,7 +4,7 @@
   "_id": "upUpBy5bnoAwCHhT",
   "img": "icons/sundries/lights/candle-lit-red.webp",
   "system": {
-    "description": "<p>An orbit-visible flare plus an encrypted distress signal.</p>",
+    "description": "<p>A dual-mode survival tool. When activated, it ignites a chemical flame visible from orbit and simultaneously broadcasts an encrypted digital distress signal with your coordinates.</p>",
     "quantity": 1,
     "actions": {
       "gUPpIofVoCBwnkLA": {

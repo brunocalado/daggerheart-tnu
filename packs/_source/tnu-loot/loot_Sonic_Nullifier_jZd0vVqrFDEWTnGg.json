@@ -4,7 +4,7 @@
   "_id": "jZd0vVqrFDEWTnGg",
   "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
   "system": {
-    "description": "<p>Spend a Hope: your footsteps are silent until the end of the scene.</p>",
+    "description": "<p>Spend a Hope to activate this wrist-mounted device. It captures and negates the sound waves produced by your movement, ensuring your footsteps are silent until the end of the scene.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

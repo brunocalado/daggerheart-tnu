@@ -4,7 +4,7 @@
   "_id": "1CrasyvFqA1BtpVc",
   "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
   "system": {
-    "description": "<p>See in total darkness until your next rest.</p>",
+    "description": "<p>Rapidly restructures the retina, creating a reflective layer behind the photoreceptors. You can see in total darkness until your next rest.</p>",
     "quantity": 1,
     "actions": {
       "V6qAUXRJcwiuoC1m": {

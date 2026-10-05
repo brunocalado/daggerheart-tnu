@@ -4,7 +4,7 @@
   "_id": "bwCuTxX4F9BRKaxY",
   "img": "icons/tools/medical/bandages-adhesive.webp",
   "system": {
-    "description": "<p>Clear <strong>1d4 HP</strong>. You can't use another med-patch until you complete a rest.</p>",
+    "description": "<p>Applied directly to a wound, this gel-pad accelerates clotting and tissue repair. Clear <strong>1d4</strong> Hit Points. You cannot use another med-patch until you complete a rest.</p>",
     "quantity": 1,
     "actions": {
       "qIO9Wv3xCPfM2VwO": {

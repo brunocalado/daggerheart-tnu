@@ -4,7 +4,7 @@
   "_id": "8HGBQdCgjxjulp0l",
   "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
   "system": {
-    "description": "<p>While covered and stationary you are <strong>Shrouded</strong>; burns out after one scene.</p>",
+    "description": "<p>A disposable sheet of smart-fabric that creates a perfect image of the background. While you are covered by this shroud and remain stationary, you are <strong>Shrouded</strong>. The smart-pixels burn out after one scene.</p>",
     "quantity": 1,
     "actions": {
       "c203rHT0vn8rIgMe": {

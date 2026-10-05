@@ -4,7 +4,7 @@
   "_id": "xcQQx8x9MeBIbwNo",
   "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
   "system": {
-    "description": "<p>Detects radiation, chemicals and structural weaknesses. You have advantage on rolls to identify environmental hazards or safe paths.</p>",
+    "description": "<p>A handheld unit that analyzes inorganic materials and environmental fields. It detects radiation, identifies chemical compositions, and reveals structural weaknesses in walls or objects. You gain advantage on rolls to identify environmental hazards or safe paths through unstable terrain.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

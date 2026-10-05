@@ -4,7 +4,7 @@
   "_id": "wJ2bDG5LYWbMBeQB",
   "img": "icons/tools/medical/bandages-adhesive.webp",
   "system": {
-    "description": "<p>You have advantage on rolls treating biological injuries.</p>",
+    "description": "<p>A portable medical unit containing diagnostic sensors, laser-scalpels, and cauterizers. It grants advantage to rolls treating biological injuries.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

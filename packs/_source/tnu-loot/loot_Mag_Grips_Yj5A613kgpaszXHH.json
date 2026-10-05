@@ -4,7 +4,7 @@
   "_id": "Yj5A613kgpaszXHH",
   "img": "icons/equipment/hand/gauntelet-tooled-blue.webp",
   "system": {
-    "description": "<p>Climb walls and ceilings.</p>",
+    "description": "<p>These gloves use electromagnetic pulses to create a powerful bond with any surface, allowing you to climb up vertical walls and across ceilings.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

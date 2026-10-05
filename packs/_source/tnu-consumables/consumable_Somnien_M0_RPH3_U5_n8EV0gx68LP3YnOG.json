@@ -4,7 +4,7 @@
   "_id": "n8EV0gx68LP3YnOG",
   "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
   "system": {
-    "description": "<p>A sleep drug: gray, hollow dreams. No mechanical effect is stated.</p>",
+    "description": "<p>A sleep drug, which forces the brain into artificial REM cycles, though the resulting dreams are gray and hollow.</p>",
     "quantity": 1,
     "actions": {
       "0N6JyWRRnNNtsKji": {

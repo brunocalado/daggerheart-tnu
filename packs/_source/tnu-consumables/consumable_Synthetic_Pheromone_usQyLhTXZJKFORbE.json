@@ -4,7 +4,7 @@
   "_id": "usQyLhTXZJKFORbE",
   "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
   "system": {
-    "description": "<p>You have advantage on all rolls to persuade, charm, or deceive organic creatures until the end of the scene.</p>",
+    "description": "<p>You gain advantage on all rolls to persuade, charm, or deceive organic creatures until the end of the scene.</p>",
     "quantity": 1,
     "actions": {
       "qthlMrpqHL3EnJKj": {

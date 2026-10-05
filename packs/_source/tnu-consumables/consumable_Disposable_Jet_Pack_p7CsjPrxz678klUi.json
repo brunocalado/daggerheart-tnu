@@ -4,7 +4,7 @@
   "_id": "p7CsjPrxz678klUi",
   "img": "icons/commodities/tech/cog-bronze.webp",
   "system": {
-    "description": "<p>Fly until the end of the scene.</p>",
+    "description": "<p>A lightweight, single-use propulsion harness. You gain the ability to fly until the end of the scene. Once the battery pack is depleted, the unit becomes useless dead weight.</p>",
     "quantity": 1,
     "actions": {
       "hLoCY9lEyGE9ranF": {

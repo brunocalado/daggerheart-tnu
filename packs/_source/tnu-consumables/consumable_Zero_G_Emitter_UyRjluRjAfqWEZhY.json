@@ -4,7 +4,7 @@
   "_id": "UyRjluRjAfqWEZhY",
   "img": "icons/commodities/tech/antenna-powered-purple.webp",
   "system": {
-    "description": "<p>Nullifies gravity within Very Close range; creatures levitate or drift across gaps up to Far range.</p>",
+    "description": "<p>A fragile sphere containing suspended gravitons. Upon destruction, gravity is instantly nullified within Very Close range, allowing creatures to levitate vertically and drift across gaps for a Far range, before the gravitons decay.</p>",
     "quantity": 1,
     "actions": {
       "0ifULxEPvgPKUsLE": {

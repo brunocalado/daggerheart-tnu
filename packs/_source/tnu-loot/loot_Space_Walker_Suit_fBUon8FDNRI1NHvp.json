@@ -4,7 +4,7 @@
   "_id": "fBUon8FDNRI1NHvp",
   "img": "icons/commodities/treasure/mask-bone-white.webp",
   "system": {
-    "description": "<p>6 hours of oxygen; ignore vacuum, radiation and extreme temperatures.</p>",
+    "description": "<p>A pressurized suit designed for extra-vehicular activity. It provides 6 hours of oxygen and allows you to ignore the effects of vacuum, radiation, and extreme temperatures while worn.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

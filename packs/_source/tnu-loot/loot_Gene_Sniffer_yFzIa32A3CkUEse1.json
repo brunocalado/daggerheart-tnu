@@ -4,7 +4,7 @@
   "_id": "yFzIa32A3CkUEse1",
   "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
   "system": {
-    "description": "<p>Identify individuals from DNA traces.</p>",
+    "description": "<p>A sensitive sampling tool that analyzes DNA traces in the environment. It can identify specific individuals from a single drop of blood or a hair follicle.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

@@ -4,7 +4,7 @@
   "_id": "hd1emMi23wWAgYWr",
   "img": "icons/tools/medical/bandages-adhesive.webp",
   "system": {
-    "description": "<p>Spend any number of Hope; clear that many Armor Slots.</p>",
+    "description": "<p>A handheld dispenser containing programmable matter that autonomously seals breaches. You can use this device to spend any number of Hope and clear that many Armor Slots.</p>",
     "quantity": 1,
     "actions": {
       "HdTQaIDHGOr9CpDZ": {

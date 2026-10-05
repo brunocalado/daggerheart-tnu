@@ -4,7 +4,7 @@
   "_id": "CEeeaEirkDUNopbC",
   "img": "icons/tools/tech/badge-communicator.webp",
   "system": {
-    "description": "<p>After listening for 1 minute, perfectly mimic a voice.</p>",
+    "description": "<p>This device records and analyzes vocal patterns. After listening to a target for one minute, you can perfectly mimic their voice.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

@@ -4,7 +4,7 @@
   "_id": "y535s8KpjoHpBtW4",
   "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
   "system": {
-    "description": "<p>If used during a long rest, gain <strong>2 Hope</strong>.</p>",
+    "description": "<p>A tailor-made sleep drug reserved for the elite. Unlike the standard gray ration, it induces vivid, intoxicating dreams of euphoria and wonder. If used during a long rest, you gain <strong>2 Hope</strong>.</p>",
     "quantity": 1,
     "actions": {
       "zkDQYMwv4vVoWwkH": {

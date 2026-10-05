@@ -4,7 +4,7 @@
   "_id": "5SWZ8x7FZZVORiHu",
   "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
   "system": {
-    "description": "<p>Mark a Stress; until the end of the scene you gain <em>Aura</em>: +1 Presence.</p>",
+    "description": "<p>A dopamine regulator that suppresses fear and boosts confidence. You must mark a Stress. Until the end of the scene you gain the following feature.</p><p><em>Aura:</em> You gain a +1 bonus to your Presence.</p>",
     "quantity": 1,
     "actions": {
       "BxguJh4p6y7DDA48": {

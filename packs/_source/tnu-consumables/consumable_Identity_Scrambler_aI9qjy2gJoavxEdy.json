@@ -4,7 +4,7 @@
   "_id": "aI9qjy2gJoavxEdy",
   "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
   "system": {
-    "description": "<p>Automatically succeed on one check to fool a scanner or bypass an electronic lock; burns out after one use.</p>",
+    "description": "<p>A disposable transmitter pre-loaded with a synthetic persona. You can use this device to broadcast a fake ID signal, automatically succeeding on a check to fool a scanner or bypass an electronic lock. The device burns out after one use.</p>",
     "quantity": 1,
     "actions": {
       "5MMXRPnBfmbfiJ8o": {

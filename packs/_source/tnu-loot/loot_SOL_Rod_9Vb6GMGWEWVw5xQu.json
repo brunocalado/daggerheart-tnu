@@ -4,7 +4,7 @@
   "_id": "9Vb6GMGWEWVw5xQu",
   "img": "icons/sundries/lights/candle-lit-yellow.webp",
   "system": {
-    "description": "<p>A baton that floods a massive room with bright light.</p>",
+    "description": "<p>You can activate this high-intensity baton at will. Its output is deceptively powerful, capable of flooding a massive room with bright light.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

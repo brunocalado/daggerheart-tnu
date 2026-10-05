@@ -4,7 +4,7 @@
   "_id": "aCuQnikvZiZIJHdN",
   "img": "icons/equipment/head/goggles-brass-glass.webp",
   "system": {
-    "description": "<p>Long-range lenses with low-light and thermal modes.</p>",
+    "description": "<p>High-powered digital lenses that allow you to view distant locations with perfect clarity. They function in low light and include a thermal imaging mode to spot heat signatures.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

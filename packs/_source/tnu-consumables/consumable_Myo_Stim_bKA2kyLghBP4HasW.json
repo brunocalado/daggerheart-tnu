@@ -4,7 +4,7 @@
   "_id": "bKA2kyLghBP4HasW",
   "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
   "system": {
-    "description": "<p>Mark a Stress; until the end of the scene you gain <em>Powered</em>: +1 Strength.</p>",
+    "description": "<p>A muscle-fiber tightener that enhances strength. You must mark a Stress. Until the end of the scene you gain the following feature.</p><p><em>Powered:</em> You gain a +1 bonus to your Strength.</p>",
     "quantity": 1,
     "actions": {
       "PDAH9WVnnntMTywG": {

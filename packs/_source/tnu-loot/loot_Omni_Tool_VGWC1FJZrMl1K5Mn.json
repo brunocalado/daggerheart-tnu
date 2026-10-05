@@ -4,7 +4,7 @@
   "_id": "VGWC1FJZrMl1K5Mn",
   "img": "icons/tools/hand/pliers-snub.webp",
   "system": {
-    "description": "<p>You have advantage on repair and crafting rolls on mechanical devices.</p>",
+    "description": "<p>A universal engineering device containing scanners, welders, and wrenches. It grants advantage to repair or crafting rolls when fixing mechanical devices.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

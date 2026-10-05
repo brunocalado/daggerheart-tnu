@@ -4,7 +4,7 @@
   "_id": "pkHKfDvn0RmvYkbr",
   "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
   "system": {
-    "description": "<p>Mark a Stress; until the end of the scene you gain <em>Lucid</em>: +1 Instinct.</p>",
+    "description": "<p>A gas canister that dilates pupils and heightens auditory processing. You must mark a Stress. Until the end of the scene you gain the following feature.</p><p><em>Lucid:</em> You gain a +1 bonus to your Instinct.</p>",
     "quantity": 1,
     "actions": {
       "fvflVIadVHDpNYg2": {

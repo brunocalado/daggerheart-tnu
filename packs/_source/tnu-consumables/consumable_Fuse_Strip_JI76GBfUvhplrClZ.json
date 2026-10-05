@@ -4,7 +4,7 @@
   "_id": "JI76GBfUvhplrClZ",
   "img": "icons/commodities/tech/antenna-powered-purple.webp",
   "system": {
-    "description": "<p>Fuses a door; it can't be picked or hacked, only physically opened.</p>",
+    "description": "<p>A strip of thermite-composite. You can apply this to a closed door, hatch, or airlock. When activated, it creates intense heat that fuses the mechanism and frame together. The door cannot be picked or hacked, it must be physically opened.</p>",
     "quantity": 1,
     "actions": {
       "14C8RWCLj7GHJiR2": {

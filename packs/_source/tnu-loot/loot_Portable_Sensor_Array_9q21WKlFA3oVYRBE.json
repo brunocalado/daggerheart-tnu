@@ -4,7 +4,7 @@
   "_id": "9q21WKlFA3oVYRBE",
   "img": "icons/tools/navigation/compass-plain-blue.webp",
   "system": {
-    "description": "<p>Takes 1 minute to deploy; alerts you to movement within Far range and prevents ambushes while you rest.</p>",
+    "description": "<p>A tripod-mounted scanning unit. When deployed (takes 1 minute), it monitors the perimeter and alerts you to any movement within Far range, effectively preventing ambushes while resting.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

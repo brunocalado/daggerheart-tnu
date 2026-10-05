@@ -4,7 +4,7 @@
   "_id": "2gTq6e7YiPKYDrjv",
   "img": "icons/weapons/ammunition/ammo-magazine-clip-energy.webp",
   "system": {
-    "description": "<p><em>[Echo] Echo classes only.</em> Channel a psionic Power (domain card) from your vault, use it once, then return it to your vault. The shard breaks.</p>",
+    "description": "<p>A crystal that vibrates with quantum entanglement. You can use this shard to channel a psionic Power from your vault, use it once, and return it to your vault. The shard breaks on usage.</p><p><em>[Echo] Echo classes only.</em></p>",
     "quantity": 1,
     "actions": {
       "SAHMC2YwiIfN3PlH": {

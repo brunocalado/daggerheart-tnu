@@ -4,7 +4,7 @@
   "_id": "h7khW62Ja1eF3PDR",
   "img": "icons/commodities/tech/battery-arcane-crystal-green.webp",
   "system": {
-    "description": "<p>Make a Power Roll against a target within Close range. On a success, the target is <strong>Vulnerable</strong> until the end of the scene.</p>",
+    "description": "<p>Make a Power Roll against a target within Close range. On a success, the swarm clings to the target and projects a real-time augmented reality overlay of their weak points to your team. The target is <strong>Vulnerable</strong> until the end of the scene.</p>",
     "quantity": 1,
     "actions": {
       "5lxKZ7Cf0Nc6pEvO": {

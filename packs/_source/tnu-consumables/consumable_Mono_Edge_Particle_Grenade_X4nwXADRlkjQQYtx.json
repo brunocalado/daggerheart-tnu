@@ -4,7 +4,7 @@
   "_id": "X4nwXADRlkjQQYtx",
   "img": "icons/weapons/thrown/grenade-frag-green.webp",
   "system": {
-    "description": "<p>Make a Power Roll against a target within Close range. On a success, the target and all creatures within Very Close of them make a Reaction Roll (13); on a failure they take <strong>2d6+3</strong> kinetic damage, on a success half.</p>",
+    "description": "<p>Make a Power Roll against a target within Close range. On a success the target and all creatures within Very Close range of them must make a Reaction Roll (13). On a failure they take <strong>2d6+3</strong> kinetic damage. Targets who succeed take half damage.</p>",
     "quantity": 1,
     "actions": {
       "7at3Y944Vn4JynFR": {

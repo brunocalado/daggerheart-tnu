@@ -4,7 +4,7 @@
   "_id": "rAtAhwhS53vcpCgK",
   "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
   "system": {
-    "description": "<p>Mark a Stress; until the end of the scene you gain <em>Swift</em>: +1 Agility.</p>",
+    "description": "<p>A small syringe containing synthetic adrenaline. You must mark a Stress. Until the end of the scene you gain the following feature.</p><p><em>Swift:</em> You gain a +1 bonus to your Agility.</p>",
     "quantity": 1,
     "actions": {
       "XjdqGaThs0lQo4uA": {

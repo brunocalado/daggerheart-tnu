@@ -4,7 +4,7 @@
   "_id": "ayfExGrHNTsg3vNb",
   "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
   "system": {
-    "description": "<p>When reviewing a recording of an event, you have advantage on investigation rolls to spot hidden details.</p>",
+    "description": "<p>A processing unit with a neural feedback loop designed to interface directly with a data port or personal link. It allows the user to \"dive\" into raw memory recordings, pause them, and isolate specific sensory tracks (audio, thermal, emotional) to find clues that the original recorder missed. When using this device to review a recording of an event, you gain advantage on investigation rolls to spot hidden details.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

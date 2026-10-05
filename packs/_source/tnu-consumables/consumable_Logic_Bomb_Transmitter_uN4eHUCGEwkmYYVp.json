@@ -4,7 +4,7 @@
   "_id": "uN4eHUCGEwkmYYVp",
   "img": "icons/commodities/tech/antenna-powered-purple.webp",
   "system": {
-    "description": "<p>Make a Power Roll against a mechanical or cybernetically enhanced target within Close range. On a success, the target is temporarily <strong>Stunned</strong>.</p>",
+    "description": "<p>A one-time polymorphic virus. Make a Power Roll against a mechanical or cybernetically enhanced target within Close range. On a success, their operating system crashes and forces a hard reboot. The target is temporarily <strong>Stunned</strong>.</p>",
     "quantity": 1,
     "actions": {
       "22hRGPu5QX51RHtV": {

@@ -4,7 +4,7 @@
   "_id": "Azmf1WHKJsjgVs7h",
   "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
   "system": {
-    "description": "<p>During a rest, mark any number of Stress and clear that many HP.</p>",
+    "description": "<p>Growth hormones and nanites that accelerate healing at a heavy physical cost. You can use this infusion during a rest to mark any number of Stress and clear that many Hit Points.</p>",
     "quantity": 1,
     "actions": {
       "1Z0SlHD38ccQfGt2": {

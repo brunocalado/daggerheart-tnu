@@ -4,7 +4,7 @@
   "_id": "1VGkPVuw9RPp47wW",
   "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
   "system": {
-    "description": "<p>Mark a Stress; you gain <em>Brilliant</em>: +1 Knowledge. No duration is printed; likely until the end of the scene.</p>",
+    "description": "<p>A potent nootropic that accelerates neural firing speeds. You must mark a Stress. You gain the following feature.</p><p><em>Brilliant:</em> You gain a +1 bonus to your Knowledge.</p>",
     "quantity": 1,
     "actions": {
       "55aB6b24dwcwgyMS": {
@@ -52,7 +52,7 @@
       "page": null,
       "artist": ""
     },
-    "gmNotes": "Expendable roll 32 (Tier 2). The printed text gives no duration for Brilliant; \"until the end of the scene\" is a likely omission."
+    "gmNotes": "Expendable roll 32 (Tier 2). No duration is printed."
   },
   "effects": [],
   "folder": null,

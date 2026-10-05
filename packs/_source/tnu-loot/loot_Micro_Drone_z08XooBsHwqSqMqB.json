@@ -4,7 +4,7 @@
   "_id": "z08XooBsHwqSqMqB",
   "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
   "system": {
-    "description": "<p>An insect drone scout; make a <strong>Power Roll</strong> to control it up to Far range.</p>",
+    "description": "<p>A tiny, insect-sized drone controlled via a wrist-link. It can fly into vents or under doors to scout adjacent rooms, transmitting video feed back to you. Make a <strong>Power Roll</strong> to control it up to Far range.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

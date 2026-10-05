@@ -4,7 +4,7 @@
   "_id": "Joqd8A4YVtua6vPc",
   "img": "icons/commodities/tech/battery-arcane-crystal-green.webp",
   "system": {
-    "description": "<p>Make a Power Roll against a target within Close range. On a success, the target is temporarily <strong>Restrained</strong>.</p>",
+    "description": "<p>A small disc that can be thrown. Make a Power Roll against a target within Close range. On a success, the disc adheres to them and generates a crushing vertical force field, making the target become temporarily <strong>Restrained</strong>.</p>",
     "quantity": 1,
     "actions": {
       "mpAGhAszt4NlVrZu": {

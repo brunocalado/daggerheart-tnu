@@ -4,7 +4,7 @@
   "_id": "qmr7uFWfOCCPsb3g",
   "img": "icons/commodities/tech/antenna-powered-purple.webp",
   "system": {
-    "description": "<p>Until the end of the scene, facial recognition, cameras and biometrics can't identify you.</p>",
+    "description": "<p>A small node placed on the neck. When activated, it emits a disruptive pattern of infrared light and digital noise. Until the end of the scene, facial recognition software, cameras, and biometric scanners cannot identify you; your face appears as a shifting blur of static on all feeds.</p>",
     "quantity": 1,
     "actions": {
       "29UNNUY5GCsDb7BB": {

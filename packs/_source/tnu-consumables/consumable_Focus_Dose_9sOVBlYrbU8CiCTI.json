@@ -4,7 +4,7 @@
   "_id": "9sOVBlYrbU8CiCTI",
   "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
   "system": {
-    "description": "<p>Mark a Stress; until the end of the scene you gain <em>Deft</em>: +1 Finesse.</p>",
+    "description": "<p>A beta-blocker pill that lowers heart rate and eliminates tremors. You must mark a Stress. Until the end of the scene you gain the following feature.</p><p><em>Deft:</em> You gain a +1 bonus to your Finesse.</p>",
     "quantity": 1,
     "actions": {
       "9wTghwyoZhEDBgOC": {

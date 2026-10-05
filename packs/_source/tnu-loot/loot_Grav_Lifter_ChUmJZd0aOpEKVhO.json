@@ -4,7 +4,7 @@
   "_id": "ChUmJZd0aOpEKVhO",
   "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
   "system": {
-    "description": "<p>Makes a heavy object weightless.</p>",
+    "description": "<p>A heavy-duty anti-grav clamp. When attached to a heavy object (like a crate or unconscious body), it makes the object weightless and easy to push.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

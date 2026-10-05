@@ -4,7 +4,7 @@
   "_id": "3seKqFoAcalhqnXb",
   "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
   "system": {
-    "description": "<p>Converts any liquid to drinking water.</p>",
+    "description": "<p>A high-tech canteen with a molecular filter. You can fill it with any liquid (swamp water, toxic sludge, urine), and it will convert it into clean, safe drinking water within minutes.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

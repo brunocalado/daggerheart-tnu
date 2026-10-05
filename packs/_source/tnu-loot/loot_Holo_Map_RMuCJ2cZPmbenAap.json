@@ -4,7 +4,7 @@
   "_id": "RMuCJ2cZPmbenAap",
   "img": "icons/tools/navigation/compass-plain-blue.webp",
   "system": {
-    "description": "<p>A 3D topographic map with waypoints.</p>",
+    "description": "<p>A dedicated navigation device. It generates and projects a 3D topographic map of the local area, allowing you to mark waypoints and track your path to prevent getting lost.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

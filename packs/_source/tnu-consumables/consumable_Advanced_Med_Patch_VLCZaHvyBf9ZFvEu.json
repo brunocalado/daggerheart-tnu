@@ -4,7 +4,7 @@
   "_id": "VLCZaHvyBf9ZFvEu",
   "img": "icons/tools/medical/bandages-adhesive.webp",
   "system": {
-    "description": "<p>Clear <strong>1d4+1 HP</strong>. It shares the med-patch once-per-rest lockout.</p>",
+    "description": "<p>Applied directly to a wound, this gel-pad accelerates clotting and tissue repair. Clear <strong>1d4+1</strong> Hit Points. You cannot use another med-patch until you complete a rest.</p>",
     "quantity": 1,
     "actions": {
       "h6SvUPxRjePtnwM6": {

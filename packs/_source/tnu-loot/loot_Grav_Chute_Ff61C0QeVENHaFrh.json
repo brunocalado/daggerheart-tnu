@@ -4,7 +4,7 @@
   "_id": "Ff61C0QeVENHaFrh",
   "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
   "system": {
-    "description": "<p>When falling, mark a Stress: you take no fall damage from any height.</p>",
+    "description": "<p>A backpack attachment that can be activated when falling. Mark a Stress to create a gravity-cushion to prevent damage from falls of any height.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

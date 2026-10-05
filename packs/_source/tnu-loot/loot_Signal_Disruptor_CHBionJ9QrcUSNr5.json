@@ -4,7 +4,7 @@
   "_id": "CHBionJ9QrcUSNr5",
   "img": "icons/tools/tech/badge-communicator.webp",
   "system": {
-    "description": "<p>Blocks wireless comms and remote signals within Far range; any attempt to communicate wirelessly in the zone requires a <strong>Power Roll (25)</strong>.</p>",
+    "description": "<p>A handheld unit that floods local frequencies with white noise. It blocks all wireless communication and remote control signals within Far range. Any attempt to communicate wirelessly within this zone requires a <strong>Power Roll (25)</strong>.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

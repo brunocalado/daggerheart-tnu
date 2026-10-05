@@ -4,7 +4,7 @@
   "_id": "eiVbvaoxAJO75bnf",
   "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
   "system": {
-    "description": "<p>Climb vertical surfaces and ceilings for a number of minutes equal to your level.</p>",
+    "description": "<p>Stimulates the painful growth of microscopic hooks and adhesive glands on palms and soles. You can climb vertical surfaces and even ceilings for a number of minutes equal to your level.</p>",
     "quantity": 1,
     "actions": {
       "HB2mrwg8jFiWogjH": {

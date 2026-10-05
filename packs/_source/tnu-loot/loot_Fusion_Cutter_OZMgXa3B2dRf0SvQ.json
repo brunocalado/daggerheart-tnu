@@ -4,7 +4,7 @@
   "_id": "OZMgXa3B2dRf0SvQ",
   "img": "icons/tools/hand/pliers-snub.webp",
   "system": {
-    "description": "<p>Slowly cuts hinges, fences, cuffs and thin bulkheads.</p>",
+    "description": "<p>A handheld plasma torch. It can slowly slice through hinges, fences, handcuffs, or thin metal bulkheads, allowing access to sealed areas without explosions.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {
