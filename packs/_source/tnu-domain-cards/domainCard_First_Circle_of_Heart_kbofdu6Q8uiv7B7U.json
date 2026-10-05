@@ -1,0 +1,276 @@
+{
+  "folder": "j7CNZOX8mZBNEo2w",
+  "name": "First Circle of Heart",
+  "type": "domainCard",
+  "_id": "kbofdu6Q8uiv7B7U",
+  "img": "icons/magic/water/orb-ice-web.webp",
+  "system": {
+    "description": "<p><strong>Engram</strong></p><p><strong>Psionic Blast:</strong> Make a <strong>Power Roll</strong> and unleash a raw psionic attack against a target within Far range. On a success, <strong>spend a Hope</strong> to deal <strong>d6 + your Power Trait</strong> energy damage using your Proficiency.</p><p><strong>Vertigo:</strong> Make a <strong>Power Roll</strong> against a target within Close range. On a success, <strong>spend a Hope</strong> to make them become temporarily <em>Dazed</em>.</p><p><strong>Telepathic Link: Spend a Hope</strong> to open a mental communication channel with one target you can see. This link lasts until your next rest or you form another Telepathic Link.</p>",
+    "domain": "neptune",
+    "recallCost": 2,
+    "level": 1,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "rtv6IqrjVnEIrf0k": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Psionic Blast",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "@profd6 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d6",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "rtv6IqrjVnEIrf0k",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      },
+      "NFGBQ3Riy6yWu9RY": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Vertigo",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "zcAPGYpuixmYdUj9",
+            "onSave": false
+          }
+        ],
+        "_id": "NFGBQ3Riy6yWu9RY",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      },
+      "r3bjKb7faAy5VW8b": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Telepathic Link",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "r3bjKb7faAy5VW8b",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The PT3 card image adds \"Make a Power Roll (11)\" to Telepathic Link; the printed text, used here, has no roll.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Dazed",
+      "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+      "transfer": false,
+      "_id": "zcAPGYpuixmYdUj9",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.roll.bonus",
+            "type": "add",
+            "value": "-2",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": [
+          {
+            "type": "actionType",
+            "actionTypes": [
+              "attack"
+            ],
+            "traits": []
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Dazed.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "dazed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!kbofdu6Q8uiv7B7U.zcAPGYpuixmYdUj9"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!kbofdu6Q8uiv7B7U"
+}

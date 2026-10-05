@@ -1,0 +1,82 @@
+{
+  "name": "Vector",
+  "type": "class",
+  "_id": "eOAG8werVJ9OPNkG",
+  "img": "icons/skills/melee/hand-grip-sword-strike-orange.webp",
+  "system": {
+    "description": "<p><em>“I‘m checking my vital signs, drawing my battle lines / Going to war again”</em></p><p>Others call it war — but for Vectors it can be many things: Art. Game. Performance. Ritual. Purpose. Where others rely on their psionic powers, advanced technology, or their enhanced body and mind, Vectors have raw talent and were trained among the best of the best. They are the elites among fighters, moving with unmatched speed and precision, always one step ahead of every strike. Some are lone wolves, fighting independently, while others coordinate seamlessly with a team, striking first to create openings their allies can exploit. All Vectors are the masters of war — but they fight not for hollow glory. They risk their life at the frontlines, so that others won’t need to.</p>",
+    "domains": [
+      "mars",
+      "mercury"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 11,
+    "features": [
+      {
+        "type": "hope",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.Gf9akCFr5ealVhZ1"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.LrpeVRF2amLSaKRx"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.SQjdP2D9tTGMJkOR"
+      }
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": [
+        "Compendium.daggerheart-tnu.tnu-classes.Item.2qDm45SKQxS3B8Of",
+        "Compendium.daggerheart-tnu.tnu-classes.Item.4Dd4jaJe3l72be62"
+      ]
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "backgroundQuestions": [
+      "What battle should have ended you – and what scar do you still carry from it?",
+      "What battlefield taught you that endurance matters more than speed – and what price did you pay to learn it?",
+      "What part of yourself have you sacrificed to become the wall others rely on?",
+      "When did you stand alone against an enemy you could not defeat – and why do you still bear that memory?",
+      "What oath or promise keeps you rooted when everything else would make you fall?"
+    ],
+    "connections": [
+      "You once leaned on me when the enemy’s strike should have broken you. Why do you still trust me to stand firm?",
+      "I forced the enemy to focus on me so you could strike freely. What did you accomplish in that moment?",
+      "You saw me endure pain that would have killed another. What did it teach you about me?",
+      "I held the line for you while the rest of the field collapsed. What did you do with the time I gave you?",
+      "You know that I will never retreat, no matter the cost. Why does that frighten you?"
+    ],
+    "gmNotes": "The background and connection questions are authored as printed; they read like a tank class's questions and may be a copy error in the playtest. The Ronin subclass is named but not printed.",
+    "levelupOptionTiers": {
+      "2": {},
+      "3": {},
+      "4": {}
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!eOAG8werVJ9OPNkG"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Visc – Ghostscale Caste",
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "type": "ancestry",
+  "folder": null,
+  "system": {
+    "description": "",
+    "features": [
+      {
+        "type": "primary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.uIXhLJjisAZZUpIL"
+      },
+      {
+        "type": "secondary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.dqgPtG3aubYEVb8n"
+      }
+    ],
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "loreReference": "",
+    "gmNotes": ""
+  },
+  "flags": {},
+  "_id": "n7yhMXX7fB5shXs3",
+  "sort": 0,
+  "effects": [],
+  "_key": "!items!n7yhMXX7fB5shXs3"
+}

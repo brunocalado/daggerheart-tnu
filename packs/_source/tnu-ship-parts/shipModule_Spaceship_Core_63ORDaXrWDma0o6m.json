@@ -1,0 +1,47 @@
+{
+  "_id": "63ORDaXrWDma0o6m",
+  "_key": "!items!63ORDaXrWDma0o6m",
+  "name": "Spaceship Core",
+  "type": "daggerheart-tnu.shipModule",
+  "img": "icons/commodities/tech/coil-tesla-large.webp",
+  "system": {
+    "description": "<p><em>The engine of your flying home.</em></p><p><strong>Fast Travel (out of combat):</strong> Make a <strong>Power Roll (13)</strong> to start the fast travel mode of the spacecraft. On a success you fast travel to the next haven or planet. On a failure with fear the engine overheats and you have to wait <strong>1d4</strong> hours to try it again until then you float through space without drive or direction.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "capacity": 3,
+    "replaces": "",
+    "deactivated": false,
+    "stats": {
+      "bonus": null,
+      "range": null,
+      "damage": ""
+    },
+    "shipActions": [
+      {
+        "name": "Fast Travel (out of combat)",
+        "spheres": [
+          "heart",
+          "mind",
+          "fist"
+        ],
+        "roll": "power",
+        "difficulty": 13,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll (13) to start the fast travel mode of the spacecraft. On a success you fast travel to the next haven or planet. On a failure with fear the engine overheats and you have to wait 1d4 hours to try it again until then you float through space without drive or direction."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

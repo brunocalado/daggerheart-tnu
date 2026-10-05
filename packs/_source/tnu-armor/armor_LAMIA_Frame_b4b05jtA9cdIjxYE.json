@@ -1,0 +1,39 @@
+{
+  "name": "LAMIA Frame",
+  "type": "armor",
+  "_id": "b4b05jtA9cdIjxYE",
+  "img": "icons/equipment/chest/breastplate-banded-blue.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "description": "",
+    "actions": {},
+    "tier": 2,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "biocharged",
+        "effectIds": [],
+        "actionIds": []
+      }
+    ],
+    "baseThresholds": {
+      "major": 8,
+      "severe": 18
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 600000,
+  "flags": {},
+  "_key": "!items!b4b05jtA9cdIjxYE"
+}

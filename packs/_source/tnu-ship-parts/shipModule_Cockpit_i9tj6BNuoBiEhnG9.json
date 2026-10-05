@@ -1,0 +1,81 @@
+{
+  "_id": "i9tj6BNuoBiEhnG9",
+  "_key": "!items!i9tj6BNuoBiEhnG9",
+  "name": "Cockpit",
+  "type": "daggerheart-tnu.shipModule",
+  "img": "icons/tools/nautical/steering-wheel.webp",
+  "system": {
+    "description": "<p><em>The spaceship control.</em></p><p><strong>Navigation (Heart & Mind):</strong> Make a <strong>Power Roll</strong> to navigate without fast travel. On a success navigate the ship to your next destination without interference.</p><p><strong>Docking (Heart & Mind):</strong> If the ship is in melee range to another non-hostile spacecraft or docking station make a <strong>Power Roll</strong> to safely dock on.</p><p><strong>Ram (Fist):</strong> Make an <strong>Attack Roll</strong> against a target. On a success <strong>spend an Armor Slot</strong> to ram a target within melee range. The target takes <strong>d10</strong> kinetic damage and gets pushed into Close range.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "capacity": 3,
+    "replaces": "",
+    "deactivated": false,
+    "stats": {
+      "bonus": null,
+      "range": null,
+      "damage": ""
+    },
+    "shipActions": [
+      {
+        "name": "Navigation",
+        "spheres": [
+          "heart",
+          "mind"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll to navigate without fast travel. On a success navigate the ship to your next destination without interference."
+      },
+      {
+        "name": "Docking",
+        "spheres": [
+          "heart",
+          "mind"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "If the ship is in melee range to another non-hostile spacecraft or docking station make a Power Roll to safely dock on."
+      },
+      {
+        "name": "Ram",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "attack",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 1
+        },
+        "damage": "d10",
+        "oncePer": "",
+        "description": "Make an Attack Roll against a target. On a success spend an Armor Slot to ram a target within melee range. The target takes d10 kinetic damage and gets pushed into Close range."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

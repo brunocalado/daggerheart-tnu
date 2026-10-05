@@ -1,0 +1,196 @@
+{
+  "folder": "WatuG4NfhYK2uhM9",
+  "name": "Stygian Tribute",
+  "type": "domainCard",
+  "_id": "YmdKIPRphRyGX4Ds",
+  "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+  "system": {
+    "description": "<p><strong>Sigil</strong></p><h3>Seal</h3><p>Make a <strong>Power Roll</strong> against a target within Very Close range. On a success, once per rest, they must mark <strong>1d4</strong> Stress. You clear a number of Stress equal to the number of Stress the target marked from this attack.</p><p><strong>Seal:</strong> After you successfully use this card, you can <strong>mark a Hit Point</strong> to flip it to its <strong>Release</strong> side.</p><h3>Release</h3><p>Make a <strong>Power Roll</strong> against a target within Very Close range. On a success, once per rest, deal <strong>d12+4</strong> energy damage using your Proficiency. You clear a number of Hit Points equal to the number of Hit Points the target marked from this attack.</p><p><strong>Release:</strong> After you use this card, flip it back to its <strong>Seal</strong> side.</p>",
+    "domain": "pluto",
+    "recallCost": 2,
+    "level": 3,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "1",
+      "icon": "fa-solid fa-lock-open",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "aqrURnk8Pnn8ATbS": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Seal: Tribute",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": true,
+                  "formula": "1d4"
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "aqrURnk8Pnn8ATbS",
+        "img": "icons/magic/symbols/rune-sigil-black-pink.webp"
+      },
+      "b3u1zphp5zncKmu9": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "YmdKIPRphRyGX4Ds",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Release: Tribute",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "prof",
+              "dice": "d12",
+              "bonus": 4,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "b3u1zphp5zncKmu9",
+        "img": "icons/magic/symbols/rune-sigil-black-pink.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Two-sided Sigil. The card's resource marks the side it shows (0 = Seal, 1 = Release). After a successful Seal use, mark a Hit Point by hand and set the resource to 1. Each Release action spends it, which flips the card back to Seal. A long rest resets it to Seal. Clearing your own Stress or Hit Points afterwards is done by hand.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!YmdKIPRphRyGX4Ds"
+}

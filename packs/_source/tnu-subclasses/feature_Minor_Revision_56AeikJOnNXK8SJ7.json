@@ -1,0 +1,25 @@
+{
+  "folder": "UoAkdzummm5IcNdi",
+  "name": "Minor Revision",
+  "type": "feature",
+  "_id": "56AeikJOnNXK8SJ7",
+  "img": "icons/magic/time/hourglass-tilted-glowing-gold.webp",
+  "system": {
+    "description": "<p>When an ally within Close range rolls a failure with Fear, <strong>spend an Echo</strong> to subtly change the flow of fate. Choose one of the following options:</p><ul><li><p>The ally gains a Hope.</p></li><li><p>The GM cannot make a GM move in response to the roll.</p></li></ul>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Spend Echo from the class feature that holds it: the system can only charge a cost to the resource on the same item, so this Echo cost is paid by hand.",
+    "granter": null,
+    "featureForm": "reaction",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!56AeikJOnNXK8SJ7"
+}

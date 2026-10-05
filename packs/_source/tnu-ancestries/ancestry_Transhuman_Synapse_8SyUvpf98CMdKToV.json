@@ -1,0 +1,31 @@
+{
+  "name": "Transhuman – Synapse",
+  "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
+  "type": "ancestry",
+  "folder": null,
+  "system": {
+    "description": "<p>Transhuman is a base ancestry with Deep Reserves and Hardwired. Each lineage fixes the implant you start with.</p>",
+    "features": [
+      {
+        "type": "primary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.cpE0d0KyWnYvjlR9"
+      },
+      {
+        "type": "secondary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.8lJAsa95SuSaWI5b"
+      }
+    ],
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "loreReference": "",
+    "gmNotes": ""
+  },
+  "flags": {},
+  "_id": "8SyUvpf98CMdKToV",
+  "sort": 0,
+  "effects": [],
+  "_key": "!items!8SyUvpf98CMdKToV"
+}

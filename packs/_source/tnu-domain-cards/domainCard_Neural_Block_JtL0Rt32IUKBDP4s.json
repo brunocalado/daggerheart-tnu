@@ -1,0 +1,206 @@
+{
+  "folder": "t8unFE6G1xg3fGQu",
+  "name": "Neural Block",
+  "type": "domainCard",
+  "_id": "JtL0Rt32IUKBDP4s",
+  "img": "icons/skills/trades/music-singing-voice-blue.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p>Make a <strong>Power Roll</strong> against a target within Very Close range. Once per rest on a success, you overwhelm the target's neural focus through voice and presence, briefly short-circuiting their ability to react. The target becomes temporarily <em>Stunned</em> and must <strong>mark a Stress</strong>. Until the end of the scene, you can make additional Power Rolls against the same target; on a success, their mind falters again and they are temporarily <em>Stunned</em>.</p>",
+    "domain": "venus",
+    "recallCost": 1,
+    "level": 3,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "xjxkCeHM1ZHUXkdV": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Neural Block",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "pBkWrIhkFBdnoKVG",
+            "onSave": false
+          }
+        ],
+        "_id": "xjxkCeHM1ZHUXkdV",
+        "img": "icons/skills/trades/music-singing-voice-blue.webp"
+      },
+      "jwRpq2yZUfWiEFsP": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Falter Again",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "pBkWrIhkFBdnoKVG",
+            "onSave": false
+          }
+        ],
+        "_id": "jwRpq2yZUfWiEFsP",
+        "img": "icons/skills/trades/music-singing-voice-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Stunned",
+      "img": "icons/magic/lightning/bolt-forked-large-blue.webp",
+      "transfer": false,
+      "_id": "pBkWrIhkFBdnoKVG",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Stunned.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "stunned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!JtL0Rt32IUKBDP4s.pBkWrIhkFBdnoKVG"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!JtL0Rt32IUKBDP4s"
+}

@@ -1,0 +1,69 @@
+{
+  "folder": "9O4SrHZwIXIoBeza",
+  "name": "Forward Momentum",
+  "type": "domainCard",
+  "_id": "GwUR2sWtrJBYGfb8",
+  "img": "icons/magic/movement/acceleration-speed-tech-blue.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>Once per rest, <strong>spend a Hope</strong> to redirect the spotlight from you to an ally within Very Close range. This ally can sprint anywhere within Far range without making an Agility Roll to get there.</p>",
+    "domain": "mercury",
+    "recallCost": 0,
+    "level": 1,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "7uQ41FrlJ0MIKUPN": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Forward Momentum",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "7uQ41FrlJ0MIKUPN",
+        "img": "icons/magic/movement/acceleration-speed-tech-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!GwUR2sWtrJBYGfb8"
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Reactive Mesh",
+  "type": "armor",
+  "_id": "73wMDk1t5RfXKw1D",
+  "img": "icons/equipment/chest/breastplate-layered-grey.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "description": "",
+    "actions": {},
+    "tier": 1,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "bulky",
+        "effectIds": [
+          "Zl228ljExiIVdMFJ"
+        ],
+        "actionIds": []
+      }
+    ],
+    "baseThresholds": {
+      "major": 7,
+      "severe": 15
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [
+    {
+      "name": "Bulky",
+      "description": "-1 to Evasion.",
+      "img": "icons/commodities/metal/ingot-worn-iron.webp",
+      "system": {
+        "changes": [
+          {
+            "key": "system.evasion",
+            "type": "add",
+            "value": "-1",
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "_id": "Zl228ljExiIVdMFJ",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_key": "!items.effects!73wMDk1t5RfXKw1D.Zl228ljExiIVdMFJ"
+    }
+  ],
+  "sort": 200000,
+  "flags": {},
+  "_key": "!items!73wMDk1t5RfXKw1D"
+}

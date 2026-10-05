@@ -1,0 +1,248 @@
+{
+  "folder": "Vbzffr5SZHC7lwRy",
+  "name": "Parasitic Seed",
+  "type": "domainCard",
+  "_id": "hmqtBte7T8CZesve",
+  "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p>Make a <strong>Power Roll</strong> against a target within Close range. On a success, <strong>mark a Stress</strong> to implant a living biotic organism within the target, making them temporarily <em>Infested</em>. When a creature acts while <em>Infested</em>, they take <strong>d6</strong> kinetic damage, using your Proficiency. If an <em>Infested</em> creature marks their last Hit Point, the biotic organism ruptures. All creatures within Very Close range must make a <strong>Reaction Roll</strong> (13). Targets who fail take <strong>d20+5</strong> kinetic damage using your Proficiency. Targets who succeed take half damage.</p>",
+    "domain": "terra",
+    "recallCost": 1,
+    "level": 3,
+    "type": "spell",
+    "resource": "The rupture's Reaction Roll (13) names no trait: roll it by hand and halve the damage on a success.",
+    "actions": {
+      "yjzOugeRtAj7wZce": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Parasitic Seed",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "lI4u2bEgTzI9TYiy",
+            "onSave": false
+          }
+        ],
+        "_id": "yjzOugeRtAj7wZce",
+        "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp"
+      },
+      "RQXTZsdhr4aGANOM": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Infested",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "prof",
+              "dice": "d6",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "RQXTZsdhr4aGANOM",
+        "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp"
+      },
+      "iyh7EcYhSYsZ4fIR": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Rupture",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "prof",
+              "dice": "d20",
+              "bonus": 5,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "iyh7EcYhSYsZ4fIR",
+        "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Infested",
+      "img": "icons/environment/creatures/bug-worm-glow.webp",
+      "transfer": false,
+      "_id": "lI4u2bEgTzI9TYiy",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Infested.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "infested"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!hmqtBte7T8CZesve.lI4u2bEgTzI9TYiy"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!hmqtBte7T8CZesve"
+}

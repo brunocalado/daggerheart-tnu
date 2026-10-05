@@ -1,0 +1,31 @@
+{
+  "name": "Grey",
+  "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+  "type": "ancestry",
+  "folder": null,
+  "system": {
+    "description": "",
+    "features": [
+      {
+        "type": "primary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.uIXhLJjisAZZUpIL"
+      },
+      {
+        "type": "secondary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.vCpNVERtbTUhHtoh"
+      }
+    ],
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "loreReference": "",
+    "gmNotes": ""
+  },
+  "flags": {},
+  "_id": "4wdOuP5wlixqLTrk",
+  "sort": 0,
+  "effects": [],
+  "_key": "!items!4wdOuP5wlixqLTrk"
+}

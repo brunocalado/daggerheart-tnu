@@ -1,0 +1,58 @@
+{
+  "_id": "4uEFXzHhdYzq9LDS",
+  "_key": "!items!4uEFXzHhdYzq9LDS",
+  "name": "Manual of Evasion",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+  "system": {
+    "description": "<p><strong>Art of Evasion:</strong> Make a <strong>Power Roll</strong> to maneuver the ship through difficult terrain or avoid obstacles. On a success the ship remains undamaged.</p><p><strong>Dodge:</strong> Once per rest you can make a <strong>Reaction Roll</strong> against an incoming attack. On a success you negate the damage.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "mind",
+    "level": 3,
+    "location": "Cockpit",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Art of Evasion",
+        "spheres": [
+          "mind"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll to maneuver the ship through difficult terrain or avoid obstacles. On a success the ship remains undamaged."
+      },
+      {
+        "name": "Dodge",
+        "spheres": [
+          "mind"
+        ],
+        "roll": "reaction",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "rest",
+        "description": "Once per rest you can make a Reaction Roll against an incoming attack. On a success you negate the damage."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

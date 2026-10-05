@@ -1,0 +1,22 @@
+{
+  "name": "Surgical Multi-Tool",
+  "type": "loot",
+  "_id": "wJ2bDG5LYWbMBeQB",
+  "img": "icons/tools/medical/bandages-adhesive.webp",
+  "system": {
+    "description": "<p>You have advantage on rolls treating biological injuries.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 17 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2900000,
+  "flags": {},
+  "_key": "!items!wJ2bDG5LYWbMBeQB"
+}

@@ -1,0 +1,114 @@
+{
+  "folder": "9ErGi1b7V4Rjtcjp",
+  "name": "Opening",
+  "type": "domainCard",
+  "_id": "7eMUdYi63zJoEaKb",
+  "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p><strong>Mark a Stress</strong> to make a target within weapon range become <em>Vulnerable</em> until they are next attacked.</p>",
+    "domain": "mars",
+    "recallCost": 1,
+    "level": 2,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "sO8wWKVm0afCYvtB": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Opening",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "kTFXeKmbkByduQBo",
+            "onSave": false
+          }
+        ],
+        "_id": "sO8wWKVm0afCYvtB",
+        "img": "icons/skills/melee/strike-sword-slashing-red.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Vulnerable",
+      "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
+      "transfer": false,
+      "_id": "kTFXeKmbkByduQBo",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Vulnerable.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "vulnerable"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!7eMUdYi63zJoEaKb.kTFXeKmbkByduQBo"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!7eMUdYi63zJoEaKb"
+}

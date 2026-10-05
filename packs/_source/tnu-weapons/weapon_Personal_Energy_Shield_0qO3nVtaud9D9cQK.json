@@ -1,0 +1,124 @@
+{
+  "name": "Personal Energy Shield",
+  "type": "weapon",
+  "_id": "0qO3nVtaud9D9cQK",
+  "img": "icons/equipment/shield/buckler-iron-cross-gray.webp",
+  "system": {
+    "description": "<p>Shielded (+2 Armor Score; -1 Stress)</p>",
+    "actions": {},
+    "tier": 1,
+    "equipped": false,
+    "secondary": true,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "shielded",
+        "effectIds": [],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "0xEhah0VVocth9lW",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "veryClose",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "knowledge",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d6",
+            "bonus": null,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "magical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 5500000,
+  "flags": {},
+  "_key": "!items!0qO3nVtaud9D9cQK"
+}

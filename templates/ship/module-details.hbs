@@ -1,0 +1,15 @@
+<section class="tab {{tab.cssClass}} details" data-tab="details" data-group="primary">
+  <fieldset>
+    <legend>Module</legend>
+    {{formGroup systemFields.capacity value=source.system.capacity label="Capacity" hint="Crew members the module holds at once."}}
+    {{formGroup systemFields.replaces value=source.system.replaces label="Replaces" hint="The required module this one stands in for, if any."}}
+    {{formGroup systemFields.deactivated value=source.system.deactivated label="Deactivated" hint="Set when ship Stress overflows. Features are unusable until the next rest."}}
+  </fieldset>
+
+  <fieldset>
+    <legend>Stat line</legend>
+    {{formGroup systemFields.stats.fields.bonus value=source.system.stats.bonus label="Attack bonus"}}
+    {{formGroup systemFields.stats.fields.range value=source.system.stats.range label="Range" blank="—" localize=true}}
+    {{formGroup systemFields.stats.fields.damage value=source.system.stats.damage label="Damage" hint="Only modules that attack on their own, such as the cannons."}}
+  </fieldset>
+</section>

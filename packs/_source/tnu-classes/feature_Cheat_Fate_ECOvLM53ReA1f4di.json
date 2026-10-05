@@ -1,0 +1,64 @@
+{
+  "folder": "2a4dcoC3ZlgQ5Cdh",
+  "name": "Cheat Fate",
+  "type": "feature",
+  "_id": "ECOvLM53ReA1f4di",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "system": {
+    "description": "<p><strong>Spend 3 Hope</strong> to ignore the damage of an attack.</p>",
+    "resource": null,
+    "actions": {
+      "Be4JVPhQZljZ4bjw": {
+        "type": "effect",
+        "_id": "Be4JVPhQZljZ4bjw",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 3,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Cheat Fate",
+        "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": []
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Ignoring the damage is done by hand: don't apply that attack's damage.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!ECOvLM53ReA1f4di"
+}

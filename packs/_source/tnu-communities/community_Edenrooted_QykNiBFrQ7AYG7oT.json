@@ -1,0 +1,23 @@
+{
+  "type": "community",
+  "name": "Edenrooted",
+  "folder": null,
+  "system": {
+    "loreReference": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null
+    },
+    "description": "<p>People of this community are commonly educated, persuasive, confident, arrogant, naive, well-mannered, and unshakable.</p>",
+    "gmNotes": "",
+    "features": [
+      "Compendium.daggerheart-tnu.tnu-communities.Item.Z5WiW8VOospp5jQ1"
+    ]
+  },
+  "_id": "QykNiBFrQ7AYG7oT",
+  "img": "icons/environment/settlement/palast.webp",
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!QykNiBFrQ7AYG7oT"
+}

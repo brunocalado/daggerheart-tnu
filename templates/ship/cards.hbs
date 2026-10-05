@@ -1,0 +1,42 @@
+<section class="tab {{tab.cssClass}} cards" data-tab="cards" data-group="primary">
+  <div class="tab-scroll">
+    {{#each cardGroups}}
+      <fieldset class="card-group">
+        <legend>{{name}}</legend>
+        {{#each cards}}
+          <article class="ship-part ship-card {{#if locationDown}}deactivated{{/if}}" data-item-id="{{item.id}}">
+            <header class="part-header">
+              <img class="part-img" src="{{item.img}}" alt="" data-action="openItem" data-tooltip="{{item.name}}">
+              <div class="part-title">
+                <h3><a data-action="openItem">{{item.name}}</a></h3>
+                <div class="part-meta">
+                  <span class="sphere-tag {{sphere}}">{{sphereLabel}}</span>
+                  <span class="tag">Level {{item.system.level}}</span>
+                  {{#if item.system.location}}
+                    <span class="tag {{#if locationMissing}}danger{{/if}}" data-tooltip="Locational: used from this module"><i class="fa-solid fa-location-dot"></i>{{item.system.location}}</span>
+                  {{/if}}
+                  {{#if locationDown}}<span class="tag danger"><i class="fa-solid fa-power-off"></i>{{item.system.location}} is deactivated</span>{{/if}}
+                </div>
+              </div>
+              <select data-card-owner="{{item.id}}" aria-label="Owner">
+                <option value="">No owner</option>
+                {{#each owners}}
+                  <option value="{{uuid}}" {{#if selected}}selected{{/if}}>{{name}}</option>
+                {{/each}}
+              </select>
+              {{#if @root.editable}}
+                <div class="controls">
+                  <a data-action="deleteItem" data-tooltip="Remove card"><i class="fa-solid fa-trash"></i></a>
+                </div>
+              {{/if}}
+            </header>
+
+            {{> "daggerheart-tnu.ship-actions" actions=actions}}
+          </article>
+        {{/each}}
+      </fieldset>
+    {{else}}
+      <div class="drag-area">No ship cards yet — each player draws one from their Sphere on levels 3, 4, 6, 7, 9 and 10</div>
+    {{/each}}
+  </div>
+</section>

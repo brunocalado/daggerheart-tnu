@@ -1,0 +1,62 @@
+{
+  "name": "Neuro-Toxin",
+  "type": "consumable",
+  "_id": "fGY7UyTeCotNytrW",
+  "img": "icons/consumables/potions/bottle-round-corked-green.webp",
+  "system": {
+    "description": "<p>Coat a kinetic-damage weapon: add <strong>1d6</strong> to your next damage roll with it.</p>",
+    "quantity": 1,
+    "actions": {
+      "CzdCjyY3C2FBNb00": {
+        "type": "effect",
+        "_id": "CzdCjyY3C2FBNb00",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "fGY7UyTeCotNytrW",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-round-corked-green.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 04 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300000,
+  "flags": {},
+  "_key": "!items!fGY7UyTeCotNytrW"
+}

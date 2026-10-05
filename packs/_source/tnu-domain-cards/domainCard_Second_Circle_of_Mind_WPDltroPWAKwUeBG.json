@@ -1,0 +1,219 @@
+{
+  "folder": "Ka6jET2ZwASYKDlB",
+  "name": "Second Circle of Mind",
+  "type": "domainCard",
+  "_id": "WPDltroPWAKwUeBG",
+  "img": "icons/magic/water/orb-ice-web.webp",
+  "system": {
+    "description": "<p><strong>Engram</strong></p><p><strong>Blindspot:</strong> Make a <strong>Power Roll</strong> against a target within Far range. On a success, <strong>mark a Stress</strong> to become <em>Hidden</em> from that target until you make an attack roll or the end of the scene.</p><p><strong>Stasis:</strong> Make a <strong>Power Roll</strong> against a target within Far range. On a success, spend a Hope to temporarily <em>Restrain</em> them and force them to <strong>mark a Stress</strong>.</p>",
+    "domain": "neptune",
+    "recallCost": 2,
+    "level": 2,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "vQ1q6awsrEN898Jl": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Blindspot",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "vQ1q6awsrEN898Jl",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      },
+      "csk4H6I0bMDw8T8P": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Stasis",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "otZn52PrtlktCTHf",
+            "onSave": false
+          }
+        ],
+        "_id": "csk4H6I0bMDw8T8P",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Blindspot makes you Hidden from that one target only; toggle it on yourself by hand.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Restrained",
+      "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+      "transfer": false,
+      "_id": "otZn52PrtlktCTHf",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Restrained.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!WPDltroPWAKwUeBG.otZn52PrtlktCTHf"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!WPDltroPWAKwUeBG"
+}

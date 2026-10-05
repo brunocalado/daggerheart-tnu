@@ -1,0 +1,41 @@
+{
+  "_id": "ZAATAxweF3pcHsiv",
+  "_key": "!items!ZAATAxweF3pcHsiv",
+  "name": "Hard Docking",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/tools/fasteners/chain-hook-grey.webp",
+  "system": {
+    "description": "<p><strong>Hull breach:</strong> Make an attack to ram the target spacecraft. On a success, <strong>spend 2 HP</strong> to breach the hull and dock onto the target spacecraft without their consent.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "fist",
+    "level": 4,
+    "location": "Cockpit",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Hull breach",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "attack",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 2,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make an attack to ram the target spacecraft. On a success, spend 2 HP to breach the hull and dock onto the target spacecraft without their consent."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

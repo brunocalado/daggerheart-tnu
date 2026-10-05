@@ -1,0 +1,22 @@
+{
+  "name": "Holo Projector",
+  "type": "loot",
+  "_id": "nyB16SlFASuS1wtn",
+  "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+  "system": {
+    "description": "<p>Records audio and video and projects a 3D loop.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 07 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1900000,
+  "flags": {},
+  "_key": "!items!nyB16SlFASuS1wtn"
+}

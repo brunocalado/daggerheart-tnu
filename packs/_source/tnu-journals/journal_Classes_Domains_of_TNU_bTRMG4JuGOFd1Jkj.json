@@ -1,0 +1,311 @@
+{
+  "name": "Classes & Domains of TNU",
+  "_id": "bTRMG4JuGOFd1Jkj",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Overview",
+      "type": "text",
+      "_id": "wjUUsZx4Uzyxeu1z",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Class pitches and domain summaries from Playtest v3.0 Fist; each class is statted in the playtest named on its compendium entry.</em></p><p>TNU has ten classes and ten domains. Every class draws on two domains (Hollow: Nibiru and one domain of the player's choice). Characters build their loadout from domain cards as in Daggerheart.</p><h2>Spheres</h2><ul><li><strong>Sphere of Mind:</strong> Mercury, Saturn, Uranus.</li><li><strong>Sphere of Heart:</strong> Pluto, Venus, Terra.</li><li><strong>Sphere of Fist:</strong> Neptune, Jupiter, Mars.</li><li><strong>Outside the Spheres:</strong> Nibiru.</li></ul><h2>Classes</h2><h3>@UUID[Compendium.daggerheart-tnu.tnu-classes.Item.kGvwYboF5RbTlFhd]{Protean}</h3><p><em>\"Ever changing / moving on now, moving fast\"</em></p><p>Survivors and the pinnacle of adaptability and tactical flexibility. The spearhead of a unit: first in, last to go down. Some trained under military doctrine; others were forged by necessity on the fringes of explored space.</p><p><strong>Domains:</strong> Mercury and Saturn.<br><strong>Subclasses:</strong> @UUID[Compendium.daggerheart-tnu.tnu-subclasses.Item.CQtySO59x7lh7fLU]{Spectre}.</p><h3>@UUID[Compendium.daggerheart-tnu.tnu-classes.Item.rwaQKtQNGOOVBdSV]{Broken}</h3><p><em>\"I hurt myself today, to see if I still feel\"</em></p><p>Strength in pain endured and scars embraced. Brokens have extraordinary psionic abilities they were not born with: shaped by trauma, gruesome experiments, unimaginable suffering, or a single defining loss.</p><p><strong>Domains:</strong> Pluto and Venus.<br><strong>Subclasses:</strong> @UUID[Compendium.daggerheart-tnu.tnu-subclasses.Item.8mvGOoUDFoNcoFu2]{Fracture of Form}.</p><h3>@UUID[Compendium.daggerheart-tnu.tnu-classes.Item.lpr0WhJGVYu8M67E]{Cheat}</h3><p><em>\"But everybody has to sometimes break the rules\"</em></p><p>The underdogs of society: not trained in elite academies, not born with psionic powers, often without backing. They don't play fair, using tech, deception, diversion, cleverness and sometimes dumb luck. What counts is that it was paid.</p><p><strong>Domains:</strong> Saturn and Uranus.<br><strong>Subclasses:</strong> @UUID[Compendium.daggerheart-tnu.tnu-subclasses.Item.aQfK2B5p4t4ZKM0C]{Bounty Hunter}.</p><h3>@UUID[Compendium.daggerheart-tnu.tnu-classes.Item.4Agbp9WeN7R1fvEP]{Resonant}</h3><p><em>\"And their hope grew with a hunger to live unlike before\"</em></p><p>Empaths who see the invisible force that connects people. Ambassadors, counsellors and healers of body and soul; in a team, the nexus that amplifies abilities and shares focus. As long as a Resonant is standing, there is still hope.</p><p><strong>Domains:</strong> Venus and Terra.<br><strong>Subclasses:</strong> @UUID[Compendium.daggerheart-tnu.tnu-subclasses.Item.GlUChhWr03YOBFnV]{Nexus}.</p><h3>@UUID[Compendium.daggerheart-tnu.tnu-classes.Item.NJUCJXbAEo35VbRv]{Architect}</h3><p><em>\"Simulation, give me something good / God's creation, so misunderstood\"</em></p><p>Everyone uses technology; Architects shape it. Visionaries of a scientific frontier, mastering both creation and control, who see solutions before others recognise the problem.</p><p><strong>Domains:</strong> Uranus and Pluto.<br><strong>Subclasses:</strong> @UUID[Compendium.daggerheart-tnu.tnu-subclasses.Item.1b4BLAThcacvTm7q]{Living Arsenal}.</p><h3>@UUID[Compendium.daggerheart-tnu.tnu-classes.Item.FNhR8kZJZBs15I2K]{Stray}</h3><p><em>\"All I need was inside me / Now I feel so different\"</em></p><p>Anomalies born with incredible psionic powers few can understand, which emerge without lineage or logic. Healers, oracles or devastating psionic weapons; revered, feared, exploited or hunted.</p><p><strong>Domains:</strong> Terra and Neptune.<br><strong>Subclasses:</strong> @UUID[Compendium.daggerheart-tnu.tnu-subclasses.Item.Il6kMn5tCkaQPxKf]{Lightbender}.</p><h3>@UUID[Compendium.daggerheart-tnu.tnu-classes.Item.Zoj22cNRL5jlH6xr]{Primus}</h3><p><em>\"Here comes the sun / it is the brightest star of them all\"</em></p><p>Forged, not born. Devastating psionic powers, the pinnacle of body and mind, produced by training, ascetic discipline, bioengineering or transhumanist experimentation; many rely on drugs to sustain their power.</p><p><strong>Domains:</strong> Neptune and Jupiter.<br><strong>Subclasses:</strong> @UUID[Compendium.daggerheart-tnu.tnu-subclasses.Item.eizGSCEbklgkFhjM]{Nova}.</p><h3>@UUID[Compendium.daggerheart-tnu.tnu-classes.Item.eOAG8werVJ9OPNkG]{Vector}</h3><p><em>\"I'm checking my vital signs, drawing my battle lines / Going to war again\"</em></p><p>Raw talent trained among the best of the best: elite fighters of unmatched speed and precision, always one step ahead. Lone wolves or team players who strike first to create openings. They risk their lives on the frontline so others won't need to.</p><p><strong>Domains:</strong> Mars and Mercury.<br><strong>Subclasses:</strong> @UUID[Compendium.daggerheart-tnu.tnu-subclasses.Item.QVrxhuhVgC7GPTjU]{Shatterpoint}.</p><h3>@UUID[Compendium.daggerheart-tnu.tnu-classes.Item.cHygoadBBnIoACLK]{Monolith}</h3><p><em>\"Define your meaning of war / To me, it's what we do when we're bored\"</em></p><p>An unstoppable force fused with an immovable object. Born soldiers: shocktroops or last-line defence, the anchor that keeps the formation intact. Conflict is inevitability, to be met head-on, weathered and crushed.</p><p><strong>Domains:</strong> Jupiter and Mars.<br><strong>Subclasses:</strong> @UUID[Compendium.daggerheart-tnu.tnu-subclasses.Item.upsUjG2qLAIGWg3I]{Vanguard}.</p><h3>@UUID[Compendium.daggerheart-tnu.tnu-classes.Item.oSHA0RAc4koUSjwv]{Hollow}</h3><p><em>\"Got no peace, no fear inside / Keep praying for the morning light\"</em></p><p>Living vessels for the blackness and chaos of the universe, forged in moments of suffocating desperation when they opened their minds to something in the infinite dark. Not inherently evil, but edge-walkers between salvation and madness.</p><p><strong>Domains:</strong> Nibiru and one domain of your choice.<br><strong>Subclasses:</strong> @UUID[Compendium.daggerheart-tnu.tnu-subclasses.Item.ZA3F6q8cxd9RhM1c]{Manifest}, @UUID[Compendium.daggerheart-tnu.tnu-subclasses.Item.otUj123rAIZ5ESJ7]{Vessel}.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bTRMG4JuGOFd1Jkj.wjUUsZx4Uzyxeu1z"
+    },
+    {
+      "sort": 200000,
+      "name": "Mercury – The Impulse",
+      "type": "text",
+      "_id": "jBFF1FDNRchs3XzM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Mercury – The Impulse.</strong> The skill domain of mobility and tactical warfare.</p><p><strong>Sphere:</strong> Mind. <strong>Classes:</strong> @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.kGvwYboF5RbTlFhd]{Protean}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.eOAG8werVJ9OPNkG]{Vector}.</p><h2>Cards</h2><h3>Level 1</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.YFhBVPQM0f7f4flh]{An Advantage}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.0ymgiMnLIG5rptYi]{Elusive Strategem}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.GwUR2sWtrJBYGfb8]{Forward Momentum}</li></ul><h3>Level 2</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.vVkfMVpIIlg8UV8F]{Cut and Shift}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.Hw3oVQswob1Ke7Kn]{Mind's Edge}</li></ul><h3>Level 3</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.q8er3dKzl61dEieS]{Adaptable Tactics}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.lBMLcWXsYsksjkEL]{Fall Back}</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bTRMG4JuGOFd1Jkj.jBFF1FDNRchs3XzM"
+    },
+    {
+      "sort": 300000,
+      "name": "Saturn – The Shadow",
+      "type": "text",
+      "_id": "JunZNjQCTayhkRpS",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Saturn – The Shadow.</strong> The tech domain of stealth and deception.</p><p><strong>Sphere:</strong> Mind. <strong>Classes:</strong> @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.kGvwYboF5RbTlFhd]{Protean}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.lpr0WhJGVYu8M67E]{Cheat}.</p><h2>Cards</h2><h3>Level 1</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.ThhtUZ6pqMQueN03]{Holo AI-Demon}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.2dbR1BMZYwb5b3dV]{Holographic Guise}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.AyPb1VFRLkHGEiqz]{Monofilament Wire}</li></ul><h3>Level 2</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.A5u0etNaOiUbhtjW]{Holo Decoy}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.svTN6pBIOjWagUdg]{Infrasonic Disruptor}</li></ul><h3>Level 3</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.7MPeeqlEU51w31kr]{Cloak Field}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.m6TmjmrlOULEle5e]{Photonic Tether}</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bTRMG4JuGOFd1Jkj.JunZNjQCTayhkRpS"
+    },
+    {
+      "sort": 400000,
+      "name": "Uranus – The Spark",
+      "type": "text",
+      "_id": "l9sENDmPG8vQLov6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Uranus – The Spark.</strong> The tech domain of experimental gear and improvisation.</p><p><strong>Sphere:</strong> Mind. <strong>Classes:</strong> @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.lpr0WhJGVYu8M67E]{Cheat}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.NJUCJXbAEo35VbRv]{Architect}.</p><h2>Cards</h2><h3>Level 1</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.6KCztgYcHsDrbCFD]{Arc Unit}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.tY0xrWYhELKde29v]{Jet Pack}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.09BdcFkLqmZh4PIv]{Pulse Snare}</li></ul><h3>Level 2</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.RuBbTwCYIht4Uc5R]{Repulsor Blast}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.KStmcD70aLE6HXSg]{Translocator}</li></ul><h3>Level 3</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.Zve3ldZd1LclsLJv]{Nanite Infusion}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.W3OXbwInDgTnJE0g]{Nova Grenade}</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bTRMG4JuGOFd1Jkj.l9sENDmPG8vQLov6"
+    },
+    {
+      "sort": 500000,
+      "name": "Pluto – The End",
+      "type": "text",
+      "_id": "C1wXCYUx01e1mH0y",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Pluto – The End.</strong> The tech or psionic domain of entropy and burden.</p><p><strong>Sphere:</strong> Heart. <strong>Classes:</strong> @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.rwaQKtQNGOOVBdSV]{Broken}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.NJUCJXbAEo35VbRv]{Architect}.</p><h2>Cards</h2><h3>Level 1</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.xw5CFZWr01aauPNd]{Flames of Phlegethon}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.7EaaNzqQBpe1pOYL]{Torment of Cocytus}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.i1lelda80RsKUQOO]{Waters of Lethe}</li></ul><h3>Level 2</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.iz3tUDMthRRy9O2D]{Retribution of Tisiphone}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.My3EeltehM9dLRCf]{Terror of Alecto}</li></ul><h3>Level 3</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.hMjiu5h5LOTBoYZ5]{Passage of Charon}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.YmdKIPRphRyGX4Ds]{Stygian Tribute}</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bTRMG4JuGOFd1Jkj.C1wXCYUx01e1mH0y"
+    },
+    {
+      "sort": 600000,
+      "name": "Venus – The Voice",
+      "type": "text",
+      "_id": "EFIjwuUUZln2N7HG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Venus – The Voice.</strong> The psionic domain of empathy and soul.</p><p><strong>Sphere:</strong> Heart. <strong>Classes:</strong> @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.rwaQKtQNGOOVBdSV]{Broken}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.4Agbp9WeN7R1fvEP]{Resonant}.</p><h2>Cards</h2><h3>Level 1</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.4VnvSathY3xlbyun]{Charm Surge}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.pjwuqFtk2Dwz2XzI]{Misdirect}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.nlcto7YiEphZ2Bs7]{Resonant Voice}</li></ul><h3>Level 2</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.dRWZlJNSKJsTv7ni]{Edge of Doubt}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.WPYfKXzdPfYUv3W4]{Gaze of Phosphorus}</li></ul><h3>Level 3</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.PjfhbKtItA6sP9jY]{Aura of Insignifiance}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.JtL0Rt32IUKBDP4s]{Neural Block}</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bTRMG4JuGOFd1Jkj.EFIjwuUUZln2N7HG"
+    },
+    {
+      "sort": 700000,
+      "name": "Terra – The Seed",
+      "type": "text",
+      "_id": "qDeAlTWa5leriZLq",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Terra – The Seed.</strong> The psionic domain of restoration and evolution.</p><p><strong>Sphere:</strong> Heart. <strong>Classes:</strong> @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.4Agbp9WeN7R1fvEP]{Resonant}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.FNhR8kZJZBs15I2K]{Stray}.</p><h2>Cards</h2><h3>Level 1</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.T6p4ZmMuDOlXMYuB]{Biotic Surge}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.iyIUDuwfM2umgWdB]{Endogenous Roots}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.4IAYTcKlmszANZLD]{Restoration}</li></ul><h3>Level 2</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.0rugu2NWJtWibhZz]{Flesh Hive}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.wTcAkaVyueuvbfoS]{Metabolic Exchange}</li></ul><h3>Level 3</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.FuwTVQX59SfVLSKf]{Enhanced Physiology}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.hmqtBte7T8CZesve]{Parasitic Seed}</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bTRMG4JuGOFd1Jkj.qDeAlTWa5leriZLq"
+    },
+    {
+      "sort": 800000,
+      "name": "Neptune – The Dream",
+      "type": "text",
+      "_id": "tJ7TCvHhjYsBJr9u",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Neptune – The Dream.</strong> The psionic domain of paracausality and possibility.</p><p><strong>Sphere:</strong> Fist. <strong>Classes:</strong> @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.FNhR8kZJZBs15I2K]{Stray}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.Zoj22cNRL5jlH6xr]{Primus}.</p><h2>Cards</h2><h3>Level 1</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.1mprvnn4XjObMHzo]{First Circle of Fist}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.kbofdu6Q8uiv7B7U]{First Circle of Heart}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.40gMOhEAfidCQrly]{First Circle of Mind}</li></ul><h3>Level 2</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.LH05vtO2mpz4go2U]{Second Circle of Heart}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.WPDltroPWAKwUeBG]{Second Circle of Mind}</li></ul><h3>Level 3</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.3wqdQNUlDvyIN6MV]{Second Circle of Fist}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.IYUBdz9HBR4a35MA]{Third Circle of Mind}</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bTRMG4JuGOFd1Jkj.tJ7TCvHhjYsBJr9u"
+    },
+    {
+      "sort": 900000,
+      "name": "Jupiter – The Shield",
+      "type": "text",
+      "_id": "YQH0Xi9MjiQJ7AO3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Jupiter – The Shield.</strong> The skill domain of durability and resolve.</p><p><strong>Sphere:</strong> Fist. <strong>Classes:</strong> @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.Zoj22cNRL5jlH6xr]{Primus}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.cHygoadBBnIoACLK]{Monolith}.</p><h2>Cards</h2><h3>Level 1</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.NYCukeRPI4m1k5Ps]{Behind Me}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.hNBU7ft0GMBtKZ16]{Fortified Self}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.ILI6rh3uJ3Qvf065]{My Body Is a Weapon}</li></ul><h3>Level 2</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.RGcKOc7V0nXNVr50]{Disrupting Blow}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.FpgmjPzR9Lyf7cIE]{Scrambling Attack}</li></ul><h3>Level 3</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.h04fzha4Yb8Jjs5M]{Momentum Strike}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.CnMLwNZbAyP7kNYe]{Unshakeable}</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bTRMG4JuGOFd1Jkj.YQH0Xi9MjiQJ7AO3"
+    },
+    {
+      "sort": 1000000,
+      "name": "Mars – The Sword",
+      "type": "text",
+      "_id": "SuCP2nhQrTrRQmQs",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Mars – The Sword.</strong> The skill domain of weapons and conflict.</p><p><strong>Sphere:</strong> Fist. <strong>Classes:</strong> @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.eOAG8werVJ9OPNkG]{Vector}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.cHygoadBBnIoACLK]{Monolith}.</p><h2>Cards</h2><h3>Level 1</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.0HLwJwD74PFhp6UP]{Full Force}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.M5rDjDx9tpflFbWa]{Just a Fleshwound}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.feQxVAeyHYeB5nD5]{Quick Strike}</li></ul><h3>Level 2</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.tJy4VsKKgg4dI0Fn]{Comrades in Arms}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.7eMUdYi63zJoEaKb]{Opening}</li></ul><h3>Level 3</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.p7UAuSLTbQu7gfeF]{Counterstrike}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.umXBI7fvPFOzknwl]{Weaponmaster}</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bTRMG4JuGOFd1Jkj.SuCP2nhQrTrRQmQs"
+    },
+    {
+      "sort": 1100000,
+      "name": "Nibiru – The Chaos",
+      "type": "text",
+      "_id": "WGXYUljHdZnSAhV2",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Nibiru – The Chaos.</strong> The psionic domain of anomalies and horror.</p><p><strong>Sphere:</strong> outside the Spheres. <strong>Classes:</strong> @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.oSHA0RAc4koUSjwv]{Hollow}.</p><h2>Cards</h2><h3>Level 1</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.XheR1hRlL2t14HMD]{Face of Madness}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.E2ruu7NeBOg8haFH]{Glimpse into the Abyss}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.bMRBLeMvkk5l5b98]{Weight of a Soul}</li></ul><h3>Level 2</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.MTbvH8pBgwsFG9UH]{Paradoxical Reach}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.KDPltnplPvS0GIVx]{Void Cascade}</li></ul><h3>Level 3</h3><ul><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.OdUPGmrd4M0Gjy1W]{Destabalize Matter}</li><li>@UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.Sbs20WC1415uA5vI]{Spatial Glitch}</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bTRMG4JuGOFd1Jkj.WGXYUljHdZnSAhV2"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!journal!bTRMG4JuGOFd1Jkj"
+}

@@ -1,0 +1,107 @@
+{
+  "folder": "2o2hZA3Awol9MB4h",
+  "name": "Restoration",
+  "type": "domainCard",
+  "_id": "4IAYTcKlmszANZLD",
+  "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p>As part of a rest, place your hand on a creature other than yourself within Melee range and infuse their body with psionic energy. <strong>Spend 2 Hope</strong> to <strong>clear a Hit Point</strong>. This can be used multiple times in one rest.</p>",
+    "domain": "terra",
+    "recallCost": 1,
+    "level": 1,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "y0nKPgnEv3yocSWv": {
+        "type": "healing",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 2,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Restoration",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "base": false,
+              "applyTo": "hitPoints",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "effects": [],
+        "_id": "y0nKPgnEv3yocSWv",
+        "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!4IAYTcKlmszANZLD"
+}

@@ -1,0 +1,108 @@
+{
+  "folder": "WEr6pQVPktSk90bN",
+  "name": "Final Contract",
+  "type": "feature",
+  "_id": "UjprPqExeV9YSRbM",
+  "img": "icons/sundries/scrolls/scroll-bound-sealed-red-white.webp",
+  "system": {
+    "description": "<p>When you deal damage to your Bounty, you can give the target two conditions instead of one. Add <em>Stunned</em> to the list of possible temporary conditions.</p>",
+    "resource": null,
+    "actions": {
+      "pal7rWHxTS0TFXRF": {
+        "type": "effect",
+        "_id": "pal7rWHxTS0TFXRF",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Bounty: Stunned",
+        "img": "icons/magic/lightning/bolt-forked-large-blue.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "P9YJpYPf5RKag7P2",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "When giving two conditions for one Stress, use the second condition's action and skip its Stress by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Stunned",
+      "img": "icons/magic/lightning/bolt-forked-large-blue.webp",
+      "transfer": false,
+      "_id": "P9YJpYPf5RKag7P2",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Stunned.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "stunned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!UjprPqExeV9YSRbM.P9YJpYPf5RKag7P2"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!UjprPqExeV9YSRbM"
+}

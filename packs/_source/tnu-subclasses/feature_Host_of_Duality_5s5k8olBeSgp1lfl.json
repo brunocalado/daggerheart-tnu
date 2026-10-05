@@ -1,0 +1,25 @@
+{
+  "folder": "I804FVnqkjqa57Ns",
+  "name": "Host of Duality",
+  "type": "feature",
+  "_id": "5s5k8olBeSgp1lfl",
+  "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
+  "system": {
+    "description": "<p><strong>Host of Duality:</strong> When you use the Dark Passenger class feature, you can <strong>spend 2 Echoes</strong> to invite two chosen Entities into your body and gain the benefits of both.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!5s5k8olBeSgp1lfl"
+}

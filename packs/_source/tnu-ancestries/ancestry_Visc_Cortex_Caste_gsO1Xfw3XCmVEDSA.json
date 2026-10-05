@@ -1,0 +1,31 @@
+{
+  "name": "Visc – Cortex Caste",
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "type": "ancestry",
+  "folder": null,
+  "system": {
+    "description": "",
+    "features": [
+      {
+        "type": "primary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.b1Pzp88DynBYerJb"
+      },
+      {
+        "type": "secondary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.dqgPtG3aubYEVb8n"
+      }
+    ],
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "loreReference": "",
+    "gmNotes": ""
+  },
+  "flags": {},
+  "_id": "gsO1Xfw3XCmVEDSA",
+  "sort": 0,
+  "effects": [],
+  "_key": "!items!gsO1Xfw3XCmVEDSA"
+}

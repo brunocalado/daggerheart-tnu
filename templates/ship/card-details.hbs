@@ -1,0 +1,15 @@
+<section class="tab {{tab.cssClass}} details" data-tab="details" data-group="primary">
+  <fieldset>
+    <legend>Card</legend>
+    {{formGroup systemFields.sphere value=source.system.sphere label="Sphere" choices=sphereChoices}}
+    {{formGroup systemFields.level value=source.system.level label="Level"}}
+    {{formGroup systemFields.location value=source.system.location label="Location" hint="The module a crew member must be in to use this card."}}
+    {{#if ownerName}}
+      <div class="form-group">
+        <label>Owner</label>
+        <div class="form-fields"><span>{{ownerName}}</span></div>
+        <p class="hint">Set from the ship sheet.</p>
+      </div>
+    {{/if}}
+  </fieldset>
+</section>

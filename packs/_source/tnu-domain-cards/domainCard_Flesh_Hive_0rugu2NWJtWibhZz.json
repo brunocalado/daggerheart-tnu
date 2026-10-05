@@ -1,0 +1,170 @@
+{
+  "folder": "UBHxYwhRcmZcvVKm",
+  "name": "Flesh Hive",
+  "type": "domainCard",
+  "_id": "0rugu2NWJtWibhZz",
+  "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p>Make a <strong>Power Roll</strong> against a target within Close range. On a success, <strong>mark a Stress</strong> to force a ravenous swarm of insects to burst from the target flesh. The target takes <strong>d8+4</strong> kinetic damage using your Proficiency. All other targets within Very Close range of the them must make a Reaction Roll (13). On a failure, they take <strong>2d8+2</strong> kinetic damage.</p>",
+    "domain": "terra",
+    "recallCost": 2,
+    "level": 2,
+    "type": "spell",
+    "resource": "The swarm's Reaction Roll (13) names no trait, so it is made by hand before applying the Swarm damage.",
+    "actions": {
+      "OOaLkrHmTpDQyYz3": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Flesh Hive",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "prof",
+              "dice": "d8",
+              "bonus": 4,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "OOaLkrHmTpDQyYz3",
+        "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp"
+      },
+      "ttAVOolq7l4sh3Sr": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Swarm",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "dice": "d8",
+              "bonus": 2,
+              "flatMultiplier": 2
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "ttAVOolq7l4sh3Sr",
+        "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!0rugu2NWJtWibhZz"
+}

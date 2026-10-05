@@ -1,0 +1,42 @@
+{
+  "folder": "L3MYSqAJn9OvwzcF",
+  "name": "Vanguard",
+  "type": "subclass",
+  "_id": "upsUjG2qLAIGWg3I",
+  "img": "icons/magic/fire/blast-jet-stream-splash.webp",
+  "system": {
+    "description": "<p>Play the Vanguard if you want to be the spearpoint of every assault, drive into the heart of battle, and open the way for others by shattering all resistance.</p>",
+    "spellcastingTrait": "strength",
+    "features": [
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.4fivHc2mjrJyEbSr"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.xLO1VWkDYClEIJOP"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.GNXiy9sXl2IqXsVC"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.paQAcusKD2WxzPv3"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "linkedClass": "Compendium.daggerheart-tnu.tnu-classes.Item.cHygoadBBnIoACLK",
+    "gmNotes": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!upsUjG2qLAIGWg3I"
+}

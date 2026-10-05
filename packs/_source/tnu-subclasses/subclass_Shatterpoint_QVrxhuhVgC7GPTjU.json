@@ -1,0 +1,42 @@
+{
+  "folder": "VNZBWehGG6ukxnUb",
+  "name": "Shatterpoint",
+  "type": "subclass",
+  "_id": "QVrxhuhVgC7GPTjU",
+  "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+  "system": {
+    "description": "<p>Play the Shatterpoint if you want to expose every weakness, break your enemies apart piece by piece, and turn every opening into the decisive strike that you and your allies use to end the fight.</p>",
+    "spellcastingTrait": "agility",
+    "features": [
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.Eh6hny94W5K5G1HA"
+      },
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.mViVvGM7WgshTetk"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.fDlm08xXekIxh52L"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.hpGteWTjUcyXKA0M"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "linkedClass": "Compendium.daggerheart-tnu.tnu-classes.Item.eOAG8werVJ9OPNkG",
+    "gmNotes": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!QVrxhuhVgC7GPTjU"
+}

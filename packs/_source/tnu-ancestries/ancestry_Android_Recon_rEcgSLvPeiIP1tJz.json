@@ -1,0 +1,31 @@
+{
+  "name": "Android – Recon",
+  "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+  "type": "ancestry",
+  "folder": null,
+  "system": {
+    "description": "",
+    "features": [
+      {
+        "type": "primary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.CsrPwrbt59Bt1M6X"
+      },
+      {
+        "type": "secondary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.OCitxFIRxGCmRPZ4"
+      }
+    ],
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "loreReference": "",
+    "gmNotes": ""
+  },
+  "flags": {},
+  "_id": "rEcgSLvPeiIP1tJz",
+  "sort": 0,
+  "effects": [],
+  "_key": "!items!rEcgSLvPeiIP1tJz"
+}

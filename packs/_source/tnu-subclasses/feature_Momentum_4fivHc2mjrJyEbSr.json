@@ -1,0 +1,93 @@
+{
+  "folder": "6QsM60KkwHfzzlES",
+  "name": "Momentum",
+  "type": "feature",
+  "_id": "4fivHc2mjrJyEbSr",
+  "img": "icons/magic/fire/blast-jet-stream-splash.webp",
+  "system": {
+    "description": "<p><strong>Momentum:</strong> Your aggressive and relentless tactics expand your Momentum.</p><ul><li><p>Gain a Momentum when you succeed on an attack roll, deal Severe damage, or defeat an adversary.</p></li><li><p>Lose a Momentum if there isn’t an adversary within Very Close range at the end of your spotlight, or when you roll a failure with Fear. At the end of the scene reduce your Momentum to 0.</p></li></ul><p>You gain a bonus to your damage thresholds and your damage rolls equal to your Momentum. Your maximum Momentum is equal to your Strength.</p>",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "@system.traits.strength.value",
+      "icon": "",
+      "recovery": "scene",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gain and lose Momentum by hand on the sheet; the bonus to damage thresholds and damage rolls follows the current value.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Momentum",
+      "img": "icons/magic/fire/blast-jet-stream-splash.webp",
+      "transfer": true,
+      "_id": "iIxoYPTXnBfBdF86",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.damageThresholds.major",
+            "type": "add",
+            "value": "@item.resource.value",
+            "priority": null,
+            "phase": "initial"
+          },
+          {
+            "key": "system.damageThresholds.severe",
+            "type": "add",
+            "value": "@item.resource.value",
+            "priority": null,
+            "phase": "initial"
+          },
+          {
+            "key": "system.bonuses.damage.bonus",
+            "type": "add",
+            "value": "@item.resource.value",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Bonus to damage thresholds and damage rolls equal to your Momentum.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!4fivHc2mjrJyEbSr.iIxoYPTXnBfBdF86"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!4fivHc2mjrJyEbSr"
+}

@@ -1,0 +1,25 @@
+{
+  "folder": "VhcZFePKbmSvqLeT",
+  "name": "Into the Breach",
+  "type": "feature",
+  "_id": "xLO1VWkDYClEIJOP",
+  "img": "icons/skills/melee/strike-sword-blood-red.webp",
+  "system": {
+    "description": "<p><strong>Into the Breach:</strong> Gain a Momentum, when you are spotlighted and there are at least two adversaries within Very Close range.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!xLO1VWkDYClEIJOP"
+}

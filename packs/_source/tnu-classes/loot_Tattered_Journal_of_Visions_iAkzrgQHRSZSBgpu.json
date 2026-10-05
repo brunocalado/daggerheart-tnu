@@ -1,0 +1,22 @@
+{
+  "folder": "qusIZvHil9FIH47D",
+  "name": "Tattered Journal of Visions",
+  "type": "loot",
+  "img": "icons/sundries/documents/notebook-spiral-red.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "iAkzrgQHRSZSBgpu",
+  "sort": 0,
+  "_key": "!items!iAkzrgQHRSZSBgpu"
+}

@@ -1,0 +1,55 @@
+{
+  "folder": "fhSyIMCUXa6j47Wk",
+  "name": "Overload the System",
+  "type": "feature",
+  "_id": "FEifntQmRzGU6R6v",
+  "img": "icons/commodities/tech/battery-chemical-blue.webp",
+  "system": {
+    "description": "<p>Once per long rest, you can place a Tech card from your loadout into your vault and choose either:</p><ul><li><p><strong>Recharge:</strong> Gain Charges equal to the level of the card, distributed among cards that can store Charges.</p></li><li><p><strong>Swap Systems:</strong> Choose a Tech card in your vault with equal or lower level than the card you just vaulted. Return that card to your loadout.</p></li></ul>",
+    "resource": null,
+    "actions": {
+      "kfHNtnpHYasFR29W": {
+        "type": "effect",
+        "_id": "kfHNtnpHYasFR29W",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "longRest",
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Overload the System",
+        "img": "icons/commodities/tech/battery-chemical-blue.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": []
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Moving the cards and distributing the Charges is done by hand.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!FEifntQmRzGU6R6v"
+}

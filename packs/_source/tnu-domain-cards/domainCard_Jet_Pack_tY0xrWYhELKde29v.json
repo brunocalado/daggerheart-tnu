@@ -1,0 +1,145 @@
+{
+  "folder": "pCwdDcGdDLqXVujt",
+  "name": "Jet Pack",
+  "type": "domainCard",
+  "_id": "tY0xrWYhELKde29v",
+  "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp",
+  "system": {
+    "description": "<p><strong>Tech</strong></p><p><strong>Discharged:</strong> Fly up to Close range. Then place this card in your vault.</p><p><strong>Charged:</strong> <strong>Spend a Charge</strong> to fly up to Far range.</p><p><strong>Overcharged:</strong> <strong>Spend 2 Charges</strong> to fly until the scene ends. Then place this card in your vault.</p>",
+    "domain": "uranus",
+    "recallCost": 2,
+    "level": 1,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": null,
+      "icon": "fa-solid fa-bolt",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "SB2HAEzaL54kJoV4": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Discharged: Fly",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "SB2HAEzaL54kJoV4",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      },
+      "GfomDXRfZ7M2Z8T8": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "tY0xrWYhELKde29v",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Charged: Fly",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "GfomDXRfZ7M2Z8T8",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      },
+      "2yqbuxebTMTkqv2H": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 2,
+            "step": null,
+            "itemId": "tY0xrWYhELKde29v",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Overcharged: Fly",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "2yqbuxebTMTkqv2H",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Charges are stored on this card's resource. Place them by hand (instead of gaining Hope on a success with Hope, or by marking a Stress on a success with Fear); a long rest clears them. Discharged and Overcharged end with \"place this card in your vault\": move it to the vault by hand after using them.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!tY0xrWYhELKde29v"
+}

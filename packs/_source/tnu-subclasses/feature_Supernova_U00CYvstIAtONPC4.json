@@ -1,0 +1,174 @@
+{
+  "folder": "8OCHvyiINlKivic6",
+  "name": "Supernova",
+  "type": "feature",
+  "_id": "U00CYvstIAtONPC4",
+  "img": "icons/magic/light/explosion-star-large-teal-purple.webp",
+  "system": {
+    "description": "<p><strong>Supernova:</strong> You can go supernova. While <em>Unleashed</em>, <strong>spend any number of Echos</strong> to make an attack roll against all targets within Far range. Targets you succeed against take <strong>1d20</strong> energy damage for each Echo spent. After going supernova you are no longer <em>Unleashed</em> and become Burned Out until the next rest. While Burned Out, you are <em>Vulnerable</em> and cannot become <em>Unleashed</em>.</p>",
+    "resource": null,
+    "actions": {
+      "T8Vc8M25b9WgtCzC": {
+        "type": "attack",
+        "_id": "T8Vc8M25b9WgtCzC",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Supernova",
+        "img": "icons/magic/light/explosion-star-large-teal-purple.webp",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "dice": "d20",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "attack",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        }
+      },
+      "aZ5gwiE0n5fHXOiG": {
+        "type": "effect",
+        "_id": "aZ5gwiE0n5fHXOiG",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Burned Out",
+        "img": "icons/magic/light/explosion-star-large-teal-purple.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "vwQPLtczwwd0ha84",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The damage is authored as 1d20: roll one more d20 by hand for each Echo spent beyond the first. Spend Echo from the class feature that holds it: the system can only charge a cost to the resource on the same item, so this Echo cost is paid by hand. Remove the Unleashed effect, then use Burned Out; remove Burned Out at the next rest.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Burned Out",
+      "img": "icons/magic/light/explosion-star-large-teal-purple.webp",
+      "transfer": false,
+      "_id": "vwQPLtczwwd0ha84",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>You are <em>Vulnerable</em> and cannot become <em>Unleashed</em> until the next rest.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "vulnerable"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!U00CYvstIAtONPC4.vwQPLtczwwd0ha84"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!U00CYvstIAtONPC4"
+}

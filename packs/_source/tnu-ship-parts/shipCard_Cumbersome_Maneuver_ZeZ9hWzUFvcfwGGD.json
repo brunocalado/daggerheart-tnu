@@ -1,0 +1,41 @@
+{
+  "_id": "ZeZ9hWzUFvcfwGGD",
+  "_key": "!items!ZeZ9hWzUFvcfwGGD",
+  "name": "Cumbersome Maneuver",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/commodities/tech/cog-track-steel.webp",
+  "system": {
+    "description": "<p><strong>Bulky:</strong> Make a <strong>Power Roll (14)</strong> to maneuver the spaceship through a passage that seems way too small for your ship. On a failure the ship gets stuck.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "heart",
+    "level": 4,
+    "location": "Cockpit",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Bulky",
+        "spheres": [
+          "heart"
+        ],
+        "roll": "power",
+        "difficulty": 14,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll (14) to maneuver the spaceship through a passage that seems way too small for your ship. On a failure the ship gets stuck."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

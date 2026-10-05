@@ -1,0 +1,79 @@
+/*!
+ * The New Unknown (Daggerheart)
+ * 2026 https://github.com/brunocalado
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 3.
+ */
+
+/*
+ * Shared by the ship sheet, the ship item sheets and the ship chat cards.
+ * The ship sheets carry the system's `daggerheart dh-style` classes, so the
+ * system's palette (--golden, --dark-blue, --beige, --color-border, ...) and
+ * fonts are available; only the Sphere accents are the module's own.
+ */
+.daggerheart-tnu {
+  --daggerheart-tnu-mind: light-dark(#2f5f9e, #6d9fe0);
+  --daggerheart-tnu-heart: light-dark(#a43a66, #e06a96);
+  --daggerheart-tnu-fist: light-dark(#a86413, #e8a046);
+
+  /* Sphere accent pill: Mind, Heart or Fist. */
+  .sphere-tag {
+    --sphere: var(--color-text-subtle);
+    display: inline-flex;
+    align-items: center;
+    padding: 0 6px;
+    border: 1px solid color-mix(in srgb, var(--sphere) 60%, transparent);
+    border-radius: 3px;
+    background: color-mix(in srgb, var(--sphere) 14%, transparent);
+    color: var(--sphere);
+    font-size: var(--font-size-10);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 16px;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    &.mind { --sphere: var(--daggerheart-tnu-mind); }
+    &.heart { --sphere: var(--daggerheart-tnu-heart); }
+    &.fist { --sphere: var(--daggerheart-tnu-fist); }
+  }
+
+  .subtle {
+    color: var(--color-text-subtle);
+    font-size: var(--font-size-12);
+  }
+
+  .empty {
+    margin: 0;
+    color: var(--color-text-subtle);
+    font-size: var(--font-size-12);
+    font-style: italic;
+  }
+
+  /* Ship play: chat cards and the pre-roll prompt. */
+  &.ship-chat-card {
+    h3 { margin: 0 0 0.25rem; }
+    p { margin: 0.25rem 0; }
+  }
+
+  .ship-chat-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  &.ship-roll-prompt {
+    fieldset {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    label.checkbox {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+  }
+}

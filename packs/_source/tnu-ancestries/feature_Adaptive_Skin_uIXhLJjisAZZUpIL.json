@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Adaptive Skin",
+  "folder": null,
+  "_id": "uIXhLJjisAZZUpIL",
+  "img": "icons/magic/perception/orb-eye-scrying.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>While you are Hidden, <strong>mark a Stress</strong> to become Shrouded until you attack or end a move in an adversary's line of sight.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!uIXhLJjisAZZUpIL"
+}

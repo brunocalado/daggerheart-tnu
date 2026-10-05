@@ -1,0 +1,124 @@
+{
+  "name": "ASPIS Mono-Edge Shield",
+  "type": "weapon",
+  "_id": "G987tNq9ogdGaTF9",
+  "img": "icons/equipment/shield/buckler-iron-cross-gray.webp",
+  "system": {
+    "description": "<p>Warded (+1 Armor Score)</p>",
+    "actions": {},
+    "tier": 2,
+    "equipped": false,
+    "secondary": false,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "warded",
+        "effectIds": [],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "EY083TmAbyjBWDmd",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "presence",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d8",
+            "bonus": 4,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "physical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 3100000,
+  "flags": {},
+  "_key": "!items!G987tNq9ogdGaTF9"
+}

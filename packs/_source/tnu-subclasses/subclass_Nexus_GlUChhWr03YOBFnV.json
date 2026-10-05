@@ -1,0 +1,38 @@
+{
+  "folder": "eMd69OTid2qRQqgs",
+  "name": "Nexus",
+  "type": "subclass",
+  "_id": "GlUChhWr03YOBFnV",
+  "img": "icons/magic/control/energy-stream-link-spiral-teal.webp",
+  "system": {
+    "description": "<p>Play the Nexus if you want to become the living hub of your group – the knot where voices, signals, and strength converge.</p>",
+    "spellcastingTrait": "presence",
+    "features": [
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.56AeikJOnNXK8SJ7"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.hc9cCTSvSJBIJZph"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.aRwBeOcAzHcBMpqD"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "linkedClass": "Compendium.daggerheart-tnu.tnu-classes.Item.4Agbp9WeN7R1fvEP",
+    "gmNotes": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!GlUChhWr03YOBFnV"
+}

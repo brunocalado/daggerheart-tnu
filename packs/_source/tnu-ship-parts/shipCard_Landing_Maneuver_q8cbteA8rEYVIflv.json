@@ -1,0 +1,41 @@
+{
+  "_id": "q8cbteA8rEYVIflv",
+  "_key": "!items!q8cbteA8rEYVIflv",
+  "name": "Landing Maneuver",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/environment/cosmos/planet-moon-blue.webp",
+  "system": {
+    "description": "<p><strong>Soft Landing:</strong> You make every roll with advantage to land your spaceship without complications.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "heart",
+    "level": 3,
+    "location": "Cockpit",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Soft Landing",
+        "spheres": [
+          "heart"
+        ],
+        "roll": "none",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "You make every roll with advantage to land your spaceship without complications."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

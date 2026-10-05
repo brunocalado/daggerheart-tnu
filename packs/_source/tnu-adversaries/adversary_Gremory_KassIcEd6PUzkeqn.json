@@ -1,0 +1,539 @@
+{
+  "type": "adversary",
+  "name": "Gremory",
+  "folder": "C4AFYIShYxN39b7g",
+  "system": {
+    "type": "leader",
+    "description": "<p><em>A lithe demon with multiple eyes that run up their horned animal skull. They have four long, tentacle-like arms that end in massive claws and thin, digitigrade legs made from steel.</em></p>",
+    "tier": 2,
+    "motivesAndTactics": "Empower, reveal secrets, stay back, watch",
+    "difficulty": 15,
+    "damageThresholds": {
+      "major": 13,
+      "severe": 24
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 6
+      },
+      "stress": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "attack": {
+      "type": "attack",
+      "_id": "1dEBYeM3oOz23RGH",
+      "systemPath": "attack",
+      "baseAction": false,
+      "description": "",
+      "chatDisplay": false,
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "areas": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": "",
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "target": {
+        "type": "any",
+        "amount": null
+      },
+      "name": "Reaching Claws",
+      "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+      "range": "close",
+      "damage": {
+        "main": {
+          "value": {
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "flatMultiplier": 2,
+            "dice": "d10",
+            "bonus": 4,
+            "multiplier": "flat"
+          },
+          "applyTo": "hitPoints",
+          "type": [
+            "physical"
+          ],
+          "base": false,
+          "resultBased": false,
+          "valueAlt": null,
+          "includeBase": false,
+          "direct": false,
+          "groupAttack": "",
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "roll": {
+        "type": "attack",
+        "trait": null,
+        "difficulty": null,
+        "bonus": 4,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      }
+    },
+    "experiences": {
+      "gzMuRuM8OtqgtFLZ": {
+        "name": "Shameful",
+        "value": 2,
+        "description": ""
+      },
+      "9OVpVuUNB58co9Vw": {
+        "name": "Observant",
+        "value": 3,
+        "description": ""
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null
+    },
+    "resistance": {
+      "physical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      },
+      "magical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      }
+    },
+    "size": "medium",
+    "advantageSources": [],
+    "disadvantageSources": [],
+    "notes": "The Demon Pool is shared by every demon and tracked by hand: the GM keeps the token count.",
+    "criticalThreshold": 20,
+    "typeData": null
+  },
+  "items": [
+    {
+      "name": "Relentless (2)",
+      "type": "feature",
+      "system": {
+        "featureForm": "passive",
+        "description": "<p>The @Lookup[@name] can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "attribution": {},
+        "gmNotes": "",
+        "resource": null,
+        "actions": {},
+        "granter": null,
+        "actorResources": []
+      },
+      "_id": "npZCzo4tnE45uTGI",
+      "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_key": "!actors.items!KassIcEd6PUzkeqn.npZCzo4tnE45uTGI"
+    },
+    {
+      "name": "Armor of Shame",
+      "type": "feature",
+      "system": {
+        "featureForm": "passive",
+        "description": "<p><em>Pool</em>. When a PC marks HP from the @Lookup[@name]'s attacks, they learn something shameful from the target's past and add a token to the <strong>Demon Pool</strong>. When a demon within Close range of the @Lookup[@name] takes damage, you can <strong>spend a token</strong> from the Demon Pool to reduce the damage taken by <strong>1d10</strong>.</p>",
+        "attribution": {},
+        "gmNotes": "",
+        "resource": null,
+        "actions": {},
+        "granter": null,
+        "actorResources": []
+      },
+      "_id": "gqylO1UG6mgbocTV",
+      "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_key": "!actors.items!KassIcEd6PUzkeqn.gqylO1UG6mgbocTV"
+    },
+    {
+      "name": "Absolution",
+      "type": "feature",
+      "system": {
+        "featureForm": "action",
+        "description": "<p>You can <strong>spend 3 tokens</strong> from the Demon Pool to give allies advantage on action and reaction rolls until the end of the scene.</p>",
+        "attribution": {},
+        "gmNotes": "",
+        "resource": null,
+        "actions": {},
+        "granter": null,
+        "actorResources": []
+      },
+      "_id": "AkTxAzPrNpcLI6uf",
+      "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_key": "!actors.items!KassIcEd6PUzkeqn.AkTxAzPrNpcLI6uf"
+    },
+    {
+      "name": "The Terror of Knowing",
+      "type": "feature",
+      "system": {
+        "featureForm": "action",
+        "description": "<p><strong>Mark a Stress</strong> to force a PC to stare into the many eyes of the @Lookup[@name] and make an Instinct Reaction Roll. On a failure, the target takes <strong>2d6</strong> direct energy damage and is temporarily <em>Restrained</em>. On a success, the target marks a Stress.</p>",
+        "attribution": {},
+        "gmNotes": "",
+        "resource": null,
+        "actions": {
+          "Kac11h5BvZQRIGqh": {
+            "type": "attack",
+            "_id": "Kac11h5BvZQRIGqh",
+            "systemPath": "actions",
+            "baseAction": false,
+            "description": "",
+            "chatDisplay": true,
+            "originItem": {
+              "type": "itemCollection"
+            },
+            "actionType": "action",
+            "triggers": [],
+            "areas": [],
+            "cost": [
+              {
+                "scalable": false,
+                "key": "stress",
+                "value": 1,
+                "step": null,
+                "itemId": null,
+                "consumeOnSuccess": false
+              }
+            ],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [
+              {
+                "_id": "Jo2so7hjaz8lrmBi",
+                "onSave": false
+              }
+            ],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "The Terror of Knowing",
+            "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+            "range": "",
+            "damage": {
+              "main": {
+                "value": {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "flatMultiplier": 2,
+                  "dice": "d6",
+                  "bonus": null,
+                  "multiplier": "flat"
+                },
+                "applyTo": "hitPoints",
+                "type": [
+                  "magical"
+                ],
+                "base": false,
+                "resultBased": false,
+                "valueAlt": null,
+                "includeBase": false,
+                "direct": true,
+                "groupAttack": "",
+                "fullRestore": false,
+                "itemId": null
+              },
+              "resources": {}
+            },
+            "roll": {
+              "type": null,
+              "trait": null,
+              "difficulty": null,
+              "bonus": null,
+              "advState": "neutral",
+              "diceRolling": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "compare": null,
+                "treshold": null
+              },
+              "useDefault": false
+            },
+            "save": {
+              "trait": "instinct",
+              "difficulty": null,
+              "damageMod": "none"
+            }
+          }
+        },
+        "granter": null,
+        "actorResources": []
+      },
+      "_id": "HgLG7XAh3U0iatp4",
+      "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+      "effects": [
+        {
+          "name": "The Terror of Knowing",
+          "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+          "transfer": false,
+          "_id": "Jo2so7hjaz8lrmBi",
+          "type": "base",
+          "system": {
+            "changes": [],
+            "duration": {
+              "type": "act",
+              "description": ""
+            },
+            "rangeDependence": null,
+            "stacking": null,
+            "targetDispositions": [],
+            "conditionals": []
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [
+            "restrained"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null
+          },
+          "start": {
+            "time": 0,
+            "combat": null,
+            "combatant": null,
+            "initiative": null,
+            "round": null,
+            "turn": null
+          },
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!KassIcEd6PUzkeqn.HgLG7XAh3U0iatp4.Jo2so7hjaz8lrmBi"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_key": "!actors.items!KassIcEd6PUzkeqn.HgLG7XAh3U0iatp4"
+    },
+    {
+      "name": "The Legions of Guilt",
+      "type": "feature",
+      "system": {
+        "featureForm": "action",
+        "description": "<p><strong>Spend a Fear</strong> to summon a Legion, which appears within Close range and spotlight them immediately.</p>",
+        "attribution": {},
+        "gmNotes": "",
+        "resource": null,
+        "actions": {
+          "Ye3MrHsMr9JXYwoX": {
+            "type": "summon",
+            "_id": "Ye3MrHsMr9JXYwoX",
+            "systemPath": "actions",
+            "baseAction": false,
+            "description": "",
+            "chatDisplay": true,
+            "originItem": {
+              "type": "itemCollection"
+            },
+            "actionType": "action",
+            "triggers": [],
+            "areas": [],
+            "cost": [
+              {
+                "scalable": false,
+                "key": "fear",
+                "value": 1,
+                "step": null,
+                "itemId": null,
+                "consumeOnSuccess": false
+              }
+            ],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Summon",
+            "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+            "range": "close",
+            "summon": [
+              {
+                "actorUUID": "Compendium.daggerheart-tnu.tnu-adversaries.Actor.Qk5LARGf7tMi3GdT",
+                "count": 1
+              }
+            ]
+          }
+        },
+        "granter": null,
+        "actorResources": []
+      },
+      "_id": "GS0Ytvw4exQn1azh",
+      "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_key": "!actors.items!KassIcEd6PUzkeqn.GS0Ytvw4exQn1azh"
+    }
+  ],
+  "_id": "KassIcEd6PUzkeqn",
+  "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+  "prototypeToken": {
+    "name": "Gremory",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "depth": 1,
+    "texture": {
+      "src": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hitPoints"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "sort": 600000,
+  "flags": {},
+  "_key": "!actors!KassIcEd6PUzkeqn"
+}

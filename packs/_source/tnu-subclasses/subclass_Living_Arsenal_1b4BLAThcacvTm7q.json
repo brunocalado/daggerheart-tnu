@@ -1,0 +1,42 @@
+{
+  "folder": "Z3Ub4VWcv79j4zLy",
+  "name": "Living Arsenal",
+  "type": "subclass",
+  "_id": "1b4BLAThcacvTm7q",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>Play the Living Arsenal if you want to turn your own body into a weapon — integrating augmentations, deploying built-in armaments, and adapting your form.</p>",
+    "spellcastingTrait": "knowledge",
+    "features": [
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.aOFd2mCc9al8eoyF"
+      },
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.RwkdqbcXy5qGdTNp"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.72TgD18VYImdnzbc"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.6nLIAeh4GNth3CQt"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "linkedClass": "Compendium.daggerheart-tnu.tnu-classes.Item.NJUCJXbAEo35VbRv",
+    "gmNotes": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!1b4BLAThcacvTm7q"
+}

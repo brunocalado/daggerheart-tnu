@@ -1,0 +1,677 @@
+{
+  "name": "TNU Expendables",
+  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "description": "<p>Rarity dice: Standard 1d12 or 2d12; Advanced 2d12 or 3d12; Elite 3d12 or 4d12; Prototype 4d12 or 5d12 (sum the dice and match the entry number). Switch the formula in the table's alternate formulas. Rolls above 40 give entry 40.</p>",
+  "results": [
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "Gahxn6HgwxvTB10g",
+      "name": "Somnien 'M0-RPH3-U5'",
+      "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.n8EV0gx68LP3YnOG",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.Gahxn6HgwxvTB10g"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "BQAW4uVBsjuaMQKn",
+      "name": "Med-Patch",
+      "img": "icons/tools/medical/bandages-adhesive.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.bwCuTxX4F9BRKaxY",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.BQAW4uVBsjuaMQKn"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "o8NfsLw453mzeGKC",
+      "name": "Combat-Stim",
+      "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.PepqxMr6A3ROB3LG",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.o8NfsLw453mzeGKC"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "izxeBcadtHH7FMMD",
+      "name": "Neuro-Toxin",
+      "img": "icons/consumables/potions/bottle-round-corked-green.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.fGY7UyTeCotNytrW",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.izxeBcadtHH7FMMD"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "W7gODs3WthJ59gmI",
+      "name": "Plasma-Surge Cell",
+      "img": "icons/weapons/ammunition/ammo-magazine-clip-energy.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.BB71nYflqoee3Bat",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.W7gODs3WthJ59gmI"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "XOqxjKvFmocXbF1W",
+      "name": "Mono-Edge Particle Grenade",
+      "img": "icons/weapons/thrown/grenade-frag-green.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.X4nwXADRlkjQQYtx",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.XOqxjKvFmocXbF1W"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "Nny39v8pYhNwgvu3",
+      "name": "Splicer Injection 'Nocturna'",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.1CrasyvFqA1BtpVc",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.Nny39v8pYhNwgvu3"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "dFcnFxs7EhjiGank",
+      "name": "Splicer Injection 'Arachnida'",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.eiVbvaoxAJO75bnf",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.dFcnFxs7EhjiGank"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "AgLAQmxL0QzjC51G",
+      "name": "Splicer Injection 'Amphibia'",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.wYS6vNd6pEVvRJv2",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.AgLAQmxL0QzjC51G"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "OGnDhAxxeuaIHQn0",
+      "name": "Distress Beacon Flare",
+      "img": "icons/sundries/lights/candle-lit-red.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.upUpBy5bnoAwCHhT",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.OGnDhAxxeuaIHQn0"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "_id": "Fw4ZtrTcEaOxAZRV",
+      "name": "Grav Disc",
+      "img": "icons/commodities/tech/battery-arcane-crystal-green.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.Joqd8A4YVtua6vPc",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.Fw4ZtrTcEaOxAZRV"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "_id": "mwLhQiYDWW2oIqlq",
+      "name": "Identity Scrambler",
+      "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.aI9qjy2gJoavxEdy",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.mwLhQiYDWW2oIqlq"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "_id": "vfxqW2sPkwvjMma8",
+      "name": "Mimic-Film",
+      "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.XfmaA7OjYFwshHBu",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.vfxqW2sPkwvjMma8"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "_id": "HVqEiIANIcbWkJ2Q",
+      "name": "Pulse-Thruster",
+      "img": "icons/commodities/tech/cog-bronze.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.ZxbivMFFes5VAXwq",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.HVqEiIANIcbWkJ2Q"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "_id": "7YvDxZ4B7a9gqbYi",
+      "name": "Neural-Stim",
+      "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.3IcohPTvQN6OotdN",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.7YvDxZ4B7a9gqbYi"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "_id": "hy4nxXwpZrBAUQHW",
+      "name": "Fuse Strip",
+      "img": "icons/commodities/tech/antenna-powered-purple.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.JI76GBfUvhplrClZ",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.hy4nxXwpZrBAUQHW"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "_id": "CK8vMiYql0H5ECDS",
+      "name": "Camo Shroud",
+      "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.8HGBQdCgjxjulp0l",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.CK8vMiYql0H5ECDS"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "_id": "Us9X1uBKDbBCjeoR",
+      "name": "Zero-G Emitter",
+      "img": "icons/commodities/tech/antenna-powered-purple.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.UyRjluRjAfqWEZhY",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.Us9X1uBKDbBCjeoR"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "_id": "x9DAKGioWH546eoe",
+      "name": "Synthetic Pheromone",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.usQyLhTXZJKFORbE",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.x9DAKGioWH546eoe"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "_id": "Gp2qfmPRBUFZdW9c",
+      "name": "Face-Glitch Node",
+      "img": "icons/commodities/tech/antenna-powered-purple.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.qmr7uFWfOCCPsb3g",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.Gp2qfmPRBUFZdW9c"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "_id": "1Zjpr81OzSXlTSak",
+      "name": "Exquisite Somnien 'PH4-NT4-ST0S'",
+      "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.y535s8KpjoHpBtW4",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.1Zjpr81OzSXlTSak"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "_id": "7H3Q5vDVZWsIEvxT",
+      "name": "Advanced Med-Patch",
+      "img": "icons/tools/medical/bandages-adhesive.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.VLCZaHvyBf9ZFvEu",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.7H3Q5vDVZWsIEvxT"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "_id": "jmfhXr6X8bb6QegF",
+      "name": "Advanced Combat-Stim",
+      "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.vFhG4w6PSEmU14YN",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.jmfhXr6X8bb6QegF"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "_id": "ZrIfklfDCqeVmvNU",
+      "name": "Advanced Neuro-Toxin",
+      "img": "icons/consumables/potions/bottle-round-corked-green.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.pfUjhAxgThZvCKaY",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.ZrIfklfDCqeVmvNU"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "_id": "SIwrbtAPer6u7qyv",
+      "name": "Advanced Plasma-Surge Cell",
+      "img": "icons/weapons/ammunition/ammo-magazine-clip-energy.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.iKbZZD93ZQIwf6c0",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.SIwrbtAPer6u7qyv"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "_id": "HzPgT6t1e1tpJ0Dz",
+      "name": "Thermal Grenade",
+      "img": "icons/weapons/thrown/grenade-energy.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.OXIeiuf9YmbBPxhW",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.HzPgT6t1e1tpJ0Dz"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "_id": "OA0WUzAhEdF1x3b7",
+      "name": "Reflex-Shot",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.rAtAhwhS53vcpCgK",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.OA0WUzAhEdF1x3b7"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "_id": "EZH4OeQGgFzNuDaG",
+      "name": "Myo-Stim",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.bKA2kyLghBP4HasW",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.EZH4OeQGgFzNuDaG"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "_id": "CZP6HDxjDm1jV1ap",
+      "name": "Focus-Dose",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.9sOVBlYrbU8CiCTI",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.CZP6HDxjDm1jV1ap"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        30,
+        30
+      ],
+      "_id": "ZWk3vqlsgrUJJeBg",
+      "name": "Sensory-Inhaler",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.pkHKfDvn0RmvYkbr",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.ZWk3vqlsgrUJJeBg"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "_id": "cYQCmuJrFBoHLEFt",
+      "name": "Ego-Tab",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.5SWZ8x7FZZVORiHu",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.cYQCmuJrFBoHLEFt"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "_id": "5xpEZCOHjuYlxBO2",
+      "name": "Cogni-Boost",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.1VGkPVuw9RPp47wW",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.5xpEZCOHjuYlxBO2"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "_id": "J1ofQgL6Z0lJrEy3",
+      "name": "Nanite Targeting Swarm",
+      "img": "icons/commodities/tech/battery-arcane-crystal-green.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.h7khW62Ja1eF3PDR",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.J1ofQgL6Z0lJrEy3"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "_id": "7xQ0aPLeeD54uwH1",
+      "name": "Metabolic Infusion",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.Azmf1WHKJsjgVs7h",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.7xQ0aPLeeD54uwH1"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "_id": "izoel7dvAIGaLJiS",
+      "name": "Splicer Injection 'Polyphasic'",
+      "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.HgRJC1bJZ35IwmM3",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.izoel7dvAIGaLJiS"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "_id": "xLJW2NsI2SNg9t4A",
+      "name": "'Logic-Bomb' Transmitter",
+      "img": "icons/commodities/tech/antenna-powered-purple.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.uN4eHUCGEwkmYYVp",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.xLJW2NsI2SNg9t4A"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        37,
+        37
+      ],
+      "_id": "RGXCvOGZedi3xdjC",
+      "name": "Nova-Pulse Detonator",
+      "img": "icons/weapons/thrown/grenade-energy.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.qrBX9cNLtb0ftRNK",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.RGXCvOGZedi3xdjC"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        38,
+        38
+      ],
+      "_id": "ZfiQCInMEOeWo2m9",
+      "name": "Disposable Jet Pack",
+      "img": "icons/commodities/tech/cog-bronze.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.p7CsjPrxz678klUi",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.ZfiQCInMEOeWo2m9"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        39,
+        39
+      ],
+      "_id": "8q9rTpmIcyu0uo4l",
+      "name": "Resonance Shard",
+      "img": "icons/weapons/ammunition/ammo-magazine-clip-energy.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.2gTq6e7YiPKYDrjv",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.8q9rTpmIcyu0uo4l"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        40,
+        60
+      ],
+      "_id": "j6mQPDoprSydWvys",
+      "name": "Nano-Weaver",
+      "img": "icons/tools/medical/bandages-adhesive.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-consumables.Item.hd1emMi23wWAgYWr",
+      "_key": "!tables.results!cwt24t7XZBM0M7Fk.j6mQPDoprSydWvys"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {
+    "daggerheart": {
+      "activeAltFormula": "",
+      "formulaName": "Standard",
+      "altFormula": {
+        "J767KKHBizFHYq1N": {
+          "name": "Standard (alt) / Advanced",
+          "formula": "2d12"
+        },
+        "izBNlOQi3Zm5gbin": {
+          "name": "Advanced (alt) / Elite",
+          "formula": "3d12"
+        },
+        "vopE3WVxp57hf8Ds": {
+          "name": "Elite (alt) / Prototype",
+          "formula": "4d12"
+        },
+        "bbfsZRCYUiYBFHP5": {
+          "name": "Prototype (alt)",
+          "formula": "5d12"
+        }
+      }
+    }
+  },
+  "formula": "1d12",
+  "_id": "cwt24t7XZBM0M7Fk",
+  "sort": 0,
+  "_key": "!tables!cwt24t7XZBM0M7Fk"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Mono-Edge Particle Grenade",
+  "type": "consumable",
+  "_id": "X4nwXADRlkjQQYtx",
+  "img": "icons/weapons/thrown/grenade-frag-green.webp",
+  "system": {
+    "description": "<p>Make a Power Roll against a target within Close range. On a success, the target and all creatures within Very Close of them make a Reaction Roll (13); on a failure they take <strong>2d6+3</strong> kinetic damage, on a success half.</p>",
+    "quantity": 1,
+    "actions": {
+      "7at3Y944Vn4JynFR": {
+        "type": "effect",
+        "_id": "7at3Y944Vn4JynFR",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "X4nwXADRlkjQQYtx",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/weapons/thrown/grenade-frag-green.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 06 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500000,
+  "flags": {},
+  "_key": "!items!X4nwXADRlkjQQYtx"
+}

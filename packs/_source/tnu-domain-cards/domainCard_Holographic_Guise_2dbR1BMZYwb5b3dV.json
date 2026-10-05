@@ -1,0 +1,78 @@
+{
+  "folder": "gTKDXj2lswVLAUoQ",
+  "name": "Holographic Guise",
+  "type": "domainCard",
+  "_id": "2dbR1BMZYwb5b3dV",
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "system": {
+    "description": "<p><strong>Tech</strong></p><p>Alter your facial features and pigmentation, giving you advantage on a roll to hide your true identity.</p><p><strong>Charged:</strong> <strong>Spend a Charge</strong> to perfectly imitate the appearance and clothing of a specific creature you have seen. Place a number of tokens equal to your Power trait on this card. When you take an action while this effect is active, spend a token from this card. After the last token is resolved, the effect ends.</p>",
+    "domain": "saturn",
+    "recallCost": 1,
+    "level": 1,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": null,
+      "icon": "fa-solid fa-bolt",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "bSLC7lynGfL42Vos": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "2dbR1BMZYwb5b3dV",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Charged: Perfect Imitation",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "bSLC7lynGfL42Vos",
+        "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Charges are stored on this card's resource. Place them by hand (instead of gaining Hope on a success with Hope, or by marking a Stress on a success with Fear); a long rest clears them. The card's resource holds Charges, so the duration tokens (equal to your Power trait) are tracked by hand.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!2dbR1BMZYwb5b3dV"
+}

@@ -1,0 +1,25 @@
+{
+  "folder": "I804FVnqkjqa57Ns",
+  "name": "Endless Brood",
+  "type": "feature",
+  "_id": "pOLuCAHSv23k7jOo",
+  "img": "icons/commodities/biological/eye-tentacle-green-orange.webp",
+  "system": {
+    "description": "<p><strong>Endless Brood:</strong> You have a connection with a third Entity of your choice from the Entities of Void Sheet. When you summon it, you gain the Manifest benefit of that Entity.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!pOLuCAHSv23k7jOo"
+}

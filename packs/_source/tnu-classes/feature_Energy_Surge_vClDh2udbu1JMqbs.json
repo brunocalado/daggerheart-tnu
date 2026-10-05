@@ -1,0 +1,64 @@
+{
+  "folder": "WjuHLQg0tH8AlVZm",
+  "name": "Energy Surge",
+  "type": "feature",
+  "_id": "vClDh2udbu1JMqbs",
+  "img": "icons/magic/unholy/beam-impact-purple.webp",
+  "system": {
+    "description": "<p><strong>Spend 3 Hope</strong> to remove a Fear from the GM’s Fear pool and gain an Echo.</p>",
+    "resource": null,
+    "actions": {
+      "tFHpJrm1chafluYb": {
+        "type": "effect",
+        "_id": "tFHpJrm1chafluYb",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 3,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Energy Surge",
+        "img": "icons/magic/unholy/beam-impact-purple.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": []
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The GM removes the Fear and you add the Echo to Darkness Rising by hand. The playtest gives this Hope feature the same name as the Vector's.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!vClDh2udbu1JMqbs"
+}

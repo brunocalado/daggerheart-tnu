@@ -1,0 +1,185 @@
+{
+  "folder": "Zzrd1mTTxCwBccqF",
+  "name": "Perfected Bending",
+  "type": "feature",
+  "_id": "CTjESSgfMjF1zERO",
+  "img": "icons/magic/light/beam-layered-teal.webp",
+  "system": {
+    "description": "<p>Your light constructs are perfected in form and function. In addition to the normal costs you can <strong>spend a Hope</strong> to let the following features have an extra effect:</p><ul><li><p><strong>Blinding Flare:</strong> Make a target also temporarily <em>Dazed</em>.</p></li><li><p><strong>Photon Shield:</strong> Force the attacker to mark a Stress.</p></li><li><p><strong>Solar Lance:</strong> Target all adversaries in front of you in Close range.</p></li></ul>",
+    "resource": null,
+    "actions": {
+      "QrJ63Wy0PfXK8gMl": {
+        "type": "effect",
+        "_id": "QrJ63Wy0PfXK8gMl",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Blinding Flare: Dazed",
+        "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "m6ubtOLB2IuFDa4W",
+            "onSave": false
+          }
+        ]
+      },
+      "XeUkfgUuRNYt7MvH": {
+        "type": "damage",
+        "_id": "XeUkfgUuRNYt7MvH",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Photon Shield: Attacker Marks a Stress",
+        "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 0,
+                "dice": "d6",
+                "bonus": 1,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "effects": []
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "For Solar Lance, spend the Hope by hand and target every adversary in front of you within Close range.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Dazed",
+      "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+      "transfer": false,
+      "_id": "m6ubtOLB2IuFDa4W",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.roll.bonus",
+            "type": "add",
+            "value": "-2",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": [
+          {
+            "type": "actionType",
+            "actionTypes": [
+              "attack"
+            ],
+            "traits": []
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Dazed.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "dazed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!CTjESSgfMjF1zERO.m6ubtOLB2IuFDa4W"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!CTjESSgfMjF1zERO"
+}

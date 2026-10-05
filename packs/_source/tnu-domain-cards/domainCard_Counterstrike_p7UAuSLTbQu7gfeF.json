@@ -1,0 +1,60 @@
+{
+  "folder": "YceRcvu7SL6SOGAD",
+  "name": "Counterstrike",
+  "type": "domainCard",
+  "_id": "p7UAuSLTbQu7gfeF",
+  "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>When a creature within range of one of your active weapons deals damage to you, you can counter the attack: Make a <strong>Reaction Roll</strong> using your weapon trait against the target. On a success, once per rest, deal your weapon damage to them.</p>",
+    "domain": "mars",
+    "recallCost": 1,
+    "level": 3,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "MztY7WAhiHtxGOfD": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Counterstrike",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "MztY7WAhiHtxGOfD",
+        "img": "icons/skills/melee/strike-sword-slashing-red.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The card image reprints Opening's text; the reference text is used. The Reaction Roll uses your weapon's trait, and the weapon damage is rolled from the weapon.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!p7UAuSLTbQu7gfeF"
+}

@@ -1,0 +1,105 @@
+{
+  "folder": "mMmO2guuox4TMTLV",
+  "name": "Face of Madness",
+  "type": "domainCard",
+  "_id": "XheR1hRlL2t14HMD",
+  "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
+  "system": {
+    "description": "<p><strong>Anomaly</strong></p><p>You gain advantage on any action roll to intimidate a target or evoke a deep fear within them.</p><p><strong>Escalation:</strong> On a success, you may <strong>give the GM a Fear</strong>. If you do, the target is completely overwhelmed by a waking nightmare. They drop whatever they are holding and must use their next spotlight to flee your presence in absolute panic.</p>",
+    "domain": "nibiru",
+    "recallCost": 0,
+    "level": 1,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "VTChfMxHSzZf3URx": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Escalation: Waking Nightmare",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "oAa2mdajCmoMVeUo",
+            "onSave": false
+          }
+        ],
+        "_id": "VTChfMxHSzZf3URx",
+        "img": "icons/magic/air/wind-vortex-swirl-purple.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Escalation: giving the GM a Fear is done by hand (raise the Fear tracker by 1).",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Panicked",
+      "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+      "transfer": false,
+      "_id": "oAa2mdajCmoMVeUo",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Panicked.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "panicked"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!XheR1hRlL2t14HMD.oAa2mdajCmoMVeUo"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!XheR1hRlL2t14HMD"
+}

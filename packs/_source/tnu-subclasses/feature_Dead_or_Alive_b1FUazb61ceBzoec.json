@@ -1,0 +1,276 @@
+{
+  "folder": "LpyYgKZZ6na08kkV",
+  "name": "Dead or Alive",
+  "type": "feature",
+  "_id": "b1FUazb61ceBzoec",
+  "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+  "system": {
+    "description": "<p><strong>Spend a Hope</strong> to mark a target within Far range as your Bounty. Until this feature ends, against your Bounty you gain:</p><ul><li><p>You know precisely what direction they are in.</p></li><li><p>Add your level to your damage rolls against them.</p></li><li><p>When you deal damage to them, you can <strong>mark a Stress</strong> to give them a temporary condition: <em>Distracted</em> or <em>Vulnerable</em>.</p></li><li><p>You cannot mark another target as your Bounty as long as the Bounty is defeated or until the scene ends.</p></li></ul>",
+    "resource": null,
+    "actions": {
+      "DhoHqmjKoKyUM46U": {
+        "type": "effect",
+        "_id": "DhoHqmjKoKyUM46U",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Mark Bounty",
+        "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "m1vZjD7hffqS8fK7",
+            "onSave": false
+          }
+        ]
+      },
+      "BEpvzdjzE7G0iuIP": {
+        "type": "effect",
+        "_id": "BEpvzdjzE7G0iuIP",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Bounty: Distracted",
+        "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "GDu7cuheO0o5IkkL",
+            "onSave": false
+          }
+        ]
+      },
+      "YWOcCUIZzsEQ4nkz": {
+        "type": "effect",
+        "_id": "YWOcCUIZzsEQ4nkz",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Bounty: Vulnerable",
+        "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "S2ND4qpzSOIfrUbh",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Add your level to damage against the Bounty by hand. The last line is printed as 'as long as the Bounty is defeated' — most likely meant 'until the Bounty is defeated'.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Bounty",
+      "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+      "transfer": false,
+      "_id": "m1vZjD7hffqS8fK7",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Marked as a Bounty Hunter's Bounty.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!b1FUazb61ceBzoec.m1vZjD7hffqS8fK7"
+    },
+    {
+      "name": "Distracted",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+      "transfer": false,
+      "_id": "GDu7cuheO0o5IkkL",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.evasion",
+            "type": "add",
+            "value": "-2",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Distracted.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "distracted"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!b1FUazb61ceBzoec.GDu7cuheO0o5IkkL"
+    },
+    {
+      "name": "Vulnerable",
+      "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+      "transfer": false,
+      "_id": "S2ND4qpzSOIfrUbh",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Vulnerable.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "vulnerable"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!b1FUazb61ceBzoec.S2ND4qpzSOIfrUbh"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!b1FUazb61ceBzoec"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Assault Frame",
+  "type": "armor",
+  "_id": "gPNfM9hsbKw8LaPI",
+  "img": "icons/equipment/chest/breastplate-banded-blue.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "description": "",
+    "actions": {},
+    "tier": 1,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "massive",
+        "effectIds": [
+          "QM66djfJMc7tUiUp"
+        ],
+        "actionIds": []
+      }
+    ],
+    "baseThresholds": {
+      "major": 8,
+      "severe": 17
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [
+    {
+      "name": "Massive",
+      "description": "-2 to Evasion; -1 to Agility.",
+      "img": "icons/commodities/metal/ingot-stamped-steel.webp",
+      "system": {
+        "changes": [
+          {
+            "key": "system.evasion",
+            "type": "add",
+            "value": "-2",
+            "phase": "initial"
+          },
+          {
+            "key": "system.traits.agility.value",
+            "type": "add",
+            "value": "-1",
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "_id": "QM66djfJMc7tUiUp",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_key": "!items.effects!gPNfM9hsbKw8LaPI.QM66djfJMc7tUiUp"
+    }
+  ],
+  "sort": 300000,
+  "flags": {},
+  "_key": "!items!gPNfM9hsbKw8LaPI"
+}

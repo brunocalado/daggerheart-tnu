@@ -1,0 +1,677 @@
+{
+  "name": "TNU Gear",
+  "img": "icons/tools/hand/pliers-snub.webp",
+  "description": "<p>Rarity dice: Standard 1d12 or 2d12; Advanced 2d12 or 3d12; Elite 3d12 or 4d12; Prototype 4d12 or 5d12 (sum the dice and match the entry number). Switch the formula in the table's alternate formulas. Rolls above 40 give entry 40.</p>",
+  "results": [
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "kZxRbJwPIBa2UE8s",
+      "name": "SOL Rod",
+      "img": "icons/sundries/lights/candle-lit-yellow.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.9Vb6GMGWEWVw5xQu",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.kZxRbJwPIBa2UE8s"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "5oVrV0GptLqOdEIG",
+      "name": "Personal Link",
+      "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.iHEmtJditwdFljqh",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.5oVrV0GptLqOdEIG"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "kAzqwMzHA5b7rwnE",
+      "name": "Mobile Data Port",
+      "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.ngXKksxqbEKBVzBi",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.kAzqwMzHA5b7rwnE"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "wHNli5Rf4qBIrvXB",
+      "name": "Linguist Module",
+      "img": "icons/tools/tech/badge-communicator.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.nfTA3E87yyPV2S6M",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.wHNli5Rf4qBIrvXB"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "G0YryLi2bwJ138F9",
+      "name": "Biometric Cuffs",
+      "img": "icons/equipment/hand/gauntelet-tooled-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.hUMDPiOZyQlKdpFm",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.G0YryLi2bwJ138F9"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "GPFgvYTI3rju0Bd3",
+      "name": "Comm-Unit",
+      "img": "icons/tools/tech/badge-communicator.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.HBdhCYest7tsenXg",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.GPFgvYTI3rju0Bd3"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "buG8SroSxuJu7jER",
+      "name": "Holo Projector",
+      "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.nyB16SlFASuS1wtn",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.buG8SroSxuJu7jER"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "BAVnFhCP0hjcXbPi",
+      "name": "Macro-Binoculars",
+      "img": "icons/equipment/head/goggles-brass-glass.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.aCuQnikvZiZIJHdN",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.BAVnFhCP0hjcXbPi"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "BEFYpfP3JZ41qRUT",
+      "name": "Sub-Vocal Patch",
+      "img": "icons/tools/tech/badge-communicator.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.Y0OmhIEHBoSEiKSO",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.BEFYpfP3JZ41qRUT"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "tyHar408RsSEDQMJ",
+      "name": "Hidden Compartment",
+      "img": "icons/containers/bags/case-leather-tan.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.IlPTgP9PtMdaRqTx",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.tyHar408RsSEDQMJ"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "_id": "myuwWAr5IMocwlfe",
+      "name": "Hydra-Jack",
+      "img": "icons/tools/hand/pliers-snub.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.pfQf9fsVErXNrFOh",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.myuwWAr5IMocwlfe"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "_id": "8lxN3NjTSfDh436p",
+      "name": "Data-Spike",
+      "img": "icons/tools/hand/pliers-snub.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.1f593AORz80cq1ZA",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.8lxN3NjTSfDh436p"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "_id": "lBiGPnAYodv4hIkX",
+      "name": "Tracking Disc",
+      "img": "icons/tools/navigation/compass-plain-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.wAsDj9QBKl3JaCD7",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.lBiGPnAYodv4hIkX"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "_id": "Q4IDrIHMHE4gLCAD",
+      "name": "Purification Flask",
+      "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.3seKqFoAcalhqnXb",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.Q4IDrIHMHE4gLCAD"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "_id": "dbx7p6iCh9bXFWCf",
+      "name": "Mag-Grips",
+      "img": "icons/equipment/hand/gauntelet-tooled-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.Yj5A613kgpaszXHH",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.dbx7p6iCh9bXFWCf"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "_id": "PszvkvE7XFBCIGj5",
+      "name": "Grapple-Launcher",
+      "img": "icons/tools/hand/pliers-snub.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.S3dvQ7BvJOzbkCIt",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.PszvkvE7XFBCIGj5"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "_id": "4io8zVosEOJ9JxP8",
+      "name": "Surgical Multi-Tool",
+      "img": "icons/tools/medical/bandages-adhesive.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.wJ2bDG5LYWbMBeQB",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.4io8zVosEOJ9JxP8"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "_id": "CGe7I0zLRlM90DKt",
+      "name": "Omni-Tool",
+      "img": "icons/tools/hand/pliers-snub.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.VGWC1FJZrMl1K5Mn",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.CGe7I0zLRlM90DKt"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "_id": "yuoHG5SYhDCNXtKW",
+      "name": "Bio-Metric Reader",
+      "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.81s1CMeTOqg1pIGV",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.yuoHG5SYhDCNXtKW"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "_id": "eFdYP6sbW0wSaCii",
+      "name": "Rebreather Mask",
+      "img": "icons/commodities/treasure/mask-bone-white.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.sn5sQhMIeg9GURNs",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.eFdYP6sbW0wSaCii"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "_id": "NxRuEALXDMGELXrU",
+      "name": "Thermal Regulator",
+      "img": "icons/commodities/treasure/mask-bone-white.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.AyF7jEMc4heee8ZB",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.NxRuEALXDMGELXrU"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "_id": "9bUBftPdvFSshA7N",
+      "name": "Grav-Lifter",
+      "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.ChUmJZd0aOpEKVhO",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.9bUBftPdvFSshA7N"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "_id": "mPzHLqKnH5n4vMxu",
+      "name": "Fusion Cutter",
+      "img": "icons/tools/hand/pliers-snub.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.OZMgXa3B2dRf0SvQ",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.mPzHLqKnH5n4vMxu"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "_id": "oDeG6g7DevIG8ItZ",
+      "name": "Grav-Chute",
+      "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.Ff61C0QeVENHaFrh",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.oDeG6g7DevIG8ItZ"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "_id": "XiRajG1JvRtxyAtj",
+      "name": "Space-Walker Suit",
+      "img": "icons/commodities/treasure/mask-bone-white.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.fBUon8FDNRI1NHvp",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.XiRajG1JvRtxyAtj"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "_id": "L8KwrIxYTdWdIVmb",
+      "name": "Intrusion-Deck",
+      "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.86CszQvBZp8fGZ86",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.L8KwrIxYTdWdIVmb"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "_id": "FrGXIyMsEnKanhS3",
+      "name": "Matter Analyzer",
+      "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.xcQQx8x9MeBIbwNo",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.FrGXIyMsEnKanhS3"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "_id": "qfz5NlGA7kuQXqgP",
+      "name": "Smart-Weave Shelter",
+      "img": "icons/sundries/survival/bedroll-grey.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.TZGnwDiWom35xkzQ",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.qfz5NlGA7kuQXqgP"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "_id": "jkmckCMuMz3wMRUf",
+      "name": "Gene-Sniffer",
+      "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.yFzIa32A3CkUEse1",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.jkmckCMuMz3wMRUf"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        30,
+        30
+      ],
+      "_id": "VxhWmtf7kKtWuP9m",
+      "name": "Poly-Vox Unit",
+      "img": "icons/tools/tech/badge-communicator.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.CEeeaEirkDUNopbC",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.VxhWmtf7kKtWuP9m"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "_id": "QknO3z41moItTX7X",
+      "name": "Smart-Weave Cloak",
+      "img": "icons/equipment/back/cloak-collared-grey.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.VtpuKh4hjJAo6AzN",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.QknO3z41moItTX7X"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "_id": "2po7vhRSh0NLZyXx",
+      "name": "Portable Sensor Array",
+      "img": "icons/tools/navigation/compass-plain-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.9q21WKlFA3oVYRBE",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.2po7vhRSh0NLZyXx"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "_id": "MLHtWF3rncwaOh7s",
+      "name": "Holo-Map",
+      "img": "icons/tools/navigation/compass-plain-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.RMuCJ2cZPmbenAap",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.MLHtWF3rncwaOh7s"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "_id": "1RpSLB7VtHuZEEgq",
+      "name": "Ghost Comm",
+      "img": "icons/tools/tech/badge-communicator.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.h46DI6Mv0GsSrk7r",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.1RpSLB7VtHuZEEgq"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "_id": "ZFyZDfa1HKikKmhn",
+      "name": "Signal Disruptor",
+      "img": "icons/tools/tech/badge-communicator.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.CHBionJ9QrcUSNr5",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.ZFyZDfa1HKikKmhn"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "_id": "XjkGvCBrG7JT2WyT",
+      "name": "Mnemo-Deck",
+      "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.ayfExGrHNTsg3vNb",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.XjkGvCBrG7JT2WyT"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        37,
+        37
+      ],
+      "_id": "C1FAvzxDOWiKu089",
+      "name": "Sonic Nullifier",
+      "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.jZd0vVqrFDEWTnGg",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.C1FAvzxDOWiKu089"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        38,
+        38
+      ],
+      "_id": "9B9eBuDuFOVPLDe5",
+      "name": "Micro-Drone",
+      "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.z08XooBsHwqSqMqB",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.9B9eBuDuFOVPLDe5"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        39,
+        39
+      ],
+      "_id": "qEGjTmGW8WU1BaYo",
+      "name": "Advanced Combat AI",
+      "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.IfnpmoZyzhT1GI9C",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.qEGjTmGW8WU1BaYo"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        40,
+        60
+      ],
+      "_id": "L5eY3GToeJsQjuKA",
+      "name": "Gravity Anchor",
+      "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "documentUuid": "Compendium.daggerheart-tnu.tnu-loot.Item.kIzUZLZdujsjcCeA",
+      "_key": "!tables.results!8dUl4GO1GnSOBF1p.L5eY3GToeJsQjuKA"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {
+    "daggerheart": {
+      "activeAltFormula": "",
+      "formulaName": "Standard",
+      "altFormula": {
+        "yRx44lgijNYAPEJM": {
+          "name": "Standard (alt) / Advanced",
+          "formula": "2d12"
+        },
+        "dzgaZkL62Tvf16qt": {
+          "name": "Advanced (alt) / Elite",
+          "formula": "3d12"
+        },
+        "XGooXR0c6MJlAIkw": {
+          "name": "Elite (alt) / Prototype",
+          "formula": "4d12"
+        },
+        "jPgiOpFqXinu6aUx": {
+          "name": "Prototype (alt)",
+          "formula": "5d12"
+        }
+      }
+    }
+  },
+  "formula": "1d12",
+  "_id": "8dUl4GO1GnSOBF1p",
+  "sort": 0,
+  "_key": "!tables!8dUl4GO1GnSOBF1p"
+}

@@ -1,0 +1,205 @@
+{
+  "folder": "ukERIYdSv3iDKBMh",
+  "name": "No Escape",
+  "type": "feature",
+  "_id": "UkKRdgdZfH4YRGWk",
+  "img": "icons/commodities/metal/chain-steel.webp",
+  "system": {
+    "description": "<p>If your Bounty within Close range attempts to leave that range, you can move with them. When you deal damage to your Bounty, add <em>Restrained</em> and <em>Dazed</em> to the list of possible temporary conditions.</p>",
+    "resource": null,
+    "actions": {
+      "Ps9FsVWfhPPq0pUQ": {
+        "type": "effect",
+        "_id": "Ps9FsVWfhPPq0pUQ",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Bounty: Restrained",
+        "img": "icons/magic/control/debuff-chains-ropes-net-white.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "3QcsJaA75VLskWkj",
+            "onSave": false
+          }
+        ]
+      },
+      "NZEeuFDwq5xDYe6L": {
+        "type": "effect",
+        "_id": "NZEeuFDwq5xDYe6L",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Bounty: Dazed",
+        "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "0PAY3qhMK8l59HXn",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Restrained",
+      "img": "icons/magic/control/debuff-chains-ropes-net-white.webp",
+      "transfer": false,
+      "_id": "3QcsJaA75VLskWkj",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Restrained.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!UkKRdgdZfH4YRGWk.3QcsJaA75VLskWkj"
+    },
+    {
+      "name": "Dazed",
+      "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+      "transfer": false,
+      "_id": "0PAY3qhMK8l59HXn",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.roll.bonus",
+            "type": "add",
+            "value": "-2",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": [
+          {
+            "type": "actionType",
+            "actionTypes": [
+              "attack"
+            ],
+            "traits": []
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Dazed.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "dazed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!UkKRdgdZfH4YRGWk.0PAY3qhMK8l59HXn"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!UkKRdgdZfH4YRGWk"
+}

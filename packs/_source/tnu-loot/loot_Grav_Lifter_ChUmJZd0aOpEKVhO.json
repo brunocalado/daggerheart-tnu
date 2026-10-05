@@ -1,0 +1,22 @@
+{
+  "name": "Grav-Lifter",
+  "type": "loot",
+  "_id": "ChUmJZd0aOpEKVhO",
+  "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
+  "system": {
+    "description": "<p>Makes a heavy object weightless.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 22 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3400000,
+  "flags": {},
+  "_key": "!items!ChUmJZd0aOpEKVhO"
+}

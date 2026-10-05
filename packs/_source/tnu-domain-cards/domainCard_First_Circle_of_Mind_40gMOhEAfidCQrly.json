@@ -1,0 +1,289 @@
+{
+  "folder": "j7CNZOX8mZBNEo2w",
+  "name": "First Circle of Mind",
+  "type": "domainCard",
+  "_id": "40gMOhEAfidCQrly",
+  "img": "icons/magic/water/orb-ice-web.webp",
+  "system": {
+    "description": "<p><strong>Engram</strong></p><p><strong>Farsight: Spend a Hope</strong> to project your senses at a point within Very Far range. You can see from this point as though you're looking out from its position until the scene ends or you dismiss the effect.</p><p><strong>Reveal Weakness:</strong> Make a <strong>Power Roll</strong> against a target within Close range. On a success, <strong>spend a Hope</strong> to make them temporarily <em>Vulnerable</em>.</p><p><strong>Telekinesis: Spend a Hope</strong> to exert telekinetic force on an object within Far range, allowing you to lift, move, or manipulate it with the same size and strength as your own body. This effect lasts until the end of the scene. You can make a <strong>Power Roll</strong> against a target within Close range of you. On a success, throw the object at them and deal <strong>d8 + your Power Trait</strong> kinetic damage. Then the effect ends.</p>",
+    "domain": "neptune",
+    "recallCost": 2,
+    "level": 1,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "ahKydAgKQ6PDaDkd": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Farsight",
+        "range": "veryFar",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "ahKydAgKQ6PDaDkd",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      },
+      "ocEeF9fjOj2FvWmS": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Reveal Weakness",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "skB3CtMqhDjH5dAe",
+            "onSave": false
+          }
+        ],
+        "_id": "ocEeF9fjOj2FvWmS",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      },
+      "Y3Xt2uHtCUOINsIL": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Telekinesis",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "Y3Xt2uHtCUOINsIL",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      },
+      "jehOHQ6wNQ9d3kAh": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Telekinesis: Throw",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "1d8 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d6",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "jehOHQ6wNQ9d3kAh",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "No Proficiency is printed for the Telekinesis throw, so it is d8 + Power Trait flat.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Vulnerable",
+      "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
+      "transfer": false,
+      "_id": "skB3CtMqhDjH5dAe",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Vulnerable.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "vulnerable"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!40gMOhEAfidCQrly.skB3CtMqhDjH5dAe"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!40gMOhEAfidCQrly"
+}

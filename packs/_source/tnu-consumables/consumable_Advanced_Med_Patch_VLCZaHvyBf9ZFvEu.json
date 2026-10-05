@@ -1,0 +1,100 @@
+{
+  "name": "Advanced Med-Patch",
+  "type": "consumable",
+  "_id": "VLCZaHvyBf9ZFvEu",
+  "img": "icons/tools/medical/bandages-adhesive.webp",
+  "system": {
+    "description": "<p>Clear <strong>1d4+1 HP</strong>. It shares the med-patch once-per-rest lockout.</p>",
+    "quantity": 1,
+    "actions": {
+      "h6SvUPxRjePtnwM6": {
+        "type": "healing",
+        "_id": "h6SvUPxRjePtnwM6",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "VLCZaHvyBf9ZFvEu",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/tools/medical/bandages-adhesive.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": 1
+              },
+              "applyTo": "hitPoints",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        }
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 22 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2100000,
+  "flags": {},
+  "_key": "!items!VLCZaHvyBf9ZFvEu"
+}

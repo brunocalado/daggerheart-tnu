@@ -1,0 +1,100 @@
+{
+  "name": "Combat-Stim",
+  "type": "consumable",
+  "_id": "PepqxMr6A3ROB3LG",
+  "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+  "system": {
+    "description": "<p>Clear <strong>1d4 Stress</strong>. You can't use another combat-stim until you complete a rest.</p>",
+    "quantity": 1,
+    "actions": {
+      "sw9IYsSCGRBueaBN": {
+        "type": "healing",
+        "_id": "sw9IYsSCGRBueaBN",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "PepqxMr6A3ROB3LG",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": null
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        }
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 03 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200000,
+  "flags": {},
+  "_key": "!items!PepqxMr6A3ROB3LG"
+}

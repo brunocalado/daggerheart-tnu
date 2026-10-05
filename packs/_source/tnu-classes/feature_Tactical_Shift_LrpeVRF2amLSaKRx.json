@@ -1,0 +1,25 @@
+{
+  "folder": "KimAT0dALEHdxibi",
+  "name": "Tactical Shift",
+  "type": "feature",
+  "_id": "LrpeVRF2amLSaKRx",
+  "img": "icons/skills/melee/weapons-crossed-swords-white-blue.webp",
+  "system": {
+    "description": "<p>Once per action roll, you may switch weapons without marking a Stress, even in a dangerous situation. After switching weapons, you can <strong>mark a Stress</strong> to make an attack roll with a weapon with advantage.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Mark the Stress and roll the weapon attack with advantage by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!LrpeVRF2amLSaKRx"
+}

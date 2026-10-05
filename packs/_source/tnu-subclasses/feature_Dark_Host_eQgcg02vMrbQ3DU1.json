@@ -1,0 +1,25 @@
+{
+  "folder": "7M3ZERAyxWdY69ck",
+  "name": "Dark Host",
+  "type": "feature",
+  "_id": "eQgcg02vMrbQ3DU1",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "system": {
+    "description": "<p><strong>Dark Host:</strong> When you use the Dark Passenger class feature, you invite a fraction of that Entity into your body and let it seize partial control of it. You gain the Vessel benefit of that Entity.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Each Entity's Vessel benefit is in its description in the TNU Adversaries compendium, folder \"Entities of Void\"; it is applied by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!eQgcg02vMrbQ3DU1"
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "nvdgs7nDncorkdH6",
+  "_key": "!items!nvdgs7nDncorkdH6",
+  "name": "Engine Room",
+  "type": "daggerheart-tnu.shipModule",
+  "img": "icons/commodities/tech/gear-wheels-double-steel.webp",
+  "system": {
+    "description": "<p><em>The beating heart of your flying home. If you select this component, replace the Spaceship Core with it.</em></p><p><strong>Fast Travel (out of combat):</strong> Make a <strong>Power Roll (13)</strong> to start the fast travel mode of the spacecraft. On a success you fast travel to the next haven or planet. On a failure with fear the engine overheats and you have to wait <strong>1d4</strong> hours to try it again until then you float through space without drive or direction.</p><p><strong>Repair (out of combat):</strong> Make a <strong>Power Roll (14)</strong> to repair minor damage to the shell. On a success you can repair your shell for <strong>1d4 + 1</strong> HP. On a critical failure the engine overheats and the spaceship takes another <strong>1d4</strong> damage.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "capacity": 2,
+    "replaces": "Spaceship Core",
+    "deactivated": false,
+    "stats": {
+      "bonus": null,
+      "range": null,
+      "damage": ""
+    },
+    "shipActions": [
+      {
+        "name": "Fast Travel (out of combat)",
+        "spheres": [
+          "heart",
+          "mind",
+          "fist"
+        ],
+        "roll": "power",
+        "difficulty": 13,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll (13) to start the fast travel mode of the spacecraft. On a success you fast travel to the next haven or planet. On a failure with fear the engine overheats and you have to wait 1d4 hours to try it again until then you float through space without drive or direction."
+      },
+      {
+        "name": "Repair (out of combat)",
+        "spheres": [
+          "heart",
+          "mind",
+          "fist"
+        ],
+        "roll": "power",
+        "difficulty": 14,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll (14) to repair minor damage to the shell. On a success you can repair your shell for 1d4 + 1 HP. On a critical failure the engine overheats and the spaceship takes another 1d4 damage."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

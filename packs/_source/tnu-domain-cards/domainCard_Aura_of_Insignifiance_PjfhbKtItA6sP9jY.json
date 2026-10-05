@@ -1,0 +1,138 @@
+{
+  "folder": "t8unFE6G1xg3fGQu",
+  "name": "Aura of Insignifiance",
+  "type": "domainCard",
+  "_id": "PjfhbKtItA6sP9jY",
+  "img": "icons/skills/trades/music-singing-voice-blue.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p>Make a <strong>Power Roll (10)</strong>. On a success, <strong>mark a Stress</strong> to remove all traces of your presence from the mind of observers and can move completely unnoticed while in plain sight. You become <em>Shrouded</em> until you make an attack or the end of the scene. When you end your movement in line of sight of an adversary, make a <strong>Reaction Power Roll</strong> against the target. On a failure, you are no longer <em>Shrouded</em> from that adversary.</p>",
+    "domain": "venus",
+    "recallCost": 1,
+    "level": 3,
+    "type": "spell",
+    "resource": "The card name is printed \"Insignifiance\" (sic). The Reaction Power Roll is made by hand.",
+    "actions": {
+      "8Gg8UsRJxcPMwAaa": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Aura of Insignificance",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": 10,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "hp2o8CyjuPuKIPa7",
+            "onSave": false
+          }
+        ],
+        "_id": "8Gg8UsRJxcPMwAaa",
+        "img": "icons/skills/trades/music-singing-voice-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Shrouded",
+      "img": "icons/magic/air/fog-gas-smoke-dense-gray.webp",
+      "transfer": false,
+      "_id": "hp2o8CyjuPuKIPa7",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Shrouded.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "shrouded"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!PjfhbKtItA6sP9jY.hp2o8CyjuPuKIPa7"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!PjfhbKtItA6sP9jY"
+}

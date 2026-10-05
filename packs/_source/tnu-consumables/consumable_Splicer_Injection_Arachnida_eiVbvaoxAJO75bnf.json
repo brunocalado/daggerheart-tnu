@@ -1,0 +1,62 @@
+{
+  "name": "Splicer Injection 'Arachnida'",
+  "type": "consumable",
+  "_id": "eiVbvaoxAJO75bnf",
+  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "system": {
+    "description": "<p>Climb vertical surfaces and ceilings for a number of minutes equal to your level.</p>",
+    "quantity": 1,
+    "actions": {
+      "HB2mrwg8jFiWogjH": {
+        "type": "effect",
+        "_id": "HB2mrwg8jFiWogjH",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "eiVbvaoxAJO75bnf",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 08 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700000,
+  "flags": {},
+  "_key": "!items!eiVbvaoxAJO75bnf"
+}

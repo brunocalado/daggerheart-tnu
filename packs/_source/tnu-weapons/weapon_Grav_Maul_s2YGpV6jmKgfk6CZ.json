@@ -1,0 +1,168 @@
+{
+  "name": "Grav-Maul",
+  "type": "weapon",
+  "_id": "s2YGpV6jmKgfk6CZ",
+  "img": "icons/weapons/hammers/hammer-double-bronze.webp",
+  "system": {
+    "description": "",
+    "actions": {},
+    "tier": 1,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "bulky",
+        "effectIds": [
+          "CKVASil2WvpAIZDa"
+        ],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "88rO8CYHx9NAxQuL",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "strength",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d12",
+            "bonus": 3,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "physical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [
+    {
+      "name": "Bulky",
+      "description": "-1 to Evasion.",
+      "img": "icons/commodities/metal/ingot-worn-iron.webp",
+      "system": {
+        "changes": [
+          {
+            "key": "system.evasion",
+            "type": "add",
+            "value": "-1",
+            "phase": "initial"
+          }
+        ],
+        "conditionals": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "_id": "CKVASil2WvpAIZDa",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_key": "!items.effects!s2YGpV6jmKgfk6CZ.CKVASil2WvpAIZDa"
+    }
+  ],
+  "sort": 200000,
+  "flags": {},
+  "_key": "!items!s2YGpV6jmKgfk6CZ"
+}

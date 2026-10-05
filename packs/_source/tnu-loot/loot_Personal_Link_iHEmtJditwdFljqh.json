@@ -1,0 +1,22 @@
+{
+  "name": "Personal Link",
+  "type": "loot",
+  "_id": "iHEmtJditwdFljqh",
+  "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+  "system": {
+    "description": "<p>An implanted universal socket for cable connection (Mnemo-Decks, smart weapons, terminals).</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 02 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400000,
+  "flags": {},
+  "_key": "!items!iHEmtJditwdFljqh"
+}

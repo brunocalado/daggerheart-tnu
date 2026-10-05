@@ -1,0 +1,25 @@
+{
+  "folder": "WjuHLQg0tH8AlVZm",
+  "name": "Dark Passenger",
+  "type": "feature",
+  "_id": "j0Zj2OrBQ0oKEJnP",
+  "img": "icons/magic/unholy/orb-glowing-purple.webp",
+  "system": {
+    "description": "<p>Take the Entities of Void Sheet. You have a connection with one Entity of your choice. <strong>Spend an Echo</strong> to summon a fraction of an Entity you have a connection with. The Entity stays until the end of the scene, or until you summon another Entity. How this Entity enters reality is defined by your subclass (see subclasses for more information).</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The Entities of Void are the actors in the TNU Adversaries compendium, folder \"Entities of Void\". Spend the Echo from Darkness Rising by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!j0Zj2OrBQ0oKEJnP"
+}

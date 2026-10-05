@@ -1,0 +1,281 @@
+{
+  "type": "adversary",
+  "name": "The Living Flame",
+  "folder": "jPgYqienYeFgieRE",
+  "system": {
+    "type": "standard",
+    "description": "<p><em>A blinding column of intelligent, azure-white plasma ignites, disintegrating the surrounding air.</em></p><h3>Manifest</h3><p>The Entity materializes as a separate, physical creature on the battlefield. The creature has the stats listed by your Entity. The following rules apply:</p><ul><li><p>While within Far range, you can command the creature with a Power Trait Roll (attack, interact with environment as per GM choice).</p></li><li><p>When the creature takes damage, you must mark your Hit Points depending on the severity of the damage. You can <strong>spend an Echo</strong> to reduce the severity by one threshold; there is no other way to reduce the damage taken. After they take damage, you can choose to dismiss them.</p></li><li><p>The creature has traits and features depending on its type. Evasion and Damage Thresholds scale according to the character’s tier: Tier 1 | 2 | 3 | 4.</p></li></ul><table><thead><tr><th>Tier</th><th>Evasion</th><th>Damage Thresholds</th></tr></thead><tbody><tr><td>Tier 1</td><td>11</td><td>6/12</td></tr><tr><td>Tier 2</td><td>12</td><td>9/18</td></tr><tr><td>Tier 3</td><td>13</td><td>14/28</td></tr><tr><td>Tier 4</td><td>14</td><td>19/40</td></tr></tbody></table><p><strong>Plasma Burst:</strong> Close | <strong>d6 + Power Trait</strong> energy damage using your Proficiency</p><h3>Vessel</h3><p>The Entity inhabits your character, merging directly with your physical body. You gain the benefits listed by your Entity.</p><p><em>Severe thermal energy pulses through your veins, melting nearby matter through raw radiation.</em></p><p>When an adversary within Melee range deals damage to you, they take <strong>d6</strong> energy damage using your Proficiency. In addition, when you make a successful attack against a target within Very Close range, <strong>spend an Echo</strong> to make them become temporarily <em>Ignited</em>. While Ignited, they take <strong>2d6</strong> energy damage if they are still Ignited at the end of their action.</p>",
+    "tier": 1,
+    "motivesAndTactics": "",
+    "difficulty": 11,
+    "damageThresholds": {
+      "major": 6,
+      "severe": 12
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 0
+      },
+      "stress": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "attack": {
+      "name": "Plasma Burst",
+      "img": "icons/magic/fire/explosion-flame-blue.webp",
+      "_id": "MlSBaTtIZavvpf4X",
+      "systemPath": "attack",
+      "chatDisplay": false,
+      "type": "attack",
+      "range": "close",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "bonus": null,
+        "type": "attack",
+        "trait": null,
+        "difficulty": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d6",
+            "bonus": null,
+            "multiplier": "flat",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "magical"
+          ],
+          "base": false,
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "fullRestore": false,
+          "valueAlt": {
+            "multiplier": "flat",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "includeBase": false,
+          "direct": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "baseAction": false,
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "areas": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      }
+    },
+    "experiences": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null
+    },
+    "resistance": {
+      "physical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      },
+      "magical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      }
+    },
+    "size": "medium",
+    "advantageSources": [],
+    "disadvantageSources": [],
+    "notes": "The stats are Tier 1; at higher tiers use the table in the description (set Difficulty and thresholds by hand). Difficulty is the Entity's printed Evasion. The Entity has no Hit Points of its own: damage it takes is marked on the Hollow by severity. Its attack is commanded with the Hollow's Power Trait Roll and deals damage die + Power Trait using the Hollow's Proficiency, added by hand.",
+    "criticalThreshold": 20,
+    "typeData": null
+  },
+  "items": [
+    {
+      "name": "Superheated Aura (Passive)",
+      "type": "feature",
+      "system": {
+        "featureForm": "passive",
+        "description": "<p>Any creature that starts its spotlight within Melee range takes <strong>1d6</strong> energy damage.</p>",
+        "attribution": {},
+        "gmNotes": "",
+        "resource": null,
+        "actions": {},
+        "granter": null,
+        "actorResources": []
+      },
+      "_id": "E4xkHZAIWbSAIWKT",
+      "img": "icons/magic/fire/elemental-fire-humanoid.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_key": "!actors.items!srue3Ulj41vdhX72.E4xkHZAIWbSAIWKT"
+    },
+    {
+      "name": "Thermal Meltdown (Action)",
+      "type": "feature",
+      "system": {
+        "featureForm": "action",
+        "description": "<p><strong>Spend an Echo</strong> to cause the Entity to erupt in a fiery meltdown. Make an attack roll against all creatures within Very Close range. All targets you succeed against must make a Reaction Roll (12). On a failure they take <strong>d20 + Power Trait</strong> energy damage using your Proficiency. On a success, they take half damage. The Entity vanishes after that.</p>",
+        "attribution": {},
+        "gmNotes": "",
+        "resource": null,
+        "actions": {},
+        "granter": null,
+        "actorResources": []
+      },
+      "_id": "IuvJDQVc70SRm5HQ",
+      "img": "icons/magic/fire/elemental-fire-humanoid.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_key": "!actors.items!srue3Ulj41vdhX72.IuvJDQVc70SRm5HQ"
+    }
+  ],
+  "_id": "srue3Ulj41vdhX72",
+  "img": "icons/magic/fire/elemental-fire-humanoid.webp",
+  "prototypeToken": {
+    "name": "The Living Flame",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "depth": 1,
+    "texture": {
+      "src": "icons/magic/fire/elemental-fire-humanoid.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hitPoints"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "sort": 300000,
+  "flags": {},
+  "_key": "!actors!srue3Ulj41vdhX72"
+}

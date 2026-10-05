@@ -1,0 +1,25 @@
+{
+  "folder": "I804FVnqkjqa57Ns",
+  "name": "Void Incarnate",
+  "type": "feature",
+  "_id": "xyNqfIiaQsxAJO8F",
+  "img": "icons/commodities/bones/skull-white-purple.webp",
+  "system": {
+    "description": "<p><strong>Void Incarnate:</strong> You have a connection with a third Entity of your choice from the Entities of Void Sheet. When you summon it, you gain the Manifest benefit of that Entity.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Authored as printed: \"Manifest benefit\" is almost certainly a copy error for the Vessel benefit, as in Blackened Marrow.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!xyNqfIiaQsxAJO8F"
+}

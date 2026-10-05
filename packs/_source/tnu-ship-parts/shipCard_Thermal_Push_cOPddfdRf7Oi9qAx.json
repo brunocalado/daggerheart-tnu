@@ -1,0 +1,41 @@
+{
+  "_id": "cOPddfdRf7Oi9qAx",
+  "_key": "!items!cOPddfdRf7Oi9qAx",
+  "name": "Thermal Push",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/magic/earth/barrier-stone-explosion-red.webp",
+  "system": {
+    "description": "<p><strong>Not today:</strong> Overload the drive once per long rest to push your ship in Far range. Spacecrafts and creatures in Close range take <strong>d8 + 4</strong> damage.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "fist",
+    "level": 3,
+    "location": "Spaceship Core",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Not today",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "none",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "d8+4",
+        "oncePer": "longRest",
+        "description": "Overload the drive once per long rest to push your ship in Far range. Spacecrafts and creatures in Close range take d8 + 4 damage."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

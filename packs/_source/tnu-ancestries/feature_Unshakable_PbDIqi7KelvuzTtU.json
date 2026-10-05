@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Unshakable",
+  "folder": null,
+  "_id": "PbDIqi7KelvuzTtU",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-purple-orange.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Ignore disadvantage on Presence Rolls.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!PbDIqi7KelvuzTtU"
+}

@@ -1,0 +1,22 @@
+{
+  "folder": "sxpn9qr5tIOc1cX6",
+  "name": "Vial of Unstable Serum",
+  "type": "loot",
+  "img": "icons/consumables/potions/potion-vial-corked-purple.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "AXlAbsgoOu3MQixo",
+  "sort": 0,
+  "_key": "!items!AXlAbsgoOu3MQixo"
+}

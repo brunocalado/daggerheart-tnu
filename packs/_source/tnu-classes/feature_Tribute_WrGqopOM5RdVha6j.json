@@ -1,0 +1,34 @@
+{
+  "folder": "sMxWm9Lqwzpxyd7h",
+  "name": "Tribute",
+  "type": "feature",
+  "_id": "WrGqopOM5RdVha6j",
+  "img": "icons/tools/laboratory/injector-needle-syringe-plunger.webp",
+  "system": {
+    "description": "<p>You are the product of controlled evolution, your body and mind refined through cybernetics, gene rewriting, or drugs – but your power comes with a price.</p><p>You gain a resource called Echo. Your maximum Echo capacity is equal to your Agility or Strength + your tier. At character creation you start with maximum Echo:</p><ul><li><p>During a rest, take one of your downtime moves to perform a calibration, ritual of training, or taking drugs. When you do as part of a short rest, gain Echoes equal to <strong>1d4 + your Tier</strong>. When you do as part of a long rest, gain Echoes up your maximum Echo capacity. If you choose to forgo this downtime move, there are consequences for your body: in a short rest, you must <strong>mark a Stress</strong>; in a long rest, you must <strong>mark a Hit Point</strong>.</p></li></ul>",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "@tier + max(@system.traits.agility.value, @system.traits.strength.value)",
+      "icon": "",
+      "recovery": "longRest",
+      "progression": "decreasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The maximum uses the higher of Agility and Strength; if you chose the lower trait, edit the maximum. Set the Echo to its maximum at character creation. The long rest refills it, assuming the calibration downtime move; the short-rest gain (1d4 + tier) and the Stress or Hit Point for forgoing the move are done by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!WrGqopOM5RdVha6j"
+}

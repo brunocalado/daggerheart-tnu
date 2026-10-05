@@ -1,0 +1,106 @@
+{
+  "folder": "KN1902JKSoCeGIv3",
+  "name": "Force Unleashed",
+  "type": "feature",
+  "_id": "XytI4YZDWlCjHBAa",
+  "img": "icons/magic/light/explosion-star-blue.webp",
+  "system": {
+    "description": "<p><strong>Force Unleashed:</strong> Once per scene, <strong>mark a Stress</strong> to unleash your unbound power that lasts until you take Severe damage or the scene ends. While <em>Unleashed</em>, your successful attack rolls gain the following features:</p><ul><li><p><strong>Kinetic Blast:</strong> You can choose to push the target one range band away.</p></li><li><p><strong>Surge:</strong> After rolling damage, you may <strong>spend an Echo</strong> to choose any number of dice and reroll them.</p></li></ul>",
+    "resource": null,
+    "actions": {
+      "snFIxHjc1M38JC3T": {
+        "type": "effect",
+        "_id": "snFIxHjc1M38JC3T",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "scene",
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Unleash",
+        "img": "icons/magic/light/explosion-star-blue.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "LwuUt81GtopYjm74",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Remove the Unleashed effect when you take Severe damage or the scene ends. Spend Echo from the class feature that holds it: the system can only charge a cost to the resource on the same item, so this Echo cost is paid by hand.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Unleashed",
+      "img": "icons/magic/light/explosion-star-blue.webp",
+      "transfer": false,
+      "_id": "LwuUt81GtopYjm74",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Your successful attack rolls gain Kinetic Blast and Surge (and Crushing Force and Disintegrate with Critical Mass). Ends when you take Severe damage or the scene ends.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!XytI4YZDWlCjHBAa.LwuUt81GtopYjm74"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!XytI4YZDWlCjHBAa"
+}

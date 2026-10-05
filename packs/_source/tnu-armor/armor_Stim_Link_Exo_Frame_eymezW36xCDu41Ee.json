@@ -1,0 +1,39 @@
+{
+  "name": "Stim-Link Exo-Frame",
+  "type": "armor",
+  "_id": "eymezW36xCDu41Ee",
+  "img": "icons/equipment/chest/breastplate-banded-blue.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "description": "",
+    "actions": {},
+    "tier": 2,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "stims",
+        "effectIds": [],
+        "actionIds": []
+      }
+    ],
+    "baseThresholds": {
+      "major": 9,
+      "severe": 20
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 800000,
+  "flags": {},
+  "_key": "!items!eymezW36xCDu41Ee"
+}

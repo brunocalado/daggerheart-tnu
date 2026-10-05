@@ -1,0 +1,42 @@
+<section class="tab {{tab.cssClass}} modules" data-tab="modules" data-group="primary">
+  <div class="tab-scroll">
+    {{#each modules}}
+      <article class="ship-part ship-module {{#if item.system.deactivated}}deactivated{{/if}}" data-item-id="{{item.id}}">
+        <header class="part-header">
+          <img class="part-img" src="{{item.img}}" alt="" data-action="openItem" data-tooltip="{{item.name}}">
+          <div class="part-title">
+            <h3><a data-action="openItem">{{item.name}}</a></h3>
+            <div class="part-meta">
+              {{#if statLine}}<span class="stat-line">{{statLine}}</span>{{/if}}
+              {{#if item.system.replaces}}<span class="subtle">Replaces {{item.system.replaces}}</span>{{/if}}
+              {{#if item.system.deactivated}}<span class="tag danger"><i class="fa-solid fa-power-off"></i>Deactivated until the next rest</span>{{/if}}
+            </div>
+          </div>
+          <div class="capacity {{#if full}}full{{/if}}" data-tooltip="Crew / Capacity">
+            <i class="fa-solid fa-users"></i><span>{{members.length}}/{{item.system.capacity}}</span>
+          </div>
+          {{#if @root.editable}}
+            <div class="controls">
+              <a data-action="toggleModule" data-tooltip="{{#if item.system.deactivated}}Reactivate{{else}}Deactivate{{/if}}">
+                <i class="fa-solid {{#if item.system.deactivated}}fa-plug-circle-bolt{{else}}fa-power-off{{/if}}"></i>
+              </a>
+              <a data-action="deleteItem" data-tooltip="Remove module"><i class="fa-solid fa-trash"></i></a>
+            </div>
+          {{/if}}
+        </header>
+
+        <div class="part-crew">
+          {{#each members}}
+            <span class="crew-chip {{sphere}}" data-tooltip="{{sphereLabel}}"><img src="{{img}}" alt="">{{name}}</span>
+          {{else}}
+            <span class="empty">Nobody here — drop a character on this module</span>
+          {{/each}}
+        </div>
+
+        {{> "daggerheart-tnu.ship-actions" actions=actions}}
+      </article>
+    {{else}}
+      <div class="drag-area">Drop ship modules here from the TNU Ship Modules &amp; Cards compendium</div>
+    {{/each}}
+  </div>
+</section>

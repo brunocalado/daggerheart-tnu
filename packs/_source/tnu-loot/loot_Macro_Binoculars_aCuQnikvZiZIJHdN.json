@@ -1,0 +1,22 @@
+{
+  "name": "Macro-Binoculars",
+  "type": "loot",
+  "_id": "aCuQnikvZiZIJHdN",
+  "img": "icons/equipment/head/goggles-brass-glass.webp",
+  "system": {
+    "description": "<p>Long-range lenses with low-light and thermal modes.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 08 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2000000,
+  "flags": {},
+  "_key": "!items!aCuQnikvZiZIJHdN"
+}

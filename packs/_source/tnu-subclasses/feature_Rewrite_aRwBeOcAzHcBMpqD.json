@@ -1,0 +1,25 @@
+{
+  "folder": "EH7MuzTlRJU7mXny",
+  "name": "Rewrite",
+  "type": "feature",
+  "_id": "aRwBeOcAzHcBMpqD",
+  "img": "icons/skills/targeting/target-glowing-yellow.webp",
+  "system": {
+    "description": "<p><strong>Spend 2 Echo</strong> to shift the spotlight from an adversary to an ally within Far range. The GM may still spend a Fear to interrupt, but only by making a move with a different adversary.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Spend Echo from the class feature that holds it: the system can only charge a cost to the resource on the same item, so this Echo cost is paid by hand.",
+    "granter": null,
+    "featureForm": "reaction",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!aRwBeOcAzHcBMpqD"
+}

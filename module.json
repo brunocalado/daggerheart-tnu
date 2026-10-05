@@ -1,0 +1,80 @@
+{
+  "id": "daggerheart-tnu",
+  "title": "The New Unknown (Daggerheart)",
+  "description": "Adapts the Daggerheart system for The New Unknown sci-fi supplement (Playtest v2.0 \"Mind\"): new planetary domains, weapon/armor keywords, sci-fi conditions, and terminology relabels (Trauma, Power Trait, Kinetic/Energy).",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.10.9",
+          "verified": "2.10.9",
+          "maximum": "2.10.9"
+        }
+      }
+    ]
+  },
+  "esmodules": ["scripts/main.js"],
+  "styles": ["styles/base.css", "styles/ship-sheet.css", "styles/ship-item-sheet.css"],
+  "documentTypes": {
+    "Actor": { "ship": {} },
+    "Item": {
+      "shipModule": { "htmlFields": ["description"] },
+      "shipCard": { "htmlFields": ["description"] }
+    }
+  },
+  "packs": [
+    { "name": "tnu-classes", "label": "TNU Classes", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-classes", "type": "Item", "private": false, "flags": {} },
+    { "name": "tnu-subclasses", "label": "TNU Subclasses", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-subclasses", "type": "Item", "private": false, "flags": {} },
+    { "name": "tnu-ancestries", "label": "TNU Ancestries", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-ancestries", "type": "Item", "private": false, "flags": {} },
+    { "name": "tnu-communities", "label": "TNU Communities", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-communities", "type": "Item", "private": false, "flags": {} },
+    { "name": "tnu-domain-cards", "label": "TNU Domain Cards", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-domain-cards", "type": "Item", "private": false, "flags": {} },
+    { "name": "tnu-weapons", "label": "TNU Weapons", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-weapons", "type": "Item", "private": false, "flags": {} },
+    { "name": "tnu-armor", "label": "TNU Armor", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-armor", "type": "Item", "private": false, "flags": {} },
+    { "name": "tnu-loot", "label": "TNU Gear & Implants", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-loot", "type": "Item", "private": false, "flags": {} },
+    { "name": "tnu-consumables", "label": "TNU Consumables", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-consumables", "type": "Item", "private": false, "flags": {} },
+    { "name": "tnu-tables", "label": "TNU Rarity Tables", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-tables", "type": "RollTable", "private": false, "flags": {} },
+    { "name": "tnu-adversaries", "label": "TNU Adversaries", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-adversaries", "type": "Actor", "private": false, "flags": {} },
+    { "name": "tnu-ships", "label": "TNU Ships", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-ships", "type": "Actor", "private": false, "flags": {} },
+    { "name": "tnu-ship-parts", "label": "TNU Ship Modules & Cards", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-ship-parts", "type": "Item", "private": false, "flags": {} },
+    { "name": "tnu-journals", "label": "TNU Journals", "banner": "modules/daggerheart-tnu/assets/compendium-banner.webp", "system": "daggerheart", "path": "packs/tnu-journals", "type": "JournalEntry", "private": false, "flags": {} }
+  ],
+  "packFolders": [
+    {
+      "name": "The New Unknown",
+      "sorting": "m",
+      "packs": ["tnu-adversaries", "tnu-journals", "tnu-tables"],
+      "folders": [
+        {
+          "name": "Character Options",
+          "sorting": "m",
+          "packs": ["tnu-ancestries", "tnu-communities", "tnu-classes", "tnu-subclasses", "tnu-domain-cards"]
+        },
+        {
+          "name": "Items",
+          "sorting": "m",
+          "packs": ["tnu-armor", "tnu-weapons", "tnu-consumables", "tnu-loot"]
+        },
+        {
+          "name": "Ships",
+          "sorting": "m",
+          "packs": ["tnu-ships", "tnu-ship-parts"]
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "authors": [{ "name": "Bruno" }]
+}

@@ -1,0 +1,78 @@
+{
+  "folder": "9GrciDwVxKT7Kj1V",
+  "name": "Resonant Voice",
+  "type": "domainCard",
+  "_id": "nlcto7YiEphZ2Bs7",
+  "img": "icons/skills/trades/music-singing-voice-blue.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p>After a long rest, place a number of tokens on this card equal to your Instinct or Presence. When you speak with an ally, you can <strong>spend a token</strong> to give them one of the following benefits:</p><ul><li><p>Your ally gains a Hope.</p></li><li><p>Your ally gains an Echo (if they have an Echo capacity).</p></li><li><p>Your ally gains advantage on their next action roll.</p></li></ul><p>You can have a maximum number of tokens on this card equal to your Instinct or Presence.</p>",
+    "domain": "venus",
+    "recallCost": 1,
+    "level": 1,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "max(@system.traits.instinct.value, @system.traits.presence.value)",
+      "icon": "fa-solid fa-comment",
+      "recovery": "longRest",
+      "progression": "decreasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "fMJ0IUaTVNdSeaTi": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "nlcto7YiEphZ2Bs7",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spend a Token",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "fMJ0IUaTVNdSeaTi",
+        "img": "icons/skills/trades/music-singing-voice-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The token maximum uses the higher of Instinct and Presence; edit it if the player chose the lower. A long rest refills the tokens; the card starts empty, so set them to the maximum when it is taken.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!nlcto7YiEphZ2Bs7"
+}

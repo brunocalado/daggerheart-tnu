@@ -1,0 +1,332 @@
+{
+  "folder": "FzsT5XlS4Y9X27ds",
+  "name": "Second Circle of Fist",
+  "type": "domainCard",
+  "_id": "3wqdQNUlDvyIN6MV",
+  "img": "icons/magic/water/orb-ice-web.webp",
+  "system": {
+    "description": "<p><strong>Engram</strong></p><p><strong>Pyrokinesis:</strong> Make a <strong>Power Roll</strong> against a target within Very Close range. On a success, <strong>spend a Hope</strong> to deal them <strong>d8 + your Power Trait</strong> energy damage and make them become temporarily <em>Ignited</em>. While <em>Ignited</em>, they take <strong>2d6</strong> energy damage if they are still Ignited at the end of their action.</p><p><strong>Telekinetic Grasp:</strong> Make a <strong>Power Roll</strong> against a target in Close range. On a success, <strong>mark a Stress</strong> to lift a target you can see and lift them in the air, moving them within Close range of their original position. You can choose to throw them up to Close range and deal them <strong>d8 + your Power Trait</strong> kinetic damage.</p>",
+    "domain": "neptune",
+    "recallCost": 2,
+    "level": 3,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "8GAJ0iU6Wp0JUy6B": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Pyrokinesis",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "1d8 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d6",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "FUFBK6nNJxlmDae8",
+            "onSave": false
+          }
+        ],
+        "_id": "8GAJ0iU6Wp0JUy6B",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      },
+      "Xw7GHfueBfDqcqiz": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ignited",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "dice": "d6",
+              "bonus": null,
+              "flatMultiplier": 2
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "Xw7GHfueBfDqcqiz",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      },
+      "aLwj4CH3bPNKTE2L": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Telekinetic Grasp",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "aLwj4CH3bPNKTE2L",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      },
+      "psNWv5ChEysY5NVo": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Telekinetic Grasp: Throw",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "1d8 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d6",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "psNWv5ChEysY5NVo",
+        "img": "icons/magic/water/orb-ice-web.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Printed as Level 3, though it is a Second Circle card (every other Second Circle is Level 2). No Proficiency is printed for either damage roll, so both are d8 + Power Trait flat.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Ignited",
+      "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+      "transfer": false,
+      "_id": "FUFBK6nNJxlmDae8",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Ignited.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "ignited"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!3wqdQNUlDvyIN6MV.FUFBK6nNJxlmDae8"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!3wqdQNUlDvyIN6MV"
+}

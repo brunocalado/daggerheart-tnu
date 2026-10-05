@@ -1,0 +1,22 @@
+{
+  "folder": "qusIZvHil9FIH47D",
+  "name": "Pulsing Crystal Shard",
+  "type": "loot",
+  "img": "icons/commodities/tech/battery-arcane-crystal-green.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "USnfM1hmbwzi5kKs",
+  "sort": 0,
+  "_key": "!items!USnfM1hmbwzi5kKs"
+}

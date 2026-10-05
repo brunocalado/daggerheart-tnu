@@ -1,0 +1,93 @@
+name: Release
+
+# Publish a GitHub release whose tag is the module.json version (1.2.0 or v1.2.0).
+# The job compiles the compendium packs, attaches module.json and module.zip to
+# the release and, when the FOUNDRY_PACKAGE_TOKEN secret exists, registers the
+# version on foundryvtt.com.
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+env:
+  MANIFEST: module.json
+  ZIP: module.zip
+  TAG: ${{ github.event.release.tag_name }}
+  REPO: ${{ github.repository }}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check tag and manifest
+        run: |
+          VERSION="$(jq -r .version "$MANIFEST")"
+          if [ "${TAG#v}" != "$VERSION" ]; then
+            echo "::error::Tag $TAG does not match $MANIFEST version $VERSION"
+            exit 1
+          fi
+          jq -e '.compatibility.minimum and .compatibility.verified' "$MANIFEST" > /dev/null \
+            || { echo "::error::$MANIFEST needs compatibility.minimum and .verified"; exit 1; }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Validate and compile compendium packs
+        run: |
+          npm run check
+          npm ci
+          npm run pack
+
+      # `manifest` always points at the latest release so Foundry finds updates;
+      # `download` is pinned to this release's zip.
+      - name: Set manifest URLs and build the zip
+        run: |
+          jq --arg url "https://github.com/$REPO" \
+            --arg manifest "https://github.com/$REPO/releases/latest/download/$MANIFEST" \
+            --arg download "https://github.com/$REPO/releases/download/$TAG/$ZIP" \
+            '.url = $url | .manifest = $manifest | .download = $download' \
+            "$MANIFEST" > manifest.tmp && mv manifest.tmp "$MANIFEST"
+          zip -r "$ZIP" "$MANIFEST" scripts styles templates lang assets packs \
+            -x 'packs/_source/*' 'packs/README.md'
+
+      - name: Upload release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "$TAG" "$MANIFEST" "$ZIP" --clobber
+
+      - name: Register the version on foundryvtt.com
+        env:
+          FOUNDRY_PACKAGE_TOKEN: ${{ secrets.FOUNDRY_PACKAGE_TOKEN }}
+          NOTES: ${{ github.event.release.html_url }}
+        run: |
+          if [ -z "$FOUNDRY_PACKAGE_TOKEN" ]; then
+            echo "No FOUNDRY_PACKAGE_TOKEN secret: skipping foundryvtt.com."
+            exit 0
+          fi
+          jq -n --slurpfile m "$MANIFEST" \
+            --arg manifest "https://github.com/$REPO/releases/download/$TAG/$MANIFEST" \
+            --arg notes "$NOTES" \
+            '$m[0] as $p | {
+              id: $p.id,
+              "dry-run": false,
+              release: {
+                version: $p.version,
+                manifest: $manifest,
+                notes: $notes,
+                compatibility: ($p.compatibility
+                  | {minimum, verified, maximum: (.maximum // "")}
+                  | map_values(tostring))
+              }
+            }' > payload.json
+          curl --fail-with-body -sS -X POST \
+            -H "Content-Type: application/json" \
+            -H "Authorization: $FOUNDRY_PACKAGE_TOKEN" \
+            --data @payload.json \
+            https://foundryvtt.com/_api/packages/release_version/

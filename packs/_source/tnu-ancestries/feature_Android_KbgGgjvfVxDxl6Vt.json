@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Android",
+  "folder": null,
+  "_id": "KbgGgjvfVxDxl6Vt",
+  "img": "icons/magic/control/buff-strength-muscle-damage.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Choose a top or bottom feature of your choice.</p>",
+    "gmNotes": "The player picks the feature from any ancestry; examples printed in PT2: Specialized, Thermal Vision, Elongated Limbs, Neural-Link.",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!KbgGgjvfVxDxl6Vt"
+}

@@ -1,0 +1,25 @@
+{
+  "folder": "hPgbUmAKF6tdWwHC",
+  "name": "Enhanced Core",
+  "type": "feature",
+  "_id": "72TgD18VYImdnzbc",
+  "img": "icons/commodities/tech/battery-arcane-crystal-green.webp",
+  "system": {
+    "description": "<p>Your Energy Core can store up to 2 Charges. After a rest, choose one Tech card in your loadout; that card can use Charges from your Energy Core.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The playtest's OCR lists this feature at the end of the Tier 2 modules; the transcription and the 1→2→3 Charge progression make it the Specialization.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!72TgD18VYImdnzbc"
+}

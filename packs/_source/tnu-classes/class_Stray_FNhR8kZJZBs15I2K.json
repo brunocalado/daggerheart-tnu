@@ -1,0 +1,82 @@
+{
+  "name": "Stray",
+  "type": "class",
+  "_id": "FNhR8kZJZBs15I2K",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": "<p><em>“All I need was inside me / Now I feel so different”</em></p><p>Strays are anomalies — they are born with incredible psionic powers only few can understand. Their abilities emerge without lineage or logic, defying prediction and external control. Where others fit into systems, or where molded by them, Strays break those patterns. They are called special, gifted, savants, even enlightened, or cursed. Some are revered, feared, exploited, or hunted by those wanting to defend the status quo. Wherever they go, they leave traces of awe, uncertainty, and quiet disruption, shaping the lives of others in subtle or dramatic ways. Strays can be healers, oracles, or devastating psionic weapons. But they are never one thing: ordinary.</p>",
+    "domains": [
+      "terra",
+      "neptune"
+    ],
+    "classItems": [],
+    "hitPoints": 5,
+    "evasion": 11,
+    "features": [
+      {
+        "type": "hope",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.gf23XkugGhaellGb"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.ipkZaO5QqJt29WZN"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.nzXqZyj2Rn6xuONc"
+      }
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": [
+        "Compendium.daggerheart-tnu.tnu-classes.Item.USnfM1hmbwzi5kKs",
+        "Compendium.daggerheart-tnu.tnu-classes.Item.iAkzrgQHRSZSBgpu"
+      ]
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "backgroundQuestions": [
+      "Who first noticed the anomaly within you – and what did they fear it meant?",
+      "When did your powers first spiral out of control – and who was hurt because of it?",
+      "What part of you feels least human now – and why do you hide it?",
+      "Whose life did you save with your impossible gift – and why don’t they thank you for it?",
+      "What secret do you fear you’ll uncover if you push your powers too far?"
+    ],
+    "connections": [
+      "You were there the first time my powers manifested. What did you see – and why do you still remember it?",
+      "I once healed or protected you at great cost to myself. Why do you carry that memory with you?",
+      "You’ve seen me lose control. What did you do to stop me?",
+      "You sense the same anomaly in me that I do. Why haven’t you told the others?",
+      "I asked you to anchor me when the Echo become too strong. What did you promise me in return?"
+    ],
+    "gmNotes": "",
+    "levelupOptionTiers": {
+      "2": {},
+      "3": {},
+      "4": {}
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!FNhR8kZJZBs15I2K"
+}

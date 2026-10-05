@@ -1,0 +1,244 @@
+{
+  "folder": "0YYA3FhuCIcrmccW",
+  "name": "Terror of Alecto",
+  "type": "domainCard",
+  "_id": "My3EeltehM9dLRCf",
+  "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+  "system": {
+    "description": "<p><strong>Sigil</strong></p><h3>Seal</h3><p>Make a <strong>Power Roll</strong> against a creature within Close range. On a success, they are temporarily <em>Panicked</em>. While <em>Panicked</em>, the creature must attempt to flee, moving as far away from you as possible.</p><p>The GM must spotlight the <em>Panicked</em> target after you were spotlighted.</p><p><strong>Seal:</strong> After you successfully use this card, you can <strong>mark a Hit Point</strong> to flip it to its <strong>Release</strong> side.</p><h3>Release</h3><p>Make a <strong>Power Roll</strong> against a creature within Close range. On a success, the target is temporarily <em>Frenzied</em>. While <em>Frenzied</em>, they attack the closest target, striking friend and foe alike in a blind rage. The GM must spotlight the <em>Frenzied</em> target after you were spotlighted.</p><p><strong>Release:</strong> After you use this card, flip it back to its <strong>Seal</strong> side.</p>",
+    "domain": "pluto",
+    "recallCost": 1,
+    "level": 2,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "1",
+      "icon": "fa-solid fa-lock-open",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "98ktQfvMW5BeeCB5": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Seal: Terror",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "yn1er6hyvLsTxj6m",
+            "onSave": false
+          }
+        ],
+        "_id": "98ktQfvMW5BeeCB5",
+        "img": "icons/magic/symbols/rune-sigil-black-pink.webp"
+      },
+      "14klgbuwhxDDUTFC": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "My3EeltehM9dLRCf",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Release: Frenzy",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "tNYitYoRqEu1iORu",
+            "onSave": false
+          }
+        ],
+        "_id": "14klgbuwhxDDUTFC",
+        "img": "icons/magic/symbols/rune-sigil-black-pink.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Two-sided Sigil. The card's resource marks the side it shows (0 = Seal, 1 = Release). After a successful Seal use, mark a Hit Point by hand and set the resource to 1. Each Release action spends it, which flips the card back to Seal. A long rest resets it to Seal.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Panicked",
+      "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+      "transfer": false,
+      "_id": "yn1er6hyvLsTxj6m",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Panicked.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "panicked"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!My3EeltehM9dLRCf.yn1er6hyvLsTxj6m"
+    },
+    {
+      "name": "Frenzied",
+      "img": "icons/magic/control/fear-fright-monster-grin-red-orange.webp",
+      "transfer": false,
+      "_id": "tNYitYoRqEu1iORu",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Frenzied.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "frenzied"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!My3EeltehM9dLRCf.tNYitYoRqEu1iORu"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!My3EeltehM9dLRCf"
+}

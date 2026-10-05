@@ -1,0 +1,31 @@
+{
+  "name": "Synth – Cognitor",
+  "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+  "type": "ancestry",
+  "folder": null,
+  "system": {
+    "description": "<p>Synth is a base ancestry: its top feature is Specialized, and its bottom feature is a free choice. Each lineage fixes both.</p>",
+    "features": [
+      {
+        "type": "primary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.LK5Nh2Aa0Bo9BG1Z"
+      },
+      {
+        "type": "secondary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.ByF6T5MFDGlgJlhN"
+      }
+    ],
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "loreReference": "",
+    "gmNotes": "Base-ancestry free choice: the player can instead pick any bottom feature."
+  },
+  "flags": {},
+  "_id": "Ae8VEKdRreJrESKX",
+  "sort": 0,
+  "effects": [],
+  "_key": "!items!Ae8VEKdRreJrESKX"
+}

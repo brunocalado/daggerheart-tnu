@@ -1,0 +1,23 @@
+{
+  "type": "community",
+  "name": "Dustrooted",
+  "folder": null,
+  "system": {
+    "loreReference": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null
+    },
+    "description": "<p>People of this community are commonly tough, resilient, practical, loyal, humble, resourceful, and slow to forgive.</p>",
+    "gmNotes": "",
+    "features": [
+      "Compendium.daggerheart-tnu.tnu-communities.Item.6KdZkGNQO61cX8HC"
+    ]
+  },
+  "_id": "MyLhJEPEaJi0BjaT",
+  "img": "icons/environment/wilderness/terrain-rocks-brown.webp",
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!MyLhJEPEaJi0BjaT"
+}

@@ -1,0 +1,124 @@
+{
+  "name": "Plasma Gun",
+  "type": "weapon",
+  "_id": "bc2IiD41yoSpvqIX",
+  "img": "icons/weapons/guns/gun-pistol-brass.webp",
+  "system": {
+    "description": "<p>Point-Blank (d8)</p>",
+    "actions": {},
+    "tier": 1,
+    "equipped": false,
+    "secondary": false,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "pointBlank",
+        "effectIds": [],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "rpJbgeVybZdgHUAJ",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "far",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "finesse",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d6",
+            "bonus": null,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "magical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 1600000,
+  "flags": {},
+  "_key": "!items!bc2IiD41yoSpvqIX"
+}

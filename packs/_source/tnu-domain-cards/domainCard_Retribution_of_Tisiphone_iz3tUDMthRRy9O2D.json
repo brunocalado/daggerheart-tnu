@@ -1,0 +1,205 @@
+{
+  "folder": "0YYA3FhuCIcrmccW",
+  "name": "Retribution of Tisiphone",
+  "type": "domainCard",
+  "_id": "iz3tUDMthRRy9O2D",
+  "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+  "system": {
+    "description": "<p><strong>Sigil</strong></p><h3>Seal</h3><p>When you take damage from a target within Close range, force the target to make a Reaction Roll (14). On a failure, <strong>mark a Stress</strong> to deal them <strong>d6+2</strong> energy damage using your Proficiency.</p><p><strong>Seal:</strong> After you successfully use this card, you can <strong>mark a Hit Point</strong> to flip it to its <strong>Release</strong> side.</p><h3>Release</h3><p>Once per rest, <strong>mark a Stress</strong> to shroud yourself in negative energy until you take Severe damage or the scene ends. When an adversary within Melee range deals damage to you, they take <strong>1d10</strong> energy damage. <strong>Spend a Hope</strong> to let the negative energy reach out to an adversary up to Close range instead of Melee.</p><p><strong>Release:</strong> After you successfully use this card, flip it back to its <strong>Seal</strong> side.</p>",
+    "domain": "pluto",
+    "recallCost": 2,
+    "level": 2,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "1",
+      "icon": "fa-solid fa-lock-open",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "l0H0lDqwbo224iX8": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Seal: Retribution",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "prof",
+              "dice": "d6",
+              "bonus": 2,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "l0H0lDqwbo224iX8",
+        "img": "icons/magic/symbols/rune-sigil-black-pink.webp"
+      },
+      "YRuXdDlqiFXercLx": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          },
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "iz3tUDMthRRy9O2D",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Release: Shroud",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "YRuXdDlqiFXercLx",
+        "img": "icons/magic/symbols/rune-sigil-black-pink.webp"
+      },
+      "6SFLC2DYrdkVxvZg": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Negative Energy",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "dice": "d10",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "6SFLC2DYrdkVxvZg",
+        "img": "icons/magic/symbols/rune-sigil-black-pink.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Two-sided Sigil. The card's resource marks the side it shows (0 = Seal, 1 = Release). After a successful Seal use, mark a Hit Point by hand and set the resource to 1. Each Release action spends it, which flips the card back to Seal. A long rest resets it to Seal. The Seal side's Reaction Roll (14) names no trait, so it is made by hand before the damage.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!iz3tUDMthRRy9O2D"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Neural Plasticity",
+  "folder": null,
+  "_id": "vfg4PRdh8DV9GS9l",
+  "img": "icons/magic/perception/orb-eye-scrying.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>When you fail a roll that utilized one of your Experiences, you can <strong>mark a Stress</strong> to reroll.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!vfg4PRdh8DV9GS9l"
+}

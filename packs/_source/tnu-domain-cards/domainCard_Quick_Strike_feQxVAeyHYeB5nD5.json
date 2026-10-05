@@ -1,0 +1,107 @@
+{
+  "folder": "cOwsI84YnWDDNEc2",
+  "name": "Quick Strike",
+  "type": "domainCard",
+  "_id": "feQxVAeyHYeB5nD5",
+  "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>When you make a successful attack with a weapon, you can <strong>spend a Hope</strong> to apply the attack to a second target within range, dealing half damage. You can spend an <strong>additional Hope</strong> to deal full damage to the second target instead.</p>",
+    "domain": "mars",
+    "recallCost": 0,
+    "level": 1,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "srnFdkmbpglUU3ar": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Second Target: Half Damage",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "srnFdkmbpglUU3ar",
+        "img": "icons/skills/melee/strike-sword-slashing-red.webp"
+      },
+      "uZbJ0gmLzblFVIfj": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 2,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Second Target: Full Damage",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "uZbJ0gmLzblFVIfj",
+        "img": "icons/skills/melee/strike-sword-slashing-red.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!feQxVAeyHYeB5nD5"
+}

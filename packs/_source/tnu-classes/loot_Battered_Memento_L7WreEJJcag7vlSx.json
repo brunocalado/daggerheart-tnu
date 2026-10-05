@@ -1,0 +1,22 @@
+{
+  "folder": "s5gcDpGW0N7ezKLg",
+  "name": "Battered Memento",
+  "type": "loot",
+  "img": "icons/equipment/neck/pendant-enamel.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "L7WreEJJcag7vlSx",
+  "sort": 0,
+  "_key": "!items!L7WreEJJcag7vlSx"
+}

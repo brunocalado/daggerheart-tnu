@@ -1,0 +1,263 @@
+{
+  "folder": "rE0piagR8t4QnY7e",
+  "name": "Torment of Cocytus",
+  "type": "domainCard",
+  "_id": "7EaaNzqQBpe1pOYL",
+  "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+  "system": {
+    "description": "<p><strong>Sigil</strong></p><h3>Seal</h3><p>Make a <strong>Power Roll</strong> against a target within Very Close range. On a success, the target is temporarily <em>Tormented</em>. While <em>Tormented</em>, whenever the target is spotlighted, they must also <strong>mark a Stress</strong>, their will eroded by endless wailing.</p><p><strong>Seal:</strong> After you successfully use this card, you can <strong>mark a Hit Point</strong> to flip it to its <strong>Release</strong> side.</p><h3>Release</h3><p>Make a <strong>Power Roll</strong> against all targets within Very Close range. On a success, they must <strong>mark a Stress</strong> and are temporarily <em>Restrained</em>.</p><p><strong>Release:</strong> After you use this card, flip it back to its <strong>Seal</strong> side.</p>",
+    "domain": "pluto",
+    "recallCost": 2,
+    "level": 1,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "1",
+      "icon": "fa-solid fa-lock-open",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "ku8CLEENEvOpN6Ib": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Seal: Torment",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "4RGMgBdxjgt4USQN",
+            "onSave": false
+          }
+        ],
+        "_id": "ku8CLEENEvOpN6Ib",
+        "img": "icons/magic/symbols/rune-sigil-black-pink.webp"
+      },
+      "zpjVBKkGYjP5cCGX": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "7EaaNzqQBpe1pOYL",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Release: Torment",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "0wbWKmjVQsNGbSsO",
+            "onSave": false
+          }
+        ],
+        "_id": "zpjVBKkGYjP5cCGX",
+        "img": "icons/magic/symbols/rune-sigil-black-pink.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Two-sided Sigil. The card's resource marks the side it shows (0 = Seal, 1 = Release). After a successful Seal use, mark a Hit Point by hand and set the resource to 1. Each Release action spends it, which flips the card back to Seal. A long rest resets it to Seal.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Tormented",
+      "img": "icons/magic/death/undead-ghost-scream-teal.webp",
+      "transfer": false,
+      "_id": "4RGMgBdxjgt4USQN",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Tormented.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "tormented"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!7EaaNzqQBpe1pOYL.4RGMgBdxjgt4USQN"
+    },
+    {
+      "name": "Restrained",
+      "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+      "transfer": false,
+      "_id": "0wbWKmjVQsNGbSsO",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Restrained.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!7EaaNzqQBpe1pOYL.0wbWKmjVQsNGbSsO"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!7EaaNzqQBpe1pOYL"
+}

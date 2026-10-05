@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Hard to Kill",
+  "folder": null,
+  "_id": "dqgPtG3aubYEVb8n",
+  "img": "icons/magic/life/cross-worn-green.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>When you Avoid Death on a death move, you can reroll your Hope Die once.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!dqgPtG3aubYEVb8n"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Nano-Weaver",
+  "type": "consumable",
+  "_id": "hd1emMi23wWAgYWr",
+  "img": "icons/tools/medical/bandages-adhesive.webp",
+  "system": {
+    "description": "<p>Spend any number of Hope; clear that many Armor Slots.</p>",
+    "quantity": 1,
+    "actions": {
+      "HdTQaIDHGOr9CpDZ": {
+        "type": "effect",
+        "_id": "HdTQaIDHGOr9CpDZ",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "hd1emMi23wWAgYWr",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/tools/medical/bandages-adhesive.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 40 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3900000,
+  "flags": {},
+  "_key": "!items!hd1emMi23wWAgYWr"
+}

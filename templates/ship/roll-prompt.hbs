@@ -1,0 +1,18 @@
+<div class="daggerheart-tnu ship-roll-prompt">
+  {{#if chooseCrew}}
+  <div class="form-group">
+    <label>Crew member</label>
+    <select name="crew">
+      {{#each crew}}<option value="{{uuid}}">{{name}} ({{sphere}})</option>{{/each}}
+    </select>
+  </div>
+  {{/if}}
+  {{#if experiences.length}}
+  <fieldset>
+    <legend>Ship Experiences: 1 ship Hope each ({{hope}} left)</legend>
+    {{#each experiences}}
+    <label class="checkbox"><input type="checkbox" name="experience{{index}}"> {{name}} +{{value}}</label>
+    {{/each}}
+  </fieldset>
+  {{/if}}
+</div>

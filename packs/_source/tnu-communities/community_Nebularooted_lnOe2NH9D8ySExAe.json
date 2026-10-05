@@ -1,0 +1,23 @@
+{
+  "type": "community",
+  "name": "Nebularooted",
+  "folder": null,
+  "system": {
+    "loreReference": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null
+    },
+    "description": "<p>People of this community are commonly optimistic, inquisitive, gullible, proud, spiritual, moony, and open-minded.</p>",
+    "gmNotes": "",
+    "features": [
+      "Compendium.daggerheart-tnu.tnu-communities.Item.rCL9Qw7Uiu6QA7Nc"
+    ]
+  },
+  "_id": "lnOe2NH9D8ySExAe",
+  "img": "icons/environment/settlement/city-night-spire.webp",
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!lnOe2NH9D8ySExAe"
+}

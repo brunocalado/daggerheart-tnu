@@ -1,0 +1,41 @@
+{
+  "_id": "biru5zSxw2uKMZII",
+  "_key": "!items!biru5zSxw2uKMZII",
+  "name": "Flight Maneuver",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/magic/control/buff-flight-wings-blue.webp",
+  "system": {
+    "description": "<p><strong>Fight or flight:</strong> Make a <strong>Power Roll</strong> against the target. On a success <strong>spend a Stress</strong> to get away from the adversary to Very Far range.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "heart",
+    "level": 4,
+    "location": "Cockpit",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Fight or flight",
+        "spheres": [
+          "heart"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 1,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll against the target. On a success spend a Stress to get away from the adversary to Very Far range."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

@@ -1,0 +1,41 @@
+{
+  "name": "STARHOPPING",
+  "_id": "rqrsdzAxDfuHWGpc",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Campaign Frame",
+      "type": "text",
+      "_id": "6ff4t0hGonBMVZdX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v3.0 Fist. Designed by Christof Schwab. Complexity Rating: ● (1). No frame-specific mechanics are printed. It uses a Vulpan ancestry that is not included in the playtests.</em></p><p><em>A fast-paced voyage through the galaxies where a new surprise hides behind every planet.</em></p><h2>Tone &amp; Feel</h2><p>Lighthearted, cozy, fun, adventurous, playful, surprising, upbeat.</p><h2>Themes</h2><p>Swashbuckle adventures in space, Freedom vs. responsibility, Fate &amp; self-determination, Escapism.</p><h2>Touchstones</h2><p>Guardians of the Galaxy, The Hitchhiker's Guide to the Galaxy, Firefly, Star Wars, No Man's Sky, Rick and Morty.</p><h2>The Pitch</h2><p>When the most powerful woman in the galaxy, Princess Aiel Moonreign, decides to ditch her fiancé and her ill father's throne the night before her wedding, a wild intergalactic goose chase begins. The MS Goose, the fastest ship in the universe, was rented for the honeymoon and purloined by the princess. Aiel is known to explore unknown planets for new leisure activities, often getting herself into trouble. Now it's up to the most courageous crew to follow her Starhopping trail to find out what's going on.</p><h2>Overview</h2><p><em>Give your players this information before character creation.</em></p><p>\"Planets are like children: even if they belong to the same family, each one is uniquely weird, rapidly changing and (almost certainly) full of potential. Traveling to new planets, new galaxies even, is always a fun adventure, full of surprises and never boring. The thing is: if you stay there for too long things tend to get stale...\" This quote from an intergalactic talk show earned Aiel Moonreign the nickname \"the Starhopping Princess\".</p><p>Aiel is a young Vulpan resembling a humanoid weasel with perfect white fur, first heir to the Vulpan throne. Nothing is duller to her than her home planet Theria, which her father King <strong>Zaus Moonreign the Seventh</strong> terraformed as a present for his unborn daughter: a few islands where dinosaurs may still exist, an aurora borealis visible from everywhere, and gravity altered to a vibrant 0.5g. She left for the first time the day she cleared her outer space training courses on her sweet sixteen, and only returns for short pit stops.</p><p>King Zaus hoped she would settle down and arranged her marriage to <strong>Calu Vanderstyne</strong>, a well-behaved fox Vulpan with many leading roles in the Royal Theater of Theria, best known for reciting π somewhat correctly for two full days. He was always willing to travel with Aiel and even rented the MS Goose for the honeymoon, so she agreed. The wedding was to last a whole Theria week (roughly 12.5 Earth days) with guests invited from all over the universe.</p><p>On the night before the wedding she disappeared. Guards, servants and Zaus himself saw Aiel board the MS Goose around midnight with a small entourage and loads of champagne. Because she was technically both the most powerful woman in the universe and the bride on her wedding day, no one questioned or stopped her. She vanished from the scanners within minutes, cut all communications and has been on the run ever since, traveling faster than the rumors about her whereabouts. She is often seen enjoying leisure activities on planets and space stations, then gone just as quickly. Henchmen of her father, messengers of her worried fiancé and dozens of reporters have tried to catch her.</p><p>The only way to get close is to join the party life, earn her trust as a daredevil crew worthy of her entourage, and hopefully be invited aboard the MS Goose. It could bring fame and a handsome reward to those who saved the universe from erupting into chaos, or answer the curiosity of many: why would Aiel run away? Zaus, Calu and even the Symbion <strong>Makoy Knaggiou</strong>, who owns the purloined MS Goose, are eager to finance such an endeavour. They'll pay you to party, provided you report back every once in a while.</p><p><em>Per aspera ad astra!</em></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!rqrsdzAxDfuHWGpc.6ff4t0hGonBMVZdX"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!journal!rqrsdzAxDfuHWGpc"
+}

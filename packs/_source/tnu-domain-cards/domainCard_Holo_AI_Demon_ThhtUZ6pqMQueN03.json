@@ -1,0 +1,78 @@
+{
+  "folder": "gTKDXj2lswVLAUoQ",
+  "name": "Holo AI-Demon",
+  "type": "domainCard",
+  "_id": "ThhtUZ6pqMQueN03",
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "system": {
+    "description": "<p><strong>Tech</strong></p><p>Get advantage on an action roll to breach a secure network, open an electronically locked door, or disable a device.</p><p><strong>Charged:</strong> When rolling a success with Fear on action roll to breach a secure network, open an electronically locked door, or disable a device, <strong>spend a Charge</strong> to, ignore the negative consequences of the roll. The GM still gets a Fear.</p>",
+    "domain": "saturn",
+    "recallCost": 1,
+    "level": 1,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": null,
+      "icon": "fa-solid fa-bolt",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "atYzorht0npgdgTU": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "ThhtUZ6pqMQueN03",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Charged: Ignore Consequences",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "atYzorht0npgdgTU",
+        "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Charges are stored on this card's resource. Place them by hand (instead of gaining Hope on a success with Hope, or by marking a Stress on a success with Fear); a long rest clears them. The card art spells it \"Holo AI-Daemon\"; the text spelling is used.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!ThhtUZ6pqMQueN03"
+}

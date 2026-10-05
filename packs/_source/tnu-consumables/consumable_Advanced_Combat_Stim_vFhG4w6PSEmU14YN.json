@@ -1,0 +1,100 @@
+{
+  "name": "Advanced Combat-Stim",
+  "type": "consumable",
+  "_id": "vFhG4w6PSEmU14YN",
+  "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+  "system": {
+    "description": "<p>Clear <strong>1d4+1 Stress</strong>. It shares the combat-stim lockout.</p>",
+    "quantity": 1,
+    "actions": {
+      "NIKBPt89YcUQ9aDB": {
+        "type": "healing",
+        "_id": "NIKBPt89YcUQ9aDB",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "vFhG4w6PSEmU14YN",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d4",
+                "bonus": 1
+              },
+              "applyTo": "stress",
+              "base": false,
+              "resultBased": false,
+              "valueAlt": null,
+              "fullRestore": false,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        }
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 23 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2200000,
+  "flags": {},
+  "_key": "!items!vFhG4w6PSEmU14YN"
+}

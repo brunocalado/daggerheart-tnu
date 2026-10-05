@@ -1,0 +1,62 @@
+{
+  "name": "Identity Scrambler",
+  "type": "consumable",
+  "_id": "aI9qjy2gJoavxEdy",
+  "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+  "system": {
+    "description": "<p>Automatically succeed on one check to fool a scanner or bypass an electronic lock; burns out after one use.</p>",
+    "quantity": 1,
+    "actions": {
+      "5MMXRPnBfmbfiJ8o": {
+        "type": "effect",
+        "_id": "5MMXRPnBfmbfiJ8o",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "aI9qjy2gJoavxEdy",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 12 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1100000,
+  "flags": {},
+  "_key": "!items!aI9qjy2gJoavxEdy"
+}

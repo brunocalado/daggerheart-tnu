@@ -1,0 +1,42 @@
+{
+  "folder": "LacfRc8fIkqwTSPb",
+  "name": "Fracture of Form",
+  "type": "subclass",
+  "_id": "8mvGOoUDFoNcoFu2",
+  "img": "icons/sundries/survival/mirror-plain.webp",
+  "system": {
+    "description": "<p>Play the Fracture of Form if you want to weaponize your own broken body – splitting into unstable copies, striking from multiple angles, and tearing reality with distorted versions of yourself.</p>",
+    "spellcastingTrait": "instinct",
+    "features": [
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.vG6nKvQfLFim6Goi"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.cgg7PCfH5aHo7OUk"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.fVZDbuvAdGSqdiSV"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.vZdhA3A55V6NmRA5"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "linkedClass": "Compendium.daggerheart-tnu.tnu-classes.Item.rwaQKtQNGOOVBdSV",
+    "gmNotes": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!8mvGOoUDFoNcoFu2"
+}

@@ -1,0 +1,365 @@
+{
+  "name": "TNU Rules",
+  "_id": "sPpJe26a0smTk6lc",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Foundations",
+      "type": "text",
+      "_id": "QAr4HiFLaRJLSFHo",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The New Unknown (TNU) is built on the Daggerheart core system. Unless a TNU rule says otherwise, the Daggerheart SRD applies: Duality Dice, Hit Points, Stress, Armor, damage dice and leveling all work as in Daggerheart.</p><p><em>Playtest v1.0 Heart, v2.0 Mind, v3.0 Fist. Where a rule changed between playtests, the latest text wins and the page names the playtest it comes from.</em></p><h2>Terminology</h2><ul><li><strong>Damage types.</strong> <em>Kinetic</em> (abbreviated <em>kin</em>) and <em>Energy</em> (<em>ene</em>) replace physical and magical damage. In this module kinetic is physical and energy is magical. (v1.0, unchanged in v2.0 and v3.0.)</li><li><strong>Trauma.</strong> Scars are called Trauma. Each Trauma reduces your maximum Hope by 1. (v1.0, unchanged.)</li><li><strong>Power Trait.</strong> Spellcast Traits are called Power Traits. Each Subclass has one, and it is used by some Subclass features, Domain Cards and Equipment. (v1.0, unchanged.)</li><li><strong>Power Roll.</strong> The Spellcast Roll. A <em>Power Roll (N)</em> is the same roll against a fixed Difficulty N. Gear and expendables such as grenades and the Micro-Drone also call for Power Rolls. (v1.0, v2.0.)</li><li><strong>Domain card types.</strong> Skill, Tech, Psionic, Engram and Sigil, plus the Anomaly type introduced in v3.0 for Nibiru. Skill is the counterpart of Daggerheart's Ability card and Psionic the counterpart of Spell. (v1.0–v3.0.) See <em>Classes &amp; Domains of TNU</em>.</li></ul><h2>Spheres</h2><p>Nine of the ten domains are grouped into three Spheres: Mind (Mercury, Saturn, Uranus), Heart (Pluto, Venus, Terra) and Fist (Neptune, Jupiter, Mars). Nibiru stands outside the Spheres. The Spheres are a grouping only; in ship play they are also derived from a character's Power Trait (see <em>Ships</em>).</p><h2>Stacking limit</h2><p>Identically named features from different sources do not stack. (v2.0.)</p><ul><li><strong>Active features:</strong> if you have <em>Biocharged</em> from several sources (for example your armor and a cybernetic implant), you can trigger it only once per attack.</li><li><strong>Passive bonuses:</strong> if you have <em>Lucid</em> (+1 Instinct) from two sources (for example the armor Dreamer's Robe and an implant), you gain a total bonus of +1 Instinct, not +2.</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.QAr4HiFLaRJLSFHo"
+    },
+    {
+      "sort": 200000,
+      "name": "Trauma & Cybernetic Implants",
+      "type": "text",
+      "_id": "4ZAbmE6s0vb0Ttgt",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v1.0 Heart (Trauma, Hardwired); v2.0 Mind (implants).</em></p><p>Scars are called <strong>Trauma</strong>. Each Trauma reduces your maximum Hope by 1.</p><h2>Implants</h2><p>Cybernetic implants can significantly empower a character, but installation takes a heavy toll on body and psyche. For every implant you install you automatically gain one permanent Trauma, so your maximum Hope is permanently reduced by 1 per implant. Implants can be swapped out, but the damage is irreversible: the Trauma remains.</p><ul><li><strong>Exception:</strong> the <em>Hardwired</em> ancestry can install one implant without gaining Trauma.</li><li><strong>Tiers:</strong> an implant's Tier mainly reflects its rarity and technological complexity and is only a secondary indicator of power. There are no Tier 1 implants.</li><li><strong>No level restriction:</strong> unlike weapons and armor, characters of any level may acquire implants, at the Game Master's discretion.</li></ul><p>Implants in the TNU Gear &amp; Implants compendium: @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.MHnOzHVUG2EbYty4]{Body Arsenal}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.0LbmVpaslF2KG4DP]{Endocrine Synthesizer 'PEITHO'}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.ybIrCnaL1Lqn7mbz]{Exo-Lung}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.Tqp9qJFWVoDAH41W]{Extension Actuators}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.ZQOnpyKfD20f3WHS]{Mirror-Neuron Lace}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.cZ4D0NhDnHhX9HNE]{Neural Interface}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.KPrxoqCSNbB0X4J3]{Neuro-Chem Pump}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.iHEmtJditwdFljqh]{Personal Link}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.7QhlQmKEzzPfJRXx]{Polymerized Dermis}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.VKxIBN5auxwBOhV1]{Prefrontal Logic Matrix 'METIS'}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.G9IypIOo9d0zZsNh]{Spinal Nociceptor Shunt}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.RayI2sbVGruQVimU]{Telescopic Appendage}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.ovBDYGFuX2pUDHOF]{Tendons ATALANTA}, @UUID[Compendium.daggerheart-tnu.tnu-loot.Item.F6NF9yZn37JbXbHF]{Therm-Optic Retinas}.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.4ZAbmE6s0vb0Ttgt"
+    },
+    {
+      "sort": 300000,
+      "name": "Power Trait & Power Roll",
+      "type": "text",
+      "_id": "yHckvYVNS0SSG2cB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v1.0 Heart; v2.0 Mind.</em></p><p>Each Subclass names one <strong>Power Trait</strong> (the TNU name for the Spellcast Trait). A <strong>Power Roll</strong> is a roll made with it. <em>Power Roll (10)</em> or <em>Power Roll (25)</em> is the same roll against a fixed Difficulty.</p><p>Several features also use the Power Trait as a number: <em>d8 + Power Trait</em> damage, the number of d12s in Loaded Dice, token counts on cards such as Holographic Guise and Cloak Field, and similar. Subclasses of the Hollow class let the player pick any trait as their Power Trait.</p><p>Items that call for a Power Roll (grenades, the Micro-Drone, the Signal Disruptor) use the character's Power Trait even if they are not a spellcaster; the playtests do not say what a character without one rolls.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.yHckvYVNS0SSG2cB"
+    },
+    {
+      "sort": 400000,
+      "name": "Echo",
+      "type": "text",
+      "_id": "BI6aSQNw37DGXiDo",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v1.0 Heart and v2.0 Mind print four classes; v3.0 Fist adds a fifth, Hollow, and that text is used here.</em></p><p>Echo is the ability to influence reality with extraordinary powers that do not come from technology or hardware. It is internal and unexplainable. Depending on the tone of your setting it can be psionics, biotics, \"the Force\", the Warp or paracausality.</p><p>Echo is available to five classes: @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.rwaQKtQNGOOVBdSV]{Broken}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.4Agbp9WeN7R1fvEP]{Resonant}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.FNhR8kZJZBs15I2K]{Stray}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.Zoj22cNRL5jlH6xr]{Primus}, @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.oSHA0RAc4koUSjwv]{Hollow}. Each class and subclass has its own mechanics for it; the main difference is how Echo is generated and how large the pool is.</p><h2>The Volatile</h2><p>Broken, Resonant and Hollow have a low Echo Maximum but generate Echo quickly within a scene.</p><ul><li><strong>Broken:</strong> pain is the catalyst; taking damage generates Echo.</li><li><strong>Resonant:</strong> strength from connection; they generate Echo when characters support one another.</li><li><strong>Hollow:</strong> their power comes from a dark entity born of chaos and void; they generate Echo through the darkness of the cosmos.</li></ul><h2>The Reservoirs</h2><p>Stray and Primus have a high Echo Maximum, a deep pool. Once spent it is gone for the moment: they generally cannot regenerate Echo mid-scene and must complete a rest to replenish it.</p><h2>Naturals and Altered</h2><ul><li><strong>Naturals</strong> (Resonant, Stray) were born with the gift.</li><li><strong>Altered</strong> (Broken, Primus, Hollow) were not born with it; they were altered to acquire it, some forced into it later in life.</li></ul><h2>The [Echo] tag</h2><p>Weapons and items tagged <strong>[Echo]</strong> channel psionic energy and can be used only by classes with the Echo resource.</p><p><em>Errata note:</em> the v3.0 text still says \"all four of these classes\" once; it means all five.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.BI6aSQNw37DGXiDo"
+    },
+    {
+      "sort": 500000,
+      "name": "Domain Card Types",
+      "type": "text",
+      "_id": "zlF9R8oy890iyj9t",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v1.0 Heart (Psionic, Engram, Sigil), v2.0 Mind (Skill, Tech, Charges), v3.0 Fist (Anomaly).</em></p><h2>Skill</h2><p>The equivalent of Daggerheart Ability cards: natural, innate or learned capabilities. Mercury, Jupiter and Mars consist only of Skill cards; the other seven domains each have at least one.</p><h2>Tech</h2><p>Gadgets and tools outside the standard Equipment system, intrinsic to a character's identity. Saturn (infiltration and subterfuge) and Uranus (experimental prototype tech) use only Tech cards. Every Tech card uses the Charge mechanic, below.</p><h2>Psionic</h2><p>The counterpart of Spell cards. They stand for psionics, biotics, the Force or cosmic energy, depending on your setting, and always represent powers that come from the user, not from technology. Venus and Terra use Psionic cards.</p><h2>Engram</h2><p>A special Psionic card found only in the Neptune domain. An Engram combines several effects on one card: more versatile, less specialised than a standard Psionic card.</p><h2>Sigil</h2><p>Found only in the Pluto domain. A Sigil may be technological (for an Architect, often forbidden devices that manipulate entropy) or psionic (for a Broken, dreaded psionic phenomena).</p><h2>Anomaly</h2><p>A special Psionic card found only in the Nibiru domain. See <em>Anomaly Escalation</em> below.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.zlF9R8oy890iyj9t"
+    },
+    {
+      "sort": 600000,
+      "name": "Charges & Tech Cards",
+      "type": "text",
+      "_id": "KQsykyVBEXf7n8T9",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v2.0 Mind.</em></p><p>Charges are a resource stored as tokens on cards. Every Tech card has a <strong>Charged</strong> effect. To activate it you <strong>spend a Charge</strong>, and unlike Hope or Stress you cannot pay it from your character's reserves: you must remove a Charge token from the card itself.</p><h2>Gaining Charges</h2><ul><li><strong>Success with Hope:</strong> instead of gaining a Hope, you may place a Charge token on any Tech card in your loadout, or on another card that can store Charges (specifically Cheat and Architect subclass cards).</li><li><strong>Success with Fear:</strong> you may mark a Stress to place a Charge token on an eligible card.</li><li><strong>Other effects:</strong> some Uranus domain cards and Architect subclass features generate or manipulate Charges.</li><li><strong>Long rest:</strong> after a long rest, all unused Charge tokens are lost.</li></ul><h2>Charge modes</h2><ul><li><strong>Saturn</strong> cards have a base effect plus a <em>Charged</em> effect.</li><li><strong>Uranus</strong> cards offer <em>Discharged</em> (free, then the card goes to the vault), <em>Charged</em> (1 Charge) and <em>Overcharged</em> (2 Charges, then the card goes to the vault).</li></ul><p>Examples: @UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.2dbR1BMZYwb5b3dV]{Holographic Guise}, @UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.7MPeeqlEU51w31kr]{Cloak Field}.</p><p>The playtests do not state a maximum number of Charges per card, except on the Architect's Energy Core.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.KQsykyVBEXf7n8T9"
+    },
+    {
+      "sort": 700000,
+      "name": "Sigils",
+      "type": "text",
+      "_id": "aGRGlfGnv3ptMptf",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v1.0 Heart; repeated in v2.0 Mind.</em></p><p>Sigil cards have a unique <strong>Flip</strong> mechanic:</p><ul><li>By default the card rests on its <strong>Seal</strong> side.</li><li>After successfully using it, you may <strong>mark a Hit Point</strong> to flip the card to its <strong>Release</strong> side, ready to deliver a devastating effect on its next use.</li><li>Once triggered, the card instantly reverts to its Seal side.</li><li>Sigils also reset to Seal after a long rest.</li></ul><p>Sigils are unique to the Pluto domain.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.aGRGlfGnv3ptMptf"
+    },
+    {
+      "sort": 800000,
+      "name": "Engrams",
+      "type": "text",
+      "_id": "j7DHDdSq9s2SlJYc",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v1.0 Heart; v3.0 Fist.</em></p><p>Engram cards are a special form of Psionic card found only in the Neptune domain. They combine multiple effects onto a single card, making them more versatile, though less specialised, than standard Psionic cards.</p><p>Example: @UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.IYUBdz9HBR4a35MA]{Third Circle of Mind}.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.j7DHDdSq9s2SlJYc"
+    },
+    {
+      "sort": 900000,
+      "name": "Anomaly Escalation",
+      "type": "text",
+      "_id": "VveEAT0XgXzArnI9",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v3.0 Fist.</em></p><p>Anomaly cards are a special form of Psionic card found only in the <strong>Nibiru</strong> domain. All share a feature called <strong>Escalation</strong>: once the card has been successfully activated, you can choose to <strong>give the GM Fear</strong> (usually 1 or 2, depending on the card) to trigger a stronger or new effect on the card.</p><p>The rules text warns that Anomaly cards are a game with fire: they allow an especially powerful effect, but at a high price, because the world becomes much darker and more dangerous.</p><p>Example: @UUID[Compendium.daggerheart-tnu.tnu-domain-cards.Item.E2ruu7NeBOg8haFH]{Glimpse into the Abyss}.</p><p>The playtest contains body horror and psychological horror; these themes are central to the Hollow class and the Nibiru domain.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.VveEAT0XgXzArnI9"
+    },
+    {
+      "sort": 1000000,
+      "name": "Loaded Dice",
+      "type": "text",
+      "_id": "OjCVwpwzXKr1K1sI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v2.0 Mind. Cheat class feature.</em></p><p>At the beginning of each session, roll a number of <strong>d12s</strong> equal to your subclass's Power Trait and place them on your character sheet. These are your Loaded Dice. You can spend a Loaded Die when making an action roll to switch a die's value with the value of one of your Duality Dice. At the end of each session, clear all unspent Loaded Dice.</p><p>Class: @UUID[Compendium.daggerheart-tnu.tnu-classes.Item.lpr0WhJGVYu8M67E]{Cheat}.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.OjCVwpwzXKr1K1sI"
+    },
+    {
+      "sort": 1100000,
+      "name": "Equipment, Rarity & Upgrades",
+      "type": "text",
+      "_id": "bba8W0wDif2P1lRr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v2.0 Mind; weapons and armor also appear in v1.0 Heart.</em></p><h2>Weapon upgrades</h2><ul><li><strong>Upgrading:</strong> starting at Tier 2, a weapon can be upgraded to a higher Tier with a Weapon Upgrade Kit of the target Tier (Tier 3 or 4).</li><li><strong>Damage scaling:</strong> when a primary weapon is upgraded, increase its damage by <strong>+3</strong> for each tier step above its base Tier.</li><li><strong>Direct acquisition:</strong> the GM may award higher-tier weapons as loot.</li><li><strong>Minimum Tier:</strong> models are locked to a base Tier.</li></ul><h2>Gear, implants and expendables</h2><ul><li><strong>Gear</strong> is reusable hardware, tools and weapon modifications. Once acquired it stays in the inventory until sold, discarded or destroyed. Gear has no level restriction; its Tier mainly reflects rarity and is a secondary indicator of power.</li><li><strong>Cybernetic implants:</strong> see <em>Trauma &amp; Cybernetic Implants</em>.</li><li><strong>Expendables</strong> are consumed on use. Their Tier is a direct indicator of rarity and power; there is no mechanical level restriction, but the playtest recommends reserving high-tier items for higher-level play, with exceptions at the GM's discretion.</li></ul><h2>Random generation</h2><p>Roll the dice for the rarity you want and match the total to the 01–40 table:</p><table><thead><tr><th>Rarity</th><th>Dice</th></tr></thead><tbody><tr><td>Standard</td><td>1d12 or 2d12</td></tr><tr><td>Advanced</td><td>2d12 or 3d12</td></tr><tr><td>Elite</td><td>3d12 or 4d12</td></tr><tr><td>Prototype</td><td>4d12 or 5d12</td></tr></tbody></table><p>Roll tables: @UUID[Compendium.daggerheart-tnu.tnu-tables.RollTable.8dUl4GO1GnSOBF1p]{TNU Gear}, @UUID[Compendium.daggerheart-tnu.tnu-tables.RollTable.cwt24t7XZBM0M7Fk]{TNU Expendables}.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.bba8W0wDif2P1lRr"
+    },
+    {
+      "sort": 1200000,
+      "name": "Keyword Glossary",
+      "type": "text",
+      "_id": "b2d31cvo2rURDEAh",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v1.0 Heart and v2.0 Mind print the same feature text inline in the equipment tables; v3.0 has no equipment.</em></p><h2>Weapon features</h2><ul><li><strong>Precise:</strong> +1 to attack rolls.</li><li><strong>Bulky:</strong> −1 to Evasion.</li><li><strong>Unwieldy:</strong> −1 to Finesse.</li><li><strong>Opportunist:</strong> When you attack with advantage, use d10 (Mono-Edge Knife) / d12 (ZEUS Arc Talons) as your weapon damage die.</li><li><strong>Flexible:</strong> When you make an attack, you can mark a Stress to target another creature within range.</li><li><strong>Locked:</strong> Spend a Hope to give yourself advantage on the attack roll.</li><li><strong>Amplified:</strong> On a successful attack, roll an additional damage die and discard the lowest result.</li><li><strong>Point-Blank:</strong> On a successful attack within Close range, use d8 as your weapon damage die.</li><li><strong>Dead Zone:</strong> You gain disadvantage on attack rolls at Melee and Very Close range.</li><li><strong>Hybrid:</strong> This weapon can also be used with these Statistics: [Trait], Melee, d10 (Phase Lance: Instinct; JANUS Gunblade: Finesse).</li><li><strong>Straining:</strong> On a successful attack, the target must mark a Stress.</li><li><strong>Rupture:</strong> When you roll the maximum value on a damage die, roll an additional damage die.</li><li><strong>Adrenaline:</strong> When all your Stress is marked, use d12 (Visc Bladestaff) / d10 (Visc Biospitter) as your weapon damage die.</li><li><strong>Spreadfire:</strong> When you make an attack, target all creatures in front of you within range.</li><li><strong>Impact Zone:</strong> The target and all creatures within Very Close range of them must make a Reaction Roll (13). Targets who succeed take half damage.</li><li><strong>Tether:</strong> On a successful attack, you can spend a Hope to temporarily Restrain the target or pull them into Melee range with you.</li><li><strong>One-on-One:</strong> When there are no other creatures within Close range of the target, gain advantage on your attack roll against them.</li><li><strong>Warded:</strong> +1 to Armor Score.</li><li><strong>Lethal:</strong> When you deal Severe damage, the target must mark an additional HP.</li><li><strong>Power Strike:</strong> Gain a bonus to your damage rolls equal to your Strength.</li><li><strong>Shockwave:</strong> On a successful attack, all adversaries within Very Close range must mark a Stress.</li><li><strong>Synced:</strong> Spend a Hope to gain a +2 bonus to primary weapon damage.</li><li><strong>Off-Hand:</strong> +2 to primary weapon damage to targets within Melee range.</li><li><strong>Bastion:</strong> +2 to Armor Score; −1 to Evasion.</li><li><strong>Drag:</strong> On a successful attack, you can pull the target into Melee range.</li><li><strong>Barrier:</strong> +1 to Evasion.</li><li><strong>Unleash:</strong> Mark a Stress to force all adversaries within Melee range back to Close range.</li><li><strong>Shielded:</strong> +2 to Armor Score; −1 to Knowledge (Kinetic Barrier Emitter) / −1 to Stress (Personal Energy Shield). The two items print different penalties.</li><li><strong>Block:</strong> +1 to Armor Score.</li><li><strong>Deflecting:</strong> When you are attacked, roll this weapon's damage dice. If any of the attacker's damage dice rolled the same value as your dice, the matching results are discarded from the attacker's damage dice before the damage you take is totaled.</li><li><strong>Constrict:</strong> On a successful attack, you can spend a Hope to temporarily Restrain them.</li><li><strong>Pull:</strong> On a successful attack, you can pull yourself into Melee range of the target.</li></ul><h2>Armor features</h2><ul><li><strong>Adaptive:</strong> +1 to Evasion.</li><li><strong>Bulky:</strong> −1 to Evasion.</li><li><strong>Massive:</strong> −2 to Evasion; −1 to Agility.</li><li><strong>Phantom:</strong> Mark an Armor Slot to give all attacks against you disadvantage until you take damage or the scene ends.</li><li><strong>Regrowth:</strong> During downtime, automatically clear an Armor Slot.</li><li><strong>Biocharged:</strong> Mark a Stress to gain a +1 bonus to your Proficiency on a primary weapon attack.</li><li><strong>Deflect:</strong> After you are hit, you can mark an Armor Slot to reduce the attack roll by an amount equal to your unmarked Armor Slots.</li><li><strong>Stims:</strong> During downtime, automatically clear a Stress.</li><li><strong>Transfer:</strong> When you would mark a Stress, you can mark an Armor Slot instead.</li><li><strong>Cornered:</strong> When all your Stress is marked, gain advantage on attack rolls.</li></ul><h2>Features granted by items</h2><p>Several items grant a named +1 bonus to a trait: <em>Swift</em> (+1 Agility), <em>Powered</em> (+1 Strength), <em>Deft</em> (+1 Finesse), <em>Lucid</em> (+1 Instinct), <em>Aura</em> (+1 Presence), <em>Brilliant</em> (+1 Knowledge). Identically named bonuses do not stack.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.b2d31cvo2rURDEAh"
+    },
+    {
+      "sort": 1300000,
+      "name": "Conditions Glossary",
+      "type": "text",
+      "_id": "eDVM2VGU745522Gk",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Standard glossary: v3.0 Fist text, identical to v1.0 and v2.0 except where noted.</em></p><p>For any condition not explained in a feature's own text, use these.</p><ul><li><strong>Dazed:</strong> When a creature is <em>Dazed</em>, their attack rolls have a −2 penalty. (Printed \"Dazzed\" in the glossary and \"Dazed\" everywhere else.)</li><li><strong>Distracted:</strong> When a creature is <em>Distracted</em>, they have a −2 penalty to their Difficulty or Evasion. <em>Changed in v3.0; v1.0 and v2.0 said Difficulty only.</em></li><li><strong>Hidden:</strong> While you're out of sight from all enemies and they don't otherwise know your location, you gain the <em>Hidden</em> condition. Any rolls against a <em>Hidden</em> creature have disadvantage. After an adversary moves to where they would see you, you move into their line of sight, or you make an attack, you are no longer <em>Hidden</em>.</li><li><strong>Restrained:</strong> When you gain the <em>Restrained</em> condition, you can't move until this condition is cleared, but you can still take actions from your current position.</li><li><strong>Shrouded:</strong> When a creature is <em>Shrouded</em>, it is also <em>Hidden</em>. In addition to the benefits of the <em>Hidden</em> condition, while <em>Shrouded</em> a creature remains unseen if stationary when an adversary moves to where they would normally see them.</li><li><strong>Stunned:</strong> When a creature is <em>Stunned</em>, they can't use reactions and can't take any other action.</li><li><strong>Vulnerable:</strong> When a creature is <em>Vulnerable</em>, all rolls targeting them have advantage.</li><li><strong>Weakened:</strong> When a creature is <em>Weakened</em>, they have disadvantage on attack rolls.</li></ul><h2>Conditions defined inside cards and features</h2><p>These appear only in the text that uses them and are listed for convenience. \"Temporarily\" has its Daggerheart SRD meaning.</p><ul><li><strong>Tormented:</strong> Torment of Cocytus (Seal): whenever the target is spotlighted, they must also mark a Stress.</li><li><strong>Ignited:</strong> Flames of Phlegethon, Second Circle of Fist, Pyrokinesis, Living Flame Vessel: they take 2d6 energy damage if they are still Ignited at the end of their action.</li><li><strong>Panicked:</strong> Terror of Alecto (Seal): must attempt to flee, moving as far from you as possible; the GM must spotlight them after you.</li><li><strong>Frenzied:</strong> Terror of Alecto (Release): attack the closest target, friend and foe alike; the GM must spotlight them after you.</li><li><strong>Infested:</strong> Parasitic Seed: when acting, take d6 kinetic damage (the caster's Proficiency); rupture on last HP (d20+5 kinetic, Reaction Roll 13 for half within Very Close).</li><li><strong>Slowed:</strong> Third Circle of Mind, Synaptic Delay: can't act when spotlighted; a token is placed; they act on the next spotlight with a token, which clears it.</li><li><strong>Ordered:</strong> Cut and Shift: advantage on attack rolls until they roll with Fear. (v2.0 prints no definition; v3.0 does.)</li><li><strong>Terrified:</strong> Asura: the Hope die is replaced by a d8 until they succeed with Hope.</li><li><strong>Confused:</strong> Marchosias: Vulnerable, movement limited to Very Close, disadvantage on action rolls, until they mark HP.</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!sPpJe26a0smTk6lc.eDVM2VGU745522Gk"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!journal!sPpJe26a0smTk6lc"
+}

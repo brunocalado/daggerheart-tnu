@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Sheltered",
+  "folder": null,
+  "_id": "Z5WiW8VOospp5jQ1",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>People think twice before crossing you. You have advantage on rolls made to resist influence.</p>",
+    "gmNotes": "The playtest prints the feature name as \"Sheldered\"; authored as Sheltered.",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!Z5WiW8VOospp5jQ1"
+}

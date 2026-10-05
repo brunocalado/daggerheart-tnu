@@ -1,0 +1,98 @@
+{
+  "folder": "d6nLD0enDtoloIiE",
+  "name": "Adaptable Tactics",
+  "type": "domainCard",
+  "_id": "q8er3dKzl61dEieS",
+  "img": "icons/magic/movement/acceleration-speed-tech-blue.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>When you make a reaction roll, you can <strong>mark a Stress</strong> to add your Instinct or Knowledge. Additionally, once per rest when an ally in Very Close range would gain a condition, you can describe how your adaptable tactics aids your ally in the situation and avoid gaining the condition.</p>",
+    "domain": "mercury",
+    "recallCost": 0,
+    "level": 3,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "4fCWj8c99mn8tHS7": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Add Instinct or Knowledge",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "4fCWj8c99mn8tHS7",
+        "img": "icons/magic/movement/acceleration-speed-tech-blue.webp"
+      },
+      "H6NegBbsrygcQ81o": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Aid an Ally",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "H6NegBbsrygcQ81o",
+        "img": "icons/magic/movement/acceleration-speed-tech-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!q8er3dKzl61dEieS"
+}

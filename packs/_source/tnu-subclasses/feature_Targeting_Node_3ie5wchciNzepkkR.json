@@ -1,0 +1,113 @@
+{
+  "folder": "q0jmNK3jL0Tk38L6",
+  "name": "Targeting Node",
+  "type": "feature",
+  "_id": "3ie5wchciNzepkkR",
+  "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+  "system": {
+    "description": "<p><em>Living Arsenal module (Tier 1).</em> +1 bonus to your attack rolls.</p><p>Spend a Charge to activate a module. It deactivates when the scene ends or you activate another module.</p>",
+    "resource": null,
+    "actions": {
+      "PytSelGkkHVqMbQl": {
+        "type": "effect",
+        "_id": "PytSelGkkHVqMbQl",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Activate Targeting Node",
+        "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "6lOwR2OJJ6EfgCl7",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Remove the effect when the module deactivates. Modules are separate features: the system can only charge a cost to the resource on the same item, so spend the Charge from the Energy Core by hand when you activate a module.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Targeting Node",
+      "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+      "transfer": false,
+      "_id": "6lOwR2OJJ6EfgCl7",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.roll.bonus",
+            "type": "add",
+            "value": "1",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": [
+          {
+            "type": "actionType",
+            "actionTypes": [
+              "attack"
+            ],
+            "traits": []
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>+1 bonus to your attack rolls.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!3ie5wchciNzepkkR.6lOwR2OJJ6EfgCl7"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!3ie5wchciNzepkkR"
+}

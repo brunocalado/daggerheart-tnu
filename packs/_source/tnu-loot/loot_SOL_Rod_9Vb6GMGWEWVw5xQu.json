@@ -1,0 +1,22 @@
+{
+  "name": "SOL Rod",
+  "type": "loot",
+  "_id": "9Vb6GMGWEWVw5xQu",
+  "img": "icons/sundries/lights/candle-lit-yellow.webp",
+  "system": {
+    "description": "<p>A baton that floods a massive room with bright light.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 01 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1300000,
+  "flags": {},
+  "_key": "!items!9Vb6GMGWEWVw5xQu"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Protean",
+  "type": "class",
+  "_id": "kGvwYboF5RbTlFhd",
+  "img": "icons/creatures/reptiles/chameleon-camouflage-green-brown.webp",
+  "system": {
+    "description": "<p><em>“Ever changing / moving on now, moving fast”</em></p>",
+    "domains": [
+      "mercury",
+      "saturn"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 12,
+    "features": [
+      {
+        "type": "hope",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.lQGuXodHiIcM8Wl6"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.tXiq0fVCPyN3Qjq9"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.HtEqPXZhkIWKf3A0"
+      }
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": [
+        "Compendium.daggerheart-tnu.tnu-classes.Item.dONFKt7B6ShsoTdI",
+        "Compendium.daggerheart-tnu.tnu-classes.Item.7SzGEu7EkfZqu6gd"
+      ]
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "backgroundQuestions": [
+      "Who first taught you how to adapt — and how did you later surpass their lessons?",
+      "What hostile world or battlefield once tried to break you — and how did it leave its mark?",
+      "What flaw in your survival method do you fear an enemy could exploit?",
+      "Whose life did you save by abandoning the plan — and do they still trust you?",
+      "What rule of survival guides you above all else — and what would make you break it?"
+    ],
+    "connections": [
+      "You once followed my lead through hostile ground. What made you trust my path over your own?",
+      "I shared my last resource with you when survival was uncertain. What mark did that choice leave on you?",
+      "You saw me change the plan in the middle of a fight. Why did you stay with me instead of breaking away?",
+      "I asked you to adapt to my strategy. What did it cost you to follow?",
+      "You know the weakness in how I survive. Why do you never use it against me?"
+    ],
+    "gmNotes": "",
+    "levelupOptionTiers": {
+      "2": {},
+      "3": {},
+      "4": {}
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!kGvwYboF5RbTlFhd"
+}

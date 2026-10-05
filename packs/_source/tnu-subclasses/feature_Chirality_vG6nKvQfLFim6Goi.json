@@ -1,0 +1,25 @@
+{
+  "folder": "Jc0dQW10AgNHEAKZ",
+  "name": "Chirality",
+  "type": "feature",
+  "_id": "vG6nKvQfLFim6Goi",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "<p><strong>Spend an Echo</strong> to manifest a distorted copy of yourself, called Fragment, within Close range. The Fragment shares your Evasion and traits.</p><p>You can use your senses and act as if you were in the Fragment’s space. You can move your Fragment as part of an action roll.</p><p>You can only maintain one Fragment at a time.</p><p>The Fragment lasts until the scene ends, you and it are not within Far range, you manifest another one, or it takes damage.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The Fragment is not summoned automatically: place a token for it by hand. Spend Echo from the class feature that holds it: the system can only charge a cost to the resource on the same item, so this Echo cost is paid by hand.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!vG6nKvQfLFim6Goi"
+}

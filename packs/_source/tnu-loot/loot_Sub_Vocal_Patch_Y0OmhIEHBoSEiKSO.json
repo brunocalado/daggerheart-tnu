@@ -1,0 +1,22 @@
+{
+  "name": "Sub-Vocal Patch",
+  "type": "loot",
+  "_id": "Y0OmhIEHBoSEiKSO",
+  "img": "icons/tools/tech/badge-communicator.webp",
+  "system": {
+    "description": "<p>Silent comms with linked allies within 1 mile.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 09 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2100000,
+  "flags": {},
+  "_key": "!items!Y0OmhIEHBoSEiKSO"
+}

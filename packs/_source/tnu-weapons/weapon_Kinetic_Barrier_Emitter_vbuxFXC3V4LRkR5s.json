@@ -1,0 +1,124 @@
+{
+  "name": "Kinetic Barrier Emitter",
+  "type": "weapon",
+  "_id": "vbuxFXC3V4LRkR5s",
+  "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
+  "system": {
+    "description": "<p><em>[Echo] Echo classes only.</em></p><p>Shielded (+2 Armor Score; -1 Knowledge)</p>",
+    "actions": {},
+    "tier": 1,
+    "equipped": false,
+    "secondary": true,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "shielded",
+        "effectIds": [],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "lA03o7IhLnOBkGNx",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "veryClose",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "presence",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d6",
+            "bonus": null,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "physical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 5200000,
+  "flags": {},
+  "_key": "!items!vbuxFXC3V4LRkR5s"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Extension Actuators",
+  "type": "loot",
+  "_id": "Tqp9qJFWVoDAH41W",
+  "img": "icons/commodities/tech/cog-bronze.webp",
+  "system": {
+    "description": "<p><strong>Cybernetic implant (Tier 2).</strong> Installing it gives you 1 permanent Trauma (−1 max Hope), even if the implant is later swapped out. Identically named features don't stack. Track the Trauma on the character sheet yourself; it is not applied automatically.</p><p><strong>Elongated Limbs:</strong> Treat any Melee-range weapon as Very Close range.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800000,
+  "flags": {},
+  "_key": "!items!Tqp9qJFWVoDAH41W"
+}

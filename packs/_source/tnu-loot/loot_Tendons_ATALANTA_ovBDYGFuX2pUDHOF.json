@@ -1,0 +1,22 @@
+{
+  "name": "Tendons ATALANTA",
+  "type": "loot",
+  "_id": "ovBDYGFuX2pUDHOF",
+  "img": "icons/commodities/tech/cog-gear-crank-steel.webp",
+  "system": {
+    "description": "<p><strong>Cybernetic implant (Tier 2).</strong> Installing it gives you 1 permanent Trauma (−1 max Hope), even if the implant is later swapped out. Identically named features don't stack. Track the Trauma on the character sheet yourself; it is not applied automatically.</p><p><strong>Fleet Step:</strong> Move within Close range as if obstacles did not impede you (leap, vault, scale terrain).</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500000,
+  "flags": {},
+  "_key": "!items!ovBDYGFuX2pUDHOF"
+}

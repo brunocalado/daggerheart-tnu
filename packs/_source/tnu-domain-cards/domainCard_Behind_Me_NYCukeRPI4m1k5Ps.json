@@ -1,0 +1,69 @@
+{
+  "folder": "H1uwh21DFraDJ1Zn",
+  "name": "Behind Me",
+  "type": "domainCard",
+  "_id": "NYCukeRPI4m1k5Ps",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>When an ally within Very Close range is hit by an attack, <strong>spend a Hope</strong> to instantly move to their side and intercept the attack. You are hit instead of your ally.</p>",
+    "domain": "jupiter",
+    "recallCost": 1,
+    "level": 1,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "MqOYU6raFNe56N0F": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Behind Me",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "MqOYU6raFNe56N0F",
+        "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!NYCukeRPI4m1k5Ps"
+}

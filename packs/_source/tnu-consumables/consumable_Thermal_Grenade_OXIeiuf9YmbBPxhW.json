@@ -1,0 +1,62 @@
+{
+  "name": "Thermal Grenade",
+  "type": "consumable",
+  "_id": "OXIeiuf9YmbBPxhW",
+  "img": "icons/weapons/thrown/grenade-energy.webp",
+  "system": {
+    "description": "<p>Make a Power Roll against a target within Close range. On a success, the target and all creatures within Very Close of them make a Reaction Roll (13); on a failure they take <strong>3d8+6</strong> energy damage, on a success half.</p>",
+    "quantity": 1,
+    "actions": {
+      "orvfstAewEjNIh6M": {
+        "type": "effect",
+        "_id": "orvfstAewEjNIh6M",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "OXIeiuf9YmbBPxhW",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/weapons/thrown/grenade-energy.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 26 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2500000,
+  "flags": {},
+  "_key": "!items!OXIeiuf9YmbBPxhW"
+}

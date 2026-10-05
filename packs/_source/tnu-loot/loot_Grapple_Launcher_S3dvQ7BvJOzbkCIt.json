@@ -1,0 +1,22 @@
+{
+  "name": "Grapple-Launcher",
+  "type": "loot",
+  "_id": "S3dvQ7BvJOzbkCIt",
+  "img": "icons/tools/hand/pliers-snub.webp",
+  "system": {
+    "description": "<p>Ascend or swing across gaps up to Far range.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 16 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2800000,
+  "flags": {},
+  "_key": "!items!S3dvQ7BvJOzbkCIt"
+}

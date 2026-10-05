@@ -1,0 +1,101 @@
+{
+  "folder": "PRXjEvu2A8vQcP5L",
+  "name": "Solar Lance",
+  "type": "feature",
+  "_id": "dtaRQTuErzkTivvK",
+  "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+  "system": {
+    "description": "<p><strong>Spend an Echo</strong> to make an attack roll using your Power trait against an adversary within Close range. On a success, deal <strong>d20+3</strong> energy damage using your Proficiency.</p>",
+    "resource": null,
+    "actions": {
+      "NHXjmmDbUo6gXuSt": {
+        "type": "attack",
+        "_id": "NHXjmmDbUo6gXuSt",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Solar Lance",
+        "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "prof",
+              "dice": "d20",
+              "bonus": 3,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Spend Echo from the class feature that holds it: the system can only charge a cost to the resource on the same item, so this Echo cost is paid by hand.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!dtaRQTuErzkTivvK"
+}

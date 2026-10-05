@@ -1,0 +1,180 @@
+{
+  "name": "HELIOS Mark IV Rifle",
+  "type": "weapon",
+  "_id": "p4wHL5ZK7MazUn4l",
+  "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+  "system": {
+    "description": "",
+    "actions": {},
+    "tier": 2,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "precise",
+        "effectIds": [
+          "mIOjcZZSOMSZOrZD"
+        ],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "UUxIDKwiT0SxX3E6",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "far",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "agility",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d6",
+            "bonus": 5,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "magical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [
+    {
+      "name": "Precise",
+      "description": "+1 to attack rolls.",
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "system": {
+        "conditionals": [
+          {
+            "type": "weaponRestriction",
+            "weaponType": "sameWeapon"
+          },
+          {
+            "type": "actionType",
+            "actionTypes": [
+              "attack"
+            ],
+            "traits": []
+          }
+        ],
+        "changes": [
+          {
+            "key": "system.bonuses.roll.bonus",
+            "type": "add",
+            "value": 1,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": []
+      },
+      "_id": "mIOjcZZSOMSZOrZD",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_key": "!items.effects!p4wHL5ZK7MazUn4l.mIOjcZZSOMSZOrZD"
+    }
+  ],
+  "sort": 3300000,
+  "flags": {},
+  "_key": "!items!p4wHL5ZK7MazUn4l"
+}

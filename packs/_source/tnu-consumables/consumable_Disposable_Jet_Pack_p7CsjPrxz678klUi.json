@@ -1,0 +1,62 @@
+{
+  "name": "Disposable Jet Pack",
+  "type": "consumable",
+  "_id": "p7CsjPrxz678klUi",
+  "img": "icons/commodities/tech/cog-bronze.webp",
+  "system": {
+    "description": "<p>Fly until the end of the scene.</p>",
+    "quantity": 1,
+    "actions": {
+      "hLoCY9lEyGE9ranF": {
+        "type": "effect",
+        "_id": "hLoCY9lEyGE9ranF",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "p7CsjPrxz678klUi",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/commodities/tech/cog-bronze.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 38 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3700000,
+  "flags": {},
+  "_key": "!items!p7CsjPrxz678klUi"
+}

@@ -1,0 +1,98 @@
+{
+  "folder": "9ErGi1b7V4Rjtcjp",
+  "name": "Comrades in Arms",
+  "type": "domainCard",
+  "_id": "tJy4VsKKgg4dI0Fn",
+  "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>Once per rest, when you Help An Ally, and they succeed, both of you can clear a Stress.</p>",
+    "domain": "mars",
+    "recallCost": 1,
+    "level": 2,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "uvh6L301ep6Q8W9S": {
+        "type": "healing",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Comrades in Arms",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "effects": [],
+        "_id": "uvh6L301ep6Q8W9S",
+        "img": "icons/skills/melee/strike-sword-slashing-red.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!tJy4VsKKgg4dI0Fn"
+}

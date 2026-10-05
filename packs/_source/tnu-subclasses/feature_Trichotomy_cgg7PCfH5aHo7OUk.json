@@ -1,0 +1,25 @@
+{
+  "folder": "QuRKlJIkeivg4NA5",
+  "name": "Trichotomy",
+  "type": "feature",
+  "_id": "cgg7PCfH5aHo7OUk",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p>You can manifest up to two Fragments; each Fragment still needs an Echo to be spent on.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!cgg7PCfH5aHo7OUk"
+}

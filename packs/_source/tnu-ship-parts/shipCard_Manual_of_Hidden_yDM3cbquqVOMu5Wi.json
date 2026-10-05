@@ -1,0 +1,58 @@
+{
+  "_id": "yDM3cbquqVOMu5Wi",
+  "_key": "!items!yDM3cbquqVOMu5Wi",
+  "name": "Manual of Hidden",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/creatures/reptiles/chameleon-camouflage-green-brown.webp",
+  "system": {
+    "description": "<p><strong>Camouflage:</strong> If you have no adversaries in far range you can make a <strong>Power Roll</strong> to hide the spaceship from the view of others using the environment. On a success your spaceship is temporarily <em>Hidden</em>.</p><p><strong>Quick Scan:</strong> To orient yourself in environments with limited visibility or to discover something hidden, make a <strong>Power Roll</strong>. On a success, you can find a way through the environment or discover hidden objects or creatures.</p>",
+    "gmNotes": "The reference text says Locational: Spaceship Core; the card image appears to show the Cockpit.",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "mind",
+    "level": 3,
+    "location": "Spaceship Core",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Camouflage",
+        "spheres": [
+          "mind"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "If you have no adversaries in far range you can make a Power Roll to hide the spaceship from the view of others using the environment. On a success your spaceship is temporarily Hidden."
+      },
+      {
+        "name": "Quick Scan",
+        "spheres": [
+          "mind"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "To orient yourself in environments with limited visibility or to discover something hidden, make a Power Roll. On a success, you can find a way through the environment or discover hidden objects or creatures."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

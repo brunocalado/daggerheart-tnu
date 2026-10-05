@@ -1,0 +1,23 @@
+{
+  "type": "community",
+  "name": "Exodusrooted",
+  "folder": null,
+  "system": {
+    "loreReference": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null
+    },
+    "description": "<p>People of this community are commonly empathetic, perceptive, loyal, restless, compassionate, and driven.</p>",
+    "gmNotes": "",
+    "features": [
+      "Compendium.daggerheart-tnu.tnu-communities.Item.CjON6HQEAUxTxUdT"
+    ]
+  },
+  "_id": "HfuaFtJftkLFrR3G",
+  "img": "icons/environment/settlement/ship.webp",
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!HfuaFtJftkLFrR3G"
+}

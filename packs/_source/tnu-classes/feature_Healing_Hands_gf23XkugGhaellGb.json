@@ -1,0 +1,102 @@
+{
+  "folder": "M72DyJR3erXu2jnQ",
+  "name": "Healing Hands",
+  "type": "feature",
+  "_id": "gf23XkugGhaellGb",
+  "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
+  "system": {
+    "description": "<p><strong>Spend 3 Hope</strong> to clear a Hit Point on you or an ally within Melee range.</p>",
+    "resource": null,
+    "actions": {
+      "1Z5BgU2cvrED0UMv": {
+        "type": "healing",
+        "_id": "1Z5BgU2cvrED0UMv",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 3,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Healing Hands",
+        "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "base": false,
+              "applyTo": "hitPoints",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 0,
+                "dice": "d6",
+                "bonus": 1,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "effects": [],
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!gf23XkugGhaellGb"
+}

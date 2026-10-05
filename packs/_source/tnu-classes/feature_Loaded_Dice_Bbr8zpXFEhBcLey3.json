@@ -1,0 +1,34 @@
+{
+  "folder": "cmErewdreE2i35i1",
+  "name": "Loaded Dice",
+  "type": "feature",
+  "_id": "Bbr8zpXFEhBcLey3",
+  "img": "icons/sundries/gaming/dice-runed-tan.webp",
+  "system": {
+    "description": "<p>At the beginning of each session, roll a number of d12s equal to your subclass's Power trait and place them on your character sheet in the space provided. These are your Loaded Dice. You can spend a Loaded Die when making an action roll, to switch a die's value with the value of one of your Duality Dice. At the end of each session, clear all unspent Loaded Dice.</p>",
+    "resource": {
+      "type": "diceValue",
+      "value": 0,
+      "max": "@cast",
+      "icon": "",
+      "recovery": "session",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d12"
+    },
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "With a Power trait of 0 or less there are no Loaded Dice; the playtest does not address it.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!Bbr8zpXFEhBcLey3"
+}

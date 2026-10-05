@@ -1,0 +1,62 @@
+{
+  "name": "Advanced Plasma-Surge Cell",
+  "type": "consumable",
+  "_id": "iKbZZD93ZQIwf6c0",
+  "img": "icons/weapons/ammunition/ammo-magazine-clip-energy.webp",
+  "system": {
+    "description": "<p>Attach to an energy weapon: <strong>+2</strong> to damage for your next three damage rolls with it.</p>",
+    "quantity": 1,
+    "actions": {
+      "vyZGnnuDYHKbB2KT": {
+        "type": "effect",
+        "_id": "vyZGnnuDYHKbB2KT",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "iKbZZD93ZQIwf6c0",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/weapons/ammunition/ammo-magazine-clip-energy.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 25 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2400000,
+  "flags": {},
+  "_key": "!items!iKbZZD93ZQIwf6c0"
+}

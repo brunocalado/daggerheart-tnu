@@ -1,0 +1,155 @@
+{
+  "folder": "rE0piagR8t4QnY7e",
+  "name": "Waters of Lethe",
+  "type": "domainCard",
+  "_id": "i1lelda80RsKUQOO",
+  "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+  "system": {
+    "description": "<p><strong>Sigil</strong></p><h3>Seal</h3><p>Make a <strong>Power Roll</strong> against a creature or device within Very Close range. On a success, a short memory or a piece of data is temporarily erased.</p><p>The GM can <strong>spend a Fear</strong> to let the forgotten memory or information resurface.</p><p><strong>Seal:</strong> After you successfully use this card, you can <strong>mark a Hit Point</strong> to flip it to its <strong>Release</strong> side.</p><h3>Release</h3><p>Make a <strong>Power Roll</strong> against a creature or device within Very Close range. On a success, their identity or data are temporarily erased. If the target is an adversary, they cannot use any of their features. If the target is a device, it temporarily stops functioning.</p><p>The GM can <strong>spend 2 Fear</strong> to let the lost identity or data resurface.</p><p><strong>Release:</strong> After you use this card, flip it back to its <strong>Seal</strong> side.</p>",
+    "domain": "pluto",
+    "recallCost": 0,
+    "level": 1,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "1",
+      "icon": "fa-solid fa-lock-open",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "Uc9SZah0GQrIUwEu": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Seal: Erase Memory",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "Uc9SZah0GQrIUwEu",
+        "img": "icons/magic/symbols/rune-sigil-black-pink.webp"
+      },
+      "rugPPyz8ROLfLXle": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "i1lelda80RsKUQOO",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Release: Erase Identity",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "rugPPyz8ROLfLXle",
+        "img": "icons/magic/symbols/rune-sigil-black-pink.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Two-sided Sigil. The card's resource marks the side it shows (0 = Seal, 1 = Release). After a successful Seal use, mark a Hit Point by hand and set the resource to 1. Each Release action spends it, which flips the card back to Seal. A long rest resets it to Seal.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!i1lelda80RsKUQOO"
+}

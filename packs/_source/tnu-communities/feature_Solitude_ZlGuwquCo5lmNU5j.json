@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Solitude",
+  "folder": null,
+  "_id": "ZlGuwquCo5lmNU5j",
+  "img": "icons/magic/air/air-pressure-shield-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Gain a Hope or clear a Stress whenever you start a scene apart from the other PCs or spend a rest on your own.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!ZlGuwquCo5lmNU5j"
+}

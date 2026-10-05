@@ -1,0 +1,25 @@
+{
+  "folder": "CtJSXWeyEwFZdlWb",
+  "name": "Shared Tale",
+  "type": "feature",
+  "_id": "hc9cCTSvSJBIJZph",
+  "img": "icons/commodities/cloth/thread-and-needle.webp",
+  "system": {
+    "description": "<p>When an ally within Close range wants to Help an Ally, you can amplify their union. <strong>Spend an Echo</strong> instead of the Hope the ally would have spent to let them roll a <strong>d10</strong> as their advantage die.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Spend Echo from the class feature that holds it: the system can only charge a cost to the resource on the same item, so this Echo cost is paid by hand.",
+    "granter": null,
+    "featureForm": "reaction",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!hc9cCTSvSJBIJZph"
+}

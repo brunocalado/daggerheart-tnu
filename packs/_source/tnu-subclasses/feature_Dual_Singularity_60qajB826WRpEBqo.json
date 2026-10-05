@@ -1,0 +1,25 @@
+{
+  "folder": "I804FVnqkjqa57Ns",
+  "name": "Dual Singularity",
+  "type": "feature",
+  "_id": "60qajB826WRpEBqo",
+  "img": "icons/magic/air/wind-vortex-swirl-blue-purple.webp",
+  "system": {
+    "description": "<p><strong>Dual Singularity:</strong> When you use your Dark Passenger feature to summon an Entity, you can <strong>spend 2 Echoes</strong> to manifest an amalgamation of two Entities you have a connection with. When you do, choose one of these Entities to determine the amalgamated Entity‘s Evasion and Damage Thresholds, and one of these Entities to determine its weapons. The amalgamated Entity possesses all features of both Entities.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Summon one of the two Entities and apply the other's stats and features by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!60qajB826WRpEBqo"
+}

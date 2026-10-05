@@ -1,0 +1,97 @@
+{
+  "folder": "q0jmNK3jL0Tk38L6",
+  "name": "Overstride",
+  "type": "feature",
+  "_id": "Dul2daCQ4abKl6qG",
+  "img": "icons/svg/jump.svg",
+  "system": {
+    "description": "<p><em>Living Arsenal module (Tier 2).</em> You can move one additional range band farther when you move on the ground.</p><p>Spend a Charge to activate a module. It deactivates when the scene ends or you activate another module.</p>",
+    "resource": null,
+    "actions": {
+      "4dh4ehjMkxX4Txhb": {
+        "type": "effect",
+        "_id": "4dh4ehjMkxX4Txhb",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Activate Overstride",
+        "img": "icons/svg/jump.svg",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "lAyJjFaZ8bQDO3nN",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Remove the effect when the module deactivates. Modules are separate features: the system can only charge a cost to the resource on the same item, so spend the Charge from the Energy Core by hand when you activate a module.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Overstride",
+      "img": "icons/svg/jump.svg",
+      "transfer": false,
+      "_id": "lAyJjFaZ8bQDO3nN",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>You can move one additional range band farther when you move on the ground.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!Dul2daCQ4abKl6qG.lAyJjFaZ8bQDO3nN"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!Dul2daCQ4abKl6qG"
+}

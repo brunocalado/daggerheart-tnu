@@ -1,0 +1,22 @@
+{
+  "name": "Neuro-Chem Pump",
+  "type": "loot",
+  "_id": "KPrxoqCSNbB0X4J3",
+  "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+  "system": {
+    "description": "<p><strong>Cybernetic implant (Tier 2).</strong> Installing it gives you 1 permanent Trauma (−1 max Hope), even if the implant is later swapped out. Identically named features don't stack. Track the Trauma on the character sheet yourself; it is not applied automatically.</p><p><strong>Neural Plasticity:</strong> When you fail a roll that utilized one of your Experiences, you can mark a Stress to reroll.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!KPrxoqCSNbB0X4J3"
+}

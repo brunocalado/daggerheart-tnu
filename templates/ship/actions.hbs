@@ -1,0 +1,19 @@
+{{!-- The feature list of one ship module or ship card. Context: `actions` as prepared by `prepareShipActions` in helpers.js. --}}
+<ul class="ship-actions">
+  {{#each actions}}
+    <li class="ship-action {{#if used}}used{{/if}}">
+      <button type="button" class="reverted use-action" data-action="useAction" data-action-index="{{index}}" {{disabled disabled}}>
+        <i class="{{icon}}" inert></i><span>{{name}}</span>
+      </button>
+      <div class="action-info">
+        <div class="action-tags">
+          {{#each sphereTags}}<span class="sphere-tag {{key}}">{{label}}</span>{{/each}}
+          {{#if costLabel}}<span class="tag"><i class="fa-solid fa-coins"></i>{{costLabel}}</span>{{/if}}
+          {{#if damageLabel}}<span class="tag"><i class="fa-solid fa-burst"></i>{{damageLabel}}</span>{{/if}}
+          {{#if oncePerLabel}}<span class="tag {{#if used}}spent{{/if}}"><i class="fa-solid fa-hourglass-half"></i>{{#if used}}Used · recovers on the next {{#if (eq oncePer 'longRest')}}long rest{{else}}rest{{/if}}{{else}}{{oncePerLabel}}{{/if}}</span>{{/if}}
+        </div>
+        {{#if description}}<p class="action-description">{{description}}</p>{{/if}}
+      </div>
+    </li>
+  {{/each}}
+</ul>

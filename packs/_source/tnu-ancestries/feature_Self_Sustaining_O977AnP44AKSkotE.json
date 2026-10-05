@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Self-Sustaining",
+  "folder": null,
+  "_id": "O977AnP44AKSkotE",
+  "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>You don't need to breathe and can survive in the cold vacuum of space.</p>",
+    "gmNotes": "Titan (PT3) and Android (PT2) print this wording; Recon prints a longer version.",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!O977AnP44AKSkotE"
+}

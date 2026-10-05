@@ -1,0 +1,19 @@
+<section class="tab {{tab.cssClass}} tierUp" data-tab="tierUp" data-group="primary">
+  <div class="tab-scroll">
+    <p class="tier-hint">At each new tier the ship gains the listed bonuses, every player adds a module, and the crew picks two of the options. Reached tiers apply their bonuses and checked options to the sheet; the Experience option is added by hand.</p>
+    {{#each tierRows}}
+      <fieldset class="tier-row {{#unless reached}}locked{{/unless}}">
+        <legend>{{title}} <span class="subtle">· from level {{level}}</span></legend>
+        <p class="tier-gains"><i class="fa-solid fa-angles-up"></i>{{gains}}</p>
+        <div class="tier-options">
+          {{#each options}}
+            <label class="checkbox">
+              <input type="checkbox" name="{{name}}" {{checked checked}} {{disabled disabled}}>
+              <span>{{label}}</span>
+            </label>
+          {{/each}}
+        </div>
+      </fieldset>
+    {{/each}}
+  </div>
+</section>

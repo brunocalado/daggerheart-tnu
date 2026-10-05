@@ -1,0 +1,62 @@
+{
+  "name": "Metabolic Infusion",
+  "type": "consumable",
+  "_id": "Azmf1WHKJsjgVs7h",
+  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "system": {
+    "description": "<p>During a rest, mark any number of Stress and clear that many HP.</p>",
+    "quantity": 1,
+    "actions": {
+      "1Z0SlHD38ccQfGt2": {
+        "type": "effect",
+        "_id": "1Z0SlHD38ccQfGt2",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "Azmf1WHKJsjgVs7h",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 34 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3300000,
+  "flags": {},
+  "_key": "!items!Azmf1WHKJsjgVs7h"
+}

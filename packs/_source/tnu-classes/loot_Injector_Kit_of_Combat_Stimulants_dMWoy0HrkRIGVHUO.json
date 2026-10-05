@@ -1,0 +1,22 @@
+{
+  "folder": "8HbJl5gjIZEZhBBp",
+  "name": "Injector Kit of Combat Stimulants",
+  "type": "loot",
+  "img": "icons/tools/laboratory/injector-needle-steel-green.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "dMWoy0HrkRIGVHUO",
+  "sort": 0,
+  "_key": "!items!dMWoy0HrkRIGVHUO"
+}

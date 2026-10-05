@@ -1,0 +1,25 @@
+{
+  "folder": "zvdCM6yl40JXX1uf",
+  "name": "Modular Arsenal",
+  "type": "feature",
+  "_id": "aOFd2mCc9al8eoyF",
+  "img": "icons/commodities/tech/cable-armored-reticulated.webp",
+  "system": {
+    "description": "<p>Take the Living Arsenal sheet. You start with two modules from Tier 1. When you reach a new tier, take two additional modules at your tier or lower.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The modules are the Living Arsenal Modules features in this compendium; drag the chosen ones onto the character.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!aOFd2mCc9al8eoyF"
+}

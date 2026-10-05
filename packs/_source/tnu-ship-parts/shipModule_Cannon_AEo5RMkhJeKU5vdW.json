@@ -1,0 +1,62 @@
+{
+  "_id": "AEo5RMkhJeKU5vdW",
+  "_key": "!items!AEo5RMkhJeKU5vdW",
+  "name": "Cannon",
+  "type": "daggerheart-tnu.shipModule",
+  "img": "icons/skills/ranged/cannon-barrel-gray.webp",
+  "system": {
+    "description": "<p><em>Attack is the best form of defense.</em></p><p><strong>Attack (Fist):</strong> Make a <strong>Power Roll</strong> against the target. On a success the target takes <strong>d8 + 4</strong> damage.</p><p><strong>Reach (Fist):</strong> <strong>Mark a Stress</strong> before you make an attack roll to increase the range to Far instead of Close.</p>",
+    "gmNotes": "The printed stat line says d8 + 6 damage; the Attack feature says d8 + 4. Both are kept as printed.",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "capacity": 2,
+    "replaces": "",
+    "deactivated": false,
+    "stats": {
+      "bonus": 2,
+      "range": "close",
+      "damage": "d8+6"
+    },
+    "shipActions": [
+      {
+        "name": "Attack",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "d8+4",
+        "oncePer": "",
+        "description": "Make a Power Roll against the target. On a success the target takes d8 + 4 damage."
+      },
+      {
+        "name": "Reach",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "none",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 1,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Mark a Stress before you make an attack roll to increase the range to Far instead of Close."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

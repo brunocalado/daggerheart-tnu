@@ -1,0 +1,22 @@
+{
+  "folder": "QMCtCcuBE30ybWgt",
+  "name": "Weathered Insignia from a Forgotten Unit",
+  "type": "loot",
+  "img": "icons/commodities/currency/coin-inset-crown-gold.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "1Mg7XcUPKYT3T5NN",
+  "sort": 0,
+  "_key": "!items!1Mg7XcUPKYT3T5NN"
+}

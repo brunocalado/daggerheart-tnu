@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Gravity Shift",
+  "folder": null,
+  "_id": "OCitxFIRxGCmRPZ4",
+  "img": "icons/creatures/abilities/wing-batlike-white-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>You can fly. While flying, <strong>mark a Stress</strong> after an adversary attacks you to gain a +2 bonus to your Evasion against that attack.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!OCitxFIRxGCmRPZ4"
+}

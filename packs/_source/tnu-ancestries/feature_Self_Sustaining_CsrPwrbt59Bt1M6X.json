@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Self-Sustaining",
+  "folder": null,
+  "_id": "CsrPwrbt59Bt1M6X",
+  "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>You don't need to breathe, eat, or sleep, and can survive in the cold vacuum of space.</p>",
+    "gmNotes": "Differs from the Titan/PT2 Android Self-Sustaining text; authored literally.",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!CsrPwrbt59Bt1M6X"
+}

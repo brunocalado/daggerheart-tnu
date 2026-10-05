@@ -1,0 +1,34 @@
+{
+  "folder": "N0Yf2mAPuy5R6DNR",
+  "name": "Rapture",
+  "type": "feature",
+  "_id": "or3Xbv1JIfKsx4vL",
+  "img": "icons/commodities/treasure/stone-cracked-lightning-blue.webp",
+  "system": {
+    "description": "<p>You are a vessel of fracture, your power born from pain and instability.</p><p>You gain a resource called Echo. Your maximum Echo capacity is equal to your Tier. At character creation you start with maximum Echo:</p><ul><li><p>Each time you mark one or more Hit Points, <strong>gain an Echo</strong>.</p></li></ul>",
+    "resource": {
+      "type": "simple",
+      "value": 1,
+      "max": "@tier",
+      "icon": "",
+      "recovery": null,
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gaining Echo when you mark Hit Points is not automated: raise this resource by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!or3Xbv1JIfKsx4vL"
+}

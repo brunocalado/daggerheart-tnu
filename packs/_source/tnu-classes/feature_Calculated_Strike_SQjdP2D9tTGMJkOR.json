@@ -1,0 +1,25 @@
+{
+  "folder": "KimAT0dALEHdxibi",
+  "name": "Calculated Strike",
+  "type": "feature",
+  "_id": "SQjdP2D9tTGMJkOR",
+  "img": "icons/skills/ranged/target-bullseye-arrow-blue.webp",
+  "system": {
+    "description": "<p>When making an attack with a weapon with advantage, add a number of <strong>d4s</strong> equal to your tier to your damage roll.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Add [tier]d4 to the damage roll by hand: the system has no damage bonus that applies only to attacks made with advantage.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!SQjdP2D9tTGMJkOR"
+}

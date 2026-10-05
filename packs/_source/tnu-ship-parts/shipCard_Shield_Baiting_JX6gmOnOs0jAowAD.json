@@ -1,0 +1,41 @@
+{
+  "_id": "JX6gmOnOs0jAowAD",
+  "_key": "!items!JX6gmOnOs0jAowAD",
+  "name": "Shield Baiting",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/commodities/tech/electronics-button-skull-red.webp",
+  "system": {
+    "description": "<p><strong>Sacrificial Baiting:</strong> Once per rest you can stun one of your Spaceship's components to negate incoming damage. Stun the Cannons: you can't attack whilst stunned. Stun the Spaceship Core: you can't move whilst stunned. To end the effect, you can make a <strong>Power Roll (15)</strong>.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "fist",
+    "level": 4,
+    "location": "Spaceship Core",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Sacrificial Baiting",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "none",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "rest",
+        "description": "Once per rest you can stun one of your Spaceship's components to negate incoming damage. Stun the Cannons: you can't attack whilst stunned. Stun the Spaceship Core: you can't move whilst stunned. To end the effect, you can make a Power Roll (15)."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

@@ -1,0 +1,197 @@
+{
+  "folder": "cmErewdreE2i35i1",
+  "name": "Cheap Tricks",
+  "type": "feature",
+  "_id": "2JGDVUb8C3K8YDny",
+  "img": "icons/skills/melee/stabbing-knife.webp",
+  "system": {
+    "description": "<p>When an adversary moves into Very Close range, you can <strong>mark a Stress</strong> to force the target to make a Reaction Roll with a Difficulty equal to 10 + your level. On a failure, the target is temporarily <em>Weakened</em> or <em>Vulnerable</em>.</p>",
+    "resource": null,
+    "actions": {
+      "PUeq7f6GUNuYXiDj": {
+        "type": "effect",
+        "_id": "PUeq7f6GUNuYXiDj",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Cheap Tricks: Weakened",
+        "img": "icons/magic/death/hand-withered-gray.webp",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "jx0x4tb1oKvz7X5Q",
+            "onSave": false
+          }
+        ]
+      },
+      "sN7tJnovElfXhEbe": {
+        "type": "effect",
+        "_id": "sN7tJnovElfXhEbe",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Cheap Tricks: Vulnerable",
+        "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "G1h5LuAmu5QamtEc",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The Reaction Roll (10 + level) is asked for by hand: the system's reaction difficulty is a fixed number. Apply the condition only on a failure.",
+    "granter": null,
+    "featureForm": "reaction",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Weakened",
+      "img": "icons/magic/death/hand-withered-gray.webp",
+      "transfer": false,
+      "_id": "jx0x4tb1oKvz7X5Q",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.disadvantageSources",
+            "type": "add",
+            "value": "Weakened: attack rolls",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Weakened.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "weakened"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!2JGDVUb8C3K8YDny.jx0x4tb1oKvz7X5Q"
+    },
+    {
+      "name": "Vulnerable",
+      "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+      "transfer": false,
+      "_id": "G1h5LuAmu5QamtEc",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Vulnerable.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "vulnerable"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!2JGDVUb8C3K8YDny.G1h5LuAmu5QamtEc"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!2JGDVUb8C3K8YDny"
+}

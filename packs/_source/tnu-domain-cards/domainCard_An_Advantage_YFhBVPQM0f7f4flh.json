@@ -1,0 +1,30 @@
+{
+  "folder": "9O4SrHZwIXIoBeza",
+  "name": "An Advantage",
+  "type": "domainCard",
+  "_id": "YFhBVPQM0f7f4flh",
+  "img": "icons/magic/movement/acceleration-speed-tech-blue.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>When an ally within Close range attacks a target with advantage, you gain advantage on your next attack against this target.</p>",
+    "domain": "mercury",
+    "recallCost": 1,
+    "level": 1,
+    "type": "ability",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!YFhBVPQM0f7f4flh"
+}

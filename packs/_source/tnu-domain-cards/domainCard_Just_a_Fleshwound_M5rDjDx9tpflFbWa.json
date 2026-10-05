@@ -1,0 +1,69 @@
+{
+  "folder": "cOwsI84YnWDDNEc2",
+  "name": "Just a Fleshwound",
+  "type": "domainCard",
+  "_id": "M5rDjDx9tpflFbWa",
+  "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>Once per rest when you take Severe damage, you can <strong>mark a Stress</strong> to reduce the severity by one threshold.</p>",
+    "domain": "mars",
+    "recallCost": 1,
+    "level": 1,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "fNFS6QlN7MHRHqk0": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Just a Fleshwound",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "fNFS6QlN7MHRHqk0",
+        "img": "icons/skills/melee/strike-sword-slashing-red.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!M5rDjDx9tpflFbWa"
+}

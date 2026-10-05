@@ -1,0 +1,22 @@
+{
+  "folder": "8HbJl5gjIZEZhBBp",
+  "name": "Data-Slate of Genetic Protocols",
+  "type": "loot",
+  "img": "icons/commodities/tech/phone-smart-tablet.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "hOSawC8U6VVKvKDt",
+  "sort": 0,
+  "_key": "!items!hOSawC8U6VVKvKDt"
+}

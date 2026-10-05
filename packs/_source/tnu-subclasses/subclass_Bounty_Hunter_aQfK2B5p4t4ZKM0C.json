@@ -1,0 +1,38 @@
+{
+  "folder": "ZulB6Gj6Vb9PdsVE",
+  "name": "Bounty Hunter",
+  "type": "subclass",
+  "_id": "aQfK2B5p4t4ZKM0C",
+  "img": "icons/skills/targeting/crosshair-scope-sniper-green.webp",
+  "system": {
+    "description": "<p>Play the Bounty Hunter if you want to track down marks and make sure they can't escape their fate.</p>",
+    "spellcastingTrait": "finesse",
+    "features": [
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.b1FUazb61ceBzoec"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.UkKRdgdZfH4YRGWk"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.UjprPqExeV9YSRbM"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "linkedClass": "Compendium.daggerheart-tnu.tnu-classes.Item.lpr0WhJGVYu8M67E",
+    "gmNotes": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!aQfK2B5p4t4ZKM0C"
+}

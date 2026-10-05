@@ -1,0 +1,215 @@
+{
+  "folder": "mMmO2guuox4TMTLV",
+  "name": "Weight of a Soul",
+  "type": "domainCard",
+  "_id": "bMRBLeMvkk5l5b98",
+  "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
+  "system": {
+    "description": "<p><strong>Anomaly</strong></p><p>Make a <strong>Power Roll</strong> against a target within Far range. On a success, <strong>mark a Stress</strong> to suddenly manipulate the gravity around them. They take <strong>d8+2</strong> kinetic damage using your Proficiency and are forcefully pulled into Close range of you.</p><p><strong>Escalation:</strong> On a success, you may <strong>give the GM a Fear</strong>. If you do, increase the damage to <strong>d12+5</strong> kinetic damage using your Proficiency. In addition the target is temporarily <em>Restrained</em>.</p>",
+    "domain": "nibiru",
+    "recallCost": 1,
+    "level": 1,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "zVRRBGgRjDSJpcSS": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Weight of a Soul",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "prof",
+              "dice": "d8",
+              "bonus": 2,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "zVRRBGgRjDSJpcSS",
+        "img": "icons/magic/air/wind-vortex-swirl-purple.webp"
+      },
+      "XSEvaHZV6PRqdfvi": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Escalation: Crushing Gravity",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "prof",
+              "dice": "d12",
+              "bonus": 5,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [
+          {
+            "_id": "rmMEvkzMCRKGoj5T",
+            "onSave": false
+          }
+        ],
+        "_id": "XSEvaHZV6PRqdfvi",
+        "img": "icons/magic/air/wind-vortex-swirl-purple.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Escalation: giving the GM a Fear is done by hand (raise the Fear tracker by 1). On an escalation, use the Escalation damage instead of the base damage.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Restrained",
+      "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+      "transfer": false,
+      "_id": "rmMEvkzMCRKGoj5T",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Restrained.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bMRBLeMvkk5l5b98.rmMEvkzMCRKGoj5T"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!bMRBLeMvkk5l5b98"
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "BJzs6gyPBlw5BdiH",
+  "_key": "!items!BJzs6gyPBlw5BdiH",
+  "name": "Recovery Maneuver",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/commodities/tech/cog-gear-crank-steel.webp",
+  "system": {
+    "description": "<p><strong>Repair:</strong> Make a <strong>Power Roll (14)</strong>. On a success you can <strong>spend a Hope</strong> to repair your Ship for 2 HP.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "heart",
+    "level": 3,
+    "location": "Spaceship Core",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Repair",
+        "spheres": [
+          "heart"
+        ],
+        "roll": "power",
+        "difficulty": 14,
+        "costs": {
+          "hope": 1,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll (14). On a success you can spend a Hope to repair your Ship for 2 HP."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

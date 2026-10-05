@@ -1,0 +1,39 @@
+{
+  "name": "Visc Carapace",
+  "type": "armor",
+  "_id": "Sez3O2W8wEf3LH2A",
+  "img": "icons/equipment/chest/breastplate-banded-blue.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 5
+    },
+    "description": "",
+    "actions": {},
+    "tier": 2,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "cornered",
+        "effectIds": [],
+        "actionIds": []
+      }
+    ],
+    "baseThresholds": {
+      "major": 11,
+      "severe": 23
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 1000000,
+  "flags": {},
+  "_key": "!items!Sez3O2W8wEf3LH2A"
+}

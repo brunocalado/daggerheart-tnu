@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Analytical",
+  "folder": null,
+  "_id": "vCpNVERtbTUhHtoh",
+  "img": "icons/tools/scribal/lens-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>You have advantage on rolls related to analysis, planning, or calculations.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!vCpNVERtbTUhHtoh"
+}

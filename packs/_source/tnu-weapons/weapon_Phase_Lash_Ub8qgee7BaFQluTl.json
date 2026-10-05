@@ -1,0 +1,155 @@
+{
+  "name": "Phase Lash",
+  "type": "weapon",
+  "_id": "Ub8qgee7BaFQluTl",
+  "img": "icons/weapons/maces/flail-spiked-grey.webp",
+  "system": {
+    "description": "",
+    "actions": {
+      "H7XINcOOm1qu7Qnw": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Drag",
+        "description": "On a successful attack, you can pull the target into Melee range.",
+        "img": "icons/skills/melee/strike-chain-whip-blue.webp",
+        "_id": "H7XINcOOm1qu7Qnw",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        }
+      }
+    },
+    "tier": 1,
+    "equipped": false,
+    "secondary": true,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "drag",
+        "effectIds": [],
+        "actionIds": [
+          "H7XINcOOm1qu7Qnw"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "qT12NQ8UQnS5bb7A",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "close",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "strength",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d6",
+            "bonus": null,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "magical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 4700000,
+  "flags": {},
+  "_key": "!items!Ub8qgee7BaFQluTl"
+}

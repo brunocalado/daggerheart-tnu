@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Nomadic",
+  "folder": null,
+  "_id": "CjON6HQEAUxTxUdT",
+  "img": "icons/environment/settlement/wagon.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>You don't need much to rest and you settle in quickly. During a long rest, you choose an additional downtime move.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!CjON6HQEAUxTxUdT"
+}

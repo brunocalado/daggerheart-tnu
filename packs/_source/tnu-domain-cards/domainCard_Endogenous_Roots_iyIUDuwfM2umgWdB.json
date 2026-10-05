@@ -1,0 +1,215 @@
+{
+  "folder": "2o2hZA3Awol9MB4h",
+  "name": "Endogenous Roots",
+  "type": "domainCard",
+  "_id": "iyIUDuwfM2umgWdB",
+  "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p>Make a <strong>Power Roll</strong> against a target within Far range. On a success, <strong>spend a Hope</strong> to force a violent evolution within their biology. Thorny vines and calcified roots erupt through their skin, wrapping around their limbs. The target takes <strong>1d8+1</strong> kinetic damage and becomes temporarily <em>Restrained</em>. While <em>Restrained</em> in this way, they take <strong>1d6</strong> kinetic damage if they are still <em>Restrained</em> at the end of their action, as the growth tightens and tears at their body.</p>",
+    "domain": "terra",
+    "recallCost": 2,
+    "level": 1,
+    "type": "spell",
+    "resource": "No Proficiency is printed for either damage roll, so both are flat.",
+    "actions": {
+      "KjuPz7iEEIiK01Vh": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Endogenous Roots",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "dice": "d8",
+              "bonus": 1,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "DdlD9VQRRawTIOgN",
+            "onSave": false
+          }
+        ],
+        "_id": "KjuPz7iEEIiK01Vh",
+        "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp"
+      },
+      "cOMDFIynH6nLTqeo": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Roots Tighten",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "dice": "d6",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "cOMDFIynH6nLTqeo",
+        "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Restrained",
+      "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+      "transfer": false,
+      "_id": "DdlD9VQRRawTIOgN",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Restrained.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!iyIUDuwfM2umgWdB.DdlD9VQRRawTIOgN"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!iyIUDuwfM2umgWdB"
+}

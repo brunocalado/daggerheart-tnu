@@ -1,0 +1,31 @@
+{
+  "name": "Transhuman – Armament",
+  "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
+  "type": "ancestry",
+  "folder": null,
+  "system": {
+    "description": "<p>Transhuman is a base ancestry with Deep Reserves and Hardwired. Each lineage fixes the implant you start with.</p>",
+    "features": [
+      {
+        "type": "primary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.cpE0d0KyWnYvjlR9"
+      },
+      {
+        "type": "secondary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.oILi0eIA6pmLXHms"
+      }
+    ],
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "loreReference": "",
+    "gmNotes": ""
+  },
+  "flags": {},
+  "_id": "ZRc4ZjO5qMhONLUT",
+  "sort": 0,
+  "effects": [],
+  "_key": "!items!ZRc4ZjO5qMhONLUT"
+}

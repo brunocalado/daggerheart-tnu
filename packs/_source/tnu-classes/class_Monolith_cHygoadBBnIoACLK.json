@@ -1,0 +1,78 @@
+{
+  "name": "Monolith",
+  "type": "class",
+  "_id": "cHygoadBBnIoACLK",
+  "img": "icons/magic/earth/strike-fist-stone-gray.webp",
+  "system": {
+    "description": "<p><em>“Define your meaning of war / To me, it’s what we do when we‘re bored”</em></p><p>Monoliths are one of a kind: The perfect fusion of an unstoppable force and an immovable object, meshed together in a single being of absolute resolve. Stoic and immovable, Monoliths inspire both trust and intimidation. As born soldiers they endure where others break, advance where others falter, and stand unshaken against forces that would crush lesser combatants. In warfare they are often shocktroops or the last-line defence option. In a team, a Monolith is the anchor that keeps the formation intact. To Monoliths, conflict is not a last resort but inevitability — something to be met head-on, weathered… and crushed.</p>",
+    "domains": [
+      "jupiter",
+      "mars"
+    ],
+    "classItems": [],
+    "hitPoints": 7,
+    "evasion": 9,
+    "features": [
+      {
+        "type": "hope",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.ECOvLM53ReA1f4di"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.aSvT3ci7LlpH5g0b"
+      }
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": [
+        "Compendium.daggerheart-tnu.tnu-classes.Item.1Mg7XcUPKYT3T5NN",
+        "Compendium.daggerheart-tnu.tnu-classes.Item.9a4WZIczXcQr8IM8"
+      ]
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "backgroundQuestions": [
+      "Who taught you discipline in battle – and what lesson did you reject?",
+      "What campaign scarred you with loss – and how did it shape your tactics?",
+      "What flaw in your method do you secretly fear an enemy could exploit?",
+      "Whose life did you save by sacrificing victory – and do they still honor that choice?",
+      "What rule of war guides you above all others – and what would make you break it?"
+    ],
+    "connections": [
+      "You once fought at my side when I executed a perfect maneuver. What part of it still impresses you?",
+      "I shielded you with precise discipline in battle. What mark did it leave on you?",
+      "You saw me calculate the cost of lives in order to win. Why did you stay my ally afterward?",
+      "I asked you to hold the line so I could break theirs. What did it cost you?",
+      "You know the weakness in my strategy. Why do you never use it against me?"
+    ],
+    "gmNotes": "The playtest's page header for this class misprints it as \"Vanguard\" (the subclass); the class is the Monolith. The Bastion subclass is named but not printed.",
+    "levelupOptionTiers": {
+      "2": {},
+      "3": {},
+      "4": {}
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!cHygoadBBnIoACLK"
+}

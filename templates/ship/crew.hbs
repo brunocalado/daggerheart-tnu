@@ -1,0 +1,28 @@
+<section class="tab {{tab.cssClass}} crew" data-tab="crew" data-group="primary">
+  <div class="tab-scroll">
+    <ul class="crew-list">
+      {{#each crew}}
+        <li class="crew-member {{sphere}}">
+          <img class="crew-img" src="{{img}}" alt="">
+          <div class="crew-info">
+            <h4><a data-action="openCrew" data-uuid="{{uuid}}">{{name}}</a></h4>
+            <div class="crew-meta">
+              <span class="sphere-tag {{sphere}}">{{sphereLabel}}</span>
+              {{#if traitLabel}}<span class="subtle">Power Trait: {{traitLabel}}</span>{{else}}<span class="subtle">No Power Trait yet</span>{{/if}}
+            </div>
+          </div>
+          <select data-crew-uuid="{{uuid}}" aria-label="Module">
+            <option value="">Not in a module</option>
+            {{#each choices}}
+              <option value="{{id}}" {{#if (eq id ../module)}}selected{{/if}}>{{label}}</option>
+            {{/each}}
+          </select>
+          {{#if @root.editable}}
+            <a class="control" data-action="removeCrew" data-crew-uuid="{{uuid}}" data-tooltip="Leave the ship"><i class="fa-solid fa-user-minus"></i></a>
+          {{/if}}
+        </li>
+      {{/each}}
+    </ul>
+    <div class="drag-area">Drop a character here to bring them aboard</div>
+  </div>
+</section>

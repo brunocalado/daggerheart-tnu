@@ -1,0 +1,83 @@
+{
+  "folder": "H1uwh21DFraDJ1Zn",
+  "name": "Fortified Self",
+  "type": "domainCard",
+  "_id": "hNBU7ft0GMBtKZ16",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>When you have no armor equipped, you have a base Armor Score of 2 + your Proficiency. Use the following as your base damage thresholds:</p><ul><li><p><strong>Tier 1:</strong> 7 / 15</p></li><li><p><strong>Tier 2:</strong> 11 / 24</p></li><li><p><strong>Tier 3:</strong> 13 / 31</p></li><li><p><strong>Tier 4:</strong> 15 / 40</p></li></ul><p>When you are forced to mark a Stress, you can instead <strong>mark an Armor Slot</strong>.</p>",
+    "domain": "jupiter",
+    "recallCost": 0,
+    "level": 1,
+    "type": "ability",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Modeled on the system's Bare Bones: the armor change applies when no armor is equipped. Marking an Armor Slot instead of a Stress is done by hand.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Fortified Self",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "transfer": true,
+      "_id": "KA0y4HEHk6lR02Dx",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "type": "armor",
+            "phase": "initial",
+            "priority": 20,
+            "value": {
+              "current": 0,
+              "max": "2 + @prof",
+              "interaction": "inactive",
+              "damageThresholds": {
+                "major": "7 + min(@tier - 1, 1) * 4 + max(0, @tier - 2) * 2",
+                "severe": "15 + min(@tier - 1, 1) * 9 + max(0, @tier - 2) * 7 + max(0, @tier - 3) * 2"
+              }
+            }
+          }
+        ],
+        "duration": {
+          "type": "",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>You have a base Armor Score of 2 + your Proficiency.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!hNBU7ft0GMBtKZ16.KA0y4HEHk6lR02Dx"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!hNBU7ft0GMBtKZ16"
+}

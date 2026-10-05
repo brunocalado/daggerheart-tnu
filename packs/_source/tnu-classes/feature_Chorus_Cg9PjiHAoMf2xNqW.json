@@ -1,0 +1,34 @@
+{
+  "folder": "Jn7uJ5XTyjkr6JSw",
+  "name": "Chorus",
+  "type": "feature",
+  "_id": "Cg9PjiHAoMf2xNqW",
+  "img": "icons/skills/trades/music-singing-voice-blue.webp",
+  "system": {
+    "description": "<p>Your strength is drawn from harmony and connection, every bond you forge is weaving power into a Chorus the whole group can wield. You gain a resource called Echo. Your maximum Echo capacity is equal to your Tier. At character creation you start with maximum Echo:</p><ul><li><p>Whenever an ally within Close range wants to Help an Ally and they succeed this action roll, <strong>gain an Echo</strong>.</p></li><li><p>Whenever an ally within Close range initiates a Tag Team Roll and they succeed, <strong>gain an Echo</strong>.</p></li></ul><p>When an ally within Close range Utilizes an Experience, you can <strong>spend an Echo</strong> instead of the Hope the ally would have spent. If you do, the ally can use an Experience from another ally within Close range instead of one of their own.</p>",
+    "resource": {
+      "type": "simple",
+      "value": 1,
+      "max": "@tier",
+      "icon": "",
+      "recovery": null,
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gaining Echo from allies' Help an Ally and Tag Team successes is not automated: raise this resource by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!Cg9PjiHAoMf2xNqW"
+}

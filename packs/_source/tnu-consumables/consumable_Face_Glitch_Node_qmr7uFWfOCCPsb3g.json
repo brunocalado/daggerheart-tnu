@@ -1,0 +1,62 @@
+{
+  "name": "Face-Glitch Node",
+  "type": "consumable",
+  "_id": "qmr7uFWfOCCPsb3g",
+  "img": "icons/commodities/tech/antenna-powered-purple.webp",
+  "system": {
+    "description": "<p>Until the end of the scene, facial recognition, cameras and biometrics can't identify you.</p>",
+    "quantity": 1,
+    "actions": {
+      "29UNNUY5GCsDb7BB": {
+        "type": "effect",
+        "_id": "29UNNUY5GCsDb7BB",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "qmr7uFWfOCCPsb3g",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/commodities/tech/antenna-powered-purple.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 20 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1900000,
+  "flags": {},
+  "_key": "!items!qmr7uFWfOCCPsb3g"
+}

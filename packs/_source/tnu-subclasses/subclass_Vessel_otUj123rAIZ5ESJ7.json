@@ -1,0 +1,42 @@
+{
+  "folder": "pcT6IhvrziVSdpiV",
+  "name": "Vessel",
+  "type": "subclass",
+  "_id": "otUj123rAIZ5ESJ7",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "system": {
+    "description": "<p>Play the Vessel if you want to invite cosmic nightmares directly into your own flesh, acting as a living conduit that transforms into an unstoppable, terrifying weapon on the front lines.</p>",
+    "spellcastingTrait": null,
+    "features": [
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.eQgcg02vMrbQ3DU1"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.9PPaqt8Enk7ySEZG"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.xyNqfIiaQsxAJO8F"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.5s5k8olBeSgp1lfl"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "linkedClass": "Compendium.daggerheart-tnu.tnu-classes.Item.oSHA0RAc4koUSjwv",
+    "gmNotes": "The Power Trait is one trait of your choice: set it on this subclass (Power Trait field) after adding it to your character."
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!otUj123rAIZ5ESJ7"
+}

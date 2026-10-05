@@ -1,0 +1,25 @@
+{
+  "folder": "xmS0hMBvauyLXrKA",
+  "name": "Break Them Down",
+  "type": "feature",
+  "_id": "mViVvGM7WgshTetk",
+  "img": "icons/skills/melee/weapons-crossed-swords-black.webp",
+  "system": {
+    "description": "<p><strong>Break Them Down:</strong> When an ally within Close range succeeds on an attack, <strong>mark a Stress</strong> to add your Calculated Strike bonus damage to their damage roll.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The ally adds [tier]d4 to their damage roll by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!mViVvGM7WgshTetk"
+}

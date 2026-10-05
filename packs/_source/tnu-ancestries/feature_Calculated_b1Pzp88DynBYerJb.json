@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Calculated",
+  "folder": null,
+  "_id": "b1Pzp88DynBYerJb",
+  "img": "icons/tools/scribal/lens-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Ignore disadvantage on Knowledge Rolls.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!b1Pzp88DynBYerJb"
+}

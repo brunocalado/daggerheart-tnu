@@ -1,0 +1,145 @@
+{
+  "folder": "OniE369KjyTPJIgT",
+  "name": "Translocator",
+  "type": "domainCard",
+  "_id": "KStmcD70aLE6HXSg",
+  "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp",
+  "system": {
+    "description": "<p><strong>Tech</strong></p><p><strong>Discharged:</strong> You teleport to another point you can see within Very Close range. Then place this card in your vault.</p><p><strong>Charged:</strong> <strong>Spend a Charge</strong> to teleport to another point you can see within Close range.</p><p><strong>Overcharged:</strong> <strong>Spend 2 Charges</strong> to teleport to another point you can see within Very Far range. You can bring a willing creature within Very Close range with you. Then place this card in your vault.</p>",
+    "domain": "uranus",
+    "recallCost": 2,
+    "level": 2,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": null,
+      "icon": "fa-solid fa-bolt",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "bcnBTeEzEQBocGwC": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Discharged: Teleport",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "bcnBTeEzEQBocGwC",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      },
+      "m81zy3xuZqedxOb7": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "KStmcD70aLE6HXSg",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Charged: Teleport",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "m81zy3xuZqedxOb7",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      },
+      "yvUHqN6GyX9E8iFJ": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 2,
+            "step": null,
+            "itemId": "KStmcD70aLE6HXSg",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Overcharged: Teleport",
+        "range": "veryFar",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "yvUHqN6GyX9E8iFJ",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Charges are stored on this card's resource. Place them by hand (instead of gaining Hope on a success with Hope, or by marking a Stress on a success with Fear); a long rest clears them. Discharged and Overcharged end with \"place this card in your vault\": move it to the vault by hand after using them.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!KStmcD70aLE6HXSg"
+}

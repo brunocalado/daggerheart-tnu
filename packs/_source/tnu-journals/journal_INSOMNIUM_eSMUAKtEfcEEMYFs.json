@@ -1,0 +1,41 @@
+{
+  "name": "INSOMNIUM",
+  "_id": "eSMUAKtEfcEEMYFs",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Campaign Frame",
+      "type": "text",
+      "_id": "eq1ovVGBdoxc00Mk",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v1.0 Heart. The core frame. Designed by Tenawa. Complexity Rating: ●●● (3). No frame-specific mechanics are printed in the playtest.</em></p><p><em>When humanity finally reached the stars, it did so at the cost of its own capacity to dream. The preservation of civilization depends on Somnien, a sleep-inducing drug controlled by a megacorp. Those rare individuals who still dream on their own wield extraordinary psionic powers and are feared and hunted. Pioneers and adventurers seek their fortune in The New Unknown that lies between the stars, but the mapped-yet-manacing hyperways of the Nexus remain strange and perilous.</em></p><h2>Tone &amp; Feel</h2><p>Human-Centric, Dystopian, Gritty, Mystical, Thrilling, Hopeful, Pioneering.</p><h2>Themes</h2><p>Dependence vs Control, Freedom vs Security, Found Family and Lost Loyalty, Maps, Myths and Memories… and Dreams.</p><h2>Touchstones</h2><p>Battlestar Galactica, Firefly, Mass Effect, The Expanse, Equilibrium, Event Horizon, Blade Runner, 80s Synthwave.</p><h2>The Pitch</h2><p>Four decades ago, humanity embarked on its journey into The New Unknown of space. But it paid a high price: the loss of its ability to dream.</p><p>Thanks to the Melanid, a strange black metal found on Mars, a new era of space travel began. Melanid-powered engines open portals into the mysterious and dangerous hyperspace known as the Nexus. Travel through it usually follows pre-mapped routes and carries high risks for both spaceships and the human psyche. A solar-system-wide event, later designated Day Zero, followed a fateful experiment and robbed all humans of their capacity for REM sleep, bringing humanity to the brink of extinction. A sleep-drug called Somnien saved civilization, but at the cost of freedom: the megacorporation Wake Industries now controls Somnien and with it most of a drug-addicted humanity. Only a few people born after Day Zero have kept their natural ability to dream and are not dependent on Somnien. These Dreamers develop psionic abilities and are either strictly controlled by society or feared and hunted.</p><h2>Overview</h2><p><em>Give your players this information before character creation.</em></p><p>Earth's 21st century was marked by global crises. At the dawn of the 22nd century humanity came together with a new purpose: a grand journey into The New Unknown between the stars, beginning at the shipyard in lunar orbit, CIRCE-1.</p><p>In 2106 a 221-meter-high black Monolith was discovered in the red sands of Mars, made of an unknown metal later called Melanid. Over two decades 107 more Monoliths were found, all identical and connected on a subatomic level: the Resonance Effect. The Mars station CIRCE-2 and the orbital particle accelerator CIRCE-3 were built to unlock the secrets of Melanid.</p><p>On August 19, 2123, at 23:55 Earth Standard Time, Project Zero went online, an attempt to split the subatomic structure of Melanid to study the resonance effect known as the Melanid Song. Across the solar system every human fell into a dreamless sleep lasting 114 seconds; millions died in the resulting accidents. In the final minutes of Day Zero, CIRCE-2 reported the complete disappearance of CIRCE-3.</p><p>Humans could no longer enter REM sleep: the Insomnion Phenomenon. Aggression, psychosis, hallucinations, depression and panic attacks spread, and no treatment worked. In the fifth week the first non-suicide death caused by Insomnium was reported, a brain hemorrhage in an otherwise healthy 19-year-old. One week later a young medical startup announced a drug that restored REM sleep: Somnien, which made Wake Industries the most valuable and powerful corporation in history.</p><p>Project Zero had further effects. An anomaly in the fabric of space-time appeared where CIRCE-3 once orbited Mars, and the song of every Monolith had changed. In the following decades Melanid-Core technology allowed portals to be opened into a hyperspace named the Nexus, letting humanity bypass vast distances in days or weeks. Passage is difficult and extremely dangerous: there seem to be fixed routes, and those who stray risk being lost forever. The Nexus also devastates the human mind: Nexus-Psychosis, early passages ending in extreme violence against others and oneself. The only safe way to cross is in hypersleep chambers guided by AI autopilots. To chart it, the ARIADNE Project launched a massive unmanned autonomous spacecraft that deploys marker buoys and maps safe routes.</p><p>Four decades after Day Zero there are countless colonies in the Sol system and in distant star systems. In everything but official designation, Wake Industries governs the United Earth Alliance (UEA), whose authority tightly constrains life in the civilized systems. Life on the frontier is rough, but the illusion of independence pulls those hungry for freedom outward. Rituals once rooted in religion have, in secularized form, become part of everyday culture, and Companions act as ambassadors and intermediaries in rites of passage: breaking bread when a ship docks at a new station, exchanging salt to broker negotiations, laying coins on the eyes of the dead.</p><p>Somnien gives humanity back its dreams, but they are hollow remnants drained of color, life and any glimpse of the future. The rich use exquisite tailor-made Somnien to induce vivid dreams of pleasure, euphoria or enigmatic wonder, while tainted or second-rate Somnien drifts through the black markets and lawless outer worlds.</p><p>A very small number of people are still born able to dream without Somnien. These Dreamers have an unexplained connection to Melanid and the Nexus, and some say they can hear the Echo of the Melanid Song. They develop extraordinary psionic abilities and are either controlled and militarily deployed by the UEA or constantly on the run. In the outer regions they are both feared and sought out as oracles.</p><p>Nexus travel remains perilous. Maps promising safe routes, especially into unexplored regions, are highly coveted and expensive. Ships stray off course and are never seen again; hypersleep chambers malfunction. Travelers tell of a black object detected by ship sensors (some believe it is ARIADNE still on its mission), of lost ships and crews driven mad yet still roaming hyperspace, and of darker things lurking in the folds of the void.</p><p>In INSOMNIUM you play pathfinders, outcasts, rebels and Dreamers chasing what the galaxy has denied them: freedom, fortune and a future of their own. And some chase a darker curiosity: who are the Architects of the Monoliths, and are they still out there, waiting?</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!eSMUAKtEfcEEMYFs.eq1ovVGBdoxc00Mk"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!journal!eSMUAKtEfcEEMYFs"
+}

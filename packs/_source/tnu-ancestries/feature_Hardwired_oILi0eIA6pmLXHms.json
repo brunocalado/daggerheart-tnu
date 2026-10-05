@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Hardwired",
+  "folder": null,
+  "_id": "oILi0eIA6pmLXHms",
+  "img": "icons/magic/symbols/arrowhead-green.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>You can have one cybernetic implant without getting a permanent Trauma. You start with the cybernetic <strong>Body Arsenal</strong>: a retractable One-Handed primary weapon grafted to your body. Ignore its burden.</p>",
+    "gmNotes": "The printed text does not say which weapon; the player picks a One-Handed primary weapon (inventory marks this (?)). Phase 07 should link the Body Arsenal implant from tnu-loot.",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!oILi0eIA6pmLXHms"
+}

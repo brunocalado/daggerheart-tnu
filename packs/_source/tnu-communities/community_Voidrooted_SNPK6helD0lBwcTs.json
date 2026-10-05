@@ -1,0 +1,23 @@
+{
+  "type": "community",
+  "name": "Voidrooted",
+  "folder": null,
+  "system": {
+    "loreReference": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null
+    },
+    "description": "",
+    "gmNotes": "",
+    "features": [
+      "Compendium.daggerheart-tnu.tnu-communities.Item.ZlGuwquCo5lmNU5j"
+    ]
+  },
+  "_id": "SNPK6helD0lBwcTs",
+  "img": "icons/environment/wilderness/cave-entrance-dwarven-hill.webp",
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!SNPK6helD0lBwcTs"
+}

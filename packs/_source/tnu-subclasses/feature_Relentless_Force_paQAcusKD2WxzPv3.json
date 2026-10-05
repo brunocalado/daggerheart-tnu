@@ -1,0 +1,25 @@
+{
+  "folder": "pS3gQlxUH9OZdWdf",
+  "name": "Relentless Force",
+  "type": "feature",
+  "_id": "paQAcusKD2WxzPv3",
+  "img": "icons/magic/earth/strike-fist-stone.webp",
+  "system": {
+    "description": "<p><strong>Relentless Force:</strong> You gain a bonus to your damage thresholds and your damage rolls equal to double your Momentum (instead of just your Momentum).</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Momentum's effect adds the bonus once; add the second time by hand. An effect on this feature can't read the Momentum value, which lives on another item.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!paQAcusKD2WxzPv3"
+}

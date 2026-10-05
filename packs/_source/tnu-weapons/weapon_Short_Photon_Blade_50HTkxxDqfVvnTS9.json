@@ -1,0 +1,155 @@
+{
+  "name": "Short Photon Blade",
+  "type": "weapon",
+  "_id": "50HTkxxDqfVvnTS9",
+  "img": "icons/weapons/swords/shortsword-green.webp",
+  "system": {
+    "description": "",
+    "actions": {
+      "ZYEiqH7ghrnlOm6z": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Deflecting",
+        "description": "When you are attacked, roll this weapon's damage dice. Matching values on the attacker's dice are discarded before damage is totaled.",
+        "img": "icons/skills/melee/shield-block-fire-orange.webp",
+        "_id": "ZYEiqH7ghrnlOm6z",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        }
+      }
+    },
+    "tier": 2,
+    "equipped": false,
+    "secondary": true,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "deflecting",
+        "effectIds": [],
+        "actionIds": [
+          "ZYEiqH7ghrnlOm6z"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "h92nIjtWEf4uYOep",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "agility",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d8",
+            "bonus": 2,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "magical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 5700000,
+  "flags": {},
+  "_key": "!items!50HTkxxDqfVvnTS9"
+}

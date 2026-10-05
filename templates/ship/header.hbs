@@ -1,0 +1,55 @@
+<header class="ship-header">
+  <line-div></line-div>
+  <div class="name-row">
+    <h1 class="actor-name">
+      <input type="text" name="name" value="{{source.name}}" placeholder="Ship name" autocomplete="off" spellcheck="false">
+    </h1>
+    <div class="level-div">
+      <h3 class="label">
+        Level
+        <input type="number" name="system.level" value="{{system.level}}" min="1" max="10" step="1">
+      </h3>
+    </div>
+  </div>
+
+  <div class="ship-details">
+    <input class="hull" type="text" name="system.hull" value="{{source.system.hull}}" placeholder="Hull">
+    <div class="tags">
+      <div class="tag" data-tooltip="Tier {{tier}}: levels 1, 2–4, 5–7 and 8–10"><span>Tier {{tier}}</span></div>
+      <div class="tag" data-tooltip="Hit Points + Armor Score: the GM's budget for a ship fight">
+        <i class="fa-solid fa-crosshairs"></i><span>{{battlePoints}} Battle Points</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ship-row">
+    <div class="hope-section">
+      <h4>Hope</h4>
+      {{#each hope.pips}}
+        <span class="hope-value" data-action="setTrack" data-track="hope" data-value="{{value}}">
+          <i class="{{#if filled}}fa-solid fa-diamond{{else}}fa-regular fa-circle{{/if}}"></i>
+        </span>
+      {{/each}}
+      <span class="hope-max">/ <input class="max-input" type="number" name="system.resources.hope.max" value="{{hope.max}}" min="0" step="1" data-tooltip="Maximum Hope"></span>
+    </div>
+    <div class="spheres-section" data-tooltip="Crew aboard by Sphere">
+      {{#each spheres}}
+        <span class="sphere-count {{key}}"><span class="sphere-tag {{key}}">{{label}}</span>{{count}}</span>
+      {{/each}}
+    </div>
+  </div>
+
+  <section class="tab-navigation">
+    <div class="navigation-container">
+      <div class="navigation-inner-container">
+        <line-div></line-div>
+        <nav class="feature-tab sheet-tabs tabs" data-group="primary">
+          {{#each tabs}}
+            <a class="{{id}} {{cssClass}}" data-action="tab" data-group="{{group}}" data-tab="{{id}}"><span>{{label}}</span></a>
+          {{/each}}
+        </nav>
+        <line-div></line-div>
+      </div>
+    </div>
+  </section>
+</header>

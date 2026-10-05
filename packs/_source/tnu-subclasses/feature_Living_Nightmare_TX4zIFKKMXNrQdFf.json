@@ -1,0 +1,296 @@
+{
+  "folder": "7M3ZERAyxWdY69ck",
+  "name": "Living Nightmare",
+  "type": "feature",
+  "_id": "TX4zIFKKMXNrQdFf",
+  "img": "icons/magic/unholy/orb-glowing-purple.webp",
+  "system": {
+    "description": "<p><strong>Living Nightmare:</strong> When you use the Dark Passenger class feature, you rip a fraction of that Entity from the darkness of your soul and project it onto the battlefield as a physical horror. You gain the Manifest benefit of that Entity.</p>",
+    "resource": null,
+    "actions": {
+      "oCjzupJRml8nDgGe": {
+        "type": "summon",
+        "_id": "oCjzupJRml8nDgGe",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon The Father of Serpents",
+        "img": "icons/creatures/reptiles/serpent-horned-green.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart-tnu.tnu-adversaries.Actor.WO8FeZs7LD16SEUo",
+            "count": "1"
+          }
+        ]
+      },
+      "n0w6bWFHxdrHXMOx": {
+        "type": "summon",
+        "_id": "n0w6bWFHxdrHXMOx",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon The Weaver in the Dark",
+        "img": "icons/creatures/invertebrates/spider-dotted-green.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart-tnu.tnu-adversaries.Actor.0hIrYn6tr80CPC1D",
+            "count": "1"
+          }
+        ]
+      },
+      "YDW4iLa0l5PRq1cu": {
+        "type": "summon",
+        "_id": "YDW4iLa0l5PRq1cu",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon The Living Flame",
+        "img": "icons/magic/fire/elemental-fire-humanoid.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart-tnu.tnu-adversaries.Actor.srue3Ulj41vdhX72",
+            "count": "1"
+          }
+        ]
+      },
+      "8cs8KNPxOcdLOZvI": {
+        "type": "summon",
+        "_id": "8cs8KNPxOcdLOZvI",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon The Herald of the Stars",
+        "img": "icons/creatures/fish/squid-kraken-teal.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart-tnu.tnu-adversaries.Actor.DyVcqLyEmk9VxT0g",
+            "count": "1"
+          }
+        ]
+      },
+      "sOtFMWOPMTXbl63y": {
+        "type": "summon",
+        "_id": "sOtFMWOPMTXbl63y",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon The Unspeakable",
+        "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart-tnu.tnu-adversaries.Actor.omkwwyXQHfSyOjJj",
+            "count": "1"
+          }
+        ]
+      },
+      "btdn9lKEpD0p8Ut3": {
+        "type": "summon",
+        "_id": "btdn9lKEpD0p8Ut3",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon The Source of Impurity",
+        "img": "icons/creatures/slimes/slime-face-teeth-purple.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart-tnu.tnu-adversaries.Actor.L80FlEbXWTPVg6yy",
+            "count": "1"
+          }
+        ]
+      },
+      "wIkbo18d7lLp9z4t": {
+        "type": "summon",
+        "_id": "wIkbo18d7lLp9z4t",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon The Great Dreamer",
+        "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart-tnu.tnu-adversaries.Actor.96gc8wtNWb79RNVJ",
+            "count": "1"
+          }
+        ]
+      },
+      "bWRqnuIdKzMDd2Ld": {
+        "type": "summon",
+        "_id": "bWRqnuIdKzMDd2Ld",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon The Burrower Beneath",
+        "img": "icons/environment/creatures/bug-worm-pincer-pink.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart-tnu.tnu-adversaries.Actor.lx61mwqc48IpGCNZ",
+            "count": "1"
+          }
+        ]
+      },
+      "DFhcZSjKRrHuGPIF": {
+        "type": "summon",
+        "_id": "DFhcZSjKRrHuGPIF",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "name": "Summon The Sleeper",
+        "img": "icons/magic/fire/orb-vortex.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "summon": [
+          {
+            "actorUUID": "Compendium.daggerheart-tnu.tnu-adversaries.Actor.ufBbj3qNCSxtARPv",
+            "count": "1"
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Use the summon for the Entity you are connected with; it places that Entity's token. Spend the Echo from Darkness Rising by hand.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!TX4zIFKKMXNrQdFf"
+}

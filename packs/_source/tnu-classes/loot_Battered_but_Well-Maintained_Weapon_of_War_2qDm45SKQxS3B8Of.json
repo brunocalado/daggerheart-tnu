@@ -1,0 +1,22 @@
+{
+  "folder": "f1YIgWYoFakiYiHX",
+  "name": "Battered but Well-Maintained Weapon of War",
+  "type": "loot",
+  "img": "icons/skills/melee/strike-sword-dagger-runes-gray.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "2qDm45SKQxS3B8Of",
+  "sort": 0,
+  "_key": "!items!2qDm45SKQxS3B8Of"
+}

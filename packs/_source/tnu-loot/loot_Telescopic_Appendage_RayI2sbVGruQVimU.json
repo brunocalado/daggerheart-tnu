@@ -1,0 +1,22 @@
+{
+  "name": "Telescopic Appendage",
+  "type": "loot",
+  "_id": "RayI2sbVGruQVimU",
+  "img": "icons/commodities/biological/eye-tentacle-green-yellow.webp",
+  "system": {
+    "description": "<p><strong>Cybernetic implant (Tier 2).</strong> Installing it gives you 1 permanent Trauma (−1 max Hope), even if the implant is later swapped out. Identically named features don't stack. Track the Trauma on the character sheet yourself; it is not applied automatically.</p><p><strong>Telescopic Appendage:</strong> Grab things within Close range. Mark a Stress to use the appendage as a Strength or Finesse <strong>Close</strong> weapon dealing <strong>d10 + your level</strong> kinetic damage using your Proficiency.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400000,
+  "flags": {},
+  "_key": "!items!RayI2sbVGruQVimU"
+}

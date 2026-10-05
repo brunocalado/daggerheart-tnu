@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Visions",
+  "folder": null,
+  "_id": "rCL9Qw7Uiu6QA7Nc",
+  "img": "icons/magic/perception/orb-eye-scrying.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>You have advantage on rolls assessing situations that lie ahead, planning or understanding others, even if you are not able to communicate with them.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!rCL9Qw7Uiu6QA7Nc"
+}

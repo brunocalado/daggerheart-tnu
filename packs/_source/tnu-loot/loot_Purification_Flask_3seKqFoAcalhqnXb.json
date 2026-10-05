@@ -1,0 +1,22 @@
+{
+  "name": "Purification Flask",
+  "type": "loot",
+  "_id": "3seKqFoAcalhqnXb",
+  "img": "icons/tools/laboratory/alembic-glass-ball-blue.webp",
+  "system": {
+    "description": "<p>Converts any liquid to drinking water.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 14 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2600000,
+  "flags": {},
+  "_key": "!items!3seKqFoAcalhqnXb"
+}

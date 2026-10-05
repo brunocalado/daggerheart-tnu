@@ -1,0 +1,81 @@
+{
+  "folder": "2kQ1MW43urYQMAV8",
+  "name": "Shatterpulse",
+  "type": "feature",
+  "_id": "vZdhA3A55V6NmRA5",
+  "img": "icons/magic/water/projectile-ice-faceted-chunk.webp",
+  "system": {
+    "description": "<p>When your Fragment vanishes through damage, it explodes in a wave of shards: All targets within Very Close take <strong>d8+3</strong> kinetic damage using your Proficiency.</p>",
+    "resource": null,
+    "actions": {
+      "eiwzeilH30peAjgq": {
+        "type": "damage",
+        "_id": "eiwzeilH30peAjgq",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Shatterpulse",
+        "img": "icons/magic/water/projectile-ice-faceted-chunk.webp",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "prof",
+              "dice": "d8",
+              "bonus": 3,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": []
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "reaction",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!vZdhA3A55V6NmRA5"
+}

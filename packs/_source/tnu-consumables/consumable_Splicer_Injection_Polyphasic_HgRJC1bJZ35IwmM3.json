@@ -1,0 +1,62 @@
+{
+  "name": "Splicer Injection 'Polyphasic'",
+  "type": "consumable",
+  "_id": "HgRJC1bJZ35IwmM3",
+  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "system": {
+    "description": "<p>Choose one additional downtime move.</p>",
+    "quantity": 1,
+    "actions": {
+      "Ap1ibRe8NYHqlFpV": {
+        "type": "effect",
+        "_id": "Ap1ibRe8NYHqlFpV",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "HgRJC1bJZ35IwmM3",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 35 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3400000,
+  "flags": {},
+  "_key": "!items!HgRJC1bJZ35IwmM3"
+}

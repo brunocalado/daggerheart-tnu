@@ -1,0 +1,176 @@
+{
+  "name": "Ships",
+  "_id": "BHoTwDkJTVJJDs9A",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Spaceships",
+      "type": "text",
+      "_id": "npw1MvxyR1V4fTN1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v3.0 Fist. Spaceships are introduced in v3.0; the playtest covers ship play up to Level 4, with two hulls, 12 modules and 18 ship domain cards.</em></p><p><em>A Hub. A Home. A Battlestation.</em> Spaceships in TNU are not just a hub, but an extension of the crew, controlled collectively by the players. Over the course of the campaign, each player contributes their own skills and preferences, transforming an empty hull into a personalized home.</p><h2>The Ship Is a Character</h2><p>In terms of game mechanics, the spaceship is treated as an additional player character with its own stats. It is controlled and managed collectively by the players. As soon as the players set out into space, their individual character sheets are set aside. Until they leave their ship, they use the actions made possible by their Sphere. The Sphere is based on their Power Trait.</p><p>As long as the players are on their spaceship, they use its resources. This means that, for example, when they have to spend Stress, it's the ship's Stress. The only attribute the players use is their Power Trait; otherwise, they can set their character sheets aside.</p><h2>Spheres</h2><ul><li><strong>Sphere of Mind (Finesse, Knowledge).</strong> Players in this Sphere strategically use their knowledge and the environment to gain advantages for their own team or ship, and to uncover and exploit their opponents' weaknesses.</li><li><strong>Sphere of Heart (Presence, Instinct).</strong> Following your heart (or your gut feeling). The skills here often revolve around navigating and maintaining the ship, as well as performing support tasks.</li><li><strong>Sphere of Fist (Agility, Strength).</strong> Primarily dedicated to combat: various combat actions, and using the ship's resources to gain advantages for the crew.</li></ul><p>A Hollow's Power Trait is one trait of their choice, so that choice also sets their Sphere. A character without a Power Trait has no Sphere aboard.</p><h2>What the Crew Can Do</h2><p>The actions that can be performed on the ship come from two places: the <strong>modules</strong>, the spacecraft's components, and the <strong>ship domain cards</strong>, which are also based on the Spheres. Each Sphere has options that can be used both during and outside of combat. Some modules also have passive effects that benefit the players. The range of options is considerably smaller than that of the normal domains.</p><p>See <em>Hulls &amp; Modules</em>, <em>Building &amp; Advancement</em>, <em>Ship Domain Cards</em> and <em>Ship Combat</em> for the rules, and <em>Using the Ship Sheet</em> for how the module runs them in Foundry.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BHoTwDkJTVJJDs9A.npw1MvxyR1V4fTN1"
+    },
+    {
+      "sort": 200000,
+      "name": "Hulls & Modules",
+      "type": "text",
+      "_id": "K3plqVZ7LQfCehkD",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Modules make up the interior of the ship and are placed inside a <strong>hull</strong>, which determines the spaceship's stats and defines its type.</p><h2>Hulls</h2><p>A hull has a name and flavor text, Proficiency, Hit Points, Evasion, Armor, damage thresholds, Stress and Hope. Three hulls are named: Barnard (Evasion), Taurus (Armor) and Ankaa (Hit Points). The playtest prints two of them.</p><table><thead><tr><th>Hull</th><th>HP</th><th>Evasion</th><th>Thresholds</th><th>Armor</th><th>Stress</th><th>Hope</th><th>Proficiency</th></tr></thead><tbody><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ships.Actor.YXUwAnYKQgpdtP0m]{Ankaa}, The Perseverer</td><td>14</td><td>10</td><td>9 / 18</td><td>4</td><td>8</td><td>5</td><td>1</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ships.Actor.D7G7HrzY8mOmPszw]{Taurus}, The Ram</td><td>10</td><td>10</td><td>11 / 19</td><td>7</td><td>8</td><td>5</td><td>1</td></tr></tbody></table><p>Both hulls in the compendium come with the four set modules aboard.</p><h2>Modules</h2><p>Each spaceship consists of a variety of modules, such as a cockpit, a command bridge, an engine room and crew quarters. Some are required, others optional. A module has:</p><ul><li><strong>Name and flavor text.</strong></li><li><strong>Features:</strong> the actions a player can perform there. Some are limited to a specific Sphere, others can be used by everyone at the table.</li><li><strong>Capacity:</strong> the number of PCs allowed on the module at the same time.</li><li><strong>Stats:</strong> only for modules that allow attack actions or can be moved separately from the main spaceship.</li></ul><p>Players can perform the actions of the module they are in. Players from a different Sphere can still perform an action, but with disadvantage.</p><table><thead><tr><th>Module</th><th>Capacity</th><th>Replaces</th><th>Features</th></tr></thead><tbody><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.i9tj6BNuoBiEhnG9]{Cockpit}</td><td>3</td><td>—</td><td>Navigation (Heart &amp; Mind), Docking (Heart &amp; Mind), Ram (Fist)</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.63ORDaXrWDma0o6m]{Spaceship Core}</td><td>3</td><td>—</td><td>Fast Travel (out of combat)</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.AEo5RMkhJeKU5vdW]{Cannon}</td><td>2</td><td>—</td><td>Stats ATK +2, Shot: Close, d8+6. Attack (Fist), Reach (Fist)</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.zafSH8jEnPRoeNfP]{Cabins}</td><td>6</td><td>—</td><td>Rest</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.OkXQKfpTssZ6dNyT]{Command Center}</td><td>3</td><td>Cockpit</td><td>Navigation, Docking, Ram (d12), and a second Docking that takes cover</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.nvdgs7nDncorkdH6]{Engine Room}</td><td>2</td><td>Spaceship Core</td><td>Fast Travel (out of combat), Repair (out of combat)</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.1YEJWCto2k8YWZch]{Tether Cannon}</td><td>1</td><td>Cannon</td><td>Stats ATK +2, Shot: Close, d8+6. Attack, Attach, Tug-of-war (all Fist)</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.BhKJcbPDnJjgCVBE]{Cozy Cabins}</td><td>8</td><td>Cabins</td><td>Improved Rest</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.jqM7MYv0WuVu9AvL]{Infirmary}</td><td>4</td><td>—</td><td>Healing Sleep</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.rV6nDhiWgwMNN1nr]{Kitchen}</td><td>3</td><td>—</td><td>Satisfying Meal</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.6y9CA8qYsm9NNztd]{Training Room}</td><td>2</td><td>—</td><td>Mindful Motivation</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.tJQg2bilJKY8akRG]{Laboratory}</td><td>1</td><td>—</td><td>Creation</td></tr></tbody></table><p>Features with no Sphere tag can be used by every Sphere. The Cannon and Tether Cannon print d8+6 on their stat line and d8+4 on their Attack; both are kept as printed. The Command Center's second feature is printed as another \"Docking\" but describes taking cover.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BHoTwDkJTVJJDs9A.K3plqVZ7LQfCehkD"
+    },
+    {
+      "sort": 300000,
+      "name": "Building & Advancement",
+      "type": "text",
+      "_id": "miX5bMrWzKYDE0Tj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Building the Spaceship</h2><p>The ship construction begins after the characters are created. There is a pool of basic ship modules as well as pre-built ships to get you started quickly.</p><ol><li>Choose a hull for your spaceship.</li><li>Take the four set modules: the Cockpit, the Spaceship Core, the Cannons and the Cabins.</li><li>Choose a fifth module. The players or the GM choose it.</li><li>Place the modules on the hull.</li></ol><p><strong>Spaceship Experiences.</strong> Every player now creates a spaceship Experience: an individual Experience that reflects the skills or past experiences each player brings to this spaceship. To use those Experiences, the players spend the spaceship's Hope.</p><h2>Leveling Up</h2><p>When the ship reaches a new tier, each player can choose a new module for the ship or upgrade an existing one, and as a crew they choose two options to improve the ship. On a level up that is not a change in tier, each player draws a ship domain card instead.</p><table><thead><tr><th>Level</th><th>Modules</th><th>Ship domain cards</th><th>Tier-up</th></tr></thead><tbody><tr><td>Tier 1 (Level 1)</td><td colspan=\"3\">Build your spaceship.</td></tr><tr><td>Tier 2 (Level 2)</td><td>1 per player</td><td>—</td><td>+1 Armor Slot; damage thresholds +7/+13; choose two options.</td></tr><tr><td>Levels 3 and 4</td><td>—</td><td>1 per player</td><td>—</td></tr><tr><td>Tier 3 (Level 5)</td><td>1 per player</td><td>—</td><td>+1 Armor Slot; damage thresholds +5/+10; choose two options.</td></tr><tr><td>Levels 6 and 7</td><td>—</td><td>1 per player</td><td>—</td></tr><tr><td>Tier 4 (Level 8)</td><td>1 per player</td><td>—</td><td>+1 Armor Slot; damage thresholds +5/+12; choose two options.</td></tr></tbody></table><p><strong>Tier-up options</strong> (as a crew, choose two at each tier):</p><ul><li>Gain a +1 bonus to your Proficiency.</li><li>Permanently gain one Hit Point slot.</li><li>Permanently gain one Stress slot.</li><li>Permanently gain a +1 bonus to your Evasion.</li><li>All players gain an additional spaceship Experience at +2, or increase one of their existing ones by +1.</li></ul><p>The playtest does not define how a module is upgraded; the modules that replace another (Command Center, Engine Room, Tether Cannon, Cozy Cabins) are the closest thing it prints. The playtest's ship domain cards are Levels 3 and 4 only.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BHoTwDkJTVJJDs9A.miX5bMrWzKYDE0Tj"
+    },
+    {
+      "sort": 400000,
+      "name": "Ship Domain Cards",
+      "type": "text",
+      "_id": "qURWb8XexzCJVkxb",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The domains reflect the players and their abilities. Each player has a unique set of abilities made up of their cards; there is <strong>no vault</strong>, all cards are available at all times. Each ship domain is connected to one Sphere, and with each level up that is not a change in tier, players draw a card from their Sphere's ship domain.</p><p>Every ship domain card is <strong>Locational</strong>: you must be in the named module to use it.</p><h2>Mind Domain (Finesse, Knowledge)</h2><p>Targeted use of knowledge and the environment to gain advantages for your own team or ship and identify your opponents' weak points: diversionary tactics, hiding within the environment, sabotage, false identities and more.</p><table><thead><tr><th>Card</th><th>Level</th><th>Locational</th><th>Features</th></tr></thead><tbody><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.yDM3cbquqVOMu5Wi]{Manual of Hidden}</td><td>3</td><td>Spaceship Core</td><td>Camouflage, Quick Scan</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.4uEFXzHhdYzq9LDS]{Manual of Evasion}</td><td>3</td><td>Cockpit</td><td>Art of Evasion, Dodge</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.vxhfbJaPqrv7gTNF]{Manual of Reinforcement}</td><td>3</td><td>Spaceship Core</td><td>Additional Armor, Impact Force</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.BCl28Eo6NAcpyF5j]{Manual of Vulnerabilities}</td><td>4</td><td>Cockpit</td><td>Weakpoints, Backstab</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.6ciqi0OJCZjfb9R3]{Manual of Deception}</td><td>4</td><td>Spaceship Core</td><td>Magnetic Field, Distraction Tactics</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.ha2pNNOhFCj5Oq37]{Manual of Illusion}</td><td>4</td><td>Cockpit</td><td>False Allies, Fake Identities</td></tr></tbody></table><h2>Heart Domain (Presence, Instinct)</h2><p>Following your heart (or your gut feeling). Each card is a different maneuver, some more offensive, others defensive. Much of it revolves around navigating the ship, but landing maneuvers, docking maneuvers and escapes are also key parts of this domain.</p><table><thead><tr><th>Card</th><th>Level</th><th>Locational</th><th>Features</th></tr></thead><tbody><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.q8cbteA8rEYVIflv]{Landing Maneuver}</td><td>3</td><td>Cockpit</td><td>Soft Landing</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.BJzs6gyPBlw5BdiH]{Recovery Maneuver}</td><td>3</td><td>Spaceship Core</td><td>Repair</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.YV0ixKZj5eAElhDR]{Escape Maneuver}</td><td>3</td><td>Cockpit</td><td>Quick Departure</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.biru5zSxw2uKMZII]{Flight Maneuver}</td><td>4</td><td>Cockpit</td><td>Fight or Flight</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.ZeZ9hWzUFvcfwGGD]{Cumbersome Maneuver}</td><td>4</td><td>Cockpit</td><td>Bulky</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.JHIx8H5ESrG7cQdL]{Invading Maneuver}</td><td>4</td><td>Cockpit</td><td>Enemy Territory</td></tr></tbody></table><h2>Fist Domain (Agility, Strength)</h2><p>Primarily dedicated to attacking: simple guns as well as ramming enemy ships (Armor). This domain is largely about using the ship's resources (Stress, Armor, HP) to gain advantages for your own vessel.</p><table><thead><tr><th>Card</th><th>Level</th><th>Locational</th><th>Features</th></tr></thead><tbody><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.cOPddfdRf7Oi9qAx]{Thermal Push}</td><td>3</td><td>Spaceship Core</td><td>Not Today</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.Ucs01AGxtBJv0ORL]{Counter}</td><td>3</td><td>Cannon</td><td>Mirrored Attack</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.HsjNvyLrF9Q0tcTc]{Decompression}</td><td>3</td><td>Cannon</td><td>Blowout</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.ZAATAxweF3pcHsiv]{Hard Docking}</td><td>4</td><td>Cockpit</td><td>Hull Breach</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.Cvpl07TjK5n07WB1]{Overload}</td><td>4</td><td>Spaceship Core</td><td>Calculated Damage</td></tr><tr><td>@UUID[Compendium.daggerheart-tnu.tnu-ship-parts.Item.JX6gmOnOs0jAowAD]{Shield Baiting}</td><td>4</td><td>Spaceship Core</td><td>Sacrificial Baiting</td></tr></tbody></table><p>Ship cards say \"spend a Stress\" or \"spend HP\"; on a ship that means marking them.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BHoTwDkJTVJJDs9A.qURWb8XexzCJVkxb"
+    },
+    {
+      "sort": 500000,
+      "name": "Ship Combat",
+      "type": "text",
+      "_id": "vhoNhWeVIzzYsi7G",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Most spaceship battle rules rely on the modules and ship domain cards. These are the additions.</p><h2>Range and Movement</h2><p>Outside of combat, players can move around the spaceship as they please. The distance between two adjacent rooms is considered Close range. They can perform the actions available in the rooms they are in. The capacity of each module indicates the number of players who can be on that module at the same time.</p><p>During combat, players can move to adjacent modules to navigate around the spaceship. If players wish to move more than one module, the GM may require a roll. Players can never move more than two modules at once unless they use the abilities of domain cards that say otherwise.</p><h2>Other Spheres</h2><p>A player can perform an action tagged for a different Sphere, but with disadvantage.</p><h2>Help Action and Same Sphere</h2><p>Two players with the same Sphere can use each other's cards. To do so, the player with the card must spend one Hope (from the spaceship) to help the other player. The normal Help an Ally action is not available on the spaceship.</p><h2>Stress</h2><p>If the players have marked the ship's last Stress and would need to mark another one, one of the modules is deactivated instead. The actions associated with that module can no longer be used until the next rest.</p><h2>Defeat</h2><p>If the ship has no HP left or all modules are deactivated, the spaceship is beyond repair. A new spaceship costs a chest full of credits per player.</p><h2>Battle Points</h2><p>Battle Points are calculated from the spaceship's HP and Armor Score: with 10 HP and an Armor Score of 5, the GM has 15 Battle Points to spend.</p><h2>Adversaries</h2><p>For the playtest, use any adversary and re-flavor it. Larger adversaries work especially well as substitutes for spaceships. Spaceships can be attacked even after they've landed on a planet.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BHoTwDkJTVJJDs9A.vhoNhWeVIzzYsi7G"
+    },
+    {
+      "sort": 600000,
+      "name": "Using the Ship Sheet",
+      "type": "text",
+      "_id": "owAacIcHVHCkhswe",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>How this module runs ship play in Foundry. The rules on the other pages are the playtest's; this page describes what is automated and what stays with the table.</p><h2>Setting Up</h2><ul><li><strong>Create the ship</strong> by importing Ankaa or Taurus from the <em>TNU Ships</em> compendium. Add modules and ship domain cards by dropping them from <em>TNU Ship Modules &amp; Cards</em> onto the ship sheet.</li><li><strong>Players need Owner permission on the ship</strong> to use its features from the sheet.</li><li><strong>Bring the crew aboard</strong> by dropping a character onto the sheet, or onto a module to place them there. Each crew row has a select to move them between modules; a module refuses a crew member when it is at capacity.</li><li><strong>Each crew member's Sphere</strong> is read from their Power Trait, which comes from their subclass. A character without a subclass shows \"No sphere\".</li><li><strong>Card owners</strong> are set with the select on each card row. The card's Locational module is shown beside it.</li><li><strong>The module list order is the adjacency.</strong> Drag a module to reorder it. Movement between modules is not tracked; the crew select is where a crew member is.</li><li><strong>Tracks</strong> are clicked like any Daggerheart track: click a pip to mark up to it, click the last marked pip to clear it.</li><li><strong>Spaceship Experiences</strong> are added and named on the sheet.</li><li><strong>Tier-up is applied by level.</strong> Raising the level to 2, 5 or 8 adds that tier's Armor Slot and threshold raises, and each option checked on a reached tier adds its +1 (two per tier). The stats in the sidebar show these totals; editing one there changes the hull's own value underneath. The Experience option is added by hand.</li><li><strong>Battle Points</strong> are shown in the header: maximum Hit Points plus Armor Slots.</li></ul><h2>Using a Feature</h2><ol><li>Click the feature's button on its module or card. The button is disabled while the module it is used from is deactivated, or while a once-per-rest feature is spent.</li><li><strong>Who acts:</strong> a crew member you own who is in that module, or for a card in its Locational module. Your own character is picked when it is there; otherwise a prompt asks which crew member acts.</li><li><strong>Spaceship Experiences:</strong> when the ship has Hope, the same prompt offers its Experiences. Each one picked adds its value to the roll and costs 1 ship Hope.</li><li><strong>The roll</strong> is the crew member's own Duality roll with their Power Trait, through the usual Daggerheart roll dialog (Shift-click skips it). A feature not tagged with the crew member's Sphere is rolled with disadvantage. For a feature against a target, target the token first and the card shows whether it hit.</li><li><strong>Resources:</strong> Hope gained on the roll goes to the ship, a critical success clears a ship Stress, and Fear goes to the GM. This follows the system's Hope and Fear automation setting: with it off, nothing is gained automatically.</li><li><strong>Costs</strong> printed on a feature are paid by the ship when the roll succeeds, or when there is no target or fixed Difficulty to judge it by. A feature without a roll pays at once. The ship must have the Hope and Armor Slots a feature could cost before the roll.</li><li><strong>Damage:</strong> when a feature that deals damage doesn't fail, a damage card is posted. The GM applies it with <em>Deal Damage</em>, as with any Daggerheart damage. Ship damage is kinetic.</li></ol><p><strong>Borrowing a card.</strong> A crew member of the card's Sphere can use another player's card; the ship pays 1 Hope for it. A crew member of another Sphere is refused. A card with no owner can be used by anyone in its module.</p><p><strong>The system roll dialog</strong> still lists the crew member's own Experiences. The rules set character sheets aside aboard; if one is used anyway, its Hope comes from the ship.</p><h2>Stress Overflow, Rest and Defeat</h2><ul><li><strong>Stress overflow:</strong> when a ship feature needs a Stress the ship can't mark, the GM gets a whispered card listing the active modules. The module the GM picks is deactivated until the next rest. Stress the system marks on the ship by other means (for example an adversary feature) follows Daggerheart's rule and marks a Hit Point instead; deactivate a module by hand.</li><li><strong>Rest:</strong> use <em>Rest</em> in the Cabins, or <em>Improved Rest</em> in the Cozy Cabins, and choose a short or long rest. The ship recovers its once-per-rest features (a long rest also recovers once-per-long-rest ones) and every deactivated module comes back. The crew take their own rest moves on their own sheets, including the Hope from Cozy Cabins.</li><li><strong>Beyond repair:</strong> a chat card is posted when every Hit Point of the ship is marked or every module is deactivated.</li></ul><h2>Ship Tokens and Combat</h2><p>Ship tokens are linked to the ship and show its Hit Points, Stress, Hope and Armor Slots as bars. Adversaries attack the ship against its Evasion, and damage marks Hit Points by its thresholds. Put the ship token in the combat tracker like a character. The system's encounter Battle Points tool counts the ship as one more PC; use the ship's own Battle Points instead.</p><h2>Left to the Table</h2><ul><li>Moving between modules during combat, and the two-module limit.</li><li>Applying damage from ship attacks, and conditions such as Vulnerable or Hidden.</li><li>Effects on a later roll (\"the next attack gains +3\"), tokens placed on a card, and advantage from a feature such as Soft Landing.</li><li>The Laboratory's d6 consumable: roll it and record the result.</li><li>Module upgrades and the tier gains.</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BHoTwDkJTVJJDs9A.owAacIcHVHCkhswe"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!journal!BHoTwDkJTVJJDs9A"
+}

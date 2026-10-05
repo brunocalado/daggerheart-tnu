@@ -1,0 +1,124 @@
+{
+  "folder": "H1uwh21DFraDJ1Zn",
+  "name": "My Body Is a Weapon",
+  "type": "domainCard",
+  "_id": "ILI6rh3uJ3Qvf065",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>Your unarmed attacks deal <strong>d12 + your Agility or Strength</strong> kinetic damage using your Proficiency. When you successfully attack a target with your unarmed strike, you can <strong>spend a Hope</strong> to push them back to Close range.</p>",
+    "domain": "jupiter",
+    "recallCost": 0,
+    "level": 1,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "RlhWbUEs9ZYjriXx": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Unarmed Strike",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "@profd12 + max(@system.traits.agility.value, @system.traits.strength.value)"
+              },
+              "multiplier": "prof",
+              "dice": "d6",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "RlhWbUEs9ZYjriXx",
+        "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp"
+      },
+      "xO8t3fP6huirTSNx": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Push Back",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "xO8t3fP6huirTSNx",
+        "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The damage adds the higher of Agility and Strength; edit the formula if the player uses the lower.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!ILI6rh3uJ3Qvf065"
+}

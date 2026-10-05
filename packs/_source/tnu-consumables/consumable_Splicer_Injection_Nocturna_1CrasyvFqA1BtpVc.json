@@ -1,0 +1,62 @@
+{
+  "name": "Splicer Injection 'Nocturna'",
+  "type": "consumable",
+  "_id": "1CrasyvFqA1BtpVc",
+  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "system": {
+    "description": "<p>See in total darkness until your next rest.</p>",
+    "quantity": 1,
+    "actions": {
+      "V6qAUXRJcwiuoC1m": {
+        "type": "effect",
+        "_id": "V6qAUXRJcwiuoC1m",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "1CrasyvFqA1BtpVc",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 07 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 600000,
+  "flags": {},
+  "_key": "!items!1CrasyvFqA1BtpVc"
+}

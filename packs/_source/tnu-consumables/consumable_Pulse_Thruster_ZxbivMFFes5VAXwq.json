@@ -1,0 +1,62 @@
+{
+  "name": "Pulse-Thruster",
+  "type": "consumable",
+  "_id": "ZxbivMFFes5VAXwq",
+  "img": "icons/commodities/tech/cog-bronze.webp",
+  "system": {
+    "description": "<p>A ballistic jump to a location within Far range, no check needed.</p>",
+    "quantity": 1,
+    "actions": {
+      "h67ChyuGjOoiAdpG": {
+        "type": "effect",
+        "_id": "h67ChyuGjOoiAdpG",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "ZxbivMFFes5VAXwq",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/commodities/tech/cog-bronze.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 14 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1300000,
+  "flags": {},
+  "_key": "!items!ZxbivMFFes5VAXwq"
+}

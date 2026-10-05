@@ -1,0 +1,31 @@
+{
+  "name": "Homo Novus – Drifter",
+  "img": "icons/environment/people/infantry-army.webp",
+  "type": "ancestry",
+  "folder": null,
+  "system": {
+    "description": "<p>Homo Novus is a base ancestry: its top feature is a free choice, and its bottom feature is Neural Plasticity. Each lineage below fixes both.</p>",
+    "features": [
+      {
+        "type": "primary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.OOP9hEzY4OiSGEh0"
+      },
+      {
+        "type": "secondary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.vfg4PRdh8DV9GS9l"
+      }
+    ],
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "loreReference": "",
+    "gmNotes": "Base-ancestry free choice: the player can instead pick any top feature."
+  },
+  "flags": {},
+  "_id": "rBEmkrFUBELwbJp5",
+  "sort": 0,
+  "effects": [],
+  "_key": "!items!rBEmkrFUBELwbJp5"
+}

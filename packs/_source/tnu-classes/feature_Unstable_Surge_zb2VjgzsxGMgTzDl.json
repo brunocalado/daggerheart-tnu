@@ -1,0 +1,239 @@
+{
+  "folder": "N0Yf2mAPuy5R6DNR",
+  "name": "Unstable Surge",
+  "type": "feature",
+  "_id": "zb2VjgzsxGMgTzDl",
+  "img": "icons/magic/lightning/barrier-shield-crackling-orb-pink.webp",
+  "system": {
+    "description": "<p>Your unstable power twists violently whenever you strike. After you make an attack roll using a power or a weapon that deals energy damage, you may <strong>spend any number of Echoes</strong> to empower it. Choose one or more of the following effects, depending on the Echo spent:</p><ul><li><p><strong>Harm (1 Echo):</strong> Gain 1d10 extra damage on the damage roll.</p></li><li><p><strong>Pain (1 Echo):</strong> The target must also mark a Stress.</p></li><li><p><strong>Confusion (2 Echoes):</strong> The target is temporarily <em>Distracted</em>.</p></li><li><p><strong>Crippled (2 Echoes):</strong> The target is temporarily <em>Weakened</em>.</p></li></ul><p>You can only choose each effect once. After using this feature, roll a <strong>d4</strong>. If the result is equal to or lower than the number of Echo you spent, <strong>mark a Stress</strong>.</p>",
+    "resource": null,
+    "actions": {
+      "wqV02heTFdCdeXWn": {
+        "type": "damage",
+        "_id": "wqV02heTFdCdeXWn",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Pain",
+        "img": "icons/magic/control/debuff-energy-hold-levitate-pink.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 0,
+                "dice": "d6",
+                "bonus": 1,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "effects": []
+      },
+      "Od6dAor1xb0qkgcj": {
+        "type": "effect",
+        "_id": "Od6dAor1xb0qkgcj",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Confusion",
+        "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "ULcfTT58IhHLVjwZ",
+            "onSave": false
+          }
+        ]
+      },
+      "opAOXPvE2735Hu0D": {
+        "type": "effect",
+        "_id": "opAOXPvE2735Hu0D",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Crippled",
+        "img": "icons/magic/death/hand-withered-gray.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "ArLmVnmSoq9X69jP",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Echo costs, the Harm d10 and the d4 Stress check are paid and rolled by hand. Spend Echo from the class feature that holds it: the system can only charge a cost to the resource on the same item, so this Echo cost is paid by hand.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Distracted",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+      "transfer": false,
+      "_id": "ULcfTT58IhHLVjwZ",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.evasion",
+            "type": "add",
+            "value": "-2",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Distracted.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "distracted"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!zb2VjgzsxGMgTzDl.ULcfTT58IhHLVjwZ"
+    },
+    {
+      "name": "Weakened",
+      "img": "icons/magic/death/hand-withered-gray.webp",
+      "transfer": false,
+      "_id": "ArLmVnmSoq9X69jP",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.disadvantageSources",
+            "type": "add",
+            "value": "Weakened: attack rolls",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Weakened.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "weakened"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!zb2VjgzsxGMgTzDl.ArLmVnmSoq9X69jP"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!zb2VjgzsxGMgTzDl"
+}

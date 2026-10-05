@@ -1,0 +1,69 @@
+{
+  "folder": "Vbzffr5SZHC7lwRy",
+  "name": "Enhanced Physiology",
+  "type": "domainCard",
+  "_id": "FuwTVQX59SfVLSKf",
+  "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p>Once per rest, <strong>spend a Hope</strong> to strengthen your body with psionic energy. Choose Agility, Strength, or Finesse. Until the end of the scene, treat that trait as equal to your Power Trait.</p>",
+    "domain": "terra",
+    "recallCost": 0,
+    "level": 3,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "P18pNCWg1vsPR7x0": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Enhanced Physiology",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "P18pNCWg1vsPR7x0",
+        "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!FuwTVQX59SfVLSKf"
+}

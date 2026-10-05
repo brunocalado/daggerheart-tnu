@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Logical Explanation",
+  "folder": null,
+  "_id": "HMfifDdJAQx2NKH8",
+  "img": "icons/tools/scribal/lens-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>If you spend an hour without interruption inspecting any technical device or artifact, you can ask the GM three questions about its purpose and function.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!HMfifDdJAQx2NKH8"
+}

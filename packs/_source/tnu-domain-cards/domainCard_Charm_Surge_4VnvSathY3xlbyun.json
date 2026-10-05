@@ -1,0 +1,69 @@
+{
+  "folder": "9GrciDwVxKT7Kj1V",
+  "name": "Charm Surge",
+  "type": "domainCard",
+  "_id": "4VnvSathY3xlbyun",
+  "img": "icons/skills/trades/music-singing-voice-blue.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p><strong>Spend a Hope</strong> to add a <strong>d4</strong> on a roll to charm, lie, or persuade someone.</p>",
+    "domain": "venus",
+    "recallCost": 0,
+    "level": 1,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "b12IgYbOTqmJAxRi": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Charm Surge",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "b12IgYbOTqmJAxRi",
+        "img": "icons/skills/trades/music-singing-voice-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!4VnvSathY3xlbyun"
+}

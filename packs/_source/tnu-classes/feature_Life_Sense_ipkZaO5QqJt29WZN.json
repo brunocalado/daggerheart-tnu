@@ -1,0 +1,64 @@
+{
+  "folder": "M72DyJR3erXu2jnQ",
+  "name": "Life Sense",
+  "type": "feature",
+  "_id": "ipkZaO5QqJt29WZN",
+  "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
+  "system": {
+    "description": "<p>You can sense the presence of living things within Far range; you also get a vague feeling of how large they are. You can <strong>spend a Hope</strong> to increase this sense to Very Far range until the scene ends.</p>",
+    "resource": null,
+    "actions": {
+      "UYi8ONxDf0SsvOx6": {
+        "type": "effect",
+        "_id": "UYi8ONxDf0SsvOx6",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Extend Life Sense",
+        "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": []
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!ipkZaO5QqJt29WZN"
+}

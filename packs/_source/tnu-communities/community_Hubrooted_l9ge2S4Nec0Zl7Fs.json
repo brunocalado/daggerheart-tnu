@@ -1,0 +1,23 @@
+{
+  "type": "community",
+  "name": "Hubrooted",
+  "folder": null,
+  "system": {
+    "loreReference": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null
+    },
+    "description": "",
+    "gmNotes": "",
+    "features": [
+      "Compendium.daggerheart-tnu.tnu-communities.Item.TQuDdDg0lT1aRXaG"
+    ]
+  },
+  "_id": "l9ge2S4Nec0Zl7Fs",
+  "img": "icons/environment/settlement/hut.webp",
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!l9ge2S4Nec0Zl7Fs"
+}

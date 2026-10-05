@@ -1,0 +1,22 @@
+{
+  "name": "Tracking Disc",
+  "type": "loot",
+  "_id": "wAsDj9QBKl3JaCD7",
+  "img": "icons/tools/navigation/compass-plain-blue.webp",
+  "system": {
+    "description": "<p>Track a person or vehicle anywhere on the planet.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 13 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2500000,
+  "flags": {},
+  "_key": "!items!wAsDj9QBKl3JaCD7"
+}

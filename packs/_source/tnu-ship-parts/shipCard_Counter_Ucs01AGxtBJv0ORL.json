@@ -1,0 +1,41 @@
+{
+  "_id": "Ucs01AGxtBJv0ORL",
+  "_key": "!items!Ucs01AGxtBJv0ORL",
+  "name": "Counter",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/sundries/survival/mirror-plain.webp",
+  "system": {
+    "description": "<p><strong>Mirrored attack:</strong> On an incoming attack from another spacecraft make a <strong>Reaction Roll</strong> to counter its attack. On a success <strong>spend a Hope</strong> to negate half of its damage or deflect half of its damage back to the target.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "fist",
+    "level": 3,
+    "location": "Cannon",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Mirrored attack",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "reaction",
+        "difficulty": null,
+        "costs": {
+          "hope": 1,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "On an incoming attack from another spacecraft make a Reaction Roll to counter its attack. On a success spend a Hope to negate half of its damage or deflect half of its damage back to the target."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

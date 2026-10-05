@@ -1,0 +1,62 @@
+{
+  "name": "Sensory-Inhaler",
+  "type": "consumable",
+  "_id": "pkHKfDvn0RmvYkbr",
+  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "system": {
+    "description": "<p>Mark a Stress; until the end of the scene you gain <em>Lucid</em>: +1 Instinct.</p>",
+    "quantity": 1,
+    "actions": {
+      "fvflVIadVHDpNYg2": {
+        "type": "effect",
+        "_id": "fvflVIadVHDpNYg2",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "pkHKfDvn0RmvYkbr",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 30 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2900000,
+  "flags": {},
+  "_key": "!items!pkHKfDvn0RmvYkbr"
+}

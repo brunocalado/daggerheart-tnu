@@ -1,0 +1,47 @@
+{
+  "_id": "tJQg2bilJKY8akRG",
+  "_key": "!items!tJQg2bilJKY8akRG",
+  "name": "Laboratory",
+  "type": "daggerheart-tnu.shipModule",
+  "img": "icons/consumables/potions/bottle-round-flask-fumes-purple.webp",
+  "system": {
+    "description": "<p><em>Work smart, not hard.</em></p><p><strong>Creation:</strong> You can spend a downtime move to work in the laboratory. If you do so roll a <strong>d6</strong> and create one of the following consumables with you: (1) Stim Pack (2 HP); (2) Extra Energy (2 Stress); (3) Spare (2 HP for your Spaceship); (4) Electric Shield (+2 Armor Slots for one fight); (5) Lightning in a bottle (2 Hope); (6) Choose one of the options above.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "capacity": 1,
+    "replaces": "",
+    "deactivated": false,
+    "stats": {
+      "bonus": null,
+      "range": null,
+      "damage": ""
+    },
+    "shipActions": [
+      {
+        "name": "Creation",
+        "spheres": [
+          "heart",
+          "mind",
+          "fist"
+        ],
+        "roll": "none",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "You can spend a downtime move to work in the laboratory. If you do so roll a d6 and create one of the following consumables with you: (1) Stim Pack (2 HP); (2) Extra Energy (2 Stress); (3) Spare (2 HP for your Spaceship); (4) Electric Shield (+2 Armor Slots for one fight); (5) Lightning in a bottle (2 Hope); (6) Choose one of the options above."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

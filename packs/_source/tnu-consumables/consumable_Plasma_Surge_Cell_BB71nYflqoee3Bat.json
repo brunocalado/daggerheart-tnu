@@ -1,0 +1,62 @@
+{
+  "name": "Plasma-Surge Cell",
+  "type": "consumable",
+  "_id": "BB71nYflqoee3Bat",
+  "img": "icons/weapons/ammunition/ammo-magazine-clip-energy.webp",
+  "system": {
+    "description": "<p>Attach to an energy weapon: <strong>+1</strong> to damage for your next three damage rolls with it.</p>",
+    "quantity": 1,
+    "actions": {
+      "bphB2LpX11McuZx0": {
+        "type": "effect",
+        "_id": "bphB2LpX11McuZx0",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "BB71nYflqoee3Bat",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/weapons/ammunition/ammo-magazine-clip-energy.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 05 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400000,
+  "flags": {},
+  "_key": "!items!BB71nYflqoee3Bat"
+}

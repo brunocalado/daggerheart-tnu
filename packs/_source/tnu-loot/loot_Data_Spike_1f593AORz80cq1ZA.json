@@ -1,0 +1,22 @@
+{
+  "name": "Data-Spike",
+  "type": "loot",
+  "_id": "1f593AORz80cq1ZA",
+  "img": "icons/tools/hand/pliers-snub.webp",
+  "system": {
+    "description": "<p>You have advantage on the Finesse Roll to open a locked door's interface.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 12 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2400000,
+  "flags": {},
+  "_key": "!items!1f593AORz80cq1ZA"
+}

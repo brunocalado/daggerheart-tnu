@@ -1,0 +1,92 @@
+{
+  "folder": "dJDtsXrsoBTrDS5G",
+  "name": "Edge of Doubt",
+  "type": "domainCard",
+  "_id": "dRWZlJNSKJsTv7ni",
+  "img": "icons/skills/trades/music-singing-voice-blue.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p>You exploit hesitation, timing, and perception, applying pressure until your opponent's focus slips. When you make a successful Instinct or Presence roll against a target within Close range, you can <strong>spend a Hope</strong> to force the target to <strong>mark a Stress</strong>.</p>",
+    "domain": "venus",
+    "recallCost": 2,
+    "level": 2,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "4sLPXheeY51PxmYv": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Edge of Doubt",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": true,
+                  "formula": "1"
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "effects": [],
+        "_id": "4sLPXheeY51PxmYv",
+        "img": "icons/skills/trades/music-singing-voice-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!dRWZlJNSKJsTv7ni"
+}

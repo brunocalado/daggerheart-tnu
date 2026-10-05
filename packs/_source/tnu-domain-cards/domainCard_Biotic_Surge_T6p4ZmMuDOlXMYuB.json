@@ -1,0 +1,69 @@
+{
+  "folder": "2o2hZA3Awol9MB4h",
+  "name": "Biotic Surge",
+  "type": "domainCard",
+  "_id": "T6p4ZmMuDOlXMYuB",
+  "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p><strong>Spend a Hope</strong> to infuse a creature's body with psionic-biotic energy. Touch a willing creature. That target adds a <strong>d4</strong> on their next Agility, Strength, or Finesse action roll that is not an attack roll or Power Roll made before the end of the scene.</p>",
+    "domain": "terra",
+    "recallCost": 0,
+    "level": 1,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "NcItNcFoMWXp3eID": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Biotic Surge",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "NcItNcFoMWXp3eID",
+        "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!T6p4ZmMuDOlXMYuB"
+}

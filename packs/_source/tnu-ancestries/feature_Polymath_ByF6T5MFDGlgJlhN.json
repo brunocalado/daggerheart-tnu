@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Polymath",
+  "folder": null,
+  "_id": "ByF6T5MFDGlgJlhN",
+  "img": "icons/sundries/scrolls/scroll-writing-brown-gold.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Take an additional level 1 domain card at character creation.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!ByF6T5MFDGlgJlhN"
+}

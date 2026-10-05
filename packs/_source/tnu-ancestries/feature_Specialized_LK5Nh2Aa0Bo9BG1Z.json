@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Specialized",
+  "folder": null,
+  "_id": "LK5Nh2Aa0Bo9BG1Z",
+  "img": "icons/tools/scribal/lens-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Choose one of your Experiences and gain a permanent +1 bonus to it.</p>",
+    "gmNotes": "The Experience is chosen by the player, so the bonus is applied by hand.",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!LK5Nh2Aa0Bo9BG1Z"
+}

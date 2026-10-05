@@ -1,0 +1,34 @@
+{
+  "folder": "M72DyJR3erXu2jnQ",
+  "name": "Conduit",
+  "type": "feature",
+  "_id": "nzXqZyj2Rn6xuONc",
+  "img": "icons/magic/light/beam-rays-blue.webp",
+  "system": {
+    "description": "<p>You are a living anomaly, channeling cosmic power through you. You gain a resource called Echo. Your maximum Echo capacity is equal to your Instinct + your Tier. At character creation you start with maximum Echo:</p><ul><li><p>At each rest, roll a number of <strong>d4s</strong> equal to your Instinct and gain a number of Echoes equal to the highest value rolled. At level 5, increase your dice rolled to <strong>d6s</strong>.</p></li></ul><p>Whenever a Hope or Class Feature, or a domain card calls for spending Hope or marking Stress, you may spend Echo instead.</p>",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "@system.traits.instinct.value + @tier",
+      "icon": "",
+      "recovery": null,
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Set the Echo to its maximum at character creation, and roll the rest dice by hand: the system has no rest roll that keeps the highest die. Spending Echo in place of Hope or Stress is done by hand (1 Echo per Hope or Stress, as printed implies).",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!nzXqZyj2Rn6xuONc"
+}

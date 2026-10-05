@@ -1,0 +1,42 @@
+{
+  "folder": "pcT6IhvrziVSdpiV",
+  "name": "Manifest",
+  "type": "subclass",
+  "_id": "ZA3F6q8cxd9RhM1c",
+  "img": "icons/magic/unholy/orb-glowing-purple.webp",
+  "system": {
+    "description": "<p>Play the Manifest if you want to rip the darkness from your soul and shape it into cosmic horrors that stalk the battlefield and tear your enemies apart.</p>",
+    "spellcastingTrait": null,
+    "features": [
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.TX4zIFKKMXNrQdFf"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.scWF9dAjraeGxCGX"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.pOLuCAHSv23k7jOo"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.60qajB826WRpEBqo"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "linkedClass": "Compendium.daggerheart-tnu.tnu-classes.Item.oSHA0RAc4koUSjwv",
+    "gmNotes": "The Power Trait is one trait of your choice: set it on this subclass (Power Trait field) after adding it to your character."
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!ZA3F6q8cxd9RhM1c"
+}

@@ -1,0 +1,155 @@
+{
+  "name": "Phasebreaker MF-3",
+  "type": "weapon",
+  "_id": "FR8xqDR2fsh4QVYr",
+  "img": "icons/weapons/guns/gun-pistol-brass.webp",
+  "system": {
+    "description": "",
+    "actions": {
+      "wxh6ctYaCSrNNxo1": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Rupture",
+        "description": "When you roll the maximum value on a damage die, roll an additional damage die.",
+        "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+        "_id": "wxh6ctYaCSrNNxo1",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        }
+      }
+    },
+    "tier": 2,
+    "equipped": false,
+    "secondary": false,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "rupture",
+        "effectIds": [],
+        "actionIds": [
+          "wxh6ctYaCSrNNxo1"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "z5TnYznF60QW7GLj",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "far",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "finesse",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d6",
+            "bonus": 3,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "magical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 3700000,
+  "flags": {},
+  "_key": "!items!FR8xqDR2fsh4QVYr"
+}

@@ -1,0 +1,212 @@
+{
+  "folder": "Q92VVZ1TUZfx1IJV",
+  "name": "Scrambling Attack",
+  "type": "domainCard",
+  "_id": "FpgmjPzR9Lyf7cIE",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>Make an attack with a weapon that deals energy damage against a target within Very Close range. On a success, <strong>spend a Hope</strong> to make the target temporarily <em>Distracted</em> or <em>Weakened</em>.</p>",
+    "domain": "jupiter",
+    "recallCost": 1,
+    "level": 2,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "AvmgbasqVmBn9U45": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Scrambling Attack: Distracted",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "9pntX7aab9aF19r4",
+            "onSave": false
+          }
+        ],
+        "_id": "AvmgbasqVmBn9U45",
+        "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp"
+      },
+      "Kue4mFRh8lgHJneu": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Scrambling Attack: Weakened",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "6ZdTRjYQ2n3uQpxu",
+            "onSave": false
+          }
+        ],
+        "_id": "Kue4mFRh8lgHJneu",
+        "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Distracted",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+      "transfer": false,
+      "_id": "9pntX7aab9aF19r4",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.evasion",
+            "type": "add",
+            "value": "-2",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Distracted.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "distracted"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!FpgmjPzR9Lyf7cIE.9pntX7aab9aF19r4"
+    },
+    {
+      "name": "Weakened",
+      "img": "icons/magic/death/hand-withered-gray.webp",
+      "transfer": false,
+      "_id": "6ZdTRjYQ2n3uQpxu",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.disadvantageSources",
+            "type": "add",
+            "value": "Weakened: attack rolls",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Weakened.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "weakened"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!FpgmjPzR9Lyf7cIE.6ZdTRjYQ2n3uQpxu"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!FpgmjPzR9Lyf7cIE"
+}

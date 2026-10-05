@@ -1,0 +1,146 @@
+{
+  "folder": "9GrciDwVxKT7Kj1V",
+  "name": "Misdirect",
+  "type": "domainCard",
+  "_id": "pjwuqFtk2Dwz2XzI",
+  "img": "icons/skills/trades/music-singing-voice-blue.webp",
+  "system": {
+    "description": "<p><strong>Psionic</strong></p><p>Make a <strong>Power Roll</strong> against a target within Close range. On a success, <strong>mark a Stress</strong> to make them become temporarily <em>Distracted</em>. This effect ends when you use this power again.</p>",
+    "domain": "venus",
+    "recallCost": 1,
+    "level": 1,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "c4WjxpznOdhMfHpM": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Misdirect",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "67rZlM0AyAHi9CGw",
+            "onSave": false
+          }
+        ],
+        "_id": "c4WjxpznOdhMfHpM",
+        "img": "icons/skills/trades/music-singing-voice-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Distracted",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+      "transfer": false,
+      "_id": "67rZlM0AyAHi9CGw",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.evasion",
+            "type": "add",
+            "value": "-2",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Distracted.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "distracted"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!pjwuqFtk2Dwz2XzI.67rZlM0AyAHi9CGw"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!pjwuqFtk2Dwz2XzI"
+}

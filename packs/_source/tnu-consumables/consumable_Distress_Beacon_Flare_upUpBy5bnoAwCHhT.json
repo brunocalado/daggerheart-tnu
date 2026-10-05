@@ -1,0 +1,62 @@
+{
+  "name": "Distress Beacon Flare",
+  "type": "consumable",
+  "_id": "upUpBy5bnoAwCHhT",
+  "img": "icons/sundries/lights/candle-lit-red.webp",
+  "system": {
+    "description": "<p>An orbit-visible flare plus an encrypted distress signal.</p>",
+    "quantity": 1,
+    "actions": {
+      "gUPpIofVoCBwnkLA": {
+        "type": "effect",
+        "_id": "gUPpIofVoCBwnkLA",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "upUpBy5bnoAwCHhT",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/sundries/lights/candle-lit-red.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 10 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 900000,
+  "flags": {},
+  "_key": "!items!upUpBy5bnoAwCHhT"
+}

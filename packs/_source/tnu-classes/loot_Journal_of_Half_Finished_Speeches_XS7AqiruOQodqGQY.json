@@ -1,0 +1,22 @@
+{
+  "folder": "ktCp7syxgnpvAPcS",
+  "name": "Journal of Half-Finished Speeches",
+  "type": "loot",
+  "img": "icons/sundries/documents/notepad-ringed.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "XS7AqiruOQodqGQY",
+  "sort": 0,
+  "_key": "!items!XS7AqiruOQodqGQY"
+}

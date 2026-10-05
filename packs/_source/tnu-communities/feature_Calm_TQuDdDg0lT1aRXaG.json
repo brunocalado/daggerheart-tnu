@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Calm",
+  "folder": null,
+  "_id": "TQuDdDg0lT1aRXaG",
+  "img": "icons/magic/water/wave-water-teal.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Whenever you would mark your last Stress, you can ignore it and give a Fear to the GM instead.</p>",
+    "gmNotes": "The playtest body text prints both Warrooted and Hubrooted features under a shared heading; the pairing is confirmed by the card images.",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!TQuDdDg0lT1aRXaG"
+}

@@ -1,0 +1,359 @@
+{
+  "type": "adversary",
+  "name": "Malphas",
+  "folder": "C4AFYIShYxN39b7g",
+  "system": {
+    "type": "ranged",
+    "description": "<p><em>A siege-beast assembled from wicker and seeping shadows. It has a conical head of steel shaped like a raven's head and sharpened to a deadly point.</em></p>",
+    "tier": 2,
+    "motivesAndTactics": "Break things, pierce, reel, skewer",
+    "difficulty": 13,
+    "damageThresholds": {
+      "major": 10,
+      "severe": 15
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 4
+      },
+      "stress": {
+        "value": 0,
+        "max": 3
+      }
+    },
+    "attack": {
+      "type": "attack",
+      "_id": "Olc5vA2GbJAsQj4F",
+      "systemPath": "attack",
+      "baseAction": false,
+      "description": "",
+      "chatDisplay": false,
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "areas": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": "",
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "target": {
+        "type": "any",
+        "amount": null
+      },
+      "name": "Headbutt",
+      "img": "icons/creatures/unholy/demon-horned-black-yellow.webp",
+      "range": "far",
+      "damage": {
+        "main": {
+          "value": {
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "flatMultiplier": 2,
+            "dice": "d10",
+            "bonus": 5,
+            "multiplier": "flat"
+          },
+          "applyTo": "hitPoints",
+          "type": [
+            "physical"
+          ],
+          "base": false,
+          "resultBased": false,
+          "valueAlt": null,
+          "includeBase": false,
+          "direct": false,
+          "groupAttack": "",
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "roll": {
+        "type": "attack",
+        "trait": null,
+        "difficulty": null,
+        "bonus": 3,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      }
+    },
+    "experiences": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null
+    },
+    "resistance": {
+      "physical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      },
+      "magical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      }
+    },
+    "size": "medium",
+    "advantageSources": [],
+    "disadvantageSources": [],
+    "notes": "",
+    "criticalThreshold": 20,
+    "typeData": null
+  },
+  "items": [
+    {
+      "name": "Burrowing Blade",
+      "type": "feature",
+      "system": {
+        "featureForm": "passive",
+        "description": "<p>When the @Lookup[@name] makes a successful standard attack you can <strong>mark a Stress</strong> to <em>Restrain</em> the target or pull them into Melee range.</p>",
+        "attribution": {},
+        "gmNotes": "",
+        "resource": null,
+        "actions": {},
+        "granter": null,
+        "actorResources": []
+      },
+      "_id": "HS4xM6lvX59qWwR6",
+      "img": "icons/creatures/unholy/demon-horned-black-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_key": "!actors.items!FGAjLEtcRXsm26Xi.HS4xM6lvX59qWwR6"
+    },
+    {
+      "name": "Bring It Down",
+      "type": "feature",
+      "system": {
+        "featureForm": "action",
+        "description": "<p><strong>Spend a Fear</strong> to pull down a section of nearby terrain within Far range. All targets in a line out to Far range must succeed on an Agility Reaction Roll (15) or take <strong>2d20</strong> kinetic damage. Targets who fail by 5 or more are temporarily <em>Restrained</em>.</p>",
+        "attribution": {},
+        "gmNotes": "",
+        "resource": null,
+        "actions": {
+          "iqki3MjcA3MpgsJQ": {
+            "type": "attack",
+            "_id": "iqki3MjcA3MpgsJQ",
+            "systemPath": "actions",
+            "baseAction": false,
+            "description": "",
+            "chatDisplay": true,
+            "originItem": {
+              "type": "itemCollection"
+            },
+            "actionType": "action",
+            "triggers": [],
+            "areas": [],
+            "cost": [
+              {
+                "scalable": false,
+                "key": "fear",
+                "value": 1,
+                "step": null,
+                "itemId": null,
+                "consumeOnSuccess": false
+              }
+            ],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Agility Reaction Roll",
+            "img": "icons/creatures/unholy/demon-horned-black-yellow.webp",
+            "range": "far",
+            "damage": {
+              "main": {
+                "value": {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "flatMultiplier": 2,
+                  "dice": "d20",
+                  "bonus": null,
+                  "multiplier": "flat"
+                },
+                "applyTo": "hitPoints",
+                "type": [
+                  "physical"
+                ],
+                "base": false,
+                "resultBased": false,
+                "valueAlt": null,
+                "includeBase": false,
+                "direct": false,
+                "groupAttack": "",
+                "fullRestore": false,
+                "itemId": null
+              },
+              "resources": {}
+            },
+            "roll": {
+              "type": null,
+              "trait": null,
+              "difficulty": null,
+              "bonus": null,
+              "advState": "neutral",
+              "diceRolling": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "compare": null,
+                "treshold": null
+              },
+              "useDefault": false
+            },
+            "save": {
+              "trait": "agility",
+              "difficulty": 15,
+              "damageMod": "none"
+            }
+          }
+        },
+        "granter": null,
+        "actorResources": []
+      },
+      "_id": "CugT6ESyG6aj9xL9",
+      "img": "icons/creatures/unholy/demon-horned-black-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_key": "!actors.items!FGAjLEtcRXsm26Xi.CugT6ESyG6aj9xL9"
+    }
+  ],
+  "_id": "FGAjLEtcRXsm26Xi",
+  "img": "icons/creatures/unholy/demon-horned-black-yellow.webp",
+  "prototypeToken": {
+    "name": "Malphas",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "depth": 1,
+    "texture": {
+      "src": "icons/creatures/unholy/demon-horned-black-yellow.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hitPoints"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "sort": 800000,
+  "flags": {},
+  "_key": "!actors!FGAjLEtcRXsm26Xi"
+}

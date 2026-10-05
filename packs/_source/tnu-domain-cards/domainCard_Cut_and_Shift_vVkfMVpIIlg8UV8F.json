@@ -1,0 +1,167 @@
+{
+  "folder": "tFuryRz7DB2pc3Fi",
+  "name": "Cut and Shift",
+  "type": "domainCard",
+  "_id": "vVkfMVpIIlg8UV8F",
+  "img": "icons/magic/movement/acceleration-speed-tech-blue.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>Make an attack with your primary weapon against a target that is within Melee range to an ally of you. On a success, you deal damage and the ally can move up to Close range. On a success with Hope, add a <strong>d6</strong> to your damage roll. Additionally, <strong>mark a Stress</strong> to make an ally become <em>Ordered</em> until they roll with Fear.</p>",
+    "domain": "mercury",
+    "recallCost": 1,
+    "level": 2,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "jFGN3XZBm9C2LjgX": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Success with Hope: +d6",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "dice": "d6",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "jFGN3XZBm9C2LjgX",
+        "img": "icons/magic/movement/acceleration-speed-tech-blue.webp"
+      },
+      "r9OhnYap0a7oFx0s": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Order an Ally",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "mJgEPq8bdEloCHof",
+            "onSave": false
+          }
+        ],
+        "_id": "r9OhnYap0a7oFx0s",
+        "img": "icons/magic/movement/acceleration-speed-tech-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The attack itself is made with the primary weapon; the +d6 is rolled as extra damage.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Ordered",
+      "img": "icons/magic/control/control-influence-puppet.webp",
+      "transfer": false,
+      "_id": "mJgEPq8bdEloCHof",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Ordered.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "ordered"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!vVkfMVpIIlg8UV8F.mJgEPq8bdEloCHof"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!vVkfMVpIIlg8UV8F"
+}

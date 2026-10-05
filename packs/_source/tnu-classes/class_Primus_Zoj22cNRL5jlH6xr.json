@@ -1,0 +1,82 @@
+{
+  "name": "Primus",
+  "type": "class",
+  "_id": "Zoj22cNRL5jlH6xr",
+  "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+  "system": {
+    "description": "<p><em>“Hier kommt die Sonne [...] / sie ist der hellste Stern von allen”</em></p><p>Purpose, design, and creation are the foundations of the Primus’. They all wield devastating and impressive psionic powers and are the pinnacle of body and mind. But they were not born that way. For every Primus there‘s an engineer. Someone who created a blueprint to shape a being after his own will: Some Primus have undergone rigorous training, meditation, even extreme ascetic discipline, pushing their physical and mental limits. Others are products of bioengineering, or transhumanistic experimentation and augmentation, their minds and bodies deliberately altered to transcend mortal boundaries. And many rely on drugs to sustain their power. But despite these differences all share one truth: Primus’ are not born - they are forged.</p>",
+    "domains": [
+      "neptune",
+      "jupiter"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 11,
+    "features": [
+      {
+        "type": "hope",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.lPGEgPYEo6wo4npS"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.WrGqopOM5RdVha6j"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.EZlZC2cSwJDNgqxC"
+      }
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": [
+        "Compendium.daggerheart-tnu.tnu-classes.Item.dMWoy0HrkRIGVHUO",
+        "Compendium.daggerheart-tnu.tnu-classes.Item.hOSawC8U6VVKvKDt"
+      ]
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "backgroundQuestions": [
+      "Who first put you through the regimen that shaped you – and what part of their method did you reject?",
+      "What augmentation left scars you still carry – and why did you choose to keep it?",
+      "What discipline or training cycle became second nature to you?",
+      "Whose expectations did you fail to meet – and how do you justify the cost of your perfection?",
+      "What limit did you once swear you would never push your body past – and how close are you now to breaking it?"
+    ],
+    "connections": [
+      "You witnessed one of my augmentation processes. What did it cost me – and why didn’t you look away?",
+      "I once pushed you through a brutal training regimen. What lasting mark did it leave on you?",
+      "You saw me fail despite all my enhancements. Why did you still stand by me?",
+      "I carry a flaw I cannot correct. Why do you never mention it?",
+      "I offered to help you improve yourself. Why did you refuse?"
+    ],
+    "gmNotes": "The Phantom subclass is named in the playtest but not printed.",
+    "levelupOptionTiers": {
+      "2": {},
+      "3": {},
+      "4": {}
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!Zoj22cNRL5jlH6xr"
+}

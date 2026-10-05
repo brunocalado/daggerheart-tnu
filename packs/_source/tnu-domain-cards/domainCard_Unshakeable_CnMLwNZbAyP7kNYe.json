@@ -1,0 +1,98 @@
+{
+  "folder": "PPeRejiiPibfzlfJ",
+  "name": "Unshakeable",
+  "type": "domainCard",
+  "_id": "CnMLwNZbAyP7kNYe",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>When you make a reaction roll, you can <strong>mark a Stress</strong> to add your Agility or Strength. Additionally, once per rest when you would gain a condition, you can power through and avoid gaining the condition.</p>",
+    "domain": "jupiter",
+    "recallCost": 0,
+    "level": 3,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "NHnfoaTS0pR3behg": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Add Agility or Strength",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "NHnfoaTS0pR3behg",
+        "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp"
+      },
+      "B6X9plTEySxofDgE": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Power Through",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "B6X9plTEySxofDgE",
+        "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!CnMLwNZbAyP7kNYe"
+}

@@ -1,0 +1,87 @@
+{
+  "folder": "N0Yf2mAPuy5R6DNR",
+  "name": "Annihilation",
+  "type": "feature",
+  "_id": "B5VKZCIjp1LDsHAj",
+  "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+  "system": {
+    "description": "<p><strong>Spend 3 Hope</strong> to force a target within Melee range to mark a Hit Point.</p>",
+    "resource": null,
+    "actions": {
+      "RKtuNz7OmDzfpO57": {
+        "type": "damage",
+        "_id": "RKtuNz7OmDzfpO57",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 3,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Annihilation",
+        "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "hitPoints": {
+              "base": false,
+              "applyTo": "hitPoints",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 0,
+                "dice": "d6",
+                "bonus": 1,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "effects": []
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!B5VKZCIjp1LDsHAj"
+}

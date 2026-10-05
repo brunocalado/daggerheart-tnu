@@ -1,0 +1,81 @@
+{
+  "name": "Hollow",
+  "type": "class",
+  "_id": "oSHA0RAc4koUSjwv",
+  "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
+  "system": {
+    "description": "<p><em>As a Hollow, you are a voluntary vessel for the infinite dark, binding your desperate past and cosmic chaos into a volatile force that warps reality.</em></p>",
+    "domains": [
+      "nibiru"
+    ],
+    "classItems": [],
+    "hitPoints": 5,
+    "evasion": 10,
+    "features": [
+      {
+        "type": "hope",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.vClDh2udbu1JMqbs"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.V5ZxogWLMz6bHBxp"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.j0Zj2OrBQ0oKEJnP"
+      }
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": [
+        "Compendium.daggerheart-tnu.tnu-classes.Item.dnrU03foEBpHWRQq",
+        "Compendium.daggerheart-tnu.tnu-classes.Item.L7WreEJJcag7vlSx"
+      ]
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "backgroundQuestions": [
+      "What desperate bargain or ancient artifact first opened your mind to the void — and what horrifying cost proved you had ventured further than anyone was meant to go?",
+      "What deep-space catastrophe forced you to channel the chaotic energy of the void, and how did it permanently alter your physical form or psyche?",
+      "What intrusive whisper or terrifying command from the nightmare within do you secretly fear you might one day actually obey?",
+      "Whose life did you save by unleashing the corruptive dark of the void, and why do they now look at you with dread instead of gratitude?",
+      "What anchor or memory from your past life do you cling to as a shield against the creeping madness, and what crisis would force you to abandon it?"
+    ],
+    "connections": [
+      "You knew me before I made contact with the void. What is the single biggest, most unsettling change you see in my behavior or aura now?",
+      "I shielded you from certain doom by unleashing the raw, unstable chaos of the darkness within me. What strange, cosmic mark or lingering sensory trait did that energy leave on your body or mind?",
+      "You once witnessed me completely lose control to the living nightmare within me. What did you have to do to anchor me back to reality?",
+      "I asked you to stand firm and watch my back while I deliberately played with cosmic fire. How did you keep me from crossing the line?",
+      "You can feel the cold distortion and hear the whispers whenever my powers begin to swell. Why do you choose to stay by my side instead of running away?"
+    ],
+    "gmNotes": "The Hollow's domains are Nibiru and one domain of your choice: add the second domain to this class after character creation.",
+    "levelupOptionTiers": {
+      "2": {},
+      "3": {},
+      "4": {}
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!oSHA0RAc4koUSjwv"
+}

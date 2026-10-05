@@ -1,0 +1,47 @@
+{
+  "_id": "BhKJcbPDnJjgCVBE",
+  "_key": "!items!BhKJcbPDnJjgCVBE",
+  "name": "Cozy Cabins",
+  "type": "daggerheart-tnu.shipModule",
+  "img": "icons/magic/control/sleep-bubble-purple.webp",
+  "system": {
+    "description": "<p><em>Sweet dreams everyone. If you select this component, replace the Cabins with it.</em></p><p><strong>Improved Rest:</strong> The crew can use the cabins for a short or long rest, while doing so they all gain 1 hope.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "capacity": 8,
+    "replaces": "Cabins",
+    "deactivated": false,
+    "stats": {
+      "bonus": null,
+      "range": null,
+      "damage": ""
+    },
+    "shipActions": [
+      {
+        "name": "Improved Rest",
+        "spheres": [
+          "heart",
+          "mind",
+          "fist"
+        ],
+        "roll": "rest",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "The crew can use the cabins for a short or long rest, while doing so they all gain 1 hope."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

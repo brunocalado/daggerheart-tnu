@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Reinforced",
+  "folder": null,
+  "_id": "bgUPVheeLKSdYNlR",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>You gain a +1 bonus to your Armor Score. Once per rest, you can mark an additional Armor Slot to reduce damage severity.</p>",
+    "gmNotes": "Armor Score bonus is not automated: the system derives it from the equipped armor.",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!bgUPVheeLKSdYNlR"
+}

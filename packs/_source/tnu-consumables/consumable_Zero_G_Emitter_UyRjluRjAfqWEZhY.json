@@ -1,0 +1,62 @@
+{
+  "name": "Zero-G Emitter",
+  "type": "consumable",
+  "_id": "UyRjluRjAfqWEZhY",
+  "img": "icons/commodities/tech/antenna-powered-purple.webp",
+  "system": {
+    "description": "<p>Nullifies gravity within Very Close range; creatures levitate or drift across gaps up to Far range.</p>",
+    "quantity": 1,
+    "actions": {
+      "0ifULxEPvgPKUsLE": {
+        "type": "effect",
+        "_id": "0ifULxEPvgPKUsLE",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "UyRjluRjAfqWEZhY",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/commodities/tech/antenna-powered-purple.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 18 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1700000,
+  "flags": {},
+  "_key": "!items!UyRjluRjAfqWEZhY"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Comm-Unit",
+  "type": "loot",
+  "_id": "HBdhCYest7tsenXg",
+  "img": "icons/tools/tech/badge-communicator.webp",
+  "system": {
+    "description": "<p>An encrypted transceiver; planet-wide comms with tuned allies.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 06 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800000,
+  "flags": {},
+  "_key": "!items!HBdhCYest7tsenXg"
+}

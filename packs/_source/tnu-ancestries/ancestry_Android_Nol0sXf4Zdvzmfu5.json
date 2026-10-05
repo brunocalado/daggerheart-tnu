@@ -1,0 +1,31 @@
+{
+  "name": "Android",
+  "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+  "type": "ancestry",
+  "folder": null,
+  "system": {
+    "description": "<p>Androids can take a top or bottom feature from any ancestry.</p>",
+    "features": [
+      {
+        "type": "primary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.O977AnP44AKSkotE"
+      },
+      {
+        "type": "secondary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.KbgGgjvfVxDxl6Vt"
+      }
+    ],
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "loreReference": "",
+    "gmNotes": "PT3 prints Android as the Titan and Recon variants."
+  },
+  "flags": {},
+  "_id": "Nol0sXf4Zdvzmfu5",
+  "sort": 0,
+  "effects": [],
+  "_key": "!items!Nol0sXf4Zdvzmfu5"
+}

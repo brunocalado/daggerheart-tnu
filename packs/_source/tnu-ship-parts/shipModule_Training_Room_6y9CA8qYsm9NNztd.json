@@ -1,0 +1,47 @@
+{
+  "_id": "6y9CA8qYsm9NNztd",
+  "_key": "!items!6y9CA8qYsm9NNztd",
+  "name": "Training Room",
+  "type": "daggerheart-tnu.shipModule",
+  "img": "icons/tools/fishing/weight-steel-iron.webp",
+  "system": {
+    "description": "<p><em>No pain no gain.</em></p><p><strong>Mindful Motivation:</strong> If you spend a long rest in the training room, you gain a +2 bonus to all action rolls while you are on the spaceship.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "capacity": 2,
+    "replaces": "",
+    "deactivated": false,
+    "stats": {
+      "bonus": null,
+      "range": null,
+      "damage": ""
+    },
+    "shipActions": [
+      {
+        "name": "Mindful Motivation",
+        "spheres": [
+          "heart",
+          "mind",
+          "fist"
+        ],
+        "roll": "none",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "If you spend a long rest in the training room, you gain a +2 bonus to all action rolls while you are on the spaceship."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "1YEJWCto2k8YWZch",
+  "_key": "!items!1YEJWCto2k8YWZch",
+  "name": "Tether Cannon",
+  "type": "daggerheart-tnu.shipModule",
+  "img": "icons/tools/fasteners/chain-claw-hook-steel.webp",
+  "system": {
+    "description": "<p><em>Don't ever let them see your next move. If you select this component, replace the Cannon with it.</em></p><p><strong>Attack (Fist):</strong> Make a <strong>Power Roll</strong> against the target. On a success the target takes <strong>d8 + 4</strong> damage.</p><p><strong>Attach (Fist):</strong> On a successful attack you can <strong>spend a Hope</strong> to shoot a rope that sticks temporarily to the enemy.</p><p><strong>Tug-of-war (Fist):</strong> <strong>Make a Power Roll</strong> against an attached target. On a success you can pull your ship closer to the target or pull the target behind you.</p>",
+    "gmNotes": "The printed stat line says d8 + 6 damage; the Attack feature says d8 + 4. Both are kept as printed.",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "capacity": 1,
+    "replaces": "Cannon",
+    "deactivated": false,
+    "stats": {
+      "bonus": 2,
+      "range": "close",
+      "damage": "d8+6"
+    },
+    "shipActions": [
+      {
+        "name": "Attack",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "d8+4",
+        "oncePer": "",
+        "description": "Make a Power Roll against the target. On a success the target takes d8 + 4 damage."
+      },
+      {
+        "name": "Attach",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "none",
+        "difficulty": null,
+        "costs": {
+          "hope": 1,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "On a successful attack you can spend a Hope to shoot a rope that sticks temporarily to the enemy."
+      },
+      {
+        "name": "Tug-of-war",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll against an attached target. On a success you can pull your ship closer to the target or pull the target behind you."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

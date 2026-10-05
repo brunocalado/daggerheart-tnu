@@ -1,0 +1,23 @@
+{
+  "type": "community",
+  "name": "Logicrooted",
+  "folder": null,
+  "system": {
+    "loreReference": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null
+    },
+    "description": "<p>People of this community are commonly curious, smart, educated, erratic, timid, technology savvy, and socially awkward.</p>",
+    "gmNotes": "",
+    "features": [
+      "Compendium.daggerheart-tnu.tnu-communities.Item.HMfifDdJAQx2NKH8"
+    ]
+  },
+  "_id": "jefJjvDzDvqoSfIT",
+  "img": "icons/environment/settlement/gazebo.webp",
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!jefJjvDzDvqoSfIT"
+}

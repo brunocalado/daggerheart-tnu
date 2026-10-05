@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "New Terrain",
+  "folder": null,
+  "_id": "qfO9GEiDb28f8Ob4",
+  "img": "icons/tools/navigation/compass-brass-blue-red.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Whenever you enter an unknown location, you can <strong>spend a Hope</strong> to scan for hidden adversaries, traps and valuables.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!qfO9GEiDb28f8Ob4"
+}

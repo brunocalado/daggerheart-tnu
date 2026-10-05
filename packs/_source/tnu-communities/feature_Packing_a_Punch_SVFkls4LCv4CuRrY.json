@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Packing a Punch",
+  "folder": null,
+  "_id": "SVFkls4LCv4CuRrY",
+  "img": "icons/magic/control/buff-strength-muscle-damage.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Before you take damage in a scene, your successful attacks deal extra damage equal to your tier.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!SVFkls4LCv4CuRrY"
+}

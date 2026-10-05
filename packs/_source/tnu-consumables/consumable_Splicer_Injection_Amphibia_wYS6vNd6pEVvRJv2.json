@@ -1,0 +1,62 @@
+{
+  "name": "Splicer Injection 'Amphibia'",
+  "type": "consumable",
+  "_id": "wYS6vNd6pEVvRJv2",
+  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "system": {
+    "description": "<p>Breathe underwater for a number of minutes equal to your level.</p>",
+    "quantity": 1,
+    "actions": {
+      "yVf3YRzwKd6Sr5a5": {
+        "type": "effect",
+        "_id": "yVf3YRzwKd6Sr5a5",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "wYS6vNd6pEVvRJv2",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 09 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800000,
+  "flags": {},
+  "_key": "!items!wYS6vNd6pEVvRJv2"
+}

@@ -1,0 +1,55 @@
+{
+  "folder": "fhSyIMCUXa6j47Wk",
+  "name": "System Patch",
+  "type": "feature",
+  "_id": "QAGpKmd5S6SH6uG7",
+  "img": "icons/tools/hand/wrench-mechanical-heal-blue.webp",
+  "system": {
+    "description": "<p>You can stabilize failing tech. Once per session, you gain a Charge to put on a Tech card within Close range (yours or an ally's). Alternatively, you can instantly suppress a malfunction or glitch effect until the end of the scene.</p>",
+    "resource": null,
+    "actions": {
+      "2ZIJzkXFkQZ4qDOc": {
+        "type": "effect",
+        "_id": "2ZIJzkXFkQZ4qDOc",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "session",
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "System Patch",
+        "img": "icons/tools/hand/wrench-mechanical-heal-blue.webp",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": []
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Add the Charge to the chosen card's resource by hand.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!QAGpKmd5S6SH6uG7"
+}

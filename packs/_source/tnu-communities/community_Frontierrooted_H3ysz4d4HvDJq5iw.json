@@ -1,0 +1,23 @@
+{
+  "type": "community",
+  "name": "Frontierrooted",
+  "folder": null,
+  "system": {
+    "loreReference": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null
+    },
+    "description": "<p>People of this community are commonly flexible, resourceful, well-versed, unsettled, charmingly smug, and deeply creative.</p>",
+    "gmNotes": "",
+    "features": [
+      "Compendium.daggerheart-tnu.tnu-communities.Item.qfO9GEiDb28f8Ob4"
+    ]
+  },
+  "_id": "H3ysz4d4HvDJq5iw",
+  "img": "icons/environment/settlement/watchtower-lit-orange.webp",
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!H3ysz4d4HvDJq5iw"
+}

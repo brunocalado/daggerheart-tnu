@@ -1,0 +1,155 @@
+{
+  "folder": "FnvnNenj39D7hYE8",
+  "name": "Infrasonic Disruptor",
+  "type": "domainCard",
+  "_id": "svTN6pBIOjWagUdg",
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "system": {
+    "description": "<p><strong>Tech</strong></p><p>Gain advantage on rolls to distract a target within Close range or make a diversion.</p><p><strong>Charged:</strong> <strong>Spend a Charge</strong> to make a <strong>Power Roll</strong> against all targets within Very Close range. On a success they are temporarily <em>Distracted</em> as sonic frequencies overwhelm their motor functions.</p>",
+    "domain": "saturn",
+    "recallCost": 2,
+    "level": 2,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": null,
+      "icon": "fa-solid fa-bolt",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "hhqgW3sEAT65ie4H": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "svTN6pBIOjWagUdg",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Charged: Infrasonic Pulse",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "h3Ore8BaFUvW0GT8",
+            "onSave": false
+          }
+        ],
+        "_id": "hhqgW3sEAT65ie4H",
+        "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Charges are stored on this card's resource. Place them by hand (instead of gaining Hope on a success with Hope, or by marking a Stress on a success with Fear); a long rest clears them.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Distracted",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+      "transfer": false,
+      "_id": "h3Ore8BaFUvW0GT8",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.evasion",
+            "type": "add",
+            "value": "-2",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Distracted.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "distracted"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!svTN6pBIOjWagUdg.h3Ore8BaFUvW0GT8"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!svTN6pBIOjWagUdg"
+}

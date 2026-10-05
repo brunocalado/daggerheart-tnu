@@ -1,0 +1,34 @@
+{
+  "folder": "sMxWm9Lqwzpxyd7h",
+  "name": "Augmentation",
+  "type": "feature",
+  "_id": "EZlZC2cSwJDNgqxC",
+  "img": "icons/sundries/gaming/dice-pair-white-green.webp",
+  "system": {
+    "description": "<p>Your enhancements define the way you channel your power. Define two fields of augmentations (like Force and Insight, Agility and Analysis, Command and Resilience, or Social Manipulation and Stealth, etc.).</p><p><strong>Augmentation Die</strong>: Before making an action roll that relates to one of your augmentation’s fields, you may spend an Echo to activate it and add <strong>1d4</strong> to the roll. This Augmentation Die increases at level 5 to <strong>1d6.</strong></p><p><strong>Perfect Efficiency</strong>: If your Augmentation Die rolls its maximum value, you immediately regain the Echo spent to use this feature.</p>",
+    "resource": {
+      "type": "diceValue",
+      "value": 0,
+      "max": "1",
+      "icon": "",
+      "recovery": null,
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "At level 5, change the resource die to d6. Spend Echo from the class feature that holds it: the system can only charge a cost to the resource on the same item, so this Echo cost is paid by hand. Add the rolled die to the action roll by hand; Perfect Efficiency is applied by hand too.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!EZlZC2cSwJDNgqxC"
+}

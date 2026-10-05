@@ -1,0 +1,22 @@
+{
+  "name": "Prefrontal Logic Matrix 'METIS'",
+  "type": "loot",
+  "_id": "VKxIBN5auxwBOhV1",
+  "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+  "system": {
+    "description": "<p><strong>Cybernetic implant (Tier 2).</strong> Installing it gives you 1 permanent Trauma (−1 max Hope), even if the implant is later swapped out. Identically named features don't stack. Track the Trauma on the character sheet yourself; it is not applied automatically.</p><p><strong>Analytical:</strong> Advantage on rolls related to analysis, planning, or calculations.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200000,
+  "flags": {},
+  "_key": "!items!VKxIBN5auxwBOhV1"
+}

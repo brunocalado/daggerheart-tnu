@@ -1,0 +1,62 @@
+{
+  "name": "Focus-Dose",
+  "type": "consumable",
+  "_id": "9sOVBlYrbU8CiCTI",
+  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "system": {
+    "description": "<p>Mark a Stress; until the end of the scene you gain <em>Deft</em>: +1 Finesse.</p>",
+    "quantity": 1,
+    "actions": {
+      "9wTghwyoZhEDBgOC": {
+        "type": "effect",
+        "_id": "9wTghwyoZhEDBgOC",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "9sOVBlYrbU8CiCTI",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 29 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2800000,
+  "flags": {},
+  "_key": "!items!9sOVBlYrbU8CiCTI"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Resilient",
+  "folder": null,
+  "_id": "6KdZkGNQO61cX8HC",
+  "img": "icons/magic/life/cross-worn-green.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Once per rest, when you would mark a Stress, you can instead spend a Hope.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!6KdZkGNQO61cX8HC"
+}

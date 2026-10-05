@@ -1,0 +1,238 @@
+{
+  "folder": "pCwdDcGdDLqXVujt",
+  "name": "Pulse Snare",
+  "type": "domainCard",
+  "_id": "09BdcFkLqmZh4PIv",
+  "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp",
+  "system": {
+    "description": "<p><strong>Tech</strong></p><p><strong>Discharged:</strong> Choose a point you can see within Very Close range to place your snare and roll a number of <strong>d20s</strong> equal to your Power trait. When a target moves within Very Close range of this snare, they must make a Reaction Roll with a Difficulty equal to your highest result. If they fail, they are stopped in their movement for this GM move. The snare stays in place until it's triggered or the scene ends. Place this card in your vault after placing the snare.</p><p><strong>Charged:</strong> <strong>Spend a Charge</strong> to place a snare with the same rules as <em>Discharged</em>. If the target fails their Reaction Roll, they are temporarily <em>Restrained</em>. If they succeed, they are stopped in their movement for this GM move.</p><p><strong>Overcharged:</strong> <strong>Spend 2 Charges</strong> to place a snare with the same rules as <em>Discharged</em>. If the target fails their Reaction Roll, they are temporarily <em>Restrained</em> and <em>Stunned</em>. If they succeed, they are temporarily <em>Restrained</em>. Place this card in your vault after placing the snare.</p>",
+    "domain": "uranus",
+    "recallCost": 2,
+    "level": 1,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": null,
+      "icon": "fa-solid fa-bolt",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "v5voYaI62PFEtLew": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Discharged: Snare",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "v5voYaI62PFEtLew",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      },
+      "fYK3SMrwwHY2qB5k": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "09BdcFkLqmZh4PIv",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Charged: Snare",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "KMsPg0wczDmJLWho",
+            "onSave": false
+          }
+        ],
+        "_id": "fYK3SMrwwHY2qB5k",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      },
+      "ARbujNfRz6pXg0wP": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 2,
+            "step": null,
+            "itemId": "09BdcFkLqmZh4PIv",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Overcharged: Snare",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "KMsPg0wczDmJLWho",
+            "onSave": false
+          },
+          {
+            "_id": "xLX1EFbgMYfNQcIb",
+            "onSave": false
+          }
+        ],
+        "_id": "ARbujNfRz6pXg0wP",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Charges are stored on this card's resource. Place them by hand (instead of gaining Hope on a success with Hope, or by marking a Stress on a success with Fear); a long rest clears them. Discharged and Overcharged end with \"place this card in your vault\": move it to the vault by hand after using them. Roll the snare's d20s (one per point of Power trait) by hand; the highest is the Reaction Roll Difficulty.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Restrained",
+      "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+      "transfer": false,
+      "_id": "KMsPg0wczDmJLWho",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Restrained.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!09BdcFkLqmZh4PIv.KMsPg0wczDmJLWho"
+    },
+    {
+      "name": "Stunned",
+      "img": "icons/magic/lightning/bolt-forked-large-blue.webp",
+      "transfer": false,
+      "_id": "xLX1EFbgMYfNQcIb",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Stunned.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "stunned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!09BdcFkLqmZh4PIv.xLX1EFbgMYfNQcIb"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!09BdcFkLqmZh4PIv"
+}

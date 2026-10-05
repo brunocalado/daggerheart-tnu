@@ -1,0 +1,62 @@
+{
+  "name": "Neural-Stim",
+  "type": "consumable",
+  "_id": "3IcohPTvQN6OotdN",
+  "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+  "system": {
+    "description": "<p>When you Utilize an Experience, mark a Stress instead of spending a Hope; if you do, double the Experience modifier for that roll.</p>",
+    "quantity": 1,
+    "actions": {
+      "7ub4YybrvF6utPhK": {
+        "type": "effect",
+        "_id": "7ub4YybrvF6utPhK",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "3IcohPTvQN6OotdN",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 15 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400000,
+  "flags": {},
+  "_key": "!items!3IcohPTvQN6OotdN"
+}

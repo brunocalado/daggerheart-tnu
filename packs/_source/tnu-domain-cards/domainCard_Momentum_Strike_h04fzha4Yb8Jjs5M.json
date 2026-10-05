@@ -1,0 +1,98 @@
+{
+  "folder": "PPeRejiiPibfzlfJ",
+  "name": "Momentum Strike",
+  "type": "domainCard",
+  "_id": "h04fzha4Yb8Jjs5M",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>Once per rest, when you succeed on an attack against an adversary, you can clear <strong>1d4</strong> Stress or an Armor Slot. On a success with Hope, an ally within Close range of you can do the same.</p>",
+    "domain": "jupiter",
+    "recallCost": 2,
+    "level": 3,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "ImqhGckaF6CTBj1U": {
+        "type": "healing",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Momentum Strike: Clear 1d4 Stress",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": true,
+                  "formula": "1d4"
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "roll": {
+          "type": null,
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "effects": [],
+        "_id": "ImqhGckaF6CTBj1U",
+        "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Clearing an Armor Slot instead, and the ally's share on a success with Hope, are done by hand.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!h04fzha4Yb8Jjs5M"
+}

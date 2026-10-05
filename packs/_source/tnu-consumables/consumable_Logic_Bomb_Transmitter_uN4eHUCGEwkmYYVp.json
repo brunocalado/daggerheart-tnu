@@ -1,0 +1,62 @@
+{
+  "name": "'Logic-Bomb' Transmitter",
+  "type": "consumable",
+  "_id": "uN4eHUCGEwkmYYVp",
+  "img": "icons/commodities/tech/antenna-powered-purple.webp",
+  "system": {
+    "description": "<p>Make a Power Roll against a mechanical or cybernetically enhanced target within Close range. On a success, the target is temporarily <strong>Stunned</strong>.</p>",
+    "quantity": 1,
+    "actions": {
+      "22hRGPu5QX51RHtV": {
+        "type": "effect",
+        "_id": "22hRGPu5QX51RHtV",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "uN4eHUCGEwkmYYVp",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/commodities/tech/antenna-powered-purple.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 36 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3500000,
+  "flags": {},
+  "_key": "!items!uN4eHUCGEwkmYYVp"
+}

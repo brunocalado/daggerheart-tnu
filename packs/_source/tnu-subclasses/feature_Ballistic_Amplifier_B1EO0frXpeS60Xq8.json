@@ -1,0 +1,97 @@
+{
+  "folder": "q0jmNK3jL0Tk38L6",
+  "name": "Ballistic Amplifier",
+  "type": "feature",
+  "_id": "B1EO0frXpeS60Xq8",
+  "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
+  "system": {
+    "description": "<p><em>Living Arsenal module (Tier 2).</em> Your weapons can attack targets within one range band farther.</p><p>Spend a Charge to activate a module. It deactivates when the scene ends or you activate another module.</p>",
+    "resource": null,
+    "actions": {
+      "iVubuSF5ag8HC1qU": {
+        "type": "effect",
+        "_id": "iVubuSF5ag8HC1qU",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Activate Ballistic Amplifier",
+        "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "L3BC6aDSBlvYJTad",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Remove the effect when the module deactivates. Modules are separate features: the system can only charge a cost to the resource on the same item, so spend the Charge from the Energy Core by hand when you activate a module.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Ballistic Amplifier",
+      "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
+      "transfer": false,
+      "_id": "L3BC6aDSBlvYJTad",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Your weapons can attack targets within one range band farther.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!B1EO0frXpeS60Xq8.L3BC6aDSBlvYJTad"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!B1EO0frXpeS60Xq8"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Resonant",
+  "type": "class",
+  "_id": "4Agbp9WeN7R1fvEP",
+  "img": "icons/magic/control/energy-stream-link-spiral-teal.webp",
+  "system": {
+    "description": "<p><em>“And their hope grew with a hunger to live unlike before”</em></p><p>There is an invisible force that connects people to one another. A current, silent to most, that binds individuals to something more — to a unity. Resonants can see that force, hear that current. They are empaths, born with incredible psionic powers. They often are ambassadors, counsellors, or healers of body and soul. In a team, they function as a nexus, weaving their allies’ strengths together into a seamless chorus: They can amplify abilities, share focus, and transform a group of individuals into something greater than the sum of its parts. As long as a Resonant is standing, there is still hope.</p>",
+    "domains": [
+      "venus",
+      "terra"
+    ],
+    "classItems": [],
+    "hitPoints": 5,
+    "evasion": 10,
+    "features": [
+      {
+        "type": "hope",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.KoybYehx8a0xL5Es"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.Cg9PjiHAoMf2xNqW"
+      }
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": [
+        "Compendium.daggerheart-tnu.tnu-classes.Item.8CxK9ZlEZ8W35Tlp",
+        "Compendium.daggerheart-tnu.tnu-classes.Item.XS7AqiruOQodqGQY"
+      ]
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "backgroundQuestions": [
+      "Who first showed you the power of your voice — and how have you since outgrown them?",
+      "What crowd once rose or turned against you — and how did it mark your presence forever?",
+      "What weakness in your resonance do you secretly fear others could expose?",
+      "Whose wounds did you heal when victory slipped away — and do they still remember your choice?",
+      "What truth do you always weave into your words — and what lie would make you break it?"
+    ],
+    "connections": [
+      "You once echoed my words before a crowd. What made them sound more convincing from your lips?",
+      "I carried your pain into myself to keep you standing. What scar did it leave in me?",
+      "You saw me guide a room to my will with a single phrase. Why did you follow instead of resisting?",
+      "I asked you to trust my voice over your own. What did it cost you to obey?",
+      "You hear the stillness hidden in my chorus. Why do you never call it out?"
+    ],
+    "gmNotes": "",
+    "levelupOptionTiers": {
+      "2": {},
+      "3": {},
+      "4": {}
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!4Agbp9WeN7R1fvEP"
+}

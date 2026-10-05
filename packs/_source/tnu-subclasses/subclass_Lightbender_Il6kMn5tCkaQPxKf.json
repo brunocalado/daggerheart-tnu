@@ -1,0 +1,42 @@
+{
+  "folder": "d4x90pUkdGkmXNDA",
+  "name": "Lightbender",
+  "type": "subclass",
+  "_id": "Il6kMn5tCkaQPxKf",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "system": {
+    "description": "<p>Play the Lightbender if you want to channel psionic radiance, and form brilliance itself into a weapon or a shield.</p>",
+    "spellcastingTrait": "instinct",
+    "features": [
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.KMcdiF57Le71eKLg"
+      },
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.awfGJxn9ljFeIrKO"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.dtaRQTuErzkTivvK"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.CTjESSgfMjF1zERO"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "linkedClass": "Compendium.daggerheart-tnu.tnu-classes.Item.FNhR8kZJZBs15I2K",
+    "gmNotes": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!Il6kMn5tCkaQPxKf"
+}

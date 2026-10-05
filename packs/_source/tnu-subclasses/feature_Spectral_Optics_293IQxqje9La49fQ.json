@@ -1,0 +1,97 @@
+{
+  "folder": "q0jmNK3jL0Tk38L6",
+  "name": "Spectral Optics",
+  "type": "feature",
+  "_id": "293IQxqje9La49fQ",
+  "img": "icons/equipment/head/goggles-brass-glass.webp",
+  "system": {
+    "description": "<p><em>Living Arsenal module (Tier 2).</em> You can see in the dark and have advantage on rolls to perceive visual details.</p><p>Spend a Charge to activate a module. It deactivates when the scene ends or you activate another module.</p>",
+    "resource": null,
+    "actions": {
+      "uvYjEcnZLS7jZLd5": {
+        "type": "effect",
+        "_id": "uvYjEcnZLS7jZLd5",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Activate Spectral Optics",
+        "img": "icons/equipment/head/goggles-brass-glass.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "8gjNWnO4EuwQ2jqZ",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Remove the effect when the module deactivates. Modules are separate features: the system can only charge a cost to the resource on the same item, so spend the Charge from the Energy Core by hand when you activate a module.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Spectral Optics",
+      "img": "icons/equipment/head/goggles-brass-glass.webp",
+      "transfer": false,
+      "_id": "8gjNWnO4EuwQ2jqZ",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>You can see in the dark and have advantage on rolls to perceive visual details.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!293IQxqje9La49fQ.8gjNWnO4EuwQ2jqZ"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!293IQxqje9La49fQ"
+}

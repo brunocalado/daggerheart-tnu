@@ -1,0 +1,58 @@
+{
+  "_id": "BCl28Eo6NAcpyF5j",
+  "_key": "!items!BCl28Eo6NAcpyF5j",
+  "name": "Manual of Vulnerabilities",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/commodities/tech/electronics-sensor-eye.webp",
+  "system": {
+    "description": "<p><strong>Weakpoints:</strong> Make a <strong>Power Roll (14)</strong> to scan a target and find its weakpoints. On a success you can ask the GM a question about the target. On a failure the target notices your attempt.</p><p><strong>Backstab:</strong> Make a <strong>Power Roll</strong> against the target. On a success you can use a weak point and the next attack against that target deals an additional <strong>2d20</strong> damage.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "mind",
+    "level": 4,
+    "location": "Cockpit",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Weakpoints",
+        "spheres": [
+          "mind"
+        ],
+        "roll": "power",
+        "difficulty": 14,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll (14) to scan a target and find its weakpoints. On a success you can ask the GM a question about the target. On a failure the target notices your attempt."
+      },
+      {
+        "name": "Backstab",
+        "spheres": [
+          "mind"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll against the target. On a success you can use a weak point and the next attack against that target deals an additional 2d20 damage."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

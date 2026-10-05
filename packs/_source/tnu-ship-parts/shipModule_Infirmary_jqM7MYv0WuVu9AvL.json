@@ -1,0 +1,47 @@
+{
+  "_id": "jqM7MYv0WuVu9AvL",
+  "_key": "!items!jqM7MYv0WuVu9AvL",
+  "name": "Infirmary",
+  "type": "daggerheart-tnu.shipModule",
+  "img": "icons/tools/medical/medkit-heavy.webp",
+  "system": {
+    "description": "<p><em>Not only does time heal all wounds.</em></p><p><strong>Healing Sleep:</strong> If you use a healing ability inside the infirmary it is automatically a success. You can <strong>spend a Hope</strong> to heal the target for an additional two hit points.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "capacity": 4,
+    "replaces": "",
+    "deactivated": false,
+    "stats": {
+      "bonus": null,
+      "range": null,
+      "damage": ""
+    },
+    "shipActions": [
+      {
+        "name": "Healing Sleep",
+        "spheres": [
+          "heart",
+          "mind",
+          "fist"
+        ],
+        "roll": "none",
+        "difficulty": null,
+        "costs": {
+          "hope": 1,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "If you use a healing ability inside the infirmary it is automatically a success. You can spend a Hope to heal the target for an additional two hit points."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

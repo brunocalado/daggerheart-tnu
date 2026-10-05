@@ -1,0 +1,41 @@
+{
+  "_id": "JHIx8H5ESrG7cQdL",
+  "_key": "!items!JHIx8H5ESrG7cQdL",
+  "name": "Invading Maneuver",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/tools/navigation/map-marked-black.webp",
+  "system": {
+    "description": "<p><strong>Enemy territory:</strong> Make a <strong>Power Roll</strong> to maneuver your ship through enemy territory without being seen. On a success with hope you can <strong>spend a Stress</strong> to land safely on hostile terrain.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "heart",
+    "level": 4,
+    "location": "Cockpit",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Enemy territory",
+        "spheres": [
+          "heart"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 1,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "Make a Power Roll to maneuver your ship through enemy territory without being seen. On a success with hope you can spend a Stress to land safely on hostile terrain."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

@@ -1,0 +1,22 @@
+{
+  "folder": "f1YIgWYoFakiYiHX",
+  "name": "Combat Log",
+  "type": "loot",
+  "img": "icons/sundries/documents/document-writing-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4Dd4jaJe3l72be62",
+  "sort": 0,
+  "_key": "!items!4Dd4jaJe3l72be62"
+}

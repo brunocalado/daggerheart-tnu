@@ -1,0 +1,164 @@
+{
+  "name": "Filament Lash",
+  "type": "weapon",
+  "_id": "MvNmNwm6sQz5nGDv",
+  "img": "icons/weapons/maces/flail-spiked-grey.webp",
+  "system": {
+    "description": "",
+    "actions": {
+      "JN4hDQre20o3jYTc": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Tether",
+        "description": "On a successful attack, spend a Hope to temporarily Restrain the target or pull them into Melee range with you.",
+        "img": "icons/magic/control/debuff-chains-ropes-net-white.webp",
+        "cost": [
+          {
+            "key": "hope",
+            "value": 1,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "JN4hDQre20o3jYTc",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        }
+      }
+    },
+    "tier": 2,
+    "equipped": false,
+    "secondary": false,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "tether",
+        "effectIds": [],
+        "actionIds": [
+          "JN4hDQre20o3jYTc"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "mLaqVGX1kRiH7vu6",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "close",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "finesse",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d6",
+            "bonus": 2,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "physical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 2800000,
+  "flags": {},
+  "_key": "!items!MvNmNwm6sQz5nGDv"
+}

@@ -1,0 +1,108 @@
+{
+  "folder": "vxxjn0VIWtBTBe3x",
+  "name": "Tactical Cloak",
+  "type": "feature",
+  "_id": "qg804zD5IsbcxRLr",
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "system": {
+    "description": "<p><strong>Mark a Stress</strong> to become Shrouded at any time. You remain Shrouded until you roll with Fear or until the scene ends.</p>",
+    "resource": null,
+    "actions": {
+      "vhIKz9TCSJtdQcng": {
+        "type": "effect",
+        "_id": "vhIKz9TCSJtdQcng",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "stress",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Tactical Cloak",
+        "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "WNjr9suQj6NHdtjD",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Shrouded",
+      "img": "icons/magic/air/fog-gas-smoke-dense-gray.webp",
+      "transfer": false,
+      "_id": "WNjr9suQj6NHdtjD",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Shrouded.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "shrouded"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!qg804zD5IsbcxRLr.WNjr9suQj6NHdtjD"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!qg804zD5IsbcxRLr"
+}

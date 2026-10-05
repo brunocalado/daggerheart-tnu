@@ -1,0 +1,199 @@
+{
+  "name": "JANUS Gunblade",
+  "type": "weapon",
+  "_id": "7i0V70P1xtmGVSdx",
+  "img": "icons/weapons/guns/rifle-assault-carbine.webp",
+  "system": {
+    "description": "<p>Hybrid (Finesse, Melee, d10)</p>",
+    "actions": {
+      "YmO6qtLk4WsTXY3X": {
+        "name": "Hybrid Attack",
+        "_id": "YmO6qtLk4WsTXY3X",
+        "baseAction": false,
+        "systemPath": "actions",
+        "type": "attack",
+        "range": "melee",
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "roll": {
+          "trait": "finesse",
+          "type": "attack",
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "damage": {
+          "main": {
+            "value": {
+              "dice": "d10",
+              "bonus": null,
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "type": [
+              "physical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": null,
+            "base": false,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "description": "",
+        "chatDisplay": false,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "tier": 2,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "hybrid",
+        "effectIds": [],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "EgMcBdFbigtB1f8r",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "far",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "finesse",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d6",
+            "bonus": 3,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "physical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 2700000,
+  "flags": {},
+  "_key": "!items!7i0V70P1xtmGVSdx"
+}

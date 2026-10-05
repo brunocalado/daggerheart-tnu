@@ -1,0 +1,31 @@
+{
+  "name": "Homo Novus – Vigil",
+  "img": "icons/environment/people/infantry-army.webp",
+  "type": "ancestry",
+  "folder": null,
+  "system": {
+    "description": "<p>Homo Novus is a base ancestry: its top feature is a free choice, and its bottom feature is Neural Plasticity. Each lineage below fixes both.</p>",
+    "features": [
+      {
+        "type": "primary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.LUpXAQOHQlae7y2K"
+      },
+      {
+        "type": "secondary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.vfg4PRdh8DV9GS9l"
+      }
+    ],
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "loreReference": "",
+    "gmNotes": ""
+  },
+  "flags": {},
+  "_id": "BVCBmEXv7EWhZzAb",
+  "sort": 0,
+  "effects": [],
+  "_key": "!items!BVCBmEXv7EWhZzAb"
+}

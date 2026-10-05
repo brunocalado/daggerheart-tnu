@@ -1,0 +1,64 @@
+{
+  "folder": "cmErewdreE2i35i1",
+  "name": "Cheat Fate",
+  "type": "feature",
+  "_id": "RhjBaA5adBLLZJ15",
+  "img": "icons/skills/trades/gaming-gambling-dice-gray.webp",
+  "system": {
+    "description": "<p><strong>Spend 3 Hope</strong> to rewrite fate: after you make an action roll, you may reroll any one or both of your Duality Dice.</p>",
+    "resource": null,
+    "actions": {
+      "rtuQxb5T6Og1bHxO": {
+        "type": "effect",
+        "_id": "rtuQxb5T6Og1bHxO",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 3,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Cheat Fate",
+        "img": "icons/skills/trades/gaming-gambling-dice-gray.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": []
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The reroll is done by hand on the roll's chat message.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!RhjBaA5adBLLZJ15"
+}

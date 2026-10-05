@@ -1,0 +1,62 @@
+{
+  "name": "Nova-Pulse Detonator",
+  "type": "consumable",
+  "_id": "qrBX9cNLtb0ftRNK",
+  "img": "icons/weapons/thrown/grenade-energy.webp",
+  "system": {
+    "description": "<p>All targets within Very Close range become <strong>Dazed</strong> until after their next spotlight.</p>",
+    "quantity": 1,
+    "actions": {
+      "aJoyNHaOP3HkMaQR": {
+        "type": "effect",
+        "_id": "aJoyNHaOP3HkMaQR",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "qrBX9cNLtb0ftRNK",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/weapons/thrown/grenade-energy.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 37 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3600000,
+  "flags": {},
+  "_key": "!items!qrBX9cNLtb0ftRNK"
+}

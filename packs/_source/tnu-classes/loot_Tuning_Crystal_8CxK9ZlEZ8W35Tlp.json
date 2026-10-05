@@ -1,0 +1,22 @@
+{
+  "folder": "ktCp7syxgnpvAPcS",
+  "name": "Tuning Crystal",
+  "type": "loot",
+  "img": "icons/commodities/treasure/glass-crystal-green.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "8CxK9ZlEZ8W35Tlp",
+  "sort": 0,
+  "_key": "!items!8CxK9ZlEZ8W35Tlp"
+}

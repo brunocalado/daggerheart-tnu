@@ -1,0 +1,62 @@
+{
+  "name": "Synthetic Pheromone",
+  "type": "consumable",
+  "_id": "usQyLhTXZJKFORbE",
+  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "system": {
+    "description": "<p>You have advantage on all rolls to persuade, charm, or deceive organic creatures until the end of the scene.</p>",
+    "quantity": 1,
+    "actions": {
+      "qthlMrpqHL3EnJKj": {
+        "type": "effect",
+        "_id": "qthlMrpqHL3EnJKj",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "usQyLhTXZJKFORbE",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 19 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800000,
+  "flags": {},
+  "_key": "!items!usQyLhTXZJKFORbE"
+}

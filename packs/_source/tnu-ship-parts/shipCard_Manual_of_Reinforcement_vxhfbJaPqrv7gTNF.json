@@ -1,0 +1,58 @@
+{
+  "_id": "vxhfbJaPqrv7gTNF",
+  "_key": "!items!vxhfbJaPqrv7gTNF",
+  "name": "Manual of Reinforcement",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/commodities/metal/armor-plate-reticulated.webp",
+  "system": {
+    "description": "<p><strong>Additional Armor:</strong> Once per long rest you can <strong>spend two Hope</strong> to reinforce the Ships Armor. Place tokens equal to the ship's proficiency on this card. Every time you would spend an armor slot you can instead spend one of the tokens.</p><p><strong>Impact Force:</strong> Once per rest, when your ship attacks an opponent, make a <strong>Reaction Roll</strong> to reinforce the attack. On a success the attack deals an additional <strong>d8</strong> damage.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "mind",
+    "level": 3,
+    "location": "Spaceship Core",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Additional Armor",
+        "spheres": [
+          "mind"
+        ],
+        "roll": "none",
+        "difficulty": null,
+        "costs": {
+          "hope": 2,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "longRest",
+        "description": "Once per long rest you can spend two Hope to reinforce the Ships Armor. Place tokens equal to the ship's proficiency on this card. Every time you would spend an armor slot you can instead spend one of the tokens."
+      },
+      {
+        "name": "Impact Force",
+        "spheres": [
+          "mind"
+        ],
+        "roll": "reaction",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "rest",
+        "description": "Once per rest, when your ship attacks an opponent, make a Reaction Roll to reinforce the attack. On a success the attack deals an additional d8 damage."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

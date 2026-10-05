@@ -1,0 +1,22 @@
+{
+  "name": "Space-Walker Suit",
+  "type": "loot",
+  "_id": "fBUon8FDNRI1NHvp",
+  "img": "icons/commodities/treasure/mask-bone-white.webp",
+  "system": {
+    "description": "<p>6 hours of oxygen; ignore vacuum, radiation and extreme temperatures.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 25 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3700000,
+  "flags": {},
+  "_key": "!items!fBUon8FDNRI1NHvp"
+}

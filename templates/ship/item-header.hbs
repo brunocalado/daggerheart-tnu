@@ -1,0 +1,28 @@
+{{!-- One root element: a Handlebars part must render a single element. --}}
+<div class="item-top">
+  <header class="item-sheet-header">
+    <img class="profile" src="{{source.img}}" alt="{{source.name}}" data-action="editImage" data-edit="img">
+    <div class="item-info">
+      <line-div></line-div>
+      <h1 class="item-name"><input type="text" name="name" value="{{source.name}}" placeholder="{{placeholder}}"></h1>
+      <div class="item-description">
+        <h3>{{subtitle}}</h3>
+      </div>
+      <line-div></line-div>
+    </div>
+  </header>
+
+  <section class="tab-navigation">
+    <div class="navigation-container">
+      <div class="navigation-inner-container">
+        <line-div></line-div>
+        <nav class="feature-tab sheet-tabs tabs" data-group="primary">
+          {{#each tabs}}
+            <a class="{{id}} {{cssClass}}" data-action="tab" data-group="{{group}}" data-tab="{{id}}"><span>{{label}}</span></a>
+          {{/each}}
+        </nav>
+        <line-div></line-div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,22 @@
+{
+  "folder": "s5gcDpGW0N7ezKLg",
+  "name": "Light-Drinking Metal Shard",
+  "type": "loot",
+  "img": "icons/weapons/wands/wand-carved-stone-shard.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "dnrU03foEBpHWRQq",
+  "sort": 0,
+  "_key": "!items!dnrU03foEBpHWRQq"
+}

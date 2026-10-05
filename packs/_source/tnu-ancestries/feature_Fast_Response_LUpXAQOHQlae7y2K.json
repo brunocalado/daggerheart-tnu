@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Fast Response",
+  "folder": null,
+  "_id": "LUpXAQOHQlae7y2K",
+  "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p><strong>Mark a Stress</strong> to gain advantage on a reaction roll.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!LUpXAQOHQlae7y2K"
+}

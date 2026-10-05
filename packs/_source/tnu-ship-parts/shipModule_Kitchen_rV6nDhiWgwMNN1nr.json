@@ -1,0 +1,47 @@
+{
+  "_id": "rV6nDhiWgwMNN1nr",
+  "_key": "!items!rV6nDhiWgwMNN1nr",
+  "name": "Kitchen",
+  "type": "daggerheart-tnu.shipModule",
+  "img": "icons/tools/cooking/pot-camping-iron-black.webp",
+  "system": {
+    "description": "<p><em>The true heart of the ship.</em></p><p><strong>Satisfying Meal:</strong> The kitchen allows PCs to restore one additional Stress whilst on a fast travel journey.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "capacity": 3,
+    "replaces": "",
+    "deactivated": false,
+    "stats": {
+      "bonus": null,
+      "range": null,
+      "damage": ""
+    },
+    "shipActions": [
+      {
+        "name": "Satisfying Meal",
+        "spheres": [
+          "heart",
+          "mind",
+          "fist"
+        ],
+        "roll": "none",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "The kitchen allows PCs to restore one additional Stress whilst on a fast travel journey."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

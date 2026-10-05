@@ -1,0 +1,221 @@
+{
+  "folder": "pCwdDcGdDLqXVujt",
+  "name": "Arc Unit",
+  "type": "domainCard",
+  "_id": "6KCztgYcHsDrbCFD",
+  "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp",
+  "system": {
+    "description": "<p><strong>Tech</strong></p><p><strong>Discharged:</strong> When you successfully attack a target within Close range using a weapon, arc currents enhance your strike. Add <strong>1d8</strong> to your damage roll. Then place this card in your vault.</p><p><strong>Charged:</strong> When you successfully attack a target within Close range using a weapon, <strong>spend a Charge</strong> to unleash an electric arc onto another target within Very Close range of the first one. The second target must make a Reaction Roll <strong>with a Difficulty of your attack roll</strong>. They take <strong>1d10</strong> energy damage on a failure and half damage on a success.</p><p><strong>Overcharged:</strong> When you successfully attack a target within Close range using a weapon, <strong>spend 2 Charges</strong> to unleash electric arcs on all targets within Very Close range of the first one. All secondary targets must make a Reaction Roll <strong>with a Difficulty of your attack roll</strong>. They take <strong>1d12</strong> energy damage on a failure and half damage on a success. Then place this card in your vault.</p>",
+    "domain": "uranus",
+    "recallCost": 2,
+    "level": 1,
+    "type": "spell",
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": null,
+      "icon": "fa-solid fa-bolt",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {
+      "aHzFfga3jrmttzMb": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Discharged: +1d8",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "dice": "d8",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "aHzFfga3jrmttzMb",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      },
+      "TeWTD8Qnu3F2Xek0": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 1,
+            "step": null,
+            "itemId": "6KCztgYcHsDrbCFD",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Charged: Arc",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "dice": "d10",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "TeWTD8Qnu3F2Xek0",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      },
+      "mpgnYUqKGtFhUem5": {
+        "type": "damage",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "resource",
+            "value": 2,
+            "step": null,
+            "itemId": "6KCztgYcHsDrbCFD",
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Overcharged: Arcs",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "dice": "d12",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "effects": [],
+        "_id": "mpgnYUqKGtFhUem5",
+        "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Charges are stored on this card's resource. Place them by hand (instead of gaining Hope on a success with Hope, or by marking a Stress on a success with Fear); a long rest clears them. Discharged and Overcharged end with \"place this card in your vault\": move it to the vault by hand after using them. The arcs' Reaction Roll uses your attack roll as its Difficulty: roll it by hand and halve the damage on a success.",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!6KCztgYcHsDrbCFD"
+}

@@ -1,0 +1,22 @@
+{
+  "folder": "sxpn9qr5tIOc1cX6",
+  "name": "Journal of Fragmented Memories",
+  "type": "loot",
+  "img": "icons/sundries/books/book-notes-ragged-green.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "eCLvlTTfWkFPoXfO",
+  "sort": 0,
+  "_key": "!items!eCLvlTTfWkFPoXfO"
+}

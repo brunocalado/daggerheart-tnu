@@ -1,0 +1,122 @@
+{
+  "folder": "Jn7uJ5XTyjkr6JSw",
+  "name": "Resonant Thread",
+  "type": "feature",
+  "_id": "KoybYehx8a0xL5Es",
+  "img": "icons/commodities/cloth/thread-spindle-light-green.webp",
+  "system": {
+    "description": "<p><strong>Spend 3 Hope</strong> to grant an ally in Close range a +2 bonus to their attack rolls until they fail an attack. Otherwise, this bonus lasts until your next rest.</p>",
+    "resource": null,
+    "actions": {
+      "otB1seC1nWNO5wuJ": {
+        "type": "effect",
+        "_id": "otB1seC1nWNO5wuJ",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 3,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Resonant Thread",
+        "img": "icons/commodities/cloth/thread-spindle-light-green.webp",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "MYu1rbeSanc9pNLX",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The bonus is not removed automatically when the ally fails an attack: delete the effect by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Resonant Thread",
+      "img": "icons/commodities/cloth/thread-spindle-light-green.webp",
+      "transfer": false,
+      "_id": "MYu1rbeSanc9pNLX",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.roll.bonus",
+            "type": "add",
+            "value": "2",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": [
+          {
+            "type": "actionType",
+            "actionTypes": [
+              "attack"
+            ],
+            "traits": []
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>+2 bonus to attack rolls until you fail an attack, or until the Resonant's next rest.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!KoybYehx8a0xL5Es.MYu1rbeSanc9pNLX"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!KoybYehx8a0xL5Es"
+}

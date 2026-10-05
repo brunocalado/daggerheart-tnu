@@ -1,0 +1,93 @@
+{
+  "folder": "luH8T2QbCuMt3RfZ",
+  "name": "Destabalize Matter",
+  "type": "domainCard",
+  "_id": "OdUPGmrd4M0Gjy1W",
+  "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
+  "system": {
+    "description": "<p><strong>Anomaly</strong></p><p>Make a <strong>Power Roll (14)</strong> and choose an inanimate object or physical barrier within Very Close range (up to the size of a door or terminal). Once per rest on a success, <strong>spend a Hope</strong> to temporarily alter its physical properties until the end of the scene. A steel blast door might become as brittle as glass, a solid wall becomes semi-liquid, or a camera lens becomes entirely opaque.</p><p><strong>Escalation:</strong> On a success, you may <strong>give the GM a Fear</strong>. If you do, the void completely rejects the object's existence. The object is instantly and permanently erased from reality.</p>",
+    "domain": "nibiru",
+    "recallCost": 1,
+    "level": 3,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "kppY0QQghGyoiYs8": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "1",
+          "recovery": "shortRest",
+          "consumeOnSuccess": true
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Destabilize Matter",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": 14,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "kppY0QQghGyoiYs8",
+        "img": "icons/magic/air/wind-vortex-swirl-purple.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Escalation: giving the GM a Fear is done by hand (raise the Fear tracker by 1). The card name is printed \"Destabalize\" (sic).",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!OdUPGmrd4M0Gjy1W"
+}

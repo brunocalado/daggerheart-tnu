@@ -1,0 +1,106 @@
+<aside class="ship-sidebar">
+  <div class="portrait {{#if (and system.resources.hitPoints.max (gte system.resources.hitPoints.value system.resources.hitPoints.max))}}wrecked{{/if}}">
+    {{#if isToken}}<div class="token-tag">Token</div>{{/if}}
+    <img src="{{document.img}}" alt="{{document.name}}" data-action="editImage" data-edit="img">
+    <i class="fa-solid fa-explosion wreck-mark" inert></i>
+  </div>
+
+  <div class="info-section {{#if useResourcePips}}pip-display{{/if}}">
+    <div class="resources-section">
+      {{#each tracks}}
+        {{#if @root.useResourcePips}}
+          <div class="slot-value">
+            <div class="slot-bar">
+              {{#each pips}}
+                <span class="slot {{#if filled}}filled{{/if}}" data-action="setTrack" data-track="{{../key}}" data-value="{{value}}"></span>
+              {{/each}}
+            </div>
+            <div class="slot-label">
+              <span class="label">{{label}}</span>
+              <span class="value">{{value}} / <input class="max-input" type="number" name="system.resources.{{key}}.max" value="{{max}}" min="0" step="1" data-tooltip="Maximum"></span>
+            </div>
+          </div>
+        {{else}}
+          <div class="status-bar">
+            <div class="status-value">
+              <progress class="progress-bar {{#if (eq key 'stress')}}stress-color{{/if}}" max="{{max}}" value="{{value}}"></progress>
+              <input class="bar-input" name="system.resources.{{key}}.value" type="number" min="0" max="{{max}}" value="{{value}}">
+              <span>/</span>
+              <input class="bar-label max-input" type="number" name="system.resources.{{key}}.max" value="{{max}}" min="0" step="1" data-tooltip="Maximum">
+            </div>
+            <div class="status-label pointy"><h4>{{label}}</h4></div>
+          </div>
+        {{/if}}
+      {{/each}}
+    </div>
+
+    <div class="status-section">
+      <div class="status-number">
+        <div class="status-value">
+          <input type="number" name="system.evasion" value="{{system.evasion}}" step="1">
+        </div>
+        <div class="status-label"><h4>Evasion</h4></div>
+      </div>
+
+      <div class="status-number armor-slots">
+        <div class="status-value">
+          <div class="slot-bar armor">
+            {{#each armor.pips}}
+              <a class="slot" data-action="setTrack" data-track="armor" data-value="{{value}}">
+                <i class="fa-solid {{#if filled}}fa-shield{{else}}fa-shield-halved{{/if}}"></i>
+              </a>
+            {{/each}}
+          </div>
+        </div>
+        <div class="status-label">
+          <h4>Armor Slots <span class="value">{{armor.value}} / <input class="max-input" type="number" name="system.resources.armor.max" value="{{armor.max}}" min="0" step="1" data-tooltip="Armor Score"></span></h4>
+        </div>
+      </div>
+
+      <div class="status-number">
+        <div class="status-value">
+          <input type="number" name="system.proficiency" value="{{system.proficiency}}" min="0" step="1">
+        </div>
+        <div class="status-label"><h4>Proficiency</h4></div>
+      </div>
+    </div>
+
+    <div class="threshold-section">
+      <h4 class="threshold-label">Minor</h4>
+      <input class="threshold-value" type="number" name="system.damageThresholds.major" value="{{system.damageThresholds.major}}" step="1" data-tooltip="Major threshold">
+      <h4 class="threshold-label">Major</h4>
+      <input class="threshold-value" type="number" name="system.damageThresholds.severe" value="{{system.damageThresholds.severe}}" step="1" data-tooltip="Severe threshold">
+      <h4 class="threshold-label">Severe</h4>
+    </div>
+  </div>
+
+  <div class="shortcut-items-section">
+    <div class="experience-section">
+      <div class="title">
+        <side-line-div class="invert"></side-line-div>
+        <h3>Experiences</h3>
+        <side-line-div></side-line-div>
+      </div>
+      <div class="experience-list">
+        {{#each experiences}}
+          <div class="experience-row">
+            <span class="experience-value">
+              <input type="number" name="system.experiences.{{index}}.value" value="{{value}}" step="1">
+            </span>
+            <input class="experience-name" type="text" name="system.experiences.{{index}}.name" value="{{name}}" placeholder="Experience">
+            {{#if @root.editable}}
+              <a class="control" data-action="removeExperience" data-index="{{index}}" data-name="{{name}}" data-tooltip="Remove"><i class="fa-solid fa-trash"></i></a>
+            {{/if}}
+          </div>
+        {{else}}
+          <p class="empty">Each player creates one ship Experience. Using one spends ship Hope.</p>
+        {{/each}}
+        {{#if editable}}
+          <button type="button" class="reverted add-experience" data-action="addExperience">
+            <i class="fa-solid fa-plus"></i><span>Experience</span>
+          </button>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</aside>

@@ -1,0 +1,22 @@
+{
+  "name": "Endocrine Synthesizer 'PEITHO'",
+  "type": "loot",
+  "_id": "0LbmVpaslF2KG4DP",
+  "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+  "system": {
+    "description": "<p><strong>Cybernetic implant (ancestry).</strong> Granted by an ancestry; it is not an item you normally find. Each installed implant gives 1 permanent Trauma (−1 max Hope) unless the Hardwired ancestry exempts it. It is not applied automatically.</p><p><strong>Subtle Pheromones:</strong> Advantage on rolls to charm or persuade non-hostile creatures.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1200000,
+  "flags": {},
+  "_key": "!items!0LbmVpaslF2KG4DP"
+}

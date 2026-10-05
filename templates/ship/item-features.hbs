@@ -1,0 +1,22 @@
+<section class="tab {{tab.cssClass}} features" data-tab="features" data-group="primary">
+  <ul class="feature-list">
+    {{#each actions}}
+      <li class="feature-item">
+        <div class="feature-head">
+          <h4>{{name}}</h4>
+          <div class="feature-tags">
+            {{#each sphereTags}}<span class="sphere-tag {{key}}">{{label}}</span>{{/each}}
+            <span class="tag">{{rollLabel}}</span>
+            {{#if (ne difficulty null)}}<span class="tag">Difficulty {{difficulty}}</span>{{/if}}
+            {{#if costLabel}}<span class="tag"><i class="fa-solid fa-coins"></i>{{costLabel}}</span>{{/if}}
+            {{#if damageLabel}}<span class="tag"><i class="fa-solid fa-burst"></i>{{damageLabel}}</span>{{/if}}
+            {{#if oncePerLabel}}<span class="tag"><i class="fa-solid fa-hourglass-half"></i>{{oncePerLabel}}</span>{{/if}}
+          </div>
+        </div>
+        {{#if description}}<p class="feature-description">{{description}}</p>{{/if}}
+      </li>
+    {{else}}
+      <li class="empty">This item has no printed features.</li>
+    {{/each}}
+  </ul>
+</section>

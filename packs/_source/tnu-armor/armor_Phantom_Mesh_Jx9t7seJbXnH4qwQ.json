@@ -1,0 +1,39 @@
+{
+  "name": "Phantom Mesh",
+  "type": "armor",
+  "_id": "Jx9t7seJbXnH4qwQ",
+  "img": "icons/equipment/chest/vest-cloth-tattered-tan.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 3
+    },
+    "description": "",
+    "actions": {},
+    "tier": 2,
+    "equipped": false,
+    "armorFeatures": [
+      {
+        "value": "phantom",
+        "effectIds": [],
+        "actionIds": []
+      }
+    ],
+    "baseThresholds": {
+      "major": 7,
+      "severe": 16
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 400000,
+  "flags": {},
+  "_key": "!items!Jx9t7seJbXnH4qwQ"
+}

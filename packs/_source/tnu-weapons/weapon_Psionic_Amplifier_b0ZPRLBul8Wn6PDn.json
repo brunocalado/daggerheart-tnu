@@ -1,0 +1,164 @@
+{
+  "name": "Psionic Amplifier",
+  "type": "weapon",
+  "_id": "b0ZPRLBul8Wn6PDn",
+  "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
+  "system": {
+    "description": "<p><em>[Echo] Echo classes only.</em></p>",
+    "actions": {
+      "EaZd1qoQO5xz0kxu": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Unleash",
+        "description": "Mark a Stress to force all adversaries within Melee range back to Close range.",
+        "img": "icons/magic/control/fear-fright-mask-orange.webp",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "EaZd1qoQO5xz0kxu",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        }
+      }
+    },
+    "tier": 1,
+    "equipped": false,
+    "secondary": true,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "unleash",
+        "effectIds": [],
+        "actionIds": [
+          "EaZd1qoQO5xz0kxu"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_id": "18nsz7UCqLWEWMck",
+      "baseAction": true,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "veryClose",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "instinct",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "main": {
+          "value": {
+            "dice": "d6",
+            "bonus": null,
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "type": [
+            "magical"
+          ],
+          "applyTo": "hitPoints",
+          "resultBased": false,
+          "valueAlt": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "bonus": null,
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            }
+          },
+          "base": false,
+          "includeBase": false,
+          "direct": false,
+          "fullRestore": false,
+          "itemId": null
+        },
+        "resources": {}
+      },
+      "description": "",
+      "chatDisplay": false,
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "triggers": [],
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 5100000,
+  "flags": {},
+  "_key": "!items!b0ZPRLBul8Wn6PDn"
+}

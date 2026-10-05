@@ -1,0 +1,62 @@
+{
+  "name": "Camo Shroud",
+  "type": "consumable",
+  "_id": "8HGBQdCgjxjulp0l",
+  "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+  "system": {
+    "description": "<p>While covered and stationary you are <strong>Shrouded</strong>; burns out after one scene.</p>",
+    "quantity": 1,
+    "actions": {
+      "c203rHT0vn8rIgMe": {
+        "type": "effect",
+        "_id": "c203rHT0vn8rIgMe",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "8HGBQdCgjxjulp0l",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 17 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1600000,
+  "flags": {},
+  "_key": "!items!8HGBQdCgjxjulp0l"
+}

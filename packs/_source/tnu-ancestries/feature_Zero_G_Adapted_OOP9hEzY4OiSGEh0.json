@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Zero-G Adapted",
+  "folder": null,
+  "_id": "OOP9hEzY4OiSGEh0",
+  "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Ignore disadvantage on rolls to maintain footing, move or perform actions in zero-gravity environments.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!OOP9hEzY4OiSGEh0"
+}

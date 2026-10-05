@@ -1,0 +1,30 @@
+{
+  "folder": "cOwsI84YnWDDNEc2",
+  "name": "Full Force",
+  "type": "domainCard",
+  "_id": "0HLwJwD74PFhp6UP",
+  "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>When you roll your damage dice, each 1 counts as the maximum value for that die.</p>",
+    "domain": "mars",
+    "recallCost": 1,
+    "level": 1,
+    "type": "ability",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!0HLwJwD74PFhp6UP"
+}

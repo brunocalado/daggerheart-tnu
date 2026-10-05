@@ -1,0 +1,78 @@
+{
+  "folder": "mggkIFCwSik9nfdl",
+  "name": "Photon Shield",
+  "type": "feature",
+  "_id": "awfGJxn9ljFeIrKO",
+  "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+  "system": {
+    "description": "<p>You can weave light into a protective barrier. When you or an ally within Very Close range is hit by an attack, <strong>spend an Echo</strong> to reduce the damage by one severity. However, the impact forces the target to <strong>mark a Stress</strong>.</p>",
+    "resource": null,
+    "actions": {
+      "qCgwkudRPByR5xlw": {
+        "type": "damage",
+        "_id": "qCgwkudRPByR5xlw",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Photon Shield: Mark a Stress",
+        "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": null,
+          "resources": {
+            "stress": {
+              "base": false,
+              "applyTo": "stress",
+              "resultBased": false,
+              "fullRestore": false,
+              "value": {
+                "multiplier": "flat",
+                "flatMultiplier": 0,
+                "dice": "d6",
+                "bonus": 1,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "valueAlt": null,
+              "itemId": null
+            }
+          }
+        },
+        "effects": []
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Reduce the severity by hand. Spend Echo from the class feature that holds it: the system can only charge a cost to the resource on the same item, so this Echo cost is paid by hand.",
+    "granter": null,
+    "featureForm": "reaction",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!awfGJxn9ljFeIrKO"
+}

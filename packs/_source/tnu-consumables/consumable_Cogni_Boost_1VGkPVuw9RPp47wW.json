@@ -1,0 +1,62 @@
+{
+  "name": "Cogni-Boost",
+  "type": "consumable",
+  "_id": "1VGkPVuw9RPp47wW",
+  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "system": {
+    "description": "<p>Mark a Stress; you gain <em>Brilliant</em>: +1 Knowledge. No duration is printed; likely until the end of the scene.</p>",
+    "quantity": 1,
+    "actions": {
+      "55aB6b24dwcwgyMS": {
+        "type": "effect",
+        "_id": "55aB6b24dwcwgyMS",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "1VGkPVuw9RPp47wW",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 32 (Tier 2). The printed text gives no duration for Brilliant; \"until the end of the scene\" is a likely omission."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3100000,
+  "flags": {},
+  "_key": "!items!1VGkPVuw9RPp47wW"
+}

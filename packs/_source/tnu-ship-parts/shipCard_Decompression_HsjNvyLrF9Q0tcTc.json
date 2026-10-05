@@ -1,0 +1,41 @@
+{
+  "_id": "HsjNvyLrF9Q0tcTc",
+  "_key": "!items!HsjNvyLrF9Q0tcTc",
+  "name": "Decompression",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/skills/ranged/cannon-barrel-firing-orange.webp",
+  "system": {
+    "description": "<p><strong>Blowout:</strong> Make an attack with the cannons against the target spacecraft. On a success <strong>spend a Stress</strong> to blow a hole in the hull of the ship. The target takes <strong>d8 + 6</strong> damage and becomes <em>Vulnerable</em>.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "fist",
+    "level": 3,
+    "location": "Cannon",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Blowout",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "attack",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 1,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "d8+6",
+        "oncePer": "",
+        "description": "Make an attack with the cannons against the target spacecraft. On a success spend a Stress to blow a hole in the hull of the ship. The target takes d8 + 6 damage and becomes Vulnerable."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

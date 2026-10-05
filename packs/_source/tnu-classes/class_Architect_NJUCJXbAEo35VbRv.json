@@ -1,0 +1,86 @@
+{
+  "name": "Architect",
+  "type": "class",
+  "_id": "NJUCJXbAEo35VbRv",
+  "img": "icons/commodities/tech/cog-gear-steel-glass.webp",
+  "system": {
+    "description": "<p><em>“Simulation, give me something good / God's creation, so misunderstood”</em></p>",
+    "domains": [
+      "uranus",
+      "pluto"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 10,
+    "features": [
+      {
+        "type": "hope",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.0JeWMNbLGmX0PemJ"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.IeGCoziYm5bubyXM"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.QAGpKmd5S6SH6uG7"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.FEifntQmRzGU6R6v"
+      }
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": [
+        "Compendium.daggerheart-tnu.tnu-classes.Item.e0v9lbAmUVOTAoVI",
+        "Compendium.daggerheart-tnu.tnu-classes.Item.hi7m5dJgZkIfYjM0"
+      ]
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "backgroundQuestions": [
+      "Who first showed you how to bend technology beyond its intended purpose — and what flaw in their approach do you now refuse to repeat?",
+      "One of your constructs or systems backfired. What went wrong — and why haven't you shut it down permanently?",
+      "What ambitious design remains half-finished in your workshop — and what terrifies you about completing it?",
+      "Whose research or blueprints do you secretly draw from — and what excuse would you give if they caught you?",
+      "What guiding principle shapes every system you build — and what crisis could force you to abandon it?"
+    ],
+    "connections": [
+      "You once helped me test a prototype in the field. What went wrong — and why did you forgive me?",
+      "I built something specifically for you. What is it, and why do you still rely on it?",
+      "What aspect of my theories or schematics baffles you completely — but you pretend to understand for my sake?",
+      "You know how much I've changed since the accident. Why do you never mention it?",
+      "I once asked you to erase or destroy one of my systems. Why didn't you?"
+    ],
+    "gmNotes": "",
+    "levelupOptionTiers": {
+      "2": {},
+      "3": {},
+      "4": {}
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!NJUCJXbAEo35VbRv"
+}

@@ -1,0 +1,34 @@
+{
+  "folder": "zvdCM6yl40JXX1uf",
+  "name": "Energy Core",
+  "type": "feature",
+  "_id": "RwkdqbcXy5qGdTNp",
+  "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
+  "system": {
+    "description": "<p>Your Energy Core can store Charges like Tech cards (up to 1 Charge). After a long rest, your Energy Core gains a Charge. Spend a Charge to activate a module; it lasts until the scene ends or you activate another module.</p>",
+    "resource": {
+      "type": "simple",
+      "value": 1,
+      "max": "1",
+      "icon": "",
+      "recovery": "longRest",
+      "progression": "decreasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Raise this resource's maximum to 2 at Enhanced Core and 3 at Masterwork Core. The long-rest recovery refills to the maximum; the playtest grants one Charge after a long rest and loses unused Charges, so set the value to 1 by hand after a long rest from Enhanced Core on. Modules are separate features: the system can only charge a cost to the resource on the same item, so spend the Charge from the Energy Core by hand when you activate a module.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!RwkdqbcXy5qGdTNp"
+}

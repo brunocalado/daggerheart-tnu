@@ -1,0 +1,22 @@
+{
+  "name": "Spinal Nociceptor Shunt",
+  "type": "loot",
+  "_id": "G9IypIOo9d0zZsNh",
+  "img": "icons/commodities/bones/bone-spine-grey.webp",
+  "system": {
+    "description": "<p><strong>Cybernetic implant (Tier 2).</strong> Installing it gives you 1 permanent Trauma (−1 max Hope), even if the implant is later swapped out. Identically named features don't stack. Track the Trauma on the character sheet yourself; it is not applied automatically.</p><p><strong>Pain Tolerance:</strong> When you take Minor damage, you can mark 2 Stress instead of marking a Hit Point.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300000,
+  "flags": {},
+  "_key": "!items!G9IypIOo9d0zZsNh"
+}

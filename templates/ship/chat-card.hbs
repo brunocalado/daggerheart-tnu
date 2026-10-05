@@ -1,0 +1,9 @@
+<div class="daggerheart-tnu ship-chat-card">
+  <h3>{{title}}</h3>
+  {{#each lines}}<p>{{this}}</p>{{/each}}
+  {{#if buttons.length}}
+  <div class="ship-chat-buttons">
+    {{#each buttons}}<button type="button" data-module-uuid="{{uuid}}">{{label}}</button>{{/each}}
+  </div>
+  {{/if}}
+</div>

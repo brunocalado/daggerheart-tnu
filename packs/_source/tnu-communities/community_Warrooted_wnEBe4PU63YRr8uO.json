@@ -1,0 +1,23 @@
+{
+  "type": "community",
+  "name": "Warrooted",
+  "folder": null,
+  "system": {
+    "loreReference": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null
+    },
+    "description": "",
+    "gmNotes": "",
+    "features": [
+      "Compendium.daggerheart-tnu.tnu-communities.Item.SVFkls4LCv4CuRrY"
+    ]
+  },
+  "_id": "wnEBe4PU63YRr8uO",
+  "img": "icons/environment/settlement/house-farmland-small.webp",
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "_key": "!items!wnEBe4PU63YRr8uO"
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "YV0ixKZj5eAElhDR",
+  "_key": "!items!YV0ixKZj5eAElhDR",
+  "name": "Escape Maneuver",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/weapons/ammunition/explosive-rocket-orange.webp",
+  "system": {
+    "description": "<p><strong>Quick Departure:</strong> If there are no adversaries in close range make a <strong>Power Roll</strong> to escape. On a success you can move away from the adversaries to Far range.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "heart",
+    "level": 3,
+    "location": "Cockpit",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Quick Departure",
+        "spheres": [
+          "heart"
+        ],
+        "roll": "power",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "",
+        "description": "If there are no adversaries in close range make a Power Roll to escape. On a success you can move away from the adversaries to Far range."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

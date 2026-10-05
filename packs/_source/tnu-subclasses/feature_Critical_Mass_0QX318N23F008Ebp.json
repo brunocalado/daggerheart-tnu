@@ -1,0 +1,25 @@
+{
+  "folder": "blqDpP31NwAp1050",
+  "name": "Critical Mass",
+  "type": "feature",
+  "_id": "0QX318N23F008Ebp",
+  "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
+  "system": {
+    "description": "<p><strong>Critical Mass:</strong> While <em>Unleashed</em>, your successful attack rolls gain the following features:</p><ul><li><p><strong>Crushing Force:</strong> The target must mark a Stress.</p></li><li><p><strong>Disintegrate:</strong> When you deal Severe damage, <strong>spend an Echo</strong> to let the target mark an additional Hit Point.</p></li></ul>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Spend Echo from the class feature that holds it: the system can only charge a cost to the resource on the same item, so this Echo cost is paid by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!0QX318N23F008Ebp"
+}

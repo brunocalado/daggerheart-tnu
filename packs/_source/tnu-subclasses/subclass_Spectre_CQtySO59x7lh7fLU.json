@@ -1,0 +1,38 @@
+{
+  "folder": "rVXTl8dPs9jghWtq",
+  "name": "Spectre",
+  "type": "subclass",
+  "_id": "CQtySO59x7lh7fLU",
+  "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
+  "system": {
+    "description": "<p>Play the Spectre if you want to be the shadow that slips unseen, striking when the enemy least expects it.</p>",
+    "spellcastingTrait": "finesse",
+    "features": [
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.PzhtMY1ShG9xHoMp"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.qg804zD5IsbcxRLr"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.egXnTIcEyxHSH49b"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "linkedClass": "Compendium.daggerheart-tnu.tnu-classes.Item.kGvwYboF5RbTlFhd",
+    "gmNotes": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!CQtySO59x7lh7fLU"
+}

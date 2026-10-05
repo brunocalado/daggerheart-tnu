@@ -1,0 +1,64 @@
+{
+  "folder": "KimAT0dALEHdxibi",
+  "name": "Energy Surge",
+  "type": "feature",
+  "_id": "Gf9akCFr5ealVhZ1",
+  "img": "icons/magic/lightning/bolt-strike-blue.webp",
+  "system": {
+    "description": "<p><strong>Spend 3 Hope</strong> when you succeed on an attack with a weapon to double the damage after it is rolled.</p>",
+    "resource": null,
+    "actions": {
+      "K1libEjou0DgKjWJ": {
+        "type": "effect",
+        "_id": "K1libEjou0DgKjWJ",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 3,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Energy Surge",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": []
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Double the rolled damage by hand before applying it.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!Gf9akCFr5ealVhZ1"
+}

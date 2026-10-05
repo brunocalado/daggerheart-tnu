@@ -1,0 +1,25 @@
+{
+  "folder": "PCEi0iPysRA9Qc1x",
+  "name": "Adaptive",
+  "type": "feature",
+  "_id": "tXiq0fVCPyN3Qjq9",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "description": "<p>At the start of each scene, choose one strategy: Cunning, Stealth, or Survival. Until the scene ends, you gain the keyed feature:</p><ul><li><p><strong>Cunning:</strong> When you Utilize an Experience, you can mark a Stress instead of spending a Hope. If you do, double your Experience modifier for that roll.</p></li><li><p><strong>Stealth:</strong> Any time you would be Hidden, you are instead Shrouded.</p></li><li><p><strong>Survival:</strong> When you take damage, you can mark 2 Stress to mark 1 fewer Hit Points.</p></li></ul>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!tXiq0fVCPyN3Qjq9"
+}

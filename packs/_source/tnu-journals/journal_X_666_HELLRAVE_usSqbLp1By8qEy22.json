@@ -1,0 +1,41 @@
+{
+  "name": "X//666: HELLRAVE",
+  "_id": "usSqbLp1By8qEy22",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Campaign Frame",
+      "type": "text",
+      "_id": "AS79bIai2mQXsGRU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Playtest v2.0 Mind, from the transcription (the page is blank in the OCR of the PDF). Designed by Tenawa. Complexity Rating: ●● (2). No frame-specific mechanics are printed. The eight HELLRAVE adversaries of Playtest v3.0 Fist were written for this frame.</em></p><p><em>A city-planet gasping for air under a flickering worldshield, orbiting a star in its final, violent death-bloom. When interdimensional Rifts vomit demons into neon-drenched alleys, survival becomes the ultimate performance. You play a crew of wired outcasts hired to cull the horde of demons, hijack the power-cells keeping the sky from falling, and hunt for the city's last ghost: a secret Ark reserved for the elite.</em></p><h2>Tone &amp; Feel</h2><p>Neon, Maximalist, Ferocious, Sleek, Desperate-but-Defiant, Techno, K-Pop.</p><h2>Themes</h2><p>Last Pleasure, Contracted Violence, Survival by Theft.</p><h2>Touchstones</h2><p>Cyberpunk 2077, DOOM, Nier: Automata, K-pop comeback energy, Brütal Legend, Blade Runner.</p><h2>The Pitch</h2><p>NARI-5 has one year left. The dying red giant CARMINE is in its final death-bloom. The worldshield chokes back the heat, barely, while megacorps monetize the end of days. Night after night the planet drowns in bass and bioluminescence. Then the sky fractures: interdimensional Rifts snap open like neon flashbangs, and demon swarms spill into transit lines and dance floors.</p><p>You are the wired killers of the sprawl: Cyber-Ninjas, Chrome Ronins, Glitchrunners, Bytewitches and Swarmcasters. You hunt the horde for pay, hijack the coolant towers keeping the sky alive, and run black-bag ops for executives buying their way onto the rumored Ark.</p><h2>Overview</h2><p>Twelve months from tonight CARMINE will blow. The worldshield can buy time if it's fed: reactor fuel, coolant, heat-sink composites. Spaceflight is a dead science: no ships, no shuttles, no way off this rock for the millions trapped beneath the neon. Rifts tear open without warning in clubs, transit hubs and augmentation clinics. Corporate security hires freelancers to sweep Rifts and \"liquidate\" demonic assets, while fixers trade designer highs, floor plans and hit-lists like currency. One rumor refuses to die: <strong>The Ark</strong>, a ghost-ship built in secrecy, the only vessel capable of piercing the dead sky, reserved for CEOs and the obedient.</p><h2>The Rhythm of NARI-5</h2><ul><li><strong>The Harvest of the Dead:</strong> by day, crews enter the Shadow Districts to rip reactor cells from derelicts and hijack coolant trains.</li><li><strong>The Exorcism of the Grid:</strong> Rifts are energetic parasites; crews track Rift-spikes, cull demonic packs and smash interdimensional anchors before a district browns out.</li><li><strong>The Afterparty of the Apocalypse:</strong> the Great Rave, the city's true marketplace, where fixers trade vault plans, bytewitches sell dirty firmware and Ark rumors are whispered under the bassline. Fame is armor; a sponsor's tag may be the only thing keeping a merc from being \"liquidated.\"</li></ul><h2>The Wired Killers</h2><ul><li><strong>Cyber-Ninjas:</strong> silent, wall-running ghosts.</li><li><strong>Chrome Ronins:</strong> war artists bound by an honor code.</li><li><strong>Glitchrunners:</strong> jam demonic frequencies and spoof corporate sensors.</li><li><strong>Bytewitches:</strong> channel AI Daemons against Rift demons.</li><li><strong>Swarmcasters:</strong> micro-drone clouds weaving lightwalls and fire lanes.</li><li><strong>Street Medics:</strong> print new limbs and pump trauma-foam to keep the contract running.</li></ul><h2>The Endgame: The Ark</h2><p>The Ark is said to be the only vessel capable of piercing the \"Dead Sky\": a ghost-ship built from stolen remnants of the star-age, hidden in a subterranean Black-Site. Every demon culled and every hijacked cell is a step toward a seat. Whether the Ark is a metal ship, a digital upload or another Rift entirely remains the city's last, most expensive secret.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!usSqbLp1By8qEy22.AS79bIai2mQXsGRU"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_key": "!journal!usSqbLp1By8qEy22"
+}

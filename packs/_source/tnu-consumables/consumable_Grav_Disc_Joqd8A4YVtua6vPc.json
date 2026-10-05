@@ -1,0 +1,62 @@
+{
+  "name": "Grav Disc",
+  "type": "consumable",
+  "_id": "Joqd8A4YVtua6vPc",
+  "img": "icons/commodities/tech/battery-arcane-crystal-green.webp",
+  "system": {
+    "description": "<p>Make a Power Roll against a target within Close range. On a success, the target is temporarily <strong>Restrained</strong>.</p>",
+    "quantity": 1,
+    "actions": {
+      "mpAGhAszt4NlVrZu": {
+        "type": "effect",
+        "_id": "mpAGhAszt4NlVrZu",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "Joqd8A4YVtua6vPc",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/commodities/tech/battery-arcane-crystal-green.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 11 (Tier 1)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000000,
+  "flags": {},
+  "_key": "!items!Joqd8A4YVtua6vPc"
+}

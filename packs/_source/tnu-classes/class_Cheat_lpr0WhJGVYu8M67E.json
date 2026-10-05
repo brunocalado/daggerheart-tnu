@@ -1,0 +1,82 @@
+{
+  "name": "Cheat",
+  "type": "class",
+  "_id": "lpr0WhJGVYu8M67E",
+  "img": "icons/sundries/gaming/dice-pair-white-green.webp",
+  "system": {
+    "description": "<p><em>“But everybody has to sometimes break the rules”</em></p>",
+    "domains": [
+      "saturn",
+      "uranus"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 11,
+    "features": [
+      {
+        "type": "hope",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.RhjBaA5adBLLZJ15"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.Bbr8zpXFEhBcLey3"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.2JGDVUb8C3K8YDny"
+      }
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": [
+        "Compendium.daggerheart-tnu.tnu-classes.Item.u7kw4OcxCyT1tY1A",
+        "Compendium.daggerheart-tnu.tnu-classes.Item.xeklaGL8wFizjWPs"
+      ]
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "backgroundQuestions": [
+      "Who taught you your first trick — and what betrayal made you stop trusting them?",
+      "You pulled off a con that spiraled out of control. What happened — and why do people still whisper about it?",
+      "What system or law did you learn to bend so well that it became second nature?",
+      "Whose trust did you shatter with one of your scams — and what excuse do you still use to justify it?",
+      "What's the one rule you swore you'd never break — and how close are you to crossing that line?"
+    ],
+    "connections": [
+      "You once covered for me when a scheme went sideways. What did it cost you — and why didn't you sell me out?",
+      "I slipped you an edge at the perfect moment. What was it, and why do you still carry it?",
+      "You've seen me cheat when no one else noticed. Why did you keep it to yourself?",
+      "I owe you for a risk you took on my behalf. Why haven't you called in that debt?",
+      "You know the one secret that could ruin me. Why haven't you used it against me?"
+    ],
+    "gmNotes": "",
+    "levelupOptionTiers": {
+      "2": {},
+      "3": {},
+      "4": {}
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!lpr0WhJGVYu8M67E"
+}

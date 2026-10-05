@@ -1,0 +1,82 @@
+{
+  "name": "Broken",
+  "type": "class",
+  "_id": "rwaQKtQNGOOVBdSV",
+  "img": "icons/magic/life/heart-broken-red.webp",
+  "system": {
+    "description": "<p><em>“I hurt myself today, to see if I still feel”</em></p><p>There is strength in pain endured and scars embraced. Brokens have extraordinary psionic abilities – but they were not born with these, nor were they gifted to them. All Brokens were shaped by trauma and tragedy: they are the results of gruesome and immoral experiments, lived through unimaginable suffering in a catastrophic event, or they experienced a single, defining moment of loss of a loved one. As a result they are fractured… some physical, some psychological. Their raw and unstable powers are often not only dangerous for their enemies, but for themselves too.</p>",
+    "domains": [
+      "pluto",
+      "venus"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 10,
+    "features": [
+      {
+        "type": "hope",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.B5VKZCIjp1LDsHAj"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.or3Xbv1JIfKsx4vL"
+      },
+      {
+        "type": "class",
+        "item": "Compendium.daggerheart-tnu.tnu-classes.Item.zb2VjgzsxGMgTzDl"
+      }
+    ],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": [
+        "Compendium.daggerheart-tnu.tnu-classes.Item.AXlAbsgoOu3MQixo",
+        "Compendium.daggerheart-tnu.tnu-classes.Item.eCLvlTTfWkFPoXfO"
+      ]
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v1.0 Heart",
+      "page": null,
+      "artist": ""
+    },
+    "backgroundQuestions": [
+      "Who turned you into what you are – and why do you believe they broke you on purpose?",
+      "What scar or mutation do you hide – and what happens when someone sees it?",
+      "What part of your power frightens even you – and why haven’t you learned to control it?",
+      "Whose life was destroyed when your instability erupted – and why do you still carry the guilt?",
+      "What’s the one boundary you swore you’d never cross – and why do you know deep down you already will?"
+    ],
+    "connections": [
+      "You saw me lose control. What did it cost you – and why did you forgive me?",
+      "I once begged you to restrain me if it happened again. What promise did you make?",
+      "You’ve witnessed the damage my power leaves behind. Why do you still stay close to me?",
+      "I carry a memory I cannot bear. Why do you remind me of it?",
+      "I warned you never to trust me. Why did you ignore that warning?"
+    ],
+    "gmNotes": "",
+    "levelupOptionTiers": {
+      "2": {},
+      "3": {},
+      "4": {}
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!rwaQKtQNGOOVBdSV"
+}

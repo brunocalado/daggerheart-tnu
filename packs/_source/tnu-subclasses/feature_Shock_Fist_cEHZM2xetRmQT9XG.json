@@ -1,0 +1,97 @@
+{
+  "folder": "q0jmNK3jL0Tk38L6",
+  "name": "Shock Fist",
+  "type": "feature",
+  "_id": "cEHZM2xetRmQT9XG",
+  "img": "icons/magic/lightning/fist-unarmed-strike-blue.webp",
+  "system": {
+    "description": "<p><em>Living Arsenal module (Tier 1).</em> On a successful attack against a target within Melee range, add a d4 to the damage roll.</p><p>Spend a Charge to activate a module. It deactivates when the scene ends or you activate another module.</p>",
+    "resource": null,
+    "actions": {
+      "QkUzVr8oCs7u22eS": {
+        "type": "effect",
+        "_id": "QkUzVr8oCs7u22eS",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "name": "Activate Shock Fist",
+        "img": "icons/magic/lightning/fist-unarmed-strike-blue.webp",
+        "range": "self",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "sKI5ccO8Qw448kS6",
+            "onSave": false
+          }
+        ]
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Remove the effect when the module deactivates. Modules are separate features: the system can only charge a cost to the resource on the same item, so spend the Charge from the Energy Core by hand when you activate a module.",
+    "granter": null,
+    "featureForm": "action",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Shock Fist",
+      "img": "icons/magic/lightning/fist-unarmed-strike-blue.webp",
+      "transfer": false,
+      "_id": "sKI5ccO8Qw448kS6",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>On a successful attack against a target within Melee range, add a d4 to the damage roll.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!cEHZM2xetRmQT9XG.sKI5ccO8Qw448kS6"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!cEHZM2xetRmQT9XG"
+}

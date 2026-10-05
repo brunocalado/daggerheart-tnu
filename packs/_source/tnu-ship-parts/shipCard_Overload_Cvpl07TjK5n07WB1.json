@@ -1,0 +1,41 @@
+{
+  "_id": "Cvpl07TjK5n07WB1",
+  "_key": "!items!Cvpl07TjK5n07WB1",
+  "name": "Overload",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/commodities/tech/tube-chamber-lightning.webp",
+  "system": {
+    "description": "<p><strong>Calculated damage:</strong> Make an attack against a target in close range and <strong>spend 1 HP</strong>. Once per rest on a success the target takes <strong>d20 + 6</strong> damage.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "fist",
+    "level": 4,
+    "location": "Spaceship Core",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Calculated damage",
+        "spheres": [
+          "fist"
+        ],
+        "roll": "attack",
+        "difficulty": null,
+        "costs": {
+          "hope": 0,
+          "stress": 0,
+          "hitPoints": 1,
+          "armor": 0
+        },
+        "damage": "d20+6",
+        "oncePer": "rest",
+        "description": "Make an attack against a target in close range and spend 1 HP. Once per rest on a success the target takes d20 + 6 damage."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

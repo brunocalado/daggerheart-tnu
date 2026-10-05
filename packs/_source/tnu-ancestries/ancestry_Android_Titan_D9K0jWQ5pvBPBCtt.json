@@ -1,0 +1,31 @@
+{
+  "name": "Android – Titan",
+  "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+  "type": "ancestry",
+  "folder": null,
+  "system": {
+    "description": "",
+    "features": [
+      {
+        "type": "primary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.bgUPVheeLKSdYNlR"
+      },
+      {
+        "type": "secondary",
+        "item": "Compendium.daggerheart-tnu.tnu-ancestries.Item.O977AnP44AKSkotE"
+      }
+    ],
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "loreReference": "",
+    "gmNotes": ""
+  },
+  "flags": {},
+  "_id": "D9K0jWQ5pvBPBCtt",
+  "sort": 0,
+  "effects": [],
+  "_key": "!items!D9K0jWQ5pvBPBCtt"
+}

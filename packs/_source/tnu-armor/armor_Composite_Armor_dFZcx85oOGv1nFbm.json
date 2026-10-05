@@ -1,0 +1,33 @@
+{
+  "name": "Composite Armor",
+  "type": "armor",
+  "_id": "dFZcx85oOGv1nFbm",
+  "img": "icons/equipment/chest/breastplate-banded-leather-brown.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 3
+    },
+    "description": "",
+    "actions": {},
+    "tier": 1,
+    "equipped": false,
+    "armorFeatures": [],
+    "baseThresholds": {
+      "major": 6,
+      "severe": 13
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {},
+  "_key": "!items!dFZcx85oOGv1nFbm"
+}

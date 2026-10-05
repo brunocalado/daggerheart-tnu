@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Hardwired",
+  "folder": null,
+  "_id": "Khh1kNQDRC9ii8ti",
+  "img": "icons/magic/symbols/arrowhead-green.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>You can have one cybernetic implant without getting a permanent Trauma. You start with the cybernetic <strong>Endocrine Synthesizer 'PEITHO'</strong>, which grants <strong>Subtle Pheromones</strong>: advantage on rolls to charm or persuade non-hostile creatures.</p>",
+    "gmNotes": "Phase 07 should link the Endocrine Synthesizer 'PEITHO' implant from tnu-loot.",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!Khh1kNQDRC9ii8ti"
+}

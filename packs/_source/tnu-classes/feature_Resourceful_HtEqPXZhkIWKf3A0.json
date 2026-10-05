@@ -1,0 +1,70 @@
+{
+  "folder": "PCEi0iPysRA9Qc1x",
+  "name": "Resourceful",
+  "type": "feature",
+  "_id": "HtEqPXZhkIWKf3A0",
+  "img": "icons/sundries/survival/bedroll-blue-red.webp",
+  "system": {
+    "description": "<p>You start the game with a third Experience of your choice. Gain an additional Stress slot.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "The third Experience is added by hand.",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [
+    {
+      "name": "Resourceful",
+      "img": "icons/sundries/survival/bedroll-blue-red.webp",
+      "transfer": true,
+      "_id": "3397kpv6O1qZIMGx",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.resources.stress.max",
+            "type": "add",
+            "value": 1,
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Gain an additional Stress slot.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!HtEqPXZhkIWKf3A0.3397kpv6O1qZIMGx"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!HtEqPXZhkIWKf3A0"
+}

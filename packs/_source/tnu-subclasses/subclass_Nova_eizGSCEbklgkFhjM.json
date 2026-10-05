@@ -1,0 +1,38 @@
+{
+  "folder": "AoLiPQfqsbL7Q4WA",
+  "name": "Nova",
+  "type": "subclass",
+  "_id": "eizGSCEbklgkFhjM",
+  "img": "icons/magic/light/explosion-star-large-teal-purple.webp",
+  "system": {
+    "description": "<p>Play the Nova if you want to push your augmentations past their limits, burn brighter than anyone else on the battlefield, and unleash devastating power no ordinary body could contain.</p>",
+    "spellcastingTrait": "strength",
+    "features": [
+      {
+        "type": "foundation",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.XytI4YZDWlCjHBAa"
+      },
+      {
+        "type": "specialization",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.0QX318N23F008Ebp"
+      },
+      {
+        "type": "mastery",
+        "item": "Compendium.daggerheart-tnu.tnu-subclasses.Item.U00CYvstIAtONPC4"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "linkedClass": "Compendium.daggerheart-tnu.tnu-classes.Item.Zoj22cNRL5jlH6xr",
+    "gmNotes": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!eizGSCEbklgkFhjM"
+}

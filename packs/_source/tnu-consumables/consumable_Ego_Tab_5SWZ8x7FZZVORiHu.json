@@ -1,0 +1,62 @@
+{
+  "name": "Ego-Tab",
+  "type": "consumable",
+  "_id": "5SWZ8x7FZZVORiHu",
+  "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+  "system": {
+    "description": "<p>Mark a Stress; until the end of the scene you gain <em>Aura</em>: +1 Presence.</p>",
+    "quantity": 1,
+    "actions": {
+      "BxguJh4p6y7DDA48": {
+        "type": "effect",
+        "_id": "BxguJh4p6y7DDA48",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "quantity",
+            "value": 1,
+            "itemId": "5SWZ8x7FZZVORiHu",
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Use",
+        "img": "icons/consumables/potions/bottle-round-corked-orange.webp",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": []
+      }
+    },
+    "consumeOnUse": true,
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Expendable roll 31 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3000000,
+  "flags": {},
+  "_key": "!items!5SWZ8x7FZZVORiHu"
+}

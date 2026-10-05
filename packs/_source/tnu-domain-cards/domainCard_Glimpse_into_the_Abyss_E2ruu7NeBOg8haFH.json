@@ -1,0 +1,249 @@
+{
+  "folder": "mMmO2guuox4TMTLV",
+  "name": "Glimpse into the Abyss",
+  "type": "domainCard",
+  "_id": "E2ruu7NeBOg8haFH",
+  "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
+  "system": {
+    "description": "<p><strong>Anomaly</strong></p><p>Make a <strong>Power Roll</strong> against a target within Close range. On a success, <strong>spend a Hope</strong> to deal <strong>1d8+1</strong> energy damage to the target and make them become temporarily <em>Dazed</em>.</p><p><strong>Escalation:</strong> On a success, you may <strong>give the GM a Fear</strong>. If you do, increase the damage die to a <strong>d10</strong> and let it scale using your Power Trait. In addition the target is temporarily <em>Stunned</em> instead of <em>Dazed</em>.</p>",
+    "domain": "nibiru",
+    "recallCost": 1,
+    "level": 1,
+    "type": "spell",
+    "resource": null,
+    "actions": {
+      "N7yqn8MfxnhGBhKF": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": true
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Glimpse into the Abyss",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "multiplier": "flat",
+              "dice": "d8",
+              "bonus": 1,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [
+          {
+            "_id": "kyfl0lRWeN1jfZR6",
+            "onSave": false
+          }
+        ],
+        "_id": "N7yqn8MfxnhGBhKF",
+        "img": "icons/magic/air/wind-vortex-swirl-purple.webp"
+      },
+      "4ktvHtfcOzTwdrFv": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Escalation: Stunned",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [
+          {
+            "_id": "1WGeRLBvrLZpqCza",
+            "onSave": false
+          }
+        ],
+        "_id": "4ktvHtfcOzTwdrFv",
+        "img": "icons/magic/air/wind-vortex-swirl-purple.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Escalation: giving the GM a Fear is done by hand (raise the Fear tracker by 1). \"Let it scale using your Power Trait\" is not defined further; roll the escalated d10 by hand (the base damage prints no Proficiency, so it is flat).",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [
+    {
+      "name": "Dazed",
+      "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+      "transfer": false,
+      "_id": "kyfl0lRWeN1jfZR6",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.roll.bonus",
+            "type": "add",
+            "value": "-2",
+            "priority": null,
+            "phase": "initial"
+          }
+        ],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": [
+          {
+            "type": "actionType",
+            "actionTypes": [
+              "attack"
+            ],
+            "traits": []
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Dazed.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "dazed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!E2ruu7NeBOg8haFH.kyfl0lRWeN1jfZR6"
+    },
+    {
+      "name": "Stunned",
+      "img": "icons/magic/lightning/bolt-forked-large-blue.webp",
+      "transfer": false,
+      "_id": "1WGeRLBvrLZpqCza",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "duration": {
+          "type": "temporary",
+          "description": ""
+        },
+        "rangeDependence": null,
+        "stacking": null,
+        "targetDispositions": [],
+        "conditionals": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Temporarily Stunned.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "stunned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!E2ruu7NeBOg8haFH.1WGeRLBvrLZpqCza"
+    }
+  ],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!E2ruu7NeBOg8haFH"
+}

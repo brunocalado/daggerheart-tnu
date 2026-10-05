@@ -1,0 +1,14 @@
+{
+  "name": "daggerheart-tnu",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Build tooling for The New Unknown (Daggerheart) compendium packs.",
+  "scripts": {
+    "check": "node tools/check-packs.mjs",
+    "pack": "node tools/build-packs.mjs pack",
+    "unpack": "node tools/build-packs.mjs unpack"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3"
+  }
+}

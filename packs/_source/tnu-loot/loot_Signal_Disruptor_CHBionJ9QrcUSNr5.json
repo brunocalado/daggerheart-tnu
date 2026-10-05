@@ -1,0 +1,22 @@
+{
+  "name": "Signal Disruptor",
+  "type": "loot",
+  "_id": "CHBionJ9QrcUSNr5",
+  "img": "icons/tools/tech/badge-communicator.webp",
+  "system": {
+    "description": "<p>Blocks wireless comms and remote signals within Far range; any attempt to communicate wirelessly in the zone requires a <strong>Power Roll (25)</strong>.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "Gear roll 35 (Tier 2)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4700000,
+  "flags": {},
+  "_key": "!items!CHBionJ9QrcUSNr5"
+}

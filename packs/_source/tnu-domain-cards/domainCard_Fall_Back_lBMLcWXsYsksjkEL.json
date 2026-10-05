@@ -1,0 +1,69 @@
+{
+  "folder": "d6nLD0enDtoloIiE",
+  "name": "Fall Back",
+  "type": "domainCard",
+  "_id": "lBMLcWXsYsksjkEL",
+  "img": "icons/magic/movement/acceleration-speed-tech-blue.webp",
+  "system": {
+    "description": "<p><strong>Skill</strong></p><p>When an ally within Far range takes damage, <strong>spend a Hope</strong> to let the ally move up to Close range.</p>",
+    "domain": "mercury",
+    "recallCost": 1,
+    "level": 3,
+    "type": "ability",
+    "resource": null,
+    "actions": {
+      "lpC11cZsLDKY6sNi": {
+        "type": "effect",
+        "systemPath": "actions",
+        "description": "",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [
+          {
+            "scalable": false,
+            "key": "hope",
+            "value": 1,
+            "step": null,
+            "itemId": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Fall Back",
+        "range": "far",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "effects": [],
+        "_id": "lpC11cZsLDKY6sNi",
+        "img": "icons/magic/movement/acceleration-speed-tech-blue.webp"
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!lBMLcWXsYsksjkEL"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "6ciqi0OJCZjfb9R3",
+  "_key": "!items!6ciqi0OJCZjfb9R3",
+  "name": "Manual of Deception",
+  "type": "daggerheart-tnu.shipCard",
+  "img": "icons/commodities/tech/coil-steel.webp",
+  "system": {
+    "description": "<p><strong>Magnetic Field:</strong> Make a <strong>Power Roll (15)</strong> to change the magnetic field around your ship. Once per rest on a success you can <strong>spend a Stress</strong> to use the change to distract your enemies in Close range and make them temporarily <em>Vulnerable</em>.</p><p><strong>Distraction Tactics:</strong> Once per long rest you can <strong>spend a Hope</strong> to distract your enemies with a false attack and give the next attack a +3 bonus on the attack roll.</p>",
+    "gmNotes": "",
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "sphere": "mind",
+    "level": 4,
+    "location": "Spaceship Core",
+    "owner": null,
+    "shipActions": [
+      {
+        "name": "Magnetic Field",
+        "spheres": [
+          "mind"
+        ],
+        "roll": "power",
+        "difficulty": 15,
+        "costs": {
+          "hope": 0,
+          "stress": 1,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "rest",
+        "description": "Make a Power Roll (15) to change the magnetic field around your ship. Once per rest on a success you can spend a Stress to use the change to distract your enemies in Close range and make them temporarily Vulnerable."
+      },
+      {
+        "name": "Distraction Tactics",
+        "spheres": [
+          "mind"
+        ],
+        "roll": "none",
+        "difficulty": null,
+        "costs": {
+          "hope": 1,
+          "stress": 0,
+          "hitPoints": 0,
+          "armor": 0
+        },
+        "damage": "",
+        "oncePer": "longRest",
+        "description": "Once per long rest you can spend a Hope to distract your enemies with a false attack and give the next attack a +3 bonus on the attack roll."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {}
+}

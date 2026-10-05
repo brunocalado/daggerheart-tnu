@@ -1,0 +1,25 @@
+{
+  "folder": "Os2JXWhYSrn4m7we",
+  "name": "Masterwork Core",
+  "type": "feature",
+  "_id": "6nLIAeh4GNth3CQt",
+  "img": "icons/magic/light/explosion-star-blue-small.webp",
+  "system": {
+    "description": "<p>Your Energy Core can store up to 3 Charges. After a rest, choose two Tech cards in your loadout; those cards can use Charges from your Energy Core. You can activate a second module without ending the first one.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!6nLIAeh4GNth3CQt"
+}

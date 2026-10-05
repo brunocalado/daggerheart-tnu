@@ -1,0 +1,25 @@
+{
+  "folder": "tYUsFSuv1s3AxNvE",
+  "name": "Blackened Marrow",
+  "type": "feature",
+  "_id": "9PPaqt8Enk7ySEZG",
+  "img": "icons/commodities/biological/organ-heart-black.webp",
+  "system": {
+    "description": "<p><strong>Blackened Marrow:</strong> You have a connection with a second Entity of your choice from the Entities of Void Sheet. When you summon it, you gain the Vessel benefit of that Entity. You can still only have one summoned Entity active at any given time; summoning a new Entity immediately dismisses the currently active one.</p>",
+    "resource": null,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest v3.0 Fist",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!9PPaqt8Enk7ySEZG"
+}
