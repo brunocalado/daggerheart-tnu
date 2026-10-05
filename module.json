@@ -18,6 +18,13 @@
           "maximum": "2.10.9"
         }
       }
+    ],
+    "recommends": [
+      {
+        "id": "daggerheart-distances",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/brunocalado/daggerheart-distances/main/module.json"
+      }
     ]
   },
   "esmodules": ["scripts/main.js"],
