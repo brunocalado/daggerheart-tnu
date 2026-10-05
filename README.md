@@ -34,6 +34,8 @@ game itself and support it:
 - The **Daggerheart** game system, version **2.10.9** exactly. The module relies
   on internal structures of the system, so it is locked to the version it was
   built and tested against.
+- Recommended: [**Distances**](https://github.com/brunocalado/daggerheart-distances),
+  to see combat ranges on the canvas.
 
 ## Installation
 
@@ -84,12 +86,18 @@ A **Ship** actor type with its own sheet, played jointly by the crew:
   damage thresholds — adversaries attack and damage a ship like any other target.
 - **Modules** and **ship domain cards**: crew members are placed in modules and
   use their features with their own Power Trait, paying costs from the ship's
-  resources.
+  resources. A cost printed "on a success" is charged only when the roll
+  succeeds, and a module's ATK is added to its attack rolls.
 - **Spaceship Experiences** that spend ship Hope.
 - **Tier-up applied automatically:** raising the level to 2, 5 or 8 adds that
   tier's Armor Slot and threshold raises, and each option the crew checks (two
   per tier) adds its bonus to the sheet.
-- Stress overflow and "beyond repair" prompts for the GM.
+- **Stress overflow:** Stress past the last slot — from a feature or from
+  damage — deactivates a module instead of marking a Hit Point; the GM picks
+  which one from a chat card. Resting in the **Cabins** reactivates every module
+  and recovers the once-per-rest features.
+- A "beyond repair" card for the GM when every Hit Point is marked or every
+  module is down.
 
 See the **Ships** journal for the rules and how the sheet runs them.
 
@@ -180,3 +188,26 @@ under **Settings → Daggerheart → Homebrew**.
 
 This module is published with the explicit permission of Alexander
 ([Eurydice: Echoes of Ink on Patreon](https://www.patreon.com/c/Eurydice_echoes_of_ink/home)).
+
+# 🧰 My Daggerheart Modules
+
+| Module | Description |
+| :--- | :--- |
+| 💀 [**Adversary Manager**](https://github.com/brunocalado/daggerheart-advmanager) | Scale adversaries instantly and build balanced encounters. |
+| 🖼️ [**Art Mapper**](https://github.com/brunocalado/dh-assets) | Automatically assigns artwork to system compendiums, actors, tokens, and custom module content — keeping your visuals organized and up to date. |
+| 🐉 [**Colossus**](https://github.com/brunocalado/dh-colossus) | Manage massive multi-part boss encounters with independent HP per part and a single shared stress pool. |
+| 📦 [**Containers**](https://github.com/brunocalado/dh-containers) | Group inventory items into collapsible containers — pouches, chests, backpacks — to declutter character sheets. |
+| 💥 [**Critical**](https://github.com/brunocalado/daggerheart-critical) | Animated criticals. |
+| 💠 [**Custom Stat Tracker**](https://github.com/brunocalado/dh-new-stat-tracker) | Add custom trackers to actors. |
+| ☠️ [**Death Moves**](https://github.com/brunocalado/daggerheart-death-moves) | Enhances the Death Move moment with a dramatic interface and full automation. |
+| 📏 [**Distances**](https://github.com/brunocalado/daggerheart-distances) | Visualizes combat ranges with customizable rings and hover calculations. |
+| 😱 [**Fear Tracker**](https://github.com/brunocalado/daggerheart-fear-tracker) | Adds an animated slider bar with configurable fear tokens to the UI. |
+| 🧟 [**Horde**](https://github.com/brunocalado/dh-horde) | Explode single horde tokens into dozens of individual tokens and manage their movement and stats automatically. |
+| 🎁 [**Mystery Box**](https://github.com/brunocalado/dh-mystery-box) | Introduces mystery box mechanics for random loot and surprises. |
+| ⚡ [**Quick Actions**](https://github.com/brunocalado/daggerheart-quickactions) | Quick access to common mechanics like Falling Damage, Downtime, etc. |
+| 📜 [**Quick Rules**](https://github.com/brunocalado/daggerheart-quickrules) | Fast and accessible reference guide for the core rules. |
+| 🤖 [**Resource Macros**](https://github.com/brunocalado/daggerheart-fear-macros) | Automatically executes macros when the Fear, Hope, Stress, HP, or Armor resources change. |
+| 🎲 [**Stats**](https://github.com/brunocalado/daggerheart-stats) | Tracks dice rolls from GM and Players. |
+| 🧠 [**Stats Toolbox**](https://github.com/brunocalado/dh-statblock-importer) | Import actors using a statblock. |
+| 🛒 [**Store**](https://github.com/brunocalado/daggerheart-store) | A dynamic, interactive, and fully configurable in-game store. |
+| 🔍 [**Unidentified**](https://github.com/brunocalado/dh-unidentified) | Obfuscates item names and descriptions until they are identified by the players. |
