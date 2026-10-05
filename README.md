@@ -168,3 +168,10 @@ under **Settings → Daggerheart → Homebrew**.
   [DPCGL](https://darringtonpress.com/license/).
 - **Compendium banner:** [Forward field](https://game-icons.net/1x1/lorc/forward-field.html)
   by Lorc, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+
+---
+
+## Permission
+
+This module is published with the explicit permission of Alexander
+([Eurydice: Echoes of Ink on Patreon](https://www.patreon.com/c/Eurydice_echoes_of_ink/home)).
