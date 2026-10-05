@@ -4,6 +4,11 @@
 > **Alpha module.** It stays in alpha until the final version of The New Unknown
 > is released. Expect sudden, breaking changes and **data loss** between
 > versions: back up your world before updating.
+>
+> To play a campaign on one version without surprises, **lock** the module: in
+> Foundry's setup screen, open **Add-on Modules** and click the lock icon on
+> *The New Unknown (Daggerheart)*. A locked package is not updated until you
+> unlock it.
 
 A Foundry VTT **module** that adapts the *Daggerheart* system for the sci-fi
 fan supplement **The New Unknown (TNU)** — Playtests 1 "Heart", 2 "Mind" and 3 "Fist".
