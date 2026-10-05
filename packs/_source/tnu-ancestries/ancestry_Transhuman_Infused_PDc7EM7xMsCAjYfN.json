@@ -4,7 +4,7 @@
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Transhuman is a base ancestry with Deep Reserves and Hardwired. Each lineage fixes the implant you start with.</p>",
+    "description": "<p><em>Defined by bioengineered subtlety, infused carry chemical enhancements woven into their body.</em></p>",
     "features": [
       {
         "type": "primary",

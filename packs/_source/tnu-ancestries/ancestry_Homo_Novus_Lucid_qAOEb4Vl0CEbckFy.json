@@ -4,7 +4,7 @@
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Homo Novus is a base ancestry: its top feature is a free choice, and its bottom feature is Neural Plasticity. Each lineage below fixes both.</p>",
+    "description": "<p><em>Tempered by isolation and high-risk worlds, lucids think fast, act faster, and adapt before danger strikes.</em></p>",
     "features": [
       {
         "type": "primary",

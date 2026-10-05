@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Thermal Vision",
+  "folder": null,
+  "_id": "Qg5kJlciW8AowRx7",
+  "img": "icons/commodities/tech/sensor-brown.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>You have advantage on rolls to detect creatures or objects by their heat signatures, and you can see clearly in darkness.</p>",
+    "gmNotes": "Example ancestry feature from the Playtest 2 sidebar (PDF page 23).",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!Qg5kJlciW8AowRx7"
+}

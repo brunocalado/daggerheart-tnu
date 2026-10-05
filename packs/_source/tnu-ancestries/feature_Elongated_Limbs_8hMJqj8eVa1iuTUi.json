@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "name": "Elongated Limbs",
+  "folder": null,
+  "_id": "8hMJqj8eVa1iuTUi",
+  "img": "icons/skills/melee/hand-grip-staff-teal.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest v2.0 Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Treat any weapon that has a Melee range as though it has a Very Close range instead.</p>",
+    "gmNotes": "Example ancestry feature from the Playtest 2 sidebar (PDF page 23).",
+    "resource": null,
+    "actions": {},
+    "featureForm": "passive",
+    "granter": null,
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!8hMJqj8eVa1iuTUi"
+}
