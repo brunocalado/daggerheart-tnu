@@ -10,7 +10,7 @@
     "recallCost": 1,
     "level": 2,
     "type": "spell",
-    "resource": "The playtest prints \"Dazzed\", read here as Dazed.",
+    "resource": null,
     "actions": {
       "Hh7ryDcMuuRdW2C3": {
         "type": "attack",
@@ -107,7 +107,7 @@
       "page": null,
       "artist": ""
     },
-    "gmNotes": "",
+    "gmNotes": "The playtest prints \"Dazzed\", read here as Dazed.",
     "inVault": false,
     "vaultActive": false,
     "loadoutIgnore": false,

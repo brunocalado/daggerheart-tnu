@@ -10,7 +10,7 @@
     "recallCost": 2,
     "level": 1,
     "type": "spell",
-    "resource": "No Proficiency is printed for either damage roll, so both are flat.",
+    "resource": null,
     "actions": {
       "KjuPz7iEEIiK01Vh": {
         "type": "attack",
@@ -162,7 +162,7 @@
       "page": null,
       "artist": ""
     },
-    "gmNotes": "",
+    "gmNotes": "No Proficiency is printed for either damage roll, so both are flat.",
     "inVault": false,
     "vaultActive": false,
     "loadoutIgnore": false,

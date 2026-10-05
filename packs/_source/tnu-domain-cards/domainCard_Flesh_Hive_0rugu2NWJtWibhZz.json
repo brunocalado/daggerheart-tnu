@@ -10,7 +10,7 @@
     "recallCost": 2,
     "level": 2,
     "type": "spell",
-    "resource": "The swarm's Reaction Roll (13) names no trait, so it is made by hand before applying the Swarm damage.",
+    "resource": null,
     "actions": {
       "OOaLkrHmTpDQyYz3": {
         "type": "attack",
@@ -157,7 +157,7 @@
       "page": null,
       "artist": ""
     },
-    "gmNotes": "",
+    "gmNotes": "The swarm's Reaction Roll (13) names no trait, so it is made by hand before applying the Swarm damage.",
     "inVault": false,
     "vaultActive": false,
     "loadoutIgnore": false,

@@ -59,7 +59,7 @@
             },
             "flatMultiplier": 2,
             "dice": "d8",
-            "bonus": 3,
+            "bonus": 2,
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",

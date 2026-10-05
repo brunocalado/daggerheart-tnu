@@ -11,7 +11,7 @@
       "artist": ""
     },
     "description": "<p>You gain a +1 bonus to your Stress (max Stress +1).</p>",
-    "gmNotes": "PT1 and PT2 print this on Transhuman lineages; PT1's Transhuman base entry is marked (?) in the inventory.",
+    "gmNotes": "PT1 and PT2 print this on Transhuman lineages.",
     "resource": null,
     "actions": {},
     "featureForm": "passive",

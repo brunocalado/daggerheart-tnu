@@ -10,7 +10,7 @@
     "recallCost": 1,
     "level": 2,
     "type": "spell",
-    "resource": "The target marks the Stress or Hit Point it trades by hand.",
+    "resource": null,
     "actions": {
       "xoHtbhOfmQ3DbfLF": {
         "type": "healing",
@@ -170,7 +170,7 @@
       "page": null,
       "artist": ""
     },
-    "gmNotes": "",
+    "gmNotes": "The target marks the Stress or Hit Point it trades by hand.",
     "inVault": false,
     "vaultActive": false,
     "loadoutIgnore": false,

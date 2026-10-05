@@ -10,7 +10,7 @@
     "recallCost": 1,
     "level": 3,
     "type": "spell",
-    "resource": "The rupture's Reaction Roll (13) names no trait: roll it by hand and halve the damage on a success.",
+    "resource": null,
     "actions": {
       "yjzOugeRtAj7wZce": {
         "type": "attack",
@@ -195,7 +195,7 @@
       "page": null,
       "artist": ""
     },
-    "gmNotes": "",
+    "gmNotes": "The rupture's Reaction Roll (13) names no trait: roll it by hand and halve the damage on a success.",
     "inVault": false,
     "vaultActive": false,
     "loadoutIgnore": false,

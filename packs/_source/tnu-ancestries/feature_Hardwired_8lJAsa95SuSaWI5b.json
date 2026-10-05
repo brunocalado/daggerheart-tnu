@@ -11,7 +11,7 @@
       "artist": ""
     },
     "description": "<p>You can have one cybernetic implant without getting a permanent Trauma. You start with the cybernetic <strong>Neural Interface</strong>, which grants <strong>Neural-Link</strong>: advantage on rolls to manipulate and bypass computer systems. You cannot change it later.</p>",
-    "gmNotes": "Phase 07 should link the Neural Interface implant from tnu-loot. PT1 prints the Transhuman base Hardwired as a generic text (choose a Tier 2 cybernetic at GM discretion for starting equipment); the OCR placed it in the Dustrooted block.",
+    "gmNotes": "PT1 prints the Transhuman base Hardwired as a generic text (choose a Tier 2 cybernetic at GM discretion for starting equipment); the OCR placed it in the Dustrooted block.",
     "resource": null,
     "actions": {},
     "featureForm": "passive",

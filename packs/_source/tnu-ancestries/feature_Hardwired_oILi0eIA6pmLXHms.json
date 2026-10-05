@@ -11,7 +11,7 @@
       "artist": ""
     },
     "description": "<p>You can have one cybernetic implant without getting a permanent Trauma. You start with the cybernetic <strong>Body Arsenal</strong>: a retractable One-Handed primary weapon grafted to your body. Ignore its burden.</p>",
-    "gmNotes": "The printed text does not say which weapon; the player picks a One-Handed primary weapon (inventory marks this (?)). Phase 07 should link the Body Arsenal implant from tnu-loot.",
+    "gmNotes": "The printed text does not say which weapon; the player picks a One-Handed primary weapon.",
     "resource": null,
     "actions": {},
     "featureForm": "passive",

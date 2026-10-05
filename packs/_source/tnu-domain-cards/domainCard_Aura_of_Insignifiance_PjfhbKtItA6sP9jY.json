@@ -10,7 +10,7 @@
     "recallCost": 1,
     "level": 3,
     "type": "spell",
-    "resource": "The card name is printed \"Insignifiance\" (sic). The Reaction Power Roll is made by hand.",
+    "resource": null,
     "actions": {
       "8Gg8UsRJxcPMwAaa": {
         "type": "attack",
@@ -85,7 +85,7 @@
       "page": null,
       "artist": ""
     },
-    "gmNotes": "",
+    "gmNotes": "The card name is printed \"Insignifiance\" (sic). The Reaction Power Roll is made by hand.",
     "inVault": false,
     "vaultActive": false,
     "loadoutIgnore": false,
