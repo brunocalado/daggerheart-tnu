@@ -38,6 +38,81 @@
           }
         ]
       },
+      "a7pLjcTSKRFdSTOe": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "<p>Melee | d10 + Power Trait kinetic damage using your Proficiency</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Fangs (The Father of Serpents)",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "@profd10 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d10",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "a7pLjcTSKRFdSTOe",
+        "img": "icons/creatures/reptiles/serpent-horned-green.webp"
+      },
       "n0w6bWFHxdrHXMOx": {
         "type": "summon",
         "_id": "n0w6bWFHxdrHXMOx",
@@ -67,6 +142,81 @@
             "count": "1"
           }
         ]
+      },
+      "bHiFtwjRWvuF0ZB2": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "<p>Very Close | d8 + Power Trait kinetic damage using your Proficiency</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Crystalline Lash (The Weaver in the Dark)",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "@profd8 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d8",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "bHiFtwjRWvuF0ZB2",
+        "img": "icons/creatures/invertebrates/spider-dotted-green.webp"
       },
       "YDW4iLa0l5PRq1cu": {
         "type": "summon",
@@ -98,6 +248,81 @@
           }
         ]
       },
+      "uKEt2uCFTD0eoAEk": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "<p>Close | d6 + Power Trait energy damage using your Proficiency</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Plasma Burst (The Living Flame)",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "@profd6 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d6",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "uKEt2uCFTD0eoAEk",
+        "img": "icons/magic/fire/elemental-fire-humanoid.webp"
+      },
       "8cs8KNPxOcdLOZvI": {
         "type": "summon",
         "_id": "8cs8KNPxOcdLOZvI",
@@ -127,6 +352,81 @@
             "count": "1"
           }
         ]
+      },
+      "MYmcScCstTuFfQgb": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "<p>Very Close | d8 + Power Trait energy damage using your Proficiency</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Void Siphon (The Herald of the Stars)",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "@profd8 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d8",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "MYmcScCstTuFfQgb",
+        "img": "icons/creatures/fish/squid-kraken-teal.webp"
       },
       "sOtFMWOPMTXbl63y": {
         "type": "summon",
@@ -158,6 +458,81 @@
           }
         ]
       },
+      "GpSQytBvPzKH5uBn": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "<p>Close | d8 + Power Trait energy damage using your Proficiency</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Mind Shatter (The Unspeakable)",
+        "range": "close",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "@profd8 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d8",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "GpSQytBvPzKH5uBn",
+        "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp"
+      },
       "btdn9lKEpD0p8Ut3": {
         "type": "summon",
         "_id": "btdn9lKEpD0p8Ut3",
@@ -187,6 +562,81 @@
             "count": "1"
           }
         ]
+      },
+      "JC8hkWk96RQRwsCO": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "<p>Very Close | d10 + Power Trait kinetic damage using your Proficiency</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Parasitic Tendrils (The Source of Impurity)",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "@profd10 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d10",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "JC8hkWk96RQRwsCO",
+        "img": "icons/creatures/slimes/slime-face-teeth-purple.webp"
       },
       "wIkbo18d7lLp9z4t": {
         "type": "summon",
@@ -218,6 +668,81 @@
           }
         ]
       },
+      "9SdPWad2qlT0bCSW": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "<p>Very Close | d10 + Power Trait kinetic damage using your Proficiency</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Crushing Gravity (The Great Dreamer)",
+        "range": "veryClose",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "@profd10 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d10",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "9SdPWad2qlT0bCSW",
+        "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp"
+      },
       "bWRqnuIdKzMDd2Ld": {
         "type": "summon",
         "_id": "bWRqnuIdKzMDd2Ld",
@@ -248,6 +773,81 @@
           }
         ]
       },
+      "cCVkS2tYWBAi1AAZ": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "<p>Melee | d12 + Power Trait energy damage using your Proficiency</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Razor Jaws (The Burrower Beneath)",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "@profd12 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d12",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "cCVkS2tYWBAi1AAZ",
+        "img": "icons/environment/creatures/bug-worm-pincer-pink.webp"
+      },
       "DFhcZSjKRrHuGPIF": {
         "type": "summon",
         "_id": "DFhcZSjKRrHuGPIF",
@@ -277,6 +877,81 @@
             "count": "1"
           }
         ]
+      },
+      "zvvYcFO8dlRiRt7U": {
+        "type": "attack",
+        "systemPath": "actions",
+        "description": "<p>Melee | d12 + Power Trait energy damage using your Proficiency</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "name": "Dark Mass Collapse (The Sleeper)",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "triggers": [],
+        "areas": [],
+        "damage": {
+          "main": {
+            "resultBased": false,
+            "value": {
+              "custom": {
+                "enabled": true,
+                "formula": "@profd12 + @cast"
+              },
+              "multiplier": "prof",
+              "dice": "d12",
+              "bonus": null,
+              "flatMultiplier": 1
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "base": false,
+            "valueAlt": null,
+            "includeBase": false,
+            "direct": false,
+            "fullRestore": false,
+            "itemId": null
+          },
+          "resources": {}
+        },
+        "roll": {
+          "type": "spellcast",
+          "trait": null,
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "effects": [],
+        "_id": "zvvYcFO8dlRiRt7U",
+        "img": "icons/magic/fire/orb-vortex.webp"
       }
     },
     "attribution": {
@@ -284,7 +959,7 @@
       "page": null,
       "artist": ""
     },
-    "gmNotes": "Use the summon for the Entity you are connected with; it places that Entity's token. Spend the Echo from Darkness Rising by hand.",
+    "gmNotes": "Use the summon for the Entity you are connected with; it places that Entity's token. Spend the Echo from Darkness Rising by hand. The Entity attacks are rolled from here with the Hollow's Power Trait and Proficiency, as the Manifest rules say; the Entity actor keeps its Evasion and thresholds for being targeted.",
     "granter": null,
     "featureForm": "action",
     "actorResources": []
