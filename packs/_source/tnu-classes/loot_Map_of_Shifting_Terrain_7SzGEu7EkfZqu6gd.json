@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/tools/navigation/map-simple-brown.webp",
   "system": {
-    "description": "",
+    "description": "<p>A map of shifting terrain.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

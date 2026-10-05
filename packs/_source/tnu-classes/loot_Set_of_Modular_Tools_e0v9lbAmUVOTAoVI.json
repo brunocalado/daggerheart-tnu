@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/tools/hand/wrench-adjustable.webp",
   "system": {
-    "description": "",
+    "description": "<p>A set of modular tools.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

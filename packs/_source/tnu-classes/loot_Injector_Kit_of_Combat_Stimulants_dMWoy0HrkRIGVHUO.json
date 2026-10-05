@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/tools/laboratory/injector-needle-steel-green.webp",
   "system": {
-    "description": "",
+    "description": "<p>An injector kit of combat stimulants.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

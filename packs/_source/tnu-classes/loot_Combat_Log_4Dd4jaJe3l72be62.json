@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/sundries/documents/document-writing-brown.webp",
   "system": {
-    "description": "",
+    "description": "<p>A combat log.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

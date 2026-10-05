@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/equipment/neck/pendant-enamel.webp",
   "system": {
-    "description": "",
+    "description": "<p>A battered memento from the life you left behind in the dark.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

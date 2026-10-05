@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/commodities/tech/battery-arcane-crystal-green.webp",
   "system": {
-    "description": "",
+    "description": "<p>A pulsing crystal shard.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

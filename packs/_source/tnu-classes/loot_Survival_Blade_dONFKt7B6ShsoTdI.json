@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/skills/melee/strike-blade-knife-orange-blue.webp",
   "system": {
-    "description": "",
+    "description": "<p>A survival blade with a handle wrapped in alien hide.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

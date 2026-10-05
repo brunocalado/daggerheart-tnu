@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/sundries/documents/notebook-spiral-red.webp",
   "system": {
-    "description": "",
+    "description": "<p>A tattered journal of visions.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

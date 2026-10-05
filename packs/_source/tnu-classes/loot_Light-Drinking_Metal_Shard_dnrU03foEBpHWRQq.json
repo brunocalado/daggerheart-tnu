@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/weapons/wands/wand-carved-stone-shard.webp",
   "system": {
-    "description": "",
+    "description": "<p>A metal shard that draws the surrounding light into it.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

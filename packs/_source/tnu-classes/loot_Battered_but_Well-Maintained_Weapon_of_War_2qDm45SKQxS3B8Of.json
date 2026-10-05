@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/skills/melee/strike-sword-dagger-runes-gray.webp",
   "system": {
-    "description": "",
+    "description": "<p>A battered but well-maintained weapon of war.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

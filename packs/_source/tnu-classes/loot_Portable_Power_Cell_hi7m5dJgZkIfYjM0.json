@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/commodities/tech/battery-fuel-cell-teal.webp",
   "system": {
-    "description": "",
+    "description": "<p>A portable power cell.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

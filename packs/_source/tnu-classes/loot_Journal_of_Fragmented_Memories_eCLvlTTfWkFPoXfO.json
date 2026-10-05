@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/sundries/books/book-notes-ragged-green.webp",
   "system": {
-    "description": "",
+    "description": "<p>A journal of fragmented memories.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/skills/melee/shield-damaged-broken-blue.webp",
   "system": {
-    "description": "",
+    "description": "<p>A fragment of broken armor.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {
@@ -12,7 +12,7 @@
       "page": null,
       "artist": ""
     },
-    "gmNotes": ""
+    "gmNotes": "The print reads \"a a fragment of broken armor\" (doubled article); the doubled article is not carried into the description."
   },
   "effects": [],
   "flags": {},

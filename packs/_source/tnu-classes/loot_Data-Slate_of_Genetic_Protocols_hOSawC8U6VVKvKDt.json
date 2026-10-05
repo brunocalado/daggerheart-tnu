@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/commodities/tech/phone-smart-tablet.webp",
   "system": {
-    "description": "",
+    "description": "<p>A data-slate of genetic protocols.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

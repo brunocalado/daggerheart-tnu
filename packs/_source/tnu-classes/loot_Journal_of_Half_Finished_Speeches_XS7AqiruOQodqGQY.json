@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/sundries/documents/notepad-ringed.webp",
   "system": {
-    "description": "",
+    "description": "<p>A journal of half-finished speeches.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

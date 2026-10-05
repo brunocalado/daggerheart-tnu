@@ -4,7 +4,7 @@
   "type": "loot",
   "img": "icons/sundries/gaming/dice-runed-brown.webp",
   "system": {
-    "description": "",
+    "description": "<p>A pair of loaded dice.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {
