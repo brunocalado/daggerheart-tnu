@@ -44,6 +44,8 @@ export function sphereOf(actor) {
  * @returns {boolean}
  */
 export function isCardLocation(module, location) {
+  // A base module's `replaces` is "", so a blank location would match all four.
+  if (!location) return false;
   return [module.name, module.system.replaces].includes(location);
 }
 

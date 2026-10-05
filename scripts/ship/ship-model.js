@@ -101,6 +101,8 @@ export class ShipModel extends BaseDataActor {
       }),
       resources: new SchemaField({ hitPoints: track(14), stress: track(8), hope: track(5), armor: track(4) }),
       // Read by the attack damage path; missing, every hit becomes NaN and marks 1 HP.
+      // BaseDataActor declares no `rules`: the system spreads `commonActorRules()`
+      // into the character and adversary schemas only.
       rules: new SchemaField({
         attack: new SchemaField({
           damage: new SchemaField({
