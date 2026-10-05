@@ -4,7 +4,7 @@
   "_id": "0qO3nVtaud9D9cQK",
   "img": "icons/equipment/shield/buckler-iron-cross-gray.webp",
   "system": {
-    "description": "<p>Shielded (+2 Armor Score; -1 Stress)</p>",
+    "description": "<p><em>Personal Energy Shield: a forearm-mounted projector that maintains a sustained energy field to neutralize incoming threats.</em></p><p>Shielded (+2 Armor Score; -1 Stress)</p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

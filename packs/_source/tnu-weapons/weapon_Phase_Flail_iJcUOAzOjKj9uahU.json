@@ -4,7 +4,7 @@
   "_id": "iJcUOAzOjKj9uahU",
   "img": "icons/weapons/maces/flail-ball-grey.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Phase Weapons: high-frequency energy weapons that destabilize matter at the point of impact, dealing energy damage without relying on light or plasma.</em></p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

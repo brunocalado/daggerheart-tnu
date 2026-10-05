@@ -4,7 +4,7 @@
   "_id": "hJ95dxGsNhUSQvJJ",
   "img": "icons/weapons/staves/staff-simple-blue.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Retractable Staff: a telescoping combat staff that extends for reach and retracts for easy concealment and mobility.</em></p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

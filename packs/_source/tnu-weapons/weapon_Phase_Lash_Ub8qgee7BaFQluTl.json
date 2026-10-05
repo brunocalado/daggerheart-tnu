@@ -4,7 +4,7 @@
   "_id": "Ub8qgee7BaFQluTl",
   "img": "icons/weapons/maces/flail-spiked-grey.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Phase Lash: a high-frequency energy whip integrated into a gauntlet that destabilizes matter on contact, allowing the wielder to ensnare and haul targets into striking distance.</em></p>",
     "actions": {
       "H7XINcOOm1qu7Qnw": {
         "type": "effect",

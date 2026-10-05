@@ -4,7 +4,7 @@
   "_id": "G987tNq9ogdGaTF9",
   "img": "icons/equipment/shield/buckler-iron-cross-gray.webp",
   "system": {
-    "description": "<p>Warded (+1 Armor Score)</p>",
+    "description": "<p><em>ASPIS Mono-Edge Shield: a lightweight, foldable monomolecular shield that can both block and slice.</em></p><p>Warded (+1 Armor Score)</p>",
     "actions": {},
     "tier": 2,
     "equipped": false,

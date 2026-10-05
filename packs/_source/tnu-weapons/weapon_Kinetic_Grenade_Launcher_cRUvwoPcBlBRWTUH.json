@@ -4,7 +4,7 @@
   "_id": "cRUvwoPcBlBRWTUH",
   "img": "icons/weapons/artillery/cannon-energy-plasma.webp",
   "system": {
-    "description": "<p>Impact Zone (Reaction Roll 13)</p>",
+    "description": "<p><em>Kinetic Grenade Launcher: a heavy launcher that fires impact-driven grenades.</em></p><p>Impact Zone (Reaction Roll 13)</p>",
     "actions": {},
     "tier": 2,
     "equipped": false,

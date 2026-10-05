@@ -4,7 +4,7 @@
   "_id": "ezMPmr0GyoJlTLZR",
   "img": "icons/weapons/daggers/knife-engraved-black.webp",
   "system": {
-    "description": "<p>Off-Hand (+2)</p>",
+    "description": "<p><em>Mono-Edge Dagger: an ultra-thin cutting blade that slices through matter using a single, molecular-sharp edge.</em></p><p>Off-Hand (+2)</p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

@@ -4,7 +4,7 @@
   "_id": "1zN9tdXXdkG5eCTp",
   "img": "icons/weapons/guns/gun-pistol-brass.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Mass Driver Handgun: a short range mass driver handgun that launches high-velocity shards from an internal block.</em></p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

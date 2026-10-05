@@ -4,7 +4,7 @@
   "_id": "OtNJ4MKXhDxaxqZe",
   "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Mass Driver Weapons: firearms that shave microscopic slivers from an internal block and accelerate them using a mass accelerator, delivering devastating kinetic impact.</em></p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

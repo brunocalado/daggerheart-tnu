@@ -4,7 +4,7 @@
   "_id": "WfBlpKIreOfdAuRP",
   "img": "icons/weapons/clubs/baseball-bat-metal.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Grav Weapons: heavy impact weapons that concentrate localized gravity on contact, crushing targets with amplified force.</em></p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

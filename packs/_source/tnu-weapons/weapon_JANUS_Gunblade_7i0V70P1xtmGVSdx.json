@@ -4,7 +4,7 @@
   "_id": "7i0V70P1xtmGVSdx",
   "img": "icons/weapons/guns/rifle-assault-carbine.webp",
   "system": {
-    "description": "<p>Hybrid (Finesse, Melee, d10)</p>",
+    "description": "<p><em>JANUS Gunblade: a dual-mode hybrid weapon combining a mono-edge blade with an integrated mass-driver.</em></p><p>Hybrid (Finesse, Melee, d10)</p>",
     "actions": {
       "YmO6qtLk4WsTXY3X": {
         "name": "Hybrid Attack",

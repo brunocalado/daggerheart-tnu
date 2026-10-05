@@ -4,7 +4,7 @@
   "_id": "Uak15ADESqbOSKTQ",
   "img": "icons/equipment/wrist/bracer-armored-steel-blue.webp",
   "system": {
-    "description": "<p>Block (+1 Armor Score)</p>",
+    "description": "<p><em>Energy Shield Bracers: wrist-mounted projectors that generate a focused energy field to deflect incoming strikes.</em></p><p>Block (+1 Armor Score)</p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

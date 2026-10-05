@@ -4,7 +4,7 @@
   "_id": "wMfhKygpS4yB1RAe",
   "img": "icons/weapons/fist/claw-gauntlet-gray.webp",
   "system": {
-    "description": "<p>Opportunist (d12)</p>",
+    "description": "<p><em>ZEUS Arc Talons: powered gloves that generate and hurl crackling arc blades, striking targets with lightning-fast precision.</em></p><p>Opportunist (d12)</p>",
     "actions": {},
     "tier": 2,
     "equipped": false,

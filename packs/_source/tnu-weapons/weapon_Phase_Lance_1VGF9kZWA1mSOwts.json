@@ -4,7 +4,7 @@
   "_id": "1VGF9kZWA1mSOwts",
   "img": "icons/weapons/polearms/spear-flared-blue.webp",
   "system": {
-    "description": "<p>Hybrid (Instinct, Melee, d10)</p>",
+    "description": "<p><em>Phase Weapons: high-frequency energy weapons that destabilize matter at the point of impact, dealing energy damage without relying on light or plasma.</em></p><p>Hybrid (Instinct, Melee, d10)</p>",
     "actions": {
       "lEy6WloafxfCl2hI": {
         "name": "Hybrid Attack",

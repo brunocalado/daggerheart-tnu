@@ -4,7 +4,7 @@
   "_id": "BNwrjLmuQqworCtn",
   "img": "icons/weapons/swords/sword-runed-glowing.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Photon Weapons: solid-light blades projected from a compact hilt, powered by a melanid core and slicing through matter with concentrated photon energy.</em></p>",
     "actions": {
       "MpVpkw1vSrS0hjuD": {
         "type": "effect",

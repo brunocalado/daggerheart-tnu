@@ -4,7 +4,7 @@
   "_id": "tel7nPdTArPhoKLN",
   "img": "icons/weapons/swords/greatsword-blue.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Photon Weapons: solid-light blades projected from a compact hilt, powered by a melanid core and slicing through matter with concentrated photon energy.</em></p>",
     "actions": {
       "ssoVYdjGuBr6v67j": {
         "type": "effect",

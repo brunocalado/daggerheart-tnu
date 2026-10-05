@@ -4,7 +4,7 @@
   "_id": "p4wHL5ZK7MazUn4l",
   "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>HELIOS Mark IV Rifle: a precision rifle that channels focused solar-grade plasma into tightly controlled, long-range shots.</em></p>",
     "actions": {},
     "tier": 2,
     "equipped": false,

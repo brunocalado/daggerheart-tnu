@@ -4,7 +4,7 @@
   "_id": "YA2zm2WaPBeZv0hY",
   "img": "icons/weapons/guns/gun-pistol-brass.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Plasma Sidearm: a compact precision firearm that launches superheated ionized gas projectiles.</em></p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

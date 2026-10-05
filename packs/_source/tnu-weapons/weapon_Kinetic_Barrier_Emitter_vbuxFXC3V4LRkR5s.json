@@ -4,7 +4,7 @@
   "_id": "vbuxFXC3V4LRkR5s",
   "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
   "system": {
-    "description": "<p><em>[Echo] Echo classes only.</em></p><p>Shielded (+2 Armor Score; -1 Knowledge)</p>",
+    "description": "<p><em>Kinetic Barrier Emitter: a neural-linked device that projects a localized kinetic field to absorb impact.</em></p><p><em>[Echo] Echo classes only.</em></p><p>Shielded (+2 Armor Score; -1 Knowledge)</p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

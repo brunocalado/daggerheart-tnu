@@ -4,7 +4,7 @@
   "_id": "YUlLVc78TKdONoRT",
   "img": "icons/equipment/hand/gauntlet-armored-blue.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Repulsor Glove: a powered gauntlet that delivers concussive force.</em></p>",
     "actions": {
       "COILR7sIi8seXEBL": {
         "type": "effect",

@@ -4,7 +4,7 @@
   "_id": "7xvx07zKhhr0Cnk6",
   "img": "icons/weapons/guns/gun-pistol-brass.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Resonance Gun: a compact energy weapon that analyzes the target’s structural and energetic frequencies in real time, amplifying its shot by reinforcing the most destructive resonance pattern before impact.</em></p>",
     "actions": {},
     "tier": 2,
     "equipped": false,

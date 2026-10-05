@@ -4,7 +4,7 @@
   "_id": "eEr9sdO37fdlSQTP",
   "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>HERAKLES Shotgun: a compact mass driver shotgun designed for one-handed use.</em></p>",
     "actions": {},
     "tier": 2,
     "equipped": false,

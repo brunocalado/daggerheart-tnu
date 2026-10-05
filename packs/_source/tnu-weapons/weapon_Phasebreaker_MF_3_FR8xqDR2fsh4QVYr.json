@@ -4,7 +4,7 @@
   "_id": "FR8xqDR2fsh4QVYr",
   "img": "icons/weapons/guns/gun-pistol-brass.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Phasebreaker MF-3: an experimental pistol that destabilizes the molecular bonds of its targets.</em></p>",
     "actions": {
       "wxh6ctYaCSrNNxo1": {
         "type": "effect",

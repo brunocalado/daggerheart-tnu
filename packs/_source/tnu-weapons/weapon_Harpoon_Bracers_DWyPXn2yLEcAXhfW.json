@@ -4,7 +4,7 @@
   "_id": "DWyPXn2yLEcAXhfW",
   "img": "icons/equipment/wrist/bracer-armored-steel-blue.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Harpoon Bracers: wrist-mounted pneumatic launcher that shoots high-tensile cables.</em></p>",
     "actions": {},
     "tier": 2,
     "equipped": false,

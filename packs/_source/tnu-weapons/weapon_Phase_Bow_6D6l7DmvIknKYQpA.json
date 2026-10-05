@@ -4,7 +4,7 @@
   "_id": "6D6l7DmvIknKYQpA",
   "img": "icons/weapons/bows/bow-recurve-black.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Phase Weapons: high-frequency energy weapons that destabilize matter at the point of impact, dealing energy damage without relying on light or plasma.</em></p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

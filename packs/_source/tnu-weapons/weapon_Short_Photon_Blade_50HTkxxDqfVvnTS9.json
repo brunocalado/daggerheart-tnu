@@ -4,7 +4,7 @@
   "_id": "50HTkxxDqfVvnTS9",
   "img": "icons/weapons/swords/shortsword-green.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Short Photon Blade: a compact solid-light blade, used for parrying and blocking incoming attack.</em></p>",
     "actions": {
       "ZYEiqH7ghrnlOm6z": {
         "type": "effect",

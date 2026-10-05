@@ -4,7 +4,7 @@
   "_id": "HqQlNrF6SE9XbcO0",
   "img": "icons/equipment/shield/buckler-iron-cross-gray.webp",
   "system": {
-    "description": "<p>Bastion (+2 Armor Score; -1 Evasion)</p>",
+    "description": "<p><em>Riot Shield: a heavy, high-density alloy plate designed for frontline suppression.</em></p><p>Bastion (+2 Armor Score; -1 Evasion)</p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

@@ -4,7 +4,7 @@
   "_id": "AIf2ERaYXrGsrD79",
   "img": "icons/equipment/hand/gauntlet-armored-blue.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Force Gauntlet ß-Series: a high-output power gauntlet that generates localized kinetic bursts.</em></p>",
     "actions": {
       "LZyDrTLCV9JAKzSN": {
         "type": "effect",

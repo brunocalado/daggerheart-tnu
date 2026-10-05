@@ -4,7 +4,7 @@
   "_id": "b0ZPRLBul8Wn6PDn",
   "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
   "system": {
-    "description": "<p><em>[Echo] Echo classes only.</em></p>",
+    "description": "<p><em>Psionic Amplifier: a neural-interfaced device that focuses mental energy to generate localized pulses, forcing nearby adversaries back with a concussive telekinetic wave.</em></p><p><em>[Echo] Echo classes only.</em></p>",
     "actions": {
       "EaZd1qoQO5xz0kxu": {
         "type": "effect",

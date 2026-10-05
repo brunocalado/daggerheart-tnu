@@ -4,7 +4,7 @@
   "_id": "cunKLxJN2U339TMb",
   "img": "icons/commodities/tech/battery-arcane-crystal-cube.webp",
   "system": {
-    "description": "<p><em>[Echo] Echo classes only.</em></p><p>Barrier (+1 Evasion)</p>",
+    "description": "<p><em>Kinetic Field Emitter: a neural-linked device that assists psionics in projecting a localized gravitational field to deflect incoming physical projectiles.</em></p><p><em>[Echo] Echo classes only.</em></p><p>Barrier (+1 Evasion)</p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

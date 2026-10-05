@@ -4,7 +4,7 @@
   "_id": "eR5cR8TgHgwhu7Z6",
   "img": "icons/weapons/daggers/knife-green.webp",
   "system": {
-    "description": "<p>Opportunist (d10)</p>",
+    "description": "<p><em>Mono Edge Weapons: ultra-thin cutting weapons that slice through matter using a single, molecular-sharp edge.</em></p><p>Opportunist (d10)</p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

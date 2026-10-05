@@ -4,7 +4,7 @@
   "_id": "LtzWvlCbedCqwYSX",
   "img": "icons/weapons/swords/shortsword-green.webp",
   "system": {
-    "description": "<p>Off-Hand (+2)</p>",
+    "description": "<p><em>Phase Shoto: a short energy blade that utilizes high-frequency vibrations to destabilize matter at the point of impact.</em></p><p>Off-Hand (+2)</p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

@@ -4,7 +4,7 @@
   "_id": "axkxvztGrQY7oPES",
   "img": "icons/weapons/swords/scimitar-blue.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Stalker Blades: a pair of retractable blades implanted in bracers, slicing with lightning-fast motions.</em></p>",
     "actions": {
       "v1sLobltP7IMAAVB": {
         "type": "effect",

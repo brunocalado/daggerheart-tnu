@@ -4,7 +4,7 @@
   "_id": "BGmQCgjrVEbShHjt",
   "img": "icons/equipment/hand/gauntlet-armored-blue.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Shock Gauntlets: heavy gauntlets that discharge overwhelming force on contact, delivering devastating damage.</em></p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

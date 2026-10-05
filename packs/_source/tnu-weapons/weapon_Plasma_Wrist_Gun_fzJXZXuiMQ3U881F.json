@@ -4,7 +4,7 @@
   "_id": "fzJXZXuiMQ3U881F",
   "img": "icons/weapons/guns/gun-pistol-brass.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Plasma Weapons: firearms that fire superheated ionized gas bolts, melting or burning through targets on impact.</em></p>",
     "actions": {},
     "tier": 1,
     "equipped": false,

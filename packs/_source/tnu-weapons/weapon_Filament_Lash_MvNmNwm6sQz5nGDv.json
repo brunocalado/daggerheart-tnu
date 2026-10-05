@@ -4,7 +4,7 @@
   "_id": "MvNmNwm6sQz5nGDv",
   "img": "icons/weapons/maces/flail-spiked-grey.webp",
   "system": {
-    "description": "",
+    "description": "<p><em>Filament Lash: a wrist-mounted launcher that fires a thin, retractable filament to ensnare targets and yank them into close quarters.</em></p>",
     "actions": {
       "JN4hDQre20o3jYTc": {
         "type": "effect",
