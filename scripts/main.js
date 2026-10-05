@@ -27,6 +27,8 @@
  *             from the Compendium Browser (also run-once).
  * - `renderChatMessageHTML` — wire the module buttons of a ship's Stress
  *             overflow card.
+ * - `daggerheart.preTakeDamage` — hold back a Stress past a ship's last slot,
+ *             which deactivates a module instead of marking a Hit Point.
  *
  * The i18n relabels (Trauma, Power Trait, Kinetic/Energy) are applied
  * automatically by Foundry from `lang/en.json`, which loads after — and so
@@ -37,6 +39,7 @@
 
 import {
   MODULE_ID,
+  SYSTEM_ID,
   PRESET_VERSION_KEY,
   SRD_HIDDEN_KEY,
   SHIP_TYPE,
@@ -54,6 +57,7 @@ import { ShipCardModel } from "./ship/ship-card-model.js";
 import { ShipSheet, SHIP_ACTIONS_PARTIAL } from "./ship/ship-sheet.js";
 import { ShipModuleSheet, ShipCardSheet } from "./ship/ship-item-sheets.js";
 import { bindStressOverflowCard } from "./ship/ship-actions.js";
+import { onShipPreTakeDamage } from "./ship/ship-damage.js";
 
 /**
  * Register the module-scoped world settings that keep the currency write and
@@ -192,3 +196,4 @@ Hooks.once("ready", () => {
   hideSrdFromBrowser();
 });
 Hooks.on("renderChatMessageHTML", bindStressOverflowCard);
+Hooks.on(`${SYSTEM_ID}.preTakeDamage`, onShipPreTakeDamage);

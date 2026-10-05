@@ -304,7 +304,7 @@ async function shipRest(ship, action) {
  * @param {Actor} ship
  * @returns {Promise<void>}
  */
-async function postStressOverflow(ship) {
+export async function postStressOverflow(ship) {
   const modules = ship.itemTypes[SHIP_MODULE_TYPE].filter(module => !module.system.deactivated);
   await postCard({ actor: ship }, `${ship.name}: Stress overflow`, [
     `${ship.name}'s last Stress is marked and it needs another. Deactivate a module until the next rest:`
