@@ -31,7 +31,7 @@ game itself and support it:
 ## Requirements
 
 - **Foundry VTT v14**
-- The **Daggerheart** game system, version **2.10.9** exactly. The module relies
+- The **Daggerheart** game system, version **2.10.10** exactly. The module relies
   on internal structures of the system, so it is locked to the version it was
   built and tested against.
 - Recommended: [**Distances**](https://github.com/brunocalado/daggerheart-distances),
