@@ -174,20 +174,35 @@ under **Settings → Daggerheart → Homebrew**.
 
 ---
 
-## License
+## Legal & Licensing
 
-- **Code:** [GPL v3](https://www.gnu.org/licenses/gpl-3.0.html).
-- **The New Unknown content:** belongs to its authors, under the
-  [DPCGL](https://darringtonpress.com/license/).
+### Content & Intellectual Property (The New Unknown)
+*The New Unknown* is created and copyrighted by **Eurydice – Echoes of Ink**
+(Florian, Alexander and Chris). All rules, mechanics, setting lore, names and
+original concepts adapted from *The New Unknown* playtest volumes remain the
+exclusive intellectual property of Eurydice.
+
+This module is a free, non-commercial community project, published with the
+express permission of the creators for use in Foundry Virtual Tabletop. It is
+not an official product of Eurydice, and it is not published by them.
+
+To support the original game and get the official rulebooks:
+
+- [The New Unknown on Kickstarter](https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game)
+- [Eurydice – Echoes of Ink on Patreon](https://www.patreon.com/c/Eurydice_echoes_of_ink)
+
+### System Compatibility (Daggerheart)
+This module adapts content for the *Daggerheart* roleplaying game system.
+*Daggerheart* and its trademarks belong to Darrington Press LLC. This community
+supplement is distributed in compliance with the
+[Darrington Press Community Gaming License (DPCGL)](https://darringtonpress.com/license/).
+
+### Module Code & Assets
+- **Module code:** licensed under the
+  [GNU General Public License v3.0 (GPLv3)](LICENSE). The game text and intellectual property of *The New Unknown* are excluded from
+  the GPLv3.
 - **Compendium banner:** [Forward field](https://game-icons.net/1x1/lorc/forward-field.html)
-  by Lorc, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
-
----
-
-## Permission
-
-This module is published with the explicit permission of Alexander
-([Eurydice: Echoes of Ink on Patreon](https://www.patreon.com/c/Eurydice_echoes_of_ink/home)).
+  by Lorc, used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 
 # 🧰 My Daggerheart Modules
 
