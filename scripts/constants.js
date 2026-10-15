@@ -97,6 +97,13 @@ export const SHIP_MODULE_TYPE = `${MODULE_ID}.shipModule`;
 export const SHIP_CARD_TYPE = `${MODULE_ID}.shipCard`;
 
 /**
+ * Classes for the module's DialogV2 prompts: the system styles any DialogV2
+ * carrying them like its own dialogs.
+ * @type {ReadonlyArray<string>}
+ */
+export const DIALOG_CLASSES = Object.freeze(["daggerheart", "dialog", "dh-style", MODULE_ID]);
+
+/**
  * Ship Spheres and the Power Traits that place a crew member in each.
  * @type {Readonly<Record<string, ReadonlyArray<string>>>}
  */

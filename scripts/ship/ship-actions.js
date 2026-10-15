@@ -18,7 +18,7 @@
  * @module ship/ship-actions
  */
 
-import { MODULE_ID, SHIP_MODULE_TYPE, SHIP_CARD_TYPE, SPHERE_LABELS } from "../constants.js";
+import { MODULE_ID, SHIP_MODULE_TYPE, SHIP_CARD_TYPE, SPHERE_LABELS, DIALOG_CLASSES } from "../constants.js";
 import { sphereOf, isCardLocation, shipCostLabel } from "../helpers.js";
 
 const { DialogV2 } = foundry.applications.api;
@@ -26,9 +26,6 @@ const { renderTemplate } = foundry.applications.handlebars;
 
 const CHAT_CARD = `modules/${MODULE_ID}/templates/ship/chat-card.hbs`;
 const ROLL_PROMPT = `modules/${MODULE_ID}/templates/ship/roll-prompt.hbs`;
-
-// The system styles any DialogV2 carrying these classes like its own dialogs.
-const DIALOG_CLASSES = ["daggerheart", "dialog", "dh-style", MODULE_ID];
 
 const REST_LABELS = { rest: "Short Rest", longRest: "Long Rest" };
 
