@@ -83,6 +83,9 @@ A **Ship** actor type with its own sheet, played jointly by the crew:
 
 - Hit Points, Stress, Hope and Armor Slots tracks, Evasion, Proficiency and
   damage thresholds — adversaries attack and damage a ship like any other target.
+- **Armor Slots on a hit:** when damage would mark Hit Points and the ship has an
+  unmarked Armor Slot, whoever applies the damage is asked whether to mark one
+  to reduce the severity by one.
 - **Modules** and **ship domain cards**: crew members are placed in modules and
   use their features with their own Power Trait, paying costs from the ship's
   resources. A cost printed "on a success" is charged only when the roll
@@ -198,12 +201,14 @@ supplement is distributed in compliance with the
 
 ### Module Code & Assets
 - **Module code:** licensed under the
-  [GNU General Public License v3.0 (GPLv3)](LICENSE). The game text and intellectual property of *The New Unknown* are excluded from
-  the GPLv3.
+  [GNU General Public License v3.0 (GPLv3)](LICENSE). The game text and
+  intellectual property of *The New Unknown* are excluded from the GPLv3.
 - **Compendium banner:** [Forward field](https://game-icons.net/1x1/lorc/forward-field.html)
   by Lorc, used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 
-# 🧰 My Daggerheart Modules
+---
+
+## 🧰 My Daggerheart Modules
 
 | Module | Description |
 | :--- | :--- |
