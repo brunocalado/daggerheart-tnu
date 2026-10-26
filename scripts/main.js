@@ -25,6 +25,7 @@
  *             after the system ESM.
  * - `ready` — apply the GM-only, run-once currency preset, and hide the SRD
  *             from the Compendium Browser (also run-once).
+ * - `i18nInit` — relabel the Spellcast strings of Daggerheart: Nice Sheets.
  * - `renderChatMessageHTML` — wire the module buttons of a ship's Stress
  *             overflow card.
  * - `daggerheart.preTakeDamage` — hold back a Stress past a ship's last slot,
@@ -189,6 +190,27 @@ function registerShipTrackables() {
   };
 }
 
+/**
+ * Relabel the Spellcast strings of Daggerheart: Nice Sheets, which keeps its
+ * own keys instead of the system's relabelled ones. A `lang/en.json` entry
+ * would lose: Foundry merges language files in module order, and
+ * `dh-nice-sheets` sorts after `daggerheart-tnu`. So the strings are written
+ * over the merged translations once they are loaded.
+ *
+ * Called from the `i18nInit` hook.
+ * @returns {void}
+ */
+function relabelNiceSheets() {
+  if (!game.modules.get("dh-nice-sheets")?.active) return;
+  foundry.utils.mergeObject(game.i18n.translations, {
+    DH_NICE_SHEETS: {
+      Spellcast: "Power",
+      Companion: { rollHint: "{name}'s Power · {trait}" }
+    }
+  });
+}
+
+Hooks.once("i18nInit", relabelNiceSheets);
 Hooks.once("init", () => {
   registerSettings();
   injectDomainsAndFeatures();
