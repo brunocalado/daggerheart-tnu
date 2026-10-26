@@ -2,7 +2,7 @@
   "id": "daggerheart-tnu",
   "title": "The New Unknown (Daggerheart)",
   "description": "Adapts the Daggerheart system for The New Unknown sci-fi supplement (Playtests 1 \"Heart\", 2 \"Mind\" and 3 \"Fist\"): TNU classes, ancestries, communities, equipment, adversaries and ships, new planetary domains, weapon/armor keywords, sci-fi conditions, and terminology relabels (Trauma, Power Trait, Kinetic/Energy).",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
