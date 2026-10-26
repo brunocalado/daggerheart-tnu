@@ -77,6 +77,14 @@
           "lowercase": "energy"
         }
       },
+      "DomainCardTypes": {
+        "skill": "Skill",
+        "tech": "Tech",
+        "psionic": "Psionic",
+        "engram": "Engram",
+        "sigil": "Sigil",
+        "anomaly": "Anomaly"
+      },
       "TraitsSpecial": {
         "spellcast": "Power Trait"
       },

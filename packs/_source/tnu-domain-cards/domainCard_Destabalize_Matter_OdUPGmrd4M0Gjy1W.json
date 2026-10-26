@@ -9,7 +9,7 @@
     "domain": "nibiru",
     "recallCost": 1,
     "level": 3,
-    "type": "spell",
+    "type": "anomaly",
     "resource": null,
     "actions": {
       "kppY0QQghGyoiYs8": {

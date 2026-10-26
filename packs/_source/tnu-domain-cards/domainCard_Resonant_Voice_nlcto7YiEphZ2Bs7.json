@@ -9,7 +9,7 @@
     "domain": "venus",
     "recallCost": 1,
     "level": 1,
-    "type": "spell",
+    "type": "psionic",
     "resource": {
       "type": "simple",
       "value": 0,

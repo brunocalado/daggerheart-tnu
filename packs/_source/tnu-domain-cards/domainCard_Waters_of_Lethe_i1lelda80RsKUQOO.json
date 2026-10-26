@@ -9,7 +9,7 @@
     "domain": "pluto",
     "recallCost": 0,
     "level": 1,
-    "type": "spell",
+    "type": "sigil",
     "resource": {
       "type": "simple",
       "value": 0,

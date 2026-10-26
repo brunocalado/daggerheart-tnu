@@ -9,7 +9,7 @@
     "domain": "mars",
     "recallCost": 1,
     "level": 1,
-    "type": "ability",
+    "type": "skill",
     "resource": null,
     "actions": {
       "fNFS6QlN7MHRHqk0": {

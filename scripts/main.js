@@ -46,7 +46,7 @@ import {
   SHIP_MODULE_TYPE,
   SHIP_CARD_TYPE
 } from "./constants.js";
-import { TNU_DOMAINS } from "./domains.js";
+import { TNU_DOMAINS, TNU_CARD_TYPES } from "./domains.js";
 import { TNU_WEAPON_FEATURES, TNU_ARMOR_FEATURES } from "./features.js";
 import { TNU_CONDITIONS } from "./conditions.js";
 import { applyCurrencyPreset } from "./homebrew.js";
@@ -90,6 +90,8 @@ function registerSettings() {
  *
  * - Domains → the plain `CONFIG.DH.DOMAIN.domains` object that `allDomains()`
  *   reads live (and that the `domainCard` field validates against).
+ * - Card types → the plain `CONFIG.DH.DOMAIN.cardTypes` object, which is the
+ *   `choices` of the `domainCard` type field.
  * - Features → the plain `CONFIG.DH.ITEM.weaponFeatures` / `armorFeatures`
  *   objects that `allWeaponFeatures()` / `allArmorFeatures()` read live
  *   (see `injectFeatures`).
@@ -98,6 +100,7 @@ function registerSettings() {
  */
 function injectDomainsAndFeatures() {
   Object.assign(CONFIG.DH.DOMAIN.domains, TNU_DOMAINS);
+  Object.assign(CONFIG.DH.DOMAIN.cardTypes, TNU_CARD_TYPES);
   injectFeatures(CONFIG.DH.ITEM.weaponFeatures, TNU_WEAPON_FEATURES);
   injectFeatures(CONFIG.DH.ITEM.armorFeatures, TNU_ARMOR_FEATURES);
 }

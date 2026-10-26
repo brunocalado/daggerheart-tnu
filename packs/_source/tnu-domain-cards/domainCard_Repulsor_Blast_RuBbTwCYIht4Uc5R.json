@@ -9,7 +9,7 @@
     "domain": "uranus",
     "recallCost": 2,
     "level": 2,
-    "type": "spell",
+    "type": "tech",
     "resource": {
       "type": "simple",
       "value": 0,

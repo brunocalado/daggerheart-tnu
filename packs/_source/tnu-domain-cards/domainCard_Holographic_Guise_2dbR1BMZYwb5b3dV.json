@@ -9,7 +9,7 @@
     "domain": "saturn",
     "recallCost": 1,
     "level": 1,
-    "type": "spell",
+    "type": "tech",
     "resource": {
       "type": "simple",
       "value": 0,

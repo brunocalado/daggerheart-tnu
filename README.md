@@ -154,6 +154,7 @@ Only the **labels** change; the mechanics are identical:
 | Spellcast Roll | **Power Roll** |
 | Physical damage (Phy) | **Kinetic (kin)** — including resistances and armor rules |
 | Magical damage (Mag) | **Energy (ene)** — including resistances and armor rules |
+| Ability / Spell domain cards | **Skill, Tech, Psionic, Engram, Sigil, Anomaly** — by domain |
 
 ### 💳 Sci-fi currency
 The currency is renamed to **Credits**. The Handfuls, Bags and Chests tiers stay
