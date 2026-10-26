@@ -25,10 +25,8 @@
  * the system config, so system fixes carry over), renamed to the TNU label.
  * Keywords without `reuse` stay text only.
  *
- * Caveat: Powerful and Brutal's damage-roll modifiers are keyed by the feature
- * id in the system's `DamageRoll` (`f.value === 'powerful'`), not by its
- * effects, so Amplified and Rupture get the base action/marker but not the
- * extra die.
+ * Reuse also carries the base feature's `rollModifiers`, which the system's
+ * damage roll applies by the feature key on the item.
  *
  * @module features
  */

@@ -104,7 +104,7 @@ function injectDomainsAndFeatures() {
 
 /**
  * Write TNU keywords into a system feature dictionary. A keyword with `reuse`
- * borrows the base feature's `actions`/`effects`, renamed to the TNU keyword so
+ * borrows the base feature's `actions`/`effects`/`rollModifiers`, renamed to the TNU keyword so
  * a Precise weapon doesn't show a "Reliable" effect. The base entries are
  * captured first because some TNU keys overwrite base keys.
  *
@@ -119,7 +119,12 @@ function injectFeatures(target, features) {
     const source = reuse ? base[reuse] : null;
     if (reuse && !source) console.warn(`${MODULE_ID} | base feature "${reuse}" not found for "${key}"`);
     target[key] = source
-      ? { ...feature, actions: rename(source.actions, feature), effects: rename(source.effects, feature) }
+      ? {
+        ...feature,
+        actions: rename(source.actions, feature),
+        effects: rename(source.effects, feature),
+        rollModifiers: source.rollModifiers
+      }
       : feature;
   }
 }
