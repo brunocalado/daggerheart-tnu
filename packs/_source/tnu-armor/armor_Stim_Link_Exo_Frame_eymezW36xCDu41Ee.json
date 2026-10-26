@@ -12,13 +12,13 @@
     "actions": {},
     "tier": 2,
     "equipped": false,
-    "armorFeatures": [
-      {
+    "itemFeatures": {
+      "stims": {
         "value": "stims",
         "effectIds": [],
         "actionIds": []
       }
-    ],
+    },
     "baseThresholds": {
       "major": 9,
       "severe": 20

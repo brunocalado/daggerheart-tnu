@@ -10,15 +10,15 @@
     "equipped": false,
     "secondary": false,
     "burden": "twoHanded",
-    "weaponFeatures": [
-      {
+    "itemFeatures": {
+      "precise": {
         "value": "precise",
         "effectIds": [
           "UnTQnRkRlLEGz2wt"
         ],
         "actionIds": []
       }
-    ],
+    },
     "attack": {
       "name": "Attack",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",

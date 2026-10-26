@@ -79,15 +79,15 @@
     },
     "tier": 2,
     "equipped": false,
-    "armorFeatures": [
-      {
+    "itemFeatures": {
+      "regrowth": {
         "value": "regrowth",
         "effectIds": [],
         "actionIds": [
           "Mk4vLPURpAmr1UkT"
         ]
       }
-    ],
+    },
     "baseThresholds": {
       "major": 8,
       "severe": 18

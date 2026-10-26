@@ -10,15 +10,15 @@
     "equipped": false,
     "secondary": false,
     "burden": "twoHanded",
-    "weaponFeatures": [
-      {
+    "itemFeatures": {
+      "unwieldy": {
         "value": "unwieldy",
         "effectIds": [
           "52RA1TAQunRGaGap"
         ],
         "actionIds": []
       }
-    ],
+    },
     "attack": {
       "name": "Attack",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",

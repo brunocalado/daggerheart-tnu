@@ -12,7 +12,7 @@
     "actions": {},
     "tier": 1,
     "equipped": false,
-    "armorFeatures": [],
+    "itemFeatures": {},
     "baseThresholds": {
       "major": 6,
       "severe": 13

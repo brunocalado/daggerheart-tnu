@@ -12,13 +12,13 @@
     "actions": {},
     "tier": 2,
     "equipped": false,
-    "armorFeatures": [
-      {
+    "itemFeatures": {
+      "biocharged": {
         "value": "biocharged",
         "effectIds": [],
         "actionIds": []
       }
-    ],
+    },
     "baseThresholds": {
       "major": 8,
       "severe": 18

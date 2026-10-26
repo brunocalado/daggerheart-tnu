@@ -10,13 +10,13 @@
     "equipped": false,
     "secondary": false,
     "burden": "oneHanded",
-    "weaponFeatures": [
-      {
+    "itemFeatures": {
+      "opportunist": {
         "value": "opportunist",
         "effectIds": [],
         "actionIds": []
       }
-    ],
+    },
     "attack": {
       "name": "Attack",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",

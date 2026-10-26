@@ -10,13 +10,13 @@
     "equipped": false,
     "secondary": false,
     "burden": "twoHanded",
-    "weaponFeatures": [
-      {
+    "itemFeatures": {
+      "adrenaline": {
         "value": "adrenaline",
         "effectIds": [],
         "actionIds": []
       }
-    ],
+    },
     "attack": {
       "name": "Attack",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",

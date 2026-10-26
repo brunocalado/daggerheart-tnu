@@ -39,15 +39,15 @@
     "equipped": false,
     "secondary": false,
     "burden": "oneHanded",
-    "weaponFeatures": [
-      {
+    "itemFeatures": {
+      "straining": {
         "value": "straining",
         "effectIds": [],
         "actionIds": [
           "COILR7sIi8seXEBL"
         ]
       }
-    ],
+    },
     "attack": {
       "name": "Attack",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",

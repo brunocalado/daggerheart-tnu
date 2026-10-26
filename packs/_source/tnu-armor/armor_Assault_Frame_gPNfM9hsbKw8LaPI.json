@@ -12,15 +12,15 @@
     "actions": {},
     "tier": 1,
     "equipped": false,
-    "armorFeatures": [
-      {
+    "itemFeatures": {
+      "massive": {
         "value": "massive",
         "effectIds": [
           "QM66djfJMc7tUiUp"
         ],
         "actionIds": []
       }
-    ],
+    },
     "baseThresholds": {
       "major": 8,
       "severe": 17

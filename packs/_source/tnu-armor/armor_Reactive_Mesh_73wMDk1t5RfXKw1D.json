@@ -12,15 +12,15 @@
     "actions": {},
     "tier": 1,
     "equipped": false,
-    "armorFeatures": [
-      {
+    "itemFeatures": {
+      "bulky": {
         "value": "bulky",
         "effectIds": [
           "Zl228ljExiIVdMFJ"
         ],
         "actionIds": []
       }
-    ],
+    },
     "baseThresholds": {
       "major": 7,
       "severe": 15

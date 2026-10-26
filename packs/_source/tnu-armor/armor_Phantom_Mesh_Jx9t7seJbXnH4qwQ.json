@@ -12,13 +12,13 @@
     "actions": {},
     "tier": 2,
     "equipped": false,
-    "armorFeatures": [
-      {
+    "itemFeatures": {
+      "phantom": {
         "value": "phantom",
         "effectIds": [],
         "actionIds": []
       }
-    ],
+    },
     "baseThresholds": {
       "major": 7,
       "severe": 16

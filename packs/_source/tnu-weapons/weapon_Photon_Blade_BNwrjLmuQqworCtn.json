@@ -39,15 +39,15 @@
     "equipped": false,
     "secondary": false,
     "burden": "oneHanded",
-    "weaponFeatures": [
-      {
+    "itemFeatures": {
+      "lethal": {
         "value": "lethal",
         "effectIds": [],
         "actionIds": [
           "MpVpkw1vSrS0hjuD"
         ]
       }
-    ],
+    },
     "attack": {
       "name": "Attack",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",

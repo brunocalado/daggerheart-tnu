@@ -48,15 +48,15 @@
     "equipped": false,
     "secondary": false,
     "burden": "oneHanded",
-    "weaponFeatures": [
-      {
+    "itemFeatures": {
+      "tether": {
         "value": "tether",
         "effectIds": [],
         "actionIds": [
           "JN4hDQre20o3jYTc"
         ]
       }
-    ],
+    },
     "attack": {
       "name": "Attack",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
