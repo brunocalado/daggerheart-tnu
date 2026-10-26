@@ -80,6 +80,12 @@
       "TraitsSpecial": {
         "spellcast": "Power Trait"
       },
+      "WeaponFeature": {
+        "versatile": {
+          "name": "Hybrid",
+          "description": "This weapon can also be used with these statistics: @Lookup[@item.itemFeatures.versatile.config.trait|type:trait]{Trait}, @Lookup[@item.itemFeatures.versatile.config.range|type:range]{Range}, @Lookup[@item.itemFeatures.versatile.config.damage]{Damage}"
+        }
+      },
       "ActiveEffectExtraPaths": {
         "cast": {
           "label": "Power Trait Modifier"

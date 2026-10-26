@@ -4,92 +4,26 @@
   "_id": "1VGF9kZWA1mSOwts",
   "img": "icons/weapons/polearms/spear-flared-blue.webp",
   "system": {
-    "description": "<p><em>Phase Weapons: high-frequency energy weapons that destabilize matter at the point of impact, dealing energy damage without relying on light or plasma.</em></p><p>Hybrid (Instinct, Melee, d10)</p>",
-    "actions": {
-      "lEy6WloafxfCl2hI": {
-        "name": "Hybrid Attack",
-        "_id": "lEy6WloafxfCl2hI",
-        "baseAction": false,
-        "systemPath": "actions",
-        "type": "attack",
-        "range": "melee",
-        "target": {
-          "type": "any",
-          "amount": 1
-        },
-        "roll": {
-          "trait": "instinct",
-          "type": "attack",
-          "difficulty": null,
-          "bonus": null,
-          "advState": "neutral",
-          "diceRolling": {
-            "multiplier": "prof",
-            "flatMultiplier": 1,
-            "dice": "d6",
-            "compare": null,
-            "treshold": null
-          },
-          "useDefault": false
-        },
-        "damage": {
-          "main": {
-            "value": {
-              "dice": "d10",
-              "bonus": null,
-              "multiplier": "prof",
-              "flatMultiplier": 1,
-              "custom": {
-                "enabled": false,
-                "formula": ""
-              }
-            },
-            "type": [
-              "magical"
-            ],
-            "applyTo": "hitPoints",
-            "resultBased": false,
-            "valueAlt": null,
-            "base": false,
-            "includeBase": false,
-            "direct": false,
-            "fullRestore": false,
-            "itemId": null
-          },
-          "resources": {}
-        },
-        "description": "",
-        "chatDisplay": false,
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "save": {
-          "trait": null,
-          "difficulty": null,
-          "damageMod": "none"
-        },
-        "originItem": {
-          "type": "itemCollection"
-        },
-        "triggers": [],
-        "areas": []
-      }
-    },
+    "description": "<p><em>Phase Weapons: high-frequency energy weapons that destabilize matter at the point of impact, dealing energy damage without relying on light or plasma.</em></p>",
+    "actions": {},
     "tier": 1,
     "equipped": false,
     "secondary": false,
     "burden": "twoHanded",
     "itemFeatures": {
-      "hybrid": {
-        "value": "hybrid",
+      "versatile": {
+        "value": "versatile",
         "effectIds": [],
-        "actionIds": []
+        "actionIds": [],
+        "config": {
+          "trait": "instinct",
+          "range": "melee",
+          "damage": {
+            "dice": "d10",
+            "bonus": 0,
+            "type": []
+          }
+        }
       }
     },
     "attack": {

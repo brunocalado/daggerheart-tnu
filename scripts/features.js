@@ -61,10 +61,6 @@ export const TNU_WEAPON_FEATURES = {
     label: "Locked",
     description: "Spend a Hope to give yourself advantage on the attack roll."
   },
-  hybrid: {
-    label: "Hybrid",
-    description: "Can also be used with an alternate trait, range, and damage die (see the weapon)."
-  },
   amplified: {
     label: "Amplified",
     description: "On a successful attack, roll an additional damage die and discard the lowest result.",

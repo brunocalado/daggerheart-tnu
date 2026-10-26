@@ -4,92 +4,26 @@
   "_id": "7i0V70P1xtmGVSdx",
   "img": "icons/weapons/guns/rifle-assault-carbine.webp",
   "system": {
-    "description": "<p><em>JANUS Gunblade: a dual-mode hybrid weapon combining a mono-edge blade with an integrated mass-driver.</em></p><p>Hybrid (Finesse, Melee, d10)</p>",
-    "actions": {
-      "YmO6qtLk4WsTXY3X": {
-        "name": "Hybrid Attack",
-        "_id": "YmO6qtLk4WsTXY3X",
-        "baseAction": false,
-        "systemPath": "actions",
-        "type": "attack",
-        "range": "melee",
-        "target": {
-          "type": "any",
-          "amount": 1
-        },
-        "roll": {
-          "trait": "finesse",
-          "type": "attack",
-          "difficulty": null,
-          "bonus": null,
-          "advState": "neutral",
-          "diceRolling": {
-            "multiplier": "prof",
-            "flatMultiplier": 1,
-            "dice": "d6",
-            "compare": null,
-            "treshold": null
-          },
-          "useDefault": false
-        },
-        "damage": {
-          "main": {
-            "value": {
-              "dice": "d10",
-              "bonus": null,
-              "multiplier": "prof",
-              "flatMultiplier": 1,
-              "custom": {
-                "enabled": false,
-                "formula": ""
-              }
-            },
-            "type": [
-              "physical"
-            ],
-            "applyTo": "hitPoints",
-            "resultBased": false,
-            "valueAlt": null,
-            "base": false,
-            "includeBase": false,
-            "direct": false,
-            "fullRestore": false,
-            "itemId": null
-          },
-          "resources": {}
-        },
-        "description": "",
-        "chatDisplay": false,
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "save": {
-          "trait": null,
-          "difficulty": null,
-          "damageMod": "none"
-        },
-        "originItem": {
-          "type": "itemCollection"
-        },
-        "triggers": [],
-        "areas": []
-      }
-    },
+    "description": "<p><em>JANUS Gunblade: a dual-mode hybrid weapon combining a mono-edge blade with an integrated mass-driver.</em></p>",
+    "actions": {},
     "tier": 2,
     "equipped": false,
     "secondary": false,
     "burden": "twoHanded",
     "itemFeatures": {
-      "hybrid": {
-        "value": "hybrid",
+      "versatile": {
+        "value": "versatile",
         "effectIds": [],
-        "actionIds": []
+        "actionIds": [],
+        "config": {
+          "trait": "finesse",
+          "range": "melee",
+          "damage": {
+            "dice": "d10",
+            "bonus": 0,
+            "type": []
+          }
+        }
       }
     },
     "attack": {
