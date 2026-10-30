@@ -86,7 +86,10 @@
         "anomaly": "Anomaly"
       },
       "TraitsSpecial": {
-        "spellcast": "Power Trait"
+        "spellcast": {
+          "label": "Power Trait",
+          "short": "Power Trait"
+        }
       },
       "WeaponFeature": {
         "versatile": {

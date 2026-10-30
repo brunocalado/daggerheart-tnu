@@ -13,8 +13,8 @@
         "id": "daggerheart",
         "type": "system",
         "compatibility": {
-          "minimum": "2.11.3",
-          "verified": "2.11.3"
+          "minimum": "2.11.4",
+          "verified": "2.11.4"
         }
       }
     ],
