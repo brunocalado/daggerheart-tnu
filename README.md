@@ -33,7 +33,7 @@ itself and support it:
 ## Requirements
 
 - Foundry VTT v14.
-- The Daggerheart game system, version 2.11.3 or later. The module relies on
+- The Daggerheart game system, version 2.12.0 or later. The module relies on
   internal structures of the system, so it is tested against that version.
 - Recommended: [Distances](https://github.com/brunocalado/daggerheart-distances),
   to see combat ranges on the canvas.
@@ -59,7 +59,9 @@ out like the system's own packs:
 - Character Options holds the 10 classes (Architect, Broken, Cheat, Hollow,
   Monolith, Primus, Protean, Resonant, Stray, Vector) with their subclasses, plus
   ancestries, communities and domain cards.
-- Items holds weapons, armor, consumables, and gear and implants.
+- Items holds weapons, armor, consumables, and gear and implants. Implants are
+  their own loot category: they get an Implants section in the character's
+  inventory and can be filtered in the Compendium Browser.
 - Ships holds the Ankaa and the Taurus, plus ship modules and ship domain cards.
 - Next to those folders sit the adversaries, the TNU Gear and TNU Expendables
   rarity tables, and journals with the TNU rules, the ship rules, an overview of
@@ -180,8 +182,9 @@ under **Settings → Daggerheart → Homebrew**.
 
 ## Good to know
 
-- Domains, card types, keywords, conditions and labels are added in memory each
-  time the world loads, and disappear when the module is disabled. Two settings
+- Domains, card types, keywords, conditions, the implant category and labels
+  are added in memory each time the world loads, and disappear when the module
+  is disabled. Implants then show as regular loot. Two settings
   are written once by the GM: the currency rename and the hidden SRD in the
   Compendium Browser. Both can be undone in the system's own settings.
 - Works with [Nice Sheets](https://github.com/brunocalado/dh-nice-sheets): the
