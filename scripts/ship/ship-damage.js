@@ -43,7 +43,7 @@ const { DialogV2 } = foundry.applications.api;
 export function onShipPreTakeDamage(actor, { main, resourceUpdates }) {
   if (actor.type !== SHIP_TYPE) return;
   // The severity as `takeDamage` computes it after this hook, resistances included.
-  const hp = main ? actor.convertDamageToThreshold(actor.calculateDamage(main.value, main.damageTypes)) : 0;
+  const hp = main ? damageSeverity(actor, actor.calculateDamage(main.value, main.damageTypes)) : 0;
   const armor = actor.system.resources.armor;
   if (hp > 0 && armor.value < armor.max) {
     // Not awaited: the hook is synchronous.
@@ -52,6 +52,22 @@ export function onShipPreTakeDamage(actor, { main, resourceUpdates }) {
   }
   // Not awaited: the hook is synchronous.
   postOverflow(actor, cutStress(actor, resourceUpdates));
+}
+
+/**
+ * Hit Points a hit marks, as `takeDamage` computes them. The system's helper for this
+ * is internal since Daggerheart 2.12 (it is not on `game.system.api`), so the rule is
+ * repeated here, Massive Damage variant included.
+ * @param {Actor} ship
+ * @param {number} damage - after resistances
+ * @returns {number} 0–4
+ */
+function damageSeverity(ship, damage) {
+  if (damage <= 0) return 0;
+  const { major, severe } = ship.system.damageThresholds;
+  const { massiveDamage } = game.settings.get(CONFIG.DH.id, CONFIG.DH.SETTINGS.gameSettings.variantRules);
+  if (massiveDamage.enabled && damage >= severe * 2) return 4;
+  return severe && damage >= severe ? 3 : major && damage >= major ? 2 : 1;
 }
 
 /**
