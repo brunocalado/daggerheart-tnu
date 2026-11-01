@@ -5,6 +5,7 @@
   "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
   "system": {
     "description": "<p>A universal socket implanted in the wrist or behind the ear. It allows for direct cable connection to compatible devices like Mnemo-Decks, smart weapons, or terminals.</p>",
+    "category": "daggerheart-tnu.implant",
     "quantity": 1,
     "actions": {},
     "attribution": {

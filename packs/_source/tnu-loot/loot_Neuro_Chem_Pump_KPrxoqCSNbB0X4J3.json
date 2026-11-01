@@ -5,6 +5,7 @@
   "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
   "system": {
     "description": "<p><strong>Cybernetic implant (Tier 2).</strong> Installing it gives you 1 permanent Trauma (−1 max Hope), even if the implant is later swapped out. Identically named features don't stack. Track the Trauma on the character sheet yourself; it is not applied automatically.</p><p><strong>Neural Plasticity:</strong> When you fail a roll that utilized one of your Experiences, you can mark a Stress to reroll.</p>",
+    "category": "daggerheart-tnu.implant",
     "quantity": 1,
     "actions": {},
     "attribution": {

@@ -45,7 +45,8 @@ import {
   SRD_HIDDEN_KEY,
   SHIP_TYPE,
   SHIP_MODULE_TYPE,
-  SHIP_CARD_TYPE
+  SHIP_CARD_TYPE,
+  IMPLANT_CATEGORY
 } from "./constants.js";
 import { TNU_DOMAINS, TNU_CARD_TYPES } from "./domains.js";
 import { TNU_WEAPON_FEATURES, TNU_ARMOR_FEATURES } from "./features.js";
@@ -104,6 +105,9 @@ function injectDomainsAndFeatures() {
   Object.assign(CONFIG.DH.DOMAIN.cardTypes, TNU_CARD_TYPES);
   injectFeatures(CONFIG.DH.ITEM.weaponFeatures, TNU_WEAPON_FEATURES);
   injectFeatures(CONFIG.DH.ITEM.armorFeatures, TNU_ARMOR_FEATURES);
+  // Loot categories (Daggerheart 2.12): `sheetGroup` gives the implants their own inventory
+  // section, and the Compendium Browser's loot tab filters on the registered keys.
+  CONFIG.DH.ITEM.itemCategories[IMPLANT_CATEGORY] = { label: "Implant", sheetGroup: "Implants" };
 }
 
 /**

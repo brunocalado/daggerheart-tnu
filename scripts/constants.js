@@ -97,6 +97,14 @@ export const SHIP_MODULE_TYPE = `${MODULE_ID}.shipModule`;
 export const SHIP_CARD_TYPE = `${MODULE_ID}.shipCard`;
 
 /**
+ * Loot category of the cybernetic implants. Stored on the item as `system.category`.
+ * Prefixed with the module id because the key is saved on every item and the system's
+ * category registry is shared with other modules.
+ * @type {string}
+ */
+export const IMPLANT_CATEGORY = `${MODULE_ID}.implant`;
+
+/**
  * Classes for the module's DialogV2 prompts: the system styles any DialogV2
  * carrying them like its own dialogs.
  * @type {ReadonlyArray<string>}
