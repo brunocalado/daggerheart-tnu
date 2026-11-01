@@ -134,9 +134,9 @@ export async function useShipAction(ship, item, index, event) {
   // `D20Roll.buildEvaluate` records the outcome on the config, not the roll:
   // false on a miss or a failure, undefined when there was nothing to judge by.
   const succeeded = !result || result.successConsumed !== false;
-  // `duality` rather than the label, which is localized: 1 with Hope, -1 with
-  // Fear, 0 on a critical, which counts as a success with Hope.
-  const withHope = !result || result.roll.result?.duality !== -1;
+  // The evaluated DualityRoll: `withFear` is false on a critical, which counts
+  // as a success with Hope.
+  const withHope = !result || !result.evaluated?.withFear;
   let pays = succeeded;
   if (action.costWhen === "successWithHope") pays = succeeded && withHope;
   else if (action.costWhen === "optional" && succeeded) pays = await askToPay(ship, item, action);
