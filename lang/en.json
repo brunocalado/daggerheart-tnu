@@ -44,16 +44,6 @@
           "magical": {
             "label": "Damage Reduction: Only Energy",
             "hint": "Armor can only be used to reduce energy damage"
-          },
-          "reduceSeverity": {
-            "physical": {
-              "label": "Reduce Damage Severity: Kinetic",
-              "hint": "Lowers any kinetic damage received by the set amount of severity degrees"
-            },
-            "magical": {
-              "label": "Reduce Damage Severity: Energy",
-              "hint": "Lowers any energy damage received by the set amount of severity degrees"
-            }
           }
         }
       },
