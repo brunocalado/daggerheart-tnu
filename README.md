@@ -33,7 +33,7 @@ itself and support it:
 ## Requirements
 
 - Foundry VTT v14.
-- The Daggerheart game system, version 2.12.0 or later. The module relies on
+- The Daggerheart game system, version 2.12.8 or later. The module relies on
   internal structures of the system, so it is tested against that version.
 - Recommended: [Distances](https://github.com/brunocalado/daggerheart-distances),
   to see combat ranges on the canvas.

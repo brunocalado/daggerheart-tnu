@@ -131,9 +131,10 @@ export async function useShipAction(ship, item, index, event) {
     }
   }
 
-  // `D20Roll.buildEvaluate` records the outcome on the config, not the roll:
-  // false on a miss or a failure, undefined when there was nothing to judge by.
-  const succeeded = !result || result.successConsumed !== false;
+  // `D20Roll.buildEvaluate` records the outcome on the config's `roll`, not the
+  // roll itself: false on a miss or a failure, undefined when there was nothing
+  // to judge by. (Daggerheart 2.12.8 dropped the `successConsumed` copy.)
+  const succeeded = !result || result.roll?.success !== false;
   // The evaluated DualityRoll: `withFear` is false on a critical, which counts
   // as a success with Hope.
   const withHope = !result || !result.evaluated?.withFear;
