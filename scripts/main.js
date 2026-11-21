@@ -46,7 +46,8 @@ import {
   SHIP_TYPE,
   SHIP_MODULE_TYPE,
   SHIP_CARD_TYPE,
-  IMPLANT_CATEGORY
+  IMPLANT_CATEGORY,
+  TNU_SOURCES
 } from "./constants.js";
 import { TNU_DOMAINS, TNU_CARD_TYPES } from "./domains.js";
 import { TNU_WEAPON_FEATURES, TNU_ARMOR_FEATURES } from "./features.js";
@@ -108,6 +109,13 @@ function injectDomainsAndFeatures() {
   // Loot categories (Daggerheart 2.12): `sheetGroup` gives the implants their own inventory
   // section, and the Compendium Browser's loot tab filters on the registered keys.
   CONFIG.DH.ITEM.itemCategories[IMPLANT_CATEGORY] = { label: "Implant", sheetGroup: "Implants" };
+  // Source groups (Daggerheart 2.13): the browser's source filter and the attribution
+  // dialog read them at render time; unlisted sources fall under "Other". The system
+  // shows group labels as given, without localizing them.
+  CONFIG.DH.GENERAL.attributionSources[MODULE_ID] = {
+    label: "The New Unknown",
+    values: TNU_SOURCES.map(label => ({ label }))
+  };
 }
 
 /**

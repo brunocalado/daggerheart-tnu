@@ -105,6 +105,18 @@ export const SHIP_CARD_TYPE = `${MODULE_ID}.shipCard`;
 export const IMPLANT_CATEGORY = `${MODULE_ID}.implant`;
 
 /**
+ * The `system.attribution.source` of every TNU compendium document. Registered
+ * as a source group so the Compendium Browser and the attribution dialog group
+ * them under the module's title. Must match the pack data exactly.
+ * @type {ReadonlyArray<string>}
+ */
+export const TNU_SOURCES = Object.freeze([
+  "The New Unknown Playtest v1.0 Heart",
+  "The New Unknown Playtest v2.0 Mind",
+  "The New Unknown Playtest v3.0 Fist"
+]);
+
+/**
  * Classes for the module's DialogV2 prompts: the system styles any DialogV2
  * carrying them like its own dialogs.
  * @type {ReadonlyArray<string>}
