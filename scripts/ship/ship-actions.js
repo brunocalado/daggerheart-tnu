@@ -11,9 +11,9 @@
  * Aboard, the crew set their own sheets aside and only their Power Trait is
  * used, while everything spent or gained belongs to the ship. So the roll is
  * the crew member's own duality roll (`DhActor#diceRoll`, as the system's
- * companion sheet does for its partner), and the resource updates the system
- * queues for it are applied to the ship instead of the roller. Fear still goes
- * to the GM.
+ * companion sheet does for its partner), with its resource updates collected
+ * in a map that has no actor, so the system spends nothing on the roller and
+ * the ship pays them instead. Fear still goes to the GM.
  *
  * @module ship/ship-actions
  */
@@ -101,7 +101,8 @@ export async function useShipAction(ship, item, index, event) {
     // The module's printed ATK adds to the rolls that deal its damage.
     const stats = item.type === SHIP_MODULE_TYPE ? item.system.stats : null;
     const attackBonus = action.damage && stats?.bonus ? [{ label: "ATK", value: stats.bonus }] : [];
-    result = await crew.diceRoll({
+    const { MoveContext } = game.system.api.data.actions;
+    const context = await MoveContext.build({
       event,
       title: `${item.name}: ${action.name}`,
       headerTitle: `${ship.name}: ${crew.name}`,
@@ -115,20 +116,23 @@ export async function useShipAction(ship, item, index, event) {
         baseModifiers: [...attackBonus, ...experiences.map(({ name, value }) => ({ label: name, value }))]
       },
       ...(targets.length ? { hasTarget: true, targets } : {})
-    });
+    }, { actor: crew });
+    // `diceRoll` spends the context's resources on the roller since Daggerheart
+    // 2.13. A map with no actor collects them instead (its `updateResources()`
+    // does nothing), so the ship pays them in payShip's single modifyResource
+    // call. Pointing the map at the ship would write the ship twice in a row,
+    // and modifyResource resolves before its update lands, so the second write
+    // could undo the first; it would also skip payShip's Stress overflow.
+    // `skips.resources` is no way out either: it also stops the Hope/Fear queue.
+    context.resourceUpdates = new context.resourceUpdates.constructor(null);
+    result = await crew.diceRoll(context);
     if (!result) return;
 
-    // Hope, the crit's cleared Stress and Fear, as queued by the system's
-    // Hope/Fear automation. Fear is not a ship resource: modifyResource sends
-    // it to the GM's tracker whatever actor it is called on.
+    // Hope, the crit's cleared Stress and Fear from the system's Hope/Fear
+    // automation, plus the Hope of the crew member's own Experiences picked in
+    // the roll dialog, already signed. Fear is not a ship resource:
+    // modifyResource sends it to the GM's tracker whatever actor it is called on.
     for (const { key, value } of result.resourceUpdates.values()) add(deltas, key, value ?? 0);
-    // The crew member's own Experiences picked in the roll dialog; their Hope
-    // is spent from the ship like any other Hope aboard.
-    const { CostField } = game.system.api.fields.ActionFields;
-    for (const cost of CostField.getRealCosts(result.costs)) {
-      const resource = ship.system.resources[cost.key];
-      if (resource) add(deltas, cost.key, (cost.total ?? cost.value) * (resource.isReversed ? 1 : -1));
-    }
   }
 
   // `D20Roll.buildEvaluate` records the outcome on the config's `roll`, not the
