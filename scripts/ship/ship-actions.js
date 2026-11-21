@@ -238,17 +238,28 @@ async function payShip(ship, deltas) {
 }
 
 /**
- * The system's standalone damage card, as its damage enricher builds it: the
- * GM applies it to the targets from the card.
+ * The system's standalone damage card, shaped like the one its damage enricher
+ * builds and spoken by the ship: the GM applies it to the targets from the card.
  * @returns {Promise<void>}
  */
 async function rollShipDamage(item, action, event) {
   const { TargetField } = game.system.api.fields.ActionFields;
-  await CONFIG.Dice.daggerheart.DamageRoll.build({
+  const result = await CONFIG.Dice.daggerheart.DamageRoll.build({
     event,
     title: `${item.name}: ${action.name}`,
     data: { bonuses: [] },
-    source: {},
+    // Applying from the card spends its "on success" costs through a context
+    // built from the card's item, which throws when there is no actor to find.
+    source: { actor: item.parent.uuid, item: item.id },
+    // The roll pipeline reads these without defaulting them (since Daggerheart
+    // 2.12; `flags` since 2.13). A modifier key skips the dialog, as elsewhere.
+    dialog: { configure: !(event?.shiftKey || event?.altKey || event?.ctrlKey) },
+    flags: {},
+    damageOptions: {},
+    // The crew roll already decided the hit, so the card has no roll of its
+    // own and applies to every target. Left out, `DHRoll` fills in `roll: []`,
+    // the card counts as rolled, and with no D20 on it no target is hit.
+    roll: null,
     hasDamage: true,
     hasTarget: true,
     targets: Array.from(game.user.targets, token => TargetField.formatTarget(token)),
@@ -260,6 +271,12 @@ async function rollShipDamage(item, action, event) {
     },
     resourceFormulas: []
   });
+  // FIXME: MoveContext takes `hasDamage` only from a system action, so the card
+  // is created without it and shows neither the damage nor its Deal Damage
+  // button (Daggerheart 2.13.0). Drop this once the context keeps the config's.
+  if (result?.message && !result.message.system.hasDamage) {
+    await result.message.update({ "system.hasDamage": true });
+  }
 }
 
 /**
