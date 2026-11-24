@@ -119,10 +119,9 @@ export const TNU_DOMAINS = {
 /**
  * The TNU domain-card types, merged into `CONFIG.DH.DOMAIN.cardTypes` during
  * `init`. The system's `domainCard.type` field takes that plain object as its
- * `choices`, so added keys are valid without touching the schema.
- * `label` must be `DAGGERHEART.CONFIG.DomainCardTypes.<id>`: the system's card
- * header and Compendium Browser build that key from the stored type instead of
- * reading this label.
+ * `choices`, so added keys are valid without touching the schema. The system
+ * reads `label` for the card header, its tags and the Compendium Browser; the
+ * keys sit beside the system's own card types in `lang/en.json`.
  */
 export const TNU_CARD_TYPES = {
   skill: { id: "skill", label: "DAGGERHEART.CONFIG.DomainCardTypes.skill", img: "" },
